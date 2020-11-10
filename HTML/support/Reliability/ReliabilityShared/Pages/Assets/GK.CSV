@@ -1,0 +1,584 @@
+C3002,CAGS Air Compressor (Main),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3003,CAGS Air Compressor (Backup),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3008,CAGS Air Compressor Oil-Water Separator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3014,CAGS Oil/Water Removal Filter System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3015,CAGS Oil/Water Removal Filter System 2 (Backup),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3055,CAGS Compressed Air Drier,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3057,CAGS Compressed Air Reveiver,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3085,CAGS Compressor Room Air Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3100,CAGS Compressed Air Piping System Zone 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+C3101,CAGS Compressed Air Piping System Zone 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Compressed_Air_System.pdf,,Compressed_Air_System.pdf
+M0203,Filler Silo,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M0205,Filler Delivery Screw 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M0206,Filler Delivery Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M0207,Filler Delivery Screw 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M0209,Filler Delivery Screw 3 (to B7 line),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M0211,Filler Delivery Screw 4 (to B8 line),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Limestone_Filler_Delivery_System.pdf,,Limestone_Filler_Delivery_System.pdf
+M3562,B6 Asphalt Reclaim Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M3554,B6 Coater Entry Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M3566,B6 Coater Calender Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M3574,B6 Coater Calender Rolls Back Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M3558,B6 Asphalt Delivery Screws (2 Screws),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M3570,B6 Coater Calender Rolls Front Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Coating_System.pdf,,B6_Coating_System.pdf
+M4924,B7 Roofast Coater Exit Rolls (2 Rolls 1 Driven),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4920,B7 Roofast Coater Top rolls (2 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4916,B7 Roofast Coater Driven Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4904,B7 Roofast Coater Frame and Pan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4928,B7 Roofast Backing Film Applicator System 4 (with Web Guide),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4912,B7 Roofast Coater Driven Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+M4908,B7 Roofast Coater Return Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Inker.pdf,,B7-Line_Inker.pdf
+C8903,PBMS Entrance Gravity Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8907,PBMS Scale,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8911,PBMS Pallet Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8914,PBMS Pallet Squaring Arms,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8920,PBMS Pallet Chain Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8930,PBMS Lifting Shrinker,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8924,PBMS Pallet Lift System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8935,PBMS Lift Bag System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8940,PBMS Unwind Bag System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8945,PBMS Wrapped Roller Chain Lift Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8950,PBMS Exit Chain Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+C8955,PBMS Exit Chain Inclne Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Pallet_Bagging_Machine_layout_B7-22-265.pdf,,Pallet_Bagging_Machine_layout_B7-22-265.pdf
+M3266,B6 Attritor Asphalt Filter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3258,B6 Attritor Mixing Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3262,B6 Attritor Mixing Tank Agitator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3304,B6 Asphalt Holding Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3328,B6 Mixing System Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3308,B6 Asphalt Holding Tank Agitator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3120,B6 Filler Silo,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3254,B6 Attritor Delivery Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3312,B6 Asphalt Delivery Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3270,B6 Attritor Feed Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3123,B6 Filler Silo Rotary Feeder,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3128,B6 Filler Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3132,B6 Filler Elevator Discharge Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3320,B6 Asphalt/Filler Mixer 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3140,B6 Filler Receiving Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3124,B6 Filler Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3324,B6 Asphalt/Filler Mixer Hopper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3316,B6 Asphalt/Filler Mixer 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3136,B6 Filler Delivery Screw to Mixer 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M3110,B6 Filler Truck Unloading Blower,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Mixing_Area.pdf,,B6_Mixing_Area.pdf
+M5107,B7 FPL Dancer Roll System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Finish_Product_Looper_(FPL)_System.pdf,,B7-Finish_Product_Looper_(FPL)_System.pdf
+M5110,B7 FPL Exit Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Finish_Product_Looper_(FPL)_System.pdf,,B7-Finish_Product_Looper_(FPL)_System.pdf
+M5103,"B7 FPL Rolls, Frame and Catwalks",http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Finish_Product_Looper_(FPL)_System.pdf,,B7-Finish_Product_Looper_(FPL)_System.pdf
+M5112,B7 FPL Exit Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Finish_Product_Looper_(FPL)_System.pdf,,B7-Finish_Product_Looper_(FPL)_System.pdf
+M5120,B7 Free Loop Pit (to Winder),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Finish_Product_Looper_(FPL)_System.pdf,,B7-Finish_Product_Looper_(FPL)_System.pdf
+C7204,Asphalt Filter Cage Cleaning Oven (Bayco),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IG_Plant_Layout_First_Level.pdf,,IG_Plant_Layout_First_Level.pdf
+C7205,Roll Slitter Machine,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IG_Plant_Layout_First_Level.pdf,,IG_Plant_Layout_First_Level.pdf
+M6580,B8 Coating Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6571,B8 Coater Inking Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6562,B8 Coater Entry Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6575,B8 Coater Inking Roll Lower Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6568,B8 Coater Dipping Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6566,B8 Coater Agitator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6565,B8 Coater Frame and Pan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6563,B8 Under Coater Rolls (AVB),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6585,B8 Coater Top Calender Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6584,B8 Coater Top Calender Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6588,B8 Coater Bottom Calender Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6573,B8 Coater Inking Roll Upper Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6598,B8 AVB Distribution Tray,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6601,B8 AVB Top Calender roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6604,B8 AVB Bottom Calender Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6589,B8 Coater Bottom Calender Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M6595,B8 AVB Feed Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_Coating_System.pdf,,B8_line_Coating_System.pdf
+M5418,B7 Jumbo Winder Carry-over Exit Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M5422,B7 Jumbo Winder Turret Winder (Pyradia),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M5406,B7 Jumbo Winder Carry-over Entry Guide Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M5402,B7 Jumbo Winder Carry-over Entry Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M5414,B7 Jumbo Winder Carry-over Section,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M5410,B7 Jumbo Winder Carry-over Turn Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Carry_Over_and_Jumbo_Winder.pdf,,B7_Carry_Over_and_Jumbo_Winder.pdf
+M3522,B6 Unwind stand 2 Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Unwinding_System.pdf,,B6_Unwinding_System.pdf
+M3518,B6 Unwind Stand 2 Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Unwinding_System.pdf,,B6_Unwinding_System.pdf
+M3510,B6 Unwind Stand 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Unwinding_System.pdf,,B6_Unwinding_System.pdf
+M3526,B6 Unwind Stand 2 Exit Rolls (To Coater),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Unwinding_System.pdf,,B6_Unwinding_System.pdf
+M3514,B6 Unwind Stand 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Unwinding_System.pdf,,B6_Unwinding_System.pdf
+M3804,B6 Palletizer Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Palletizer.pdf,,B6_Line_Palletizer.pdf
+M3808,B6 Palletizer Stacking Sicssor Lift,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Palletizer.pdf,,B6_Line_Palletizer.pdf
+M7028,B8 Product Roll Lifter 2 (to plastic wrap),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+M7025,B8 Product Infeed Conveyor 2 (Cross),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+M7018,B8 Product Roll Lifter 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+M7008,B8 Product Roll Conveyor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+M7004,B8 Product Scale Conveyor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+M7022,B8 Product Infeed Conveyor 1 (Inclined),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_entry_to_plastic_wrap_system.pdf,,B8_entry_to_plastic_wrap_system.pdf
+C2162,HOS 3 Expansion Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Hot_Oil_Heat_Generator_Schematics.pdf,,B7_Hot_Oil_Heat_Generator_Schematics.pdf
+C2154,HOS 3 Oil Storage Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Hot_Oil_Heat_Generator_Schematics.pdf,,B7_Hot_Oil_Heat_Generator_Schematics.pdf
+C2158,HOS 3 Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Hot_Oil_Heat_Generator_Schematics.pdf,,B7_Hot_Oil_Heat_Generator_Schematics.pdf
+C2148,HOS 3 Heater,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Hot_Oil_Heat_Generator_Schematics.pdf,,B7_Hot_Oil_Heat_Generator_Schematics.pdf
+M5524,B7 Palletizer Roll Stacker,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5554,B7 Palletizer Hydraulic System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5550,B7 Pallet Exit Conveyor 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5548,B7 Pallet Exit Conveyor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5532,B7 Pallet Dispensor Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5504,B7 Palletizer Roll Conveyor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5520,B7 Palletizer Roll Lifter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5528,B7 Pallet Dispensor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5512,B7 Palletizer Roll Labler,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5508,B7 Palletizer Roll Scale,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5536,B7 Pallet Roll Loading Slide Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5542,B7 Pallet Turn Table Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5540,B7 Pallet Exit Conveyor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M5516,B7 Palletizer Roll Conveyor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Palletizing_System.pdf,,B7_Palletizing_System.pdf
+M4826,B7 Air Knife 5,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4805,B7 Air Knife blower 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4806,B7 Air Knife blower 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4798,B7 Air Knife 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4796,B7 Air Knife 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4797,B7 Air Knife 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4795,B7 Air Knife 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4818,B7 Backing Film Applicator Carriage System 3 (with Web Guide),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4785,B7 Cooling Water Tray Exit Rolls (3 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4778,B7 Cooling Water Tray Bottom Section,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4780,B7 Backing Film Applicator Carriage System 2 (with Web Guide),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4752,B7 Cooling Section Entry Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4774,B7 Cooling Water Tray Middle Section,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4755,B7 Cooling Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4822,B7 Salvage Film Dispensor 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+M4811,B7 Cooling Section Exit Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_cooling_section_system.pdf,,B7-Line_cooling_section_system.pdf
+C0645,Pallet Wrapping Machine System (Wultec),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_top_front_view.pdf,,B7-Line_top_front_view.pdf
+C0102,Employee Parking Lots,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Land.pdf,,Land.pdf
+C0106,Pavement / Concrete Slabs / Concrete Barriers and Walls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Land.pdf,,Land.pdf
+C0123,Fences / Gates / Posts and Signs,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Land.pdf,,Land.pdf
+C0130,Parking/Outdoor Drive Lighting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Land.pdf,,Land.pdf
+M3716,B6 Coated Board Soap Tray System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3720,B6 Coated Board Cut To Length System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3704,B6 Coated Board Side Sheet Cutter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3708,B6 Coated Board Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3712,B6 Coated Board Exit Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3724,B6 Cut To Length Exit Horizontal Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M3728,B6 Cut To Length Exit Incline Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Line_Coated_Board_System.pdf,,B6_Line_Coated_Board_System.pdf
+M4855,B7 Front Sheet Paint Application System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Paint_Application_System.pdf,,B7_Paint_Application_System.pdf
+M4870,B7 Back of Sheet Paint Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Paint_Application_System.pdf,,B7_Paint_Application_System.pdf
+H1013,Main Line Dust Collector Bag Cages / Bag System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1011,Main Line Dust Collector 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1013,Main Line Dust Collector Bag Cages / Bag System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1015,Main Line Dust Collector Fan 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1017,Main Line Dust Collector Exhaust Ducting 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1019,Main Line Dust Collector Main Extraction Ducting 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1023,Main Line Dust Collector Bag Blow Down System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1027,Main Line Dust Collector Rotary Airlock 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1030,Main Line Dust Collector Screw Conveyor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1041,Main Line Dust Collector 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1043,Main Line Dust Collector Bag Cages / Bag System 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1045,Main Line Dust Collector Fan 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1047,Main Line Dust Collector Exhaust Ducting 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1049,Main Line Dust Collector Main Extraction Ducting 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1053,Main Line Dust Collector Bag Blow Down System 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1057,Main Line Dust Collector Rotary Airlock 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1060,Main Line Dust Collector Screw Conveyor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1211,Limestone Infeed Dust Collector,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1213,Limestone Infeed Dust Collector Bag Cages / Bag System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1215,Limestone Infeed Dust Collector Fan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+H1275,Limestone Infeed Dust Collector Bag Blow Down System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Dust_Collection_System.pdf,,Dust_Collection_System.pdf
+M4436,B7 Dry Mat Looper Carriage,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Dry_Mat_Looper_System.pdf,,B7_Dry_Mat_Looper_System.pdf
+M4439,B7 Dry Mat Looper Counter Weight System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Dry_Mat_Looper_System.pdf,,B7_Dry_Mat_Looper_System.pdf
+M4442,B7 Dry Mat Looper Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Dry_Mat_Looper_System.pdf,,B7_Dry_Mat_Looper_System.pdf
+M4445,B7 Dry Mat Looper Exit Rolls (2 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Dry_Mat_Looper_System.pdf,,B7_Dry_Mat_Looper_System.pdf
+M4433,B7 Dry Mat Looper Frame System (Bottom Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Dry_Mat_Looper_System.pdf,,B7_Dry_Mat_Looper_System.pdf
+M6801,FPL Entry Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6803,"B8 FPL Rolls, Frame and Catwalks",http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6816,B8 FPL Ballarina Rolls System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6807,B8 FPL Dancer Roll System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6810,B8 FPL Exit Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6808,B8 FPL Feed Brake System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+M6802,B8 FPL Tension Shock Absorbing Roll System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_finished_product_looper_system.pdf,,B8_line_finished_product_looper_system.pdf
+C2072,HOS 2 Heater,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2090,HOS 2 Expansion Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2111,HOS 2 Circulation Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2110,HOS 2 Circulation Pump 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2080,HOS 2 Oil Storage Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2085,HOS 2 Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2072,HOS 2 Heater,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+C2130,HOS 2 Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Hot_Oil_System.pdf,,B8_Hot_Oil_System.pdf
+M4688,B7 Sand/Granule Reclaim Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4729,B7 Granule/Sand Separator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4700,B7 Sand Reclaim Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4699,B7 Sand Delivery Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4731,B7 Granule Reclaim Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4732,B7 Sand Reclaim/Delivery Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4713,B7 Sand Use Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4717,B7 Sand Applicator 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4690,B7 Colour Change Reclaim Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4684,B7 Granule/Sand Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4692,B7 Bottom Slate Drum,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4705,B7 Backing Film Applicator Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4695,B7 Backing Film Applicator Carriage System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4698,B7 Salvage Film Dispensor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4709,B7 Bowed Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4735,B7 Exit Slating Press Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4720,B7 Top Slate Drum,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4672,B7 Granule Use Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4680,B7 Granule Rotary Spout (To Applicator),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4723,7 Granule Reclaim Chute to Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Slating_Section_System.pdf,,B7_Slating_Section_System.pdf
+M4977,B7 Secondary Cooling Section Rolls Air Knife 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_secondary_Cooling_Section.pdf,,B7_secondary_Cooling_Section.pdf
+M4976,B7 Secondary Cooling Section Rolls Air Knife 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_secondary_Cooling_Section.pdf,,B7_secondary_Cooling_Section.pdf
+M4973,B7 Secondary Cooling Section Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_secondary_Cooling_Section.pdf,,B7_secondary_Cooling_Section.pdf
+M4978,B7 Secondary Cooling Section Rolls Air Knife 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_secondary_Cooling_Section.pdf,,B7_secondary_Cooling_Section.pdf
+M4983,B7 Secondary Cooling Section Rolls Air Knife Blower,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_secondary_Cooling_Section.pdf,,B7_secondary_Cooling_Section.pdf
+M4150,B7 APP Delivery Belt Conveyor (to Dissolver Tanks),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4272,B7 Mod Line Mixing Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4225,B7 Filler/Asphalt Mixer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4246,B7 Saturant Tank Pump (P3),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4217,B7 Filler Receiving Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4231,B7 Filler/Asphalt Mixer Pump to Secondary Tanks (M30),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4243,B7 Saturant Filter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4187,B7 Dissolver Tank 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4213,B7 Metering Pump to Mixer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4208,B7 Filler Mixer Filter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4189,B7 Dissolver Tank 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4211,B7 Delivery Pump to Mixer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4221,B7 Filler Mixer Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4237,B7 Secondary Tank S2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M0536,Asphalt Preheater (B7),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4185,B7 Dissolver Tank 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4241,B7 Saturant Tank S1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4191,B7 SBS Mill (Siefer) Magnetic Trap,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M0532,Asphalt Preheat Tank Circulation Pump (B7),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4235,B7 Secondary Tank SF,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4520,B7 Saturator Asphalt Return Pump (P4),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4256,B7 Secondary Tank feed Pump to Coater (P5),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4239,B7 Secondary Tank S3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4593,B7 Coater Asphalt Return Pump (P6),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M0524,Oxidized Asphalt Tank Transfer Pump to S1 (B7),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4253,B7 Secondary Tank Feed Filter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M4195,B7 Mill (Siefer),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Mixing_Room.pdf,,B7_Mixing_Room.pdf
+M5202,B7 Winder Entry Guide Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5206,B7 Winder Top Metering Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5214,B7 Winder Cross-cut Knife,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5221,B7 Winder Tape Dispensor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5222,B7 Winder Tape Dispensor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5223,B7 Winder Tape Dispensor 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5230,B7 Winder Mandrel and Ejection System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5210,B7 Winder Bottom Metering Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5320,B7 Winder Pneumatic System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5218,B7 Winder Hold Down Bar,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M5300,B7 Winder Hydraulic System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Roll_Winder_System.pdf,,B7-Roll_Winder_System.pdf
+M4403,B7 Unwind Stand,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Unwinding_System.pdf,,B7_Unwinding_System.pdf
+M4407,B7 Splice Table,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Unwinding_System.pdf,,B7_Unwinding_System.pdf
+M7536,B8 Palletizer Reject Roll Lifter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7091,B8 Plastic Wrap Oven Exit Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7504,B8 Palletizer Decline Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7508,B8 Palletizer Gravity Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7512,B8 Palletizer Robot,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7524,B8 Palletizer Empty Pallet Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7516,B8 Palletizer Pallet Dispensor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7520,B8 Palletizer Pallet Dispensor Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7528,B8 Palletizer Loading Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7532,B8 Palletizer Exit Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M7540,B8 Palletizer Reject Gravity Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Palletizing_System.pdf,,B8_Palletizing_System.pdf
+M6752,B8 Cooling Section Entry Press Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6755,B8 Cooling Section Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6759,B8 Cooling Section Brush rolls (3 rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6738,B8 AVB Combing Rolls (2 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6742,B8 AVB Film Bowed Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6730,B8 AVB Unwind Film Roll System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M6734,B8 AVB Tape Rack Dispensor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_line_cooling_section.pdf,,B8_line_cooling_section.pdf
+M3168,B6 Asphalt Delivery Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Asphalt_Delivery.pdf,,B6_Asphalt_Delivery.pdf
+M3170,B6 Asphalt Metering Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Asphalt_Delivery.pdf,,B6_Asphalt_Delivery.pdf
+M3164,B6 Asphalt Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Asphalt_Delivery.pdf,,B6_Asphalt_Delivery.pdf
+M6674,B8 Salvage Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6678,B8 Salvage Film System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6710,B8 Sand Reclaim Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6714,B8 Sand Reclaim Seperator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6718,B8 Sand Reclaim Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6686,B8 Sand Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6682,B8 Backing Film Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6694,B8 Backing Film Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6690,B8 Bottom Slate Drum,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6703,B8 Backing Film Bowed Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6709,B8 Second Stage Sand Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6705,B8 Back Sand Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M6698,B8 Top Slate Drum,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Line_Slating_System.pdf,,B8_Line_Slating_System.pdf
+M4503,Saturator Entry Feed Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4506,Saturator Idler Entry Rolls (2 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4515,B7 Saturator Exit Driven Rolls (2 Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4523,B7 Saturator Driven Rolls Under Graphite Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4511,B7 Saturator Dipping Roll 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4512,B7 Saturator Dipping Roll 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4513,B7 Saturator Dipping Roll 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4508,B7 Saturator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M4517,B7 Saturator Exit Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Saturator_System.pdf,,B7_Saturator_System.pdf
+M2124,Laminator Cooling Air Knife Blower,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2088,Laminator Sheet Guide roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2100,Laminator Sheet Cooling Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2096,Laminator Burner System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2084,Laminator Sheet Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2092,Laminator Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2104,Laminator Burner Exit Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2108,Laminator Press Rolls 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2112,Laminator Press Rolls 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2120,Laminator Cooling Air Knife,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M2116,Laminator Cut To Length System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_System.pdf,,Laminator_System.pdf
+M3208,Shredder Bottom Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Shredding_System.pdf,,Shredding_System.pdf
+M3204,Shredder,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Shredding_System.pdf,,Shredding_System.pdf
+M3212,Shredder Incline Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Shredding_System.pdf,,Shredding_System.pdf
+M2024,Laminator Sheet Unwind Stand,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Sheet_Unwind_System.pdf,,Laminator_Sheet_Unwind_System.pdf
+M2028,Laminator Sheet Unwind Splice Table,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Sheet_Unwind_System.pdf,,Laminator_Sheet_Unwind_System.pdf
+M2032,Laminator Sheet Unwind Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Sheet_Unwind_System.pdf,,Laminator_Sheet_Unwind_System.pdf
+M2036,Laminator Sheet Unwind Guide Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Sheet_Unwind_System.pdf,,Laminator_Sheet_Unwind_System.pdf
+M6921,B8 Winder Tape Dispensor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6922,B8 Winder Tape Dispensor 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6930,B8 Winder Mandrel and Ejection System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6914,B8 Winder Cross-cut Knife,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6918,B8 Winder Hold Down Bar,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6906,B8 Winder Top Metering Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6910,B8 Winder Bottom Metering Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+M6902,B8 Winder Entry Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_winding_system.pdf,,B8_winding_system.pdf
+C0501,Hot Oil Building Roof,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IKO_Boiler_Room_Building.pdf,,IKO_Boiler_Room_Building.pdf
+C0502,Hot Oil Building Electrical/Lighting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IKO_Boiler_Room_Building.pdf,,IKO_Boiler_Room_Building.pdf
+C0503,Hot Oil Building HVAC/Heating,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IKO_Boiler_Room_Building.pdf,,IKO_Boiler_Room_Building.pdf
+C0504,Hot Oil Building Doors / Locks / Security,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IKO_Boiler_Room_Building.pdf,,IKO_Boiler_Room_Building.pdf
+C0505,Hot Oil Building Plumbing / Sewage,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/IKO_Boiler_Room_Building.pdf,,IKO_Boiler_Room_Building.pdf
+M6239,B8 Secondary Tank 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+M6262,B8 Secondary Tank Feed Filter 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+C9574,Asphalt Kegging Piping,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+C9580,Asphalt Kegging Pouring System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+C9582,Asphalt Kegging Container Making Machine,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+C9585,Asphalt Kegging Pallet Transfer Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Asphalt_Kegging_System.pdf,,B8_Asphalt_Kegging_System.pdf
+M6505,B8 Saturator Bypass Rolls (4),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M4247,B8 Saturant Tank Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6483,B8 Saturator Entry Rolls (3),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6488,B8 Saturator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6502,B8 Saturator Asphalt Return Pump ,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6485,B8 Saturator Entry Feed Rolls (3),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6490,B8 Saturator Dipping Roll 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6494,B8 Saturator Dipping Roll 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6495,B8 Saturator Dipping Roll 3 Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6492,B8 Saturator Dipping Roll 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6498,B8 Saturator Exit Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+M6499,B8 Saturator Exit Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Saturator_System.pdf,,B8_Saturator_System.pdf
+C6505,Asphalt Truck Unloading Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Asphalt_Truck_And_Rail_Unloading_Systems.pdf,,Asphalt_Truck_And_Rail_Unloading_Systems.pdf
+C6522,Asphalt Rail Unloading Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Asphalt_Truck_And_Rail_Unloading_Systems.pdf,,Asphalt_Truck_And_Rail_Unloading_Systems.pdf
+C6524,Asphalt Rail Unloading Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Asphalt_Truck_And_Rail_Unloading_Systems.pdf,,Asphalt_Truck_And_Rail_Unloading_Systems.pdf
+M6195,B8 Mill (Siefer),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6267,B8 Asphalt Homogenizer 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6259,B8 Secondary Tank Feed Filter 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6261,B8 Secondary Tank Feed Pump 2 (Top Coating),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+C2125,HOS 2 Booster Pump 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6607,B8 Coater Asphalt Return Pump (P5),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6211,B8 Delivery Pump to Mixer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6237,B8 Secondary Tank 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6185,B8 Dissolver Tank 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6187,B8 Dissolver Tank 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6195,B8 Mill (Siefer),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6193,B8 Dissolver Tank Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+C2122,HOS 2 Booster Pump 1.1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+C2123,HOS 2 Booster Pump 1.2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6262,B8 Secondary Tank Feed Filter 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+C2124,HOS 2 Booster Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6190,B8 Magnetic Trap,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M0544,Asphalt Preheat Tank Circulation Pump (B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M0540,Asphalt Preheat Tank (B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6239,B8 Secondary Tank 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6263,B8 Secondary Tank Feed Pump 3 (Adhesive Coater/Kegging),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M0548,Asphalt Preheater (B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6213,B8 Asphalt/Filler Mixer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6205,B8 Filler Receiving Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6403,B8 Unwind Stand,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6231,B8 Filler/Asphalt Mixer Pump to Secondary Tanks,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6235,B8 Secondary Tank 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6253,B8 Secondary Tank Feed Filter 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6256,B8 Secondary Tank Feed Pump 1 (Bottom Coating),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6264,B8 Asphalt Heater Cooler Unit,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+C2126,HOS 2 Booster Pump 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6272,B8 Mod Line Mixing Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Area.pdf,,B8_Mixing_Area.pdf
+M6131,B8 SBS Use Bin 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6132,B8 SBS Use Bin 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6144,B8 SBS Delivery Belt Conveyor (to Dissolver Tanks),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6103,B8 SBS Hopper System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6126,B8 SBS Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6140,B8 SBS Delivery Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M6148,B8 Resin Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_SBS_Delivery_System.pdf,,B8_SBS_Delivery_System.pdf
+M2144,Laminator Product Transfer Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2144,Laminator Product Transfer Pull Rolls,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2152,Laminator Product Incline Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2156,Laminator Product Flat Belt Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2164,Laminator Product Board Lifting Stacker,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2168,Laminator Product Gravity Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2160,Laminator Product Empty Pallet Dispensing Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2172,Laminator Product Pallet Inverter,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+M2148,Laminator Product Gravity Roller Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Product_and_Transfer_and_Palletizing_System.pdf,,Laminator_Product_and_Transfer_and_Palletizing_System.pdf
+C2003,HOS 1 Heater 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2010,HOS 1 Oil Storage Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2015,HOS 1 Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2020,HOS 1 Expansion Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2030,HOS 1 Circulation Pump 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2031,HOS 1 Circulation Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2035,HOS 1 Booster Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+C2040,HOS 1 Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Hot_Oil_System_(HOS)_1.pdf,,Hot_Oil_System_(HOS)_1.pdf
+M3628,B6 Air Knife,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3604,B6 Water Spray Section,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3616,B6 Cooling Air Plenums (3 sections),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3608,B6 Air Blower 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3612,B6 Air Blower 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3624,B6 Air Blower 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3620,B6 Air Blower 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M3632,B6 Cooling Exit Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B6_Cooling_Section_System.pdf,,B6_Cooling_Section_System.pdf
+M2062,Laminator Board Slide Drop Table,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Board_Feed_System.pdf,,Laminator_Board_Feed_System.pdf
+M2054,Laminator Board Dispensing Table,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Board_Feed_System.pdf,,Laminator_Board_Feed_System.pdf
+M2058,Laminator Board Vacuum Lifting System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Laminator_Board_Feed_System.pdf,,Laminator_Board_Feed_System.pdf
+M0437,Granule Belt Transfer Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0434,Granule Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0411,Granule Silo,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0408,Granule/Sand Unloading Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0405,Granule/Sand Unloading Belt Conveyor (Underground),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0417,Granule Separator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0440,Granule Aspirator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0450,Granule Hoses To Bins,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0414,Granule Separator Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Granule_System.pdf,,Granule_System.pdf
+M0105,B7 Backsurfacing/Sand Silo,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Backsurfacing_Sand_Delivery_System.pdf,,B7_Backsurfacing_Sand_Delivery_System.pdf
+M0113,B7 Sand Delivery Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Backsurfacing_Sand_Delivery_System.pdf,,B7_Backsurfacing_Sand_Delivery_System.pdf
+M0116,B7 Sand Delivery Aspirator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Backsurfacing_Sand_Delivery_System.pdf,,B7_Backsurfacing_Sand_Delivery_System.pdf
+M0110,B7 Sand Silo Delivery Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Backsurfacing_Sand_Delivery_System.pdf,,B7_Backsurfacing_Sand_Delivery_System.pdf
+M0119,B7 Backsurfacing/Sand Silo Unloading Blower,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Backsurfacing_Sand_Delivery_System.pdf,,B7_Backsurfacing_Sand_Delivery_System.pdf
+M4952,B7 Talc Entry Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Talc.pdf,,B7-Line_Talc.pdf
+M4949,B7 Talc Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Talc.pdf,,B7-Line_Talc.pdf
+M4955,B7 Talc Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Talc.pdf,,B7-Line_Talc.pdf
+M4946,B7 Talc Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Talc.pdf,,B7-Line_Talc.pdf
+M4958,B7 Talc Reclam/Delivery Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Talc.pdf,,B7-Line_Talc.pdf
+H2352,Attritor Fume Collection Unit,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+H2354,Attritor Fume Collection Fan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+H2362,Attritor Fume Collection Hoods and Ducting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+H2402,Laminator Fume Collection Unit,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+H2404,Laminator Fume Collection Fan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+H2412,Laminator Fume Collection Hoods and Ducting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf,,Attritor_Fume_Collection_System_and_Laminator_Fume_Collection_System.pdf
+C1888,CS Cooling Tower 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1889,CS Cooling Tower 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1891,CS Cooling Tower Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1892,CS Cooling Tower Transfer Pump Strainer,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1902,CS Cooling Tower Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1913,CS Cooling Tower Transfer Pump  (B7),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1917,CS Cooling Tower Transfer Pump (B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1925,CS Cooling Tower Transfer Pump (B7 Cooling Trays),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C1930,CS Water Supply Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Cooling_Water_System.pdf,,Cooling_Water_System.pdf
+C2402,Steam System Water Softener System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2405,Steam System Deaerator Tank Water Pump 1.1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2406,Steam System Deaerator Tank Water Pump 1.2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2408,Steam System Deaerator Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2421,Steam Generator/Boiler,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2423,Steam Generator/Boiler Blower,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2440,Steam System Blow Down Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2502,Steam System Condensate Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2510,Steam System Condensate Tank Water Pump 1.1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2511,Steam System Condensate Tank Water Pump 2.2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2515,Steam Water Conditioning System 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2516,Steam Water Conditioning System 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C2549,Steam System Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Steam_Generation_Systems.pdf,,Steam_Generation_Systems.pdf
+C3502,Forklift (B7 Mixing Room),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3503,Forklift (B8 Mixing Room),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3504,Forklift (B7 Unwind),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3505,Forklift (B8 Unwind),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3506,Forklift (B7 Inside Packaging),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3507,Forklift (B8 Inside Packaging),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3508,Forklift (Outside Packaging),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3509,Forklift (Laminator),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3510,Forklift (B6 Line),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3511,Forklift (Shipping - Ken),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3512,Forklift (Shipping - Sarbjit),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3513,Forklift (Receiving),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+C3514,Forklift (Plant Spare),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Forklifts.pdf,,Forklifts.pdf
+M4563,B7 Coater Entry Drive Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4568,B7 Coater Dipping Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4565,B7 Coater Frame and Pan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4571,B7 Coater Inking Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4589,B7 Coater Bottom Calendar Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4588,B7 Coater Bottom Calendar Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4585,B7 Coater Top Calendar Roll Scraper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4580,B7 Coating Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+M4584,B7 Coater Top Calendar Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Coating_System.pdf,,B7_Coating_System.pdf
+C0640,Finished Product Warehouse Plumbing/Sewage,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0641,Finished Product Warehouse Racking,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0642,Finished Product Warehouse Roof,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0643,Finished Product Warehouse Electrical/Lighting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0644,Finished Product Warehouse Doors/Docks,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0645,Pallet Wrapping Machine System (Wultec),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+C0680,Storeroom,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Warehousing_Systems.pdf,,Warehousing_Systems.pdf
+M0305,B8 Sand Silo,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Sand_Delivery_System.pdf,,B8_Sand_Delivery_System.pdf
+M0330,B8 Sand Delivery Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Sand_Delivery_System.pdf,,B8_Sand_Delivery_System.pdf
+M0334,B8 Sand Delivery Transfer belt conveyor  (On Roof),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Sand_Delivery_System.pdf,,B8_Sand_Delivery_System.pdf
+M0337,B8 Sand Delivery Aspitator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Sand_Delivery_System.pdf,,B8_Sand_Delivery_System.pdf
+M0340,B8 Sand Feed Screw (To line),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Sand_Delivery_System.pdf,,B8_Sand_Delivery_System.pdf
+M0520,Asphalt Tank Piping System (B7/B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+C6710,Process Oil Storage Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0508,Asphalt Tank A1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0528,Asphalt Preheat Tank (B7),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0510,Asphalt Tank A2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+C6711,Process Oil Storage Tank Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0512,Asphalt Tank A3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0504,Asphalt Truck Unloading Pump (B7/B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+M0516,Asphalt Tank A1/A2/A3 Transfer Pump (B8),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Asphalt_System.pdf,,B7_Asphalt_System.pdf
+C2125,HOS 2 Booster Pump 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2126,HOS 2 Booster Pump 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2125,HOS 2 Booster Pump 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2122,HOS 2 Booster Pump 1.1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2123,HOS 2 Booster Pump 1.2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2124,HOS 2 Booster Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+C2126,HOS 2 Booster Pump 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Mixing_Room_PID.pdf,,B8_Mixing_Room_PID.pdf
+M4542,B7 Graphite Applicator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M4548,B7 Graphite Dust Collector,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M4539,B7 Graphite Vertical Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M4545,B7 Graphite Reclaim/Delivery Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M4533,B7 Graphite Fill Hopper,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M4536,B7 Graphite Horizontal Feed Screw,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_Graphite_applicator.pdf,,B7_Graphite_applicator.pdf
+M7047,B8 Plastic Wrapper Upper Feed Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7044,B8 Plastic Wrapper Lower Feed Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7082,B8 Plastic Wrap Oven Tunnel Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7088,B8 Plastic Wrap Oven Cooling Fans,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7085,B8 Plastic Wrap Oven (GAS),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7073,B8 Plastic Wrap Oven Entry Conveyor,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+M7051,B8 Plastic Wrapper Sealer Bar,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Plastic_Wrap_and_Oven_System.pdf,,B8_Plastic_Wrap_and_Oven_System.pdf
+H1963,Oil/Water Separator (IKO TANK FARM),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Oil_Water_Separation_Systems.pdf,,Oil_Water_Separation_Systems.pdf
+H1964,Oil/Water Separator Pump (IKO TANK FARM),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Oil_Water_Separation_Systems.pdf,,Oil_Water_Separation_Systems.pdf
+M6436,B8 Dry Mat Looper Carriage,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Dry_Mat_Looper_system.pdf,,B8_Dry_Mat_Looper_system.pdf
+M6432,B8 Dry Mat Looper Entry Pull Rolls (S-Wrap),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Dry_Mat_Looper_system.pdf,,B8_Dry_Mat_Looper_system.pdf
+M6433,B8 Dry Mat Looper Frame System (Bottom Rolls),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Dry_Mat_Looper_system.pdf,,B8_Dry_Mat_Looper_system.pdf
+M6442,B8 Dry Mat Looper Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Dry_Mat_Looper_system.pdf,,B8_Dry_Mat_Looper_system.pdf
+M6439,B8 Dry Mat Looper Counter Weight System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_Dry_Mat_Looper_system.pdf,,B8_Dry_Mat_Looper_system.pdf
+M4633,B7 Upper Cooling Water Tray,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Cooling_Water_Tray_System.pdf,,B7-Line_Cooling_Water_Tray_System.pdf
+M4642,B7 Salvage Film Web Guide,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Cooling_Water_Tray_System.pdf,,B7-Line_Cooling_Water_Tray_System.pdf
+M4636,B7 Water Applicator Roll,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Cooling_Water_Tray_System.pdf,,B7-Line_Cooling_Water_Tray_System.pdf
+M4639,B7 Salvage Film Dispensor 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7-Line_Cooling_Water_Tray_System.pdf,,B7-Line_Cooling_Water_Tray_System.pdf
+C6602,Bulk Flux Tank 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+C6603,Bulk Flux Tank 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+C6604,Bulk Flux Tank 6,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+C6610,Flux Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+C6647,Flux Transfer Pump (TANK 6 To A2 Tank),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+C6660,Flux Storage Tank Piping System (IKO Tank Farm),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Flux_Storage.pdf,,Flux_Storage.pdf
+H2011,Main Fume Collection Duct System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Main_Fume_Collection_System.pdf,,Main_Fume_Collection_System.pdf
+H2040,Main Fume Collection Unit,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Main_Fume_Collection_System.pdf,,Main_Fume_Collection_System.pdf
+H2058,Main Fume Collection Oil Drain Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Main_Fume_Collection_System.pdf,,Main_Fume_Collection_System.pdf
+H2046,Main Fume Collection Exhaust Stack,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Main_Fume_Collection_System.pdf,,Main_Fume_Collection_System.pdf
+H2043,Main Fume Collection Fan,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Main_Fume_Collection_System.pdf,,Main_Fume_Collection_System.pdf
+M4103,B7 SBS Hopper System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_SBS_Delivery_System.pdf,,B7_SBS_Delivery_System.pdf
+M4125,B7 SBS Delivery Screw (To Elevator),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_SBS_Delivery_System.pdf,,B7_SBS_Delivery_System.pdf
+M4128,B7 SBS Delivery Screw (to Use Bin and Disolver tanks),http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_SBS_Delivery_System.pdf,,B7_SBS_Delivery_System.pdf
+M4131,B7 SBS Use Bin,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_SBS_Delivery_System.pdf,,B7_SBS_Delivery_System.pdf
+M4126,B7 SBS Elevator,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_SBS_Delivery_System.pdf,,B7_SBS_Delivery_System.pdf
+C2182,HOS 3 Booster Pump 3,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2154,HOS 3 Oil Storage Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2181,HOS 3 Booster Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2162,HOS 3 Expansion Tank,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2183,HOS 3 Booster Pump 4,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2158,HOS 3 Transfer Pump,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2186,HOS 3 Piping System,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2179,HOS 3 Booster Pump 1.1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2180,HOS 3 Booster Pump 1.2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2171,HOS 3 Circulation Pump 2,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2148,HOS 3 Heater,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C2170,HOS 3 Circulation Pump 1,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf,,B7_MIXING_ROOM_HOT_OIL_SYSTEM.pdf
+C0419,MPLB roof,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0420,MPLB Electrical / Lighting,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0421,MPLB HVAC / Heating,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0422,MPLB Stairs / Catwalks,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0423,MPLB Doors / Overhead Doors / Locks,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0424,MPLB Concrete Slab / Pits / Sumps,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0425,MPLB Electrical Room B6,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0426,MPLB Electrical Room B7,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0427,MPLB Electrical Room B8,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0428,MPLB Electrical Room Mixing Room,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0431,MPLB Offices,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0432,MPLB Main Offices,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+C0433,MPLB Plumbing / Sewage,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/Building_System.pdf,,Building_System.pdf
+M6403,B8 Unwind Stand,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_unwinding_system.pdf,,B8_unwinding_system.pdf
+M6407,B8 Splice Table,http://operations.connect.na.local/support/Reliability/IGBrampton/IGBramptonAssetDocuments/B8_unwinding_system.pdf,,B8_unwinding_system.pdf

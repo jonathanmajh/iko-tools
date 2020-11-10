@@ -1,0 +1,466 @@
+B1002,MDI Unloading Station (Rail),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1003,MDI Unloading Station (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1005,MDI Unloading Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1010,"MDI Storage Tank 1 (T3, 30000 GAL)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1013,"MDI Storage Tank 2 (T4, 30000 GAL)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1040,MDI Tanks Transfer Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1045,MDI Filter A (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1046,MDI Filter B (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1049,MDI Heat Exchanger 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1050,MDI Heat Exchanger 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1051,MDI Heat Exchanger 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1052,MDI Heat Exchanger 4,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_MDI_Storage.pdf,,ISO_MDI_Storage.pdf
+B1060,MDI Metering Pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1061,MDI Metering Pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1062,MDI Metering Pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1102,Polyol Unloading Station (Rail),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1103,Polyol Unloading Station (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1105,Polyol Unloading Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1110,"Polyol Storage Tank 1 (T6, 30000 Gal)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1111,Polyol Tanks Transfer Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1114,"Polyol Storage Tank 2 (T7, 30000 GAL)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1129,Polyol Filter A (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1130,Polyol Filter B (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1134,Polyol Heat Exchanger 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1135,Polyol Heat Exchanger 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1136,Polyol Heat Exchanger 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1137,Polyol Heat Exchanger 4,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1145,Polyol Metering Pump 1 (No Additives),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1146,Polyol Metering Pump 2 (No Additives),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1147,Polyol Metering Pump 3 (No Additives),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1150,Polyol Booster Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Polyol_Storage.pdf,,ISO_Polyol_Storage.pdf
+B1203,Octoate Unloading Station (Potassium) (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1205,Octoate Unloading Pump (Potassium),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1215,Octoate Storage Tank (Potassium) (10000 GAL),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1216,Octoate Tank Transfer Pump (Potassium),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1220,"Octoate Filter (Potassium, Bag)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1303,Flame Retardant Unloading Station (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Flame_Retardant_Storage.pdf,,ISO_Flame_Retardant_Storage.pdf
+B1305,Flame Retardant Unloading Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Flame_Retardant_Storage.pdf,,ISO_Flame_Retardant_Storage.pdf
+B1315,Flame Retardant Storage Tank,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Flame_Retardant_Storage.pdf,,ISO_Flame_Retardant_Storage.pdf
+B1316,Flame Retardant Tank Transfer Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Flame_Retardant_Storage.pdf,,ISO_Flame_Retardant_Storage.pdf
+B1320,Flame Retardant Filter (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Flame_Retardant_Storage.pdf,,ISO_Flame_Retardant_Storage.pdf
+B1407,Additive 1 Metering Pump (Flame Retardant),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1414,Additive 2 Metering Pump (Potassium Octoate),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1424,Additive 3 IBC Pump 1 (Acetate),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1425,Additive 3 IBC Pump 2 (Acetate),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1426,Additive 3 Expansion Vessel (Acetate),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1428,Additive 3 Metering Pump (Acetate),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1439,Additive 4 IBC Pump (Amine),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1441,Additive 4 Expansion Vessel (Amine),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1443,Additive 4 Metering Pump (Amine),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1443,Additive 4 Metering Pump (Amine),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1450,Additive 5 Metering Pump (Surfactant),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1457,Additive 6 Metering Pump (Water),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1457,Additive 6 Metering Pump (Water),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Additives_Storage.pdf,,ISO_Additives_Storage.pdf
+B1503,Surfactant Unloading Station (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1505,Surfactant Unloading Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1515,Surfactant Storage Tank (10000 GAL),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1517,Surfactant Tank Transfer Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1521,Surfactant Filter (Bag),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_POSD_SSD.pdf,,ISO_POSD_SSD.pdf
+B1603,Pentane Unloading Station (Truck),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1605,Pentane Unloading Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1611,"Pentane Storage Tank (T2, 30000 GAL)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1615,Pentane Tank Transfer Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1627,Pentane Sump Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1635,Pentane Heat Exchanger,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1642,Pentane Metering Tri-pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1642,Pentane Metering Tri-pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1643,Pentane Metering Tri-pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1643,Pentane Metering Tri-pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1644,Pentane Metering Tri-pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pump_Room.pdf,,ISO_Pump_Room.pdf
+B1644,Pentane Metering Tri-pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pentane_Storage.pdf,,ISO_Pentane_Storage.pdf
+B1803,Dynamic Mixer,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Chemical_Mixer.pdf,,ISO_Chemical_Mixer.pdf
+B1805,Chemical Mixier Delivery Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Chemical_Mixer.pdf,,ISO_Chemical_Mixer.pdf
+B1807,Static Mixer,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Chemical_Mixer.pdf,,ISO_Chemical_Mixer.pdf
+B3010,Unwind Stand System 1 (Upper),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3020,Unwind Stand System 2 (Lower),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3022,Unwind Stand Carry-over Section,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3024,Unwind Stand Preheat Oven,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3030,Unwinding Web Guide 1 (Upper),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3040,Unwinding Pour Table Entry Rolls 1 (Upper),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3050,Unwinding Web Guide 2 (Lower),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3055,Unwinding Pour Table Entry Rolls 2 (Lower),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Unwind_Stand.pdf,,ISO_Unwind_Stand.pdf
+B3210,Pouring Table,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pour_Table.pdf,,ISO_Pour_Table.pdf
+B3220,Pouring Table Application Gun 1 (Mix Head),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pour_Table.pdf,,ISO_Pour_Table.pdf
+B3221,Pouring Table Application Gun 2 (Mix Head),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pour_Table.pdf,,ISO_Pour_Table.pdf
+B3222,Pouring Table Application Gun 3 (Mix Head),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pour_Table.pdf,,ISO_Pour_Table.pdf
+B3230,Pouring Table Application Piping System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Pour_Table.pdf,,ISO_Pour_Table.pdf
+B3410,Laminator,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Laminator.pdf,,ISO_Laminator.pdf
+B3420,Laminator Heat Tunnel,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Laminator.pdf,,ISO_Laminator.pdf
+B3430,Laminator Heater 1 (Upper),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Laminator.pdf,,ISO_Laminator.pdf
+B3431,Laminator Heater 2 (Lower),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Laminator.pdf,,ISO_Laminator.pdf
+B3440,Laminator Release Agent Spray System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Laminator.pdf,,ISO_Laminator.pdf
+B3610,CCS Entry Roller Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3611,CCS Entry Roller Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3612,CCS Entry Roller Conveyor 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3620,CCS Perforating Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3630,CCS Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3633,CCS Feeding Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3640,CCS Exit Roller Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3641,CCS Exit Roller Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3642,CCS Exit Roller Conveyor 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3643,CCS Exit Roller Conveyor 4,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3655,CCS Scrap Reject Roller Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cross_Cut_Saw.pdf,,ISO_Cross_Cut_Saw.pdf
+B3810,Cooling Tower Entry Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3811,Cooling Tower Entry Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3830,"Cooling Tower 1 (North-East, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3831,"Cooling Tower 2 (North-East, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3832,"Cooling Tower 3 (South-East, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3833,"Cooling Tower 4 (South-East, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3834,"Cooling Tower 5 (South-West, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3835,"Cooling Tower 6 (South-West, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3836,"Cooling Tower 7 (North-West, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3837,"Cooling Tower 8 (North-West, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3845,"Cooling Tower Intermediate Roller Conveyor 1 (North-East, Near) ",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3846,"Cooling Tower Intermediate Roller Conveyor 2 (North-East, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3847,"Cooling Tower Intermediate Roller Conveyor 3 (South-East, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3848,"Cooling Tower Intermediate Roller Conveyor 4 (South-East, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3849,"Cooling Tower Intermediate Roller Conveyor 5 (South-West, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3850,"Cooling Tower Intermediate Roller Conveyor 6 (South-West, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3851,"Cooling Tower Intermediate Roller Conveyor 7 (North-West, Far)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3852,"Cooling Tower Intermediate Roller Conveyor 8 (North-West, Near)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3880,Cooling Tower Exit Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B3885,Cooling Tower Exit Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Cooling_Section.pdf,,ISO_Cooling_Section.pdf
+B4810,Profiling Entry Roller Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Profiling_Unit.pdf,,ISO_Profiling_Unit.pdf
+B4820,Profiling Feeding Roller Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Profiling_Unit.pdf,,ISO_Profiling_Unit.pdf
+B4830,Profiling Saw Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Profiling_Unit.pdf,,ISO_Profiling_Unit.pdf
+B4840,Profiling Exit Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Profiling_Unit.pdf,,ISO_Profiling_Unit.pdf
+B5210,Multi Blade Unit Entry Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5220,Multi Blade Unit Pushing Bars,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5230,Multi Blade Roller Table 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5231,Multi Blade Roller Table 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5240,Multi Blade Saw Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5250,Multi Blade Exit Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5260,Multi Blade Exit Belt Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B5261,Multi Blade Exit Belt Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Multi_Blade_Saw.pdf,,ISO_Multi_Blade_Saw.pdf
+B6240,Stacking Table,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B6247,Stacking Vacuum Robot 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B6248,Stacking Vacuum Robot 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B6250,Stacking Roller Table 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B6251,Stacking Roller Table 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B7710,Pallet Stacking Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B7720,Pallet Transfer Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B7721,Pallet Transfer Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B7725,Pallet Transfer Reject Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B7750,Pallet Transfer Conveyor 3 (Accumulation),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Turning_Stacking_System.pdf,,ISO_Turning_Stacking_System.pdf
+B8010,Stretch Hood Entry Conveyor (MSK),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Stretch_Hood_System.pdf,,ISO_Stretch_Hood_System.pdf
+B8025,Stretch Hood Machine (MSK),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Stretch_Hood_System.pdf,,ISO_Stretch_Hood_System.pdf
+B8035,Stretch Hood Exit Conveyor 1 (MSK),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Stretch_Hood_System.pdf,,ISO_Stretch_Hood_System.pdf
+B8036,Stretch Hood Exit Conveyor 2 (MSK),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Stretch_Hood_System.pdf,,ISO_Stretch_Hood_System.pdf
+B8102,Slat Board Loading System (Robot+Table),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8105,Slat Cutting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8110,Slat Inserting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8115,Slat Inserting Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8135,Double Stacker,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8140,Double Stacking Exit Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8141,Double Stacking Exit Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8142,Double Stacking Exit Conveyor 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+B8143,Double Stacking Exit Conveyor 4,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Legging_Double_Stacking_System.pdf,,ISO_Legging_Double_Stacking_System.pdf
+C0102,Employee Parking Lots,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0103,Lawn,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0105,Truck Driveways/Routes,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0106,Pavement/Concrete Slabs/Concrete Barriers and Walls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0111,Railroad Track System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0123,Fences/Gates/Posts and Signs,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0133,Storm Water System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0190,City Water Supply,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Property.pdf,,Property.pdf
+C0419,MPLB Roof/Structure,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0420,MPLB Electrical/Lighting,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0421,MPLB HVAC/Heating,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0422,MPLB Stairs/Catwalks,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0423,MPLB Doors/Overhead Doors/Locks,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0424,MPLB Concrete Slab/Pits/Sumps,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0431,MPLB Office,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0434,MPLB Water Softener System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0435,MPLB Elevator (ADA),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Prod_Line_Building_MPLB.pdf,,Main_Prod_Line_Building_MPLB.pdf
+C0439,Main Office Building Roof/Structure,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0440,Main Office Building Electrical/Lighting,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0441,Main Office Building HVAC/Heating,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0442,Main Office Building Stairs,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0443,Main Office Building Doors/Locks/Security,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0444,Main Office Building Plumbing/Sewage,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Main_Office_Building.pdf,,Main_Office_Building.pdf
+C0451,Shipping and Receiving Building Roof/Structure,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Shipping_Receiving_Building.pdf,,Shipping_Receiving_Building.pdf
+C0452,Shipping and Receiving Building Electrical/Lighting,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Shipping_Receiving_Building.pdf,,Shipping_Receiving_Building.pdf
+C0453,Shipping and Receiving Building HVAC/Heating,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Shipping_Receiving_Building.pdf,,Shipping_Receiving_Building.pdf
+C0454,Shipping And Receiving Building Plumbing/Sewage,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Shipping_Receiving_Building.pdf,,Shipping_Receiving_Building.pdf
+C0455,Shipping and Receiving Building Doors/Locks/Security,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Shipping_Receiving_Building.pdf,,Shipping_Receiving_Building.pdf
+C0618,Exhaust Fan 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0619,Exhaust Fan 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0620,Exhaust Fan 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0641,Finished Product Warehouse Racking,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Finished_Product_Warehouse.pdf,,Finished_Product_Warehouse.pdf
+C0642,Finished Product Warehouse Roof/Structure,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Finished_Product_Warehouse.pdf,,Finished_Product_Warehouse.pdf
+C0643,Finished Product Warehouse Electrical/Lighting,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Finished_Product_Warehouse.pdf,,Finished_Product_Warehouse.pdf
+C0644,Finished Product Warehouse Doors/Docks,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Finished_Product_Warehouse.pdf,,Finished_Product_Warehouse.pdf
+C0646,Finished Product Warehouse HVAC/Heating,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Finished_Product_Warehouse.pdf,,Finished_Product_Warehouse.pdf
+C0681,Vertical Parts Storage Unit 1 (Modula),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0682,Vertical Parts Storage Unit 2 (Modula),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0854,Make Up Air (MUA) Unit 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0961,Propane Storage Cage 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C0962,Propane Storage Cage 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Building_Systems.pdf,,Building_Systems.pdf
+C1141,"Crane 1 (TPO,Scrim,3 Ton)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1142,"Crane 2 (TPO,10 Ton)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1143,"Crane 3 (ISO,Facer)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1161,"Hoist 1 (TPO,Top Extruder)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1162,"Hoist 2 (TPO,Bottom Extruder)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1163,"Hoist 3 (TPO,Top Weathering Package)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1164,"Hoist 4 (TPO,Bottom Weathering Package)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1165,"Hoist 5 (TPO,MgOH2 Spare)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1166,"Hoist 6 (ISO,MSK)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Overhead_Cranes_Hoists.pdf,,Overhead_Cranes_Hoists.pdf
+C1503,Security System (Camera),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1504,Fire Alarm Security System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1505,Security System (Access Control),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1506,Desktop/Laptop PC's,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1511,Network Equipment,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1516,Telephones and Telephone Systems,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1520,Process Monitoring Camera System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Alarm_Telecommunications_and_Network_Systems.pdf,,Alarm_Telecommunications_and_Network_Systems.pdf
+C1665,Cooling Water Tower,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C1673,Cooling Water Transfer Pump 1 (TPO Main),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C1674,Cooling Water Transfer Pump 2 (TPO Spare),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C1675,Cooling Water Transfer Pump 3 (ISO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C1679,Cooling Water Filter System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C1695,Cooling Water Piping System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Cooling_Water_System.pdf,,TPO_ISO_Cooling_Water_System.pdf
+C2603,Railcar Water Feed Tank,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Railcar_Heating_System.pdf,,Railcar_Heating_System.pdf
+C2606,Railcar Heating Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Railcar_Heating_System.pdf,,Railcar_Heating_System.pdf
+C2610,Railcar Water Heating System (MDI/Polyol),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Railcar_Heating_System.pdf,,Railcar_Heating_System.pdf
+C2613,Railcar Heating Station and Piping System (Polyol),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Railcar_Heating_System.pdf,,Railcar_Heating_System.pdf
+C2900,"Chiller System (MDI,Polyol,Pentane)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Railcar_Heating_System.pdf,,Railcar_Heating_System.pdf
+C3002,Air Compressor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3003,Air Compressor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3008,Air Compressors Oil-Water Separator,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3012,Air Compressors Exhaust Ducting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3040,Compressed Air Receiver Tank 1 (400 GAL),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3055,Compressed Air Drier Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3057,Compressed Air Receiver Tank 2 (1500 GAL),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3059,Compressed Air Receiver Tank 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3100,Compressed Air Piping System (TPO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3101,Compressed Air Piping System (ISO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3190,Nitrogen Generation System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3200,Mechanical Maintenance Shop Equipment,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Compress_Air_System.pdf,,TPO_ISO_Compress_Air_System.pdf
+C3502,Forklift 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C3503,Forklift 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C3504,Forklift 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C3505,Forklift 4,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C4000,Scissor Lift,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C4012,Boom Lift,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C4025,Shaft Lifter,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C4030,Floor Sweeper,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Motorized_Support_Equipment.pdf,,Motorized_Support_Equipment.pdf
+C7213,Ladders,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Stand-Alone_Portable_Equipment.pdf,,Stand-Alone_Portable_Equipment.pdf
+C7221,Chain Falls/Cumalongs/Slings,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Stand-Alone_Portable_Equipment.pdf,,Stand-Alone_Portable_Equipment.pdf
+C7226,Spreader Bars,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Stand-Alone_Portable_Equipment.pdf,,Stand-Alone_Portable_Equipment.pdf
+C7301,Lab Equipment,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Stand-Alone_Portable_Equipment.pdf,,Stand-Alone_Portable_Equipment.pdf
+H0020,Fire Extinguisher Systems,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H0720,Emergency Eye Wash/Shower Station System (EEWSS),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1671,ISO Dust Collector,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1674,ISO Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1675,ISO Dust Collector Blower,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1676,ISO Dust Collector Piping System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1679,ISO Dust Collector Fire Suppression Unit,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1681,ISO Dust Collector Briquette Press,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1691,TPO Dust Collector,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1692,TPO Dust Collector Bag System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1694,TPO Dust Collector Silo (55 Gal. Drum),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1695,TPO Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1696,TPO Dust Collector Blower,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H1699,TPO Dust Collector Ducting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H2604,TPO Fume Collection Fan,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H2606,TPO Fume Collection Exhaust Stack,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H2610,TPO Fume Collection Hoods and Ducting,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Common_EHS_Resources_And_Risk_Management.pdf,,Common_EHS_Resources_And_Risk_Management.pdf
+H2655,ISO Fume Collection Duct System (RTO Fresh Air),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2660,ISO Fume Collection Damper 1 (RTO Variable Fresh Air),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2662,ISO Fume Collection Damper 2 (RTO Process),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2665,ISO Fume Collection Blower (RTO Supply),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2670,ISO Fume Collection Duct System (Blower to RTO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2675,ISO Fume Collection Fire Box (RTO Combustion Zone),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2677,ISO Fume Collection Burner (RTO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2679,ISO Fume Collection Ceramic Media Bed (RTO 25 Cell),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H2684,ISO Fume Collection Exhaust Stack (RTO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/ISO_Fume_Collection_System.pdf,,ISO_Fume_Collection_System.pdf
+H3005,MPLB Fire Alarm Control Panel,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3008,MPLB Fire Alarm Electrical and Devices,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3012,Main Office Fire Alarm Control Panel,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3016,Main Office Fire Alarm Electrical and Devices,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3076,Sprinkler Fire System Pump Room,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3077,Sprinkler Fire System Pump (Diesel),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3083,Sprinkler Fire System Pump Controller,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3091,Sprinkler Fire System Piping and Valve System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3260,Fire Hydrants,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H3375,Fire Hose Risers,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_ISO_Fire_Fighting_Protection_Systems.pdf,,TPO_ISO_Fire_Fighting_Protection_Systems.pdf
+H4100,Emergency Lighting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Emergency_Lighting_Electrical_Supply_System.pdf,,Emergency_Lighting_Electrical_Supply_System.pdf
+H4802,Personal Protection Equipment (PPE),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Safety_Equipment.pdf,,Safety_Equipment.pdf
+H4850,Tank Restraint Systems,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/Safety_Equipment.pdf,,Safety_Equipment.pdf
+T1010,Resin Rail Docking Platform,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1020,Resin Vacuum Blower (Rail to Receiver),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1030,Resin Receiver (With Filters),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1033,Resin Receiver Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1043,Resin Pressure Blower (Receiver to Silos),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1053,"Resin Silo 1 (With Filters, NE)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Silo_Layout.pdf,,TPO_Silo_Layout.pdf
+T1056,"Resin Silo 2 (With Filters, SW)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Silo_Layout.pdf,,TPO_Silo_Layout.pdf
+T1066,Bottom Resin Vacuum Blower (Silos to Feeders),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1076,Top Resin Vacuum Blower (Silos to Feeders),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1086,Resin Piping,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1110,Flame Retardant Rail Docking Platform,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1120,Flame Retardant Pressure Blower (Rail to Silo),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1130,"Flame Retardant Silo (With Filters, NE)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Silo_Layout.pdf,,TPO_Silo_Layout.pdf
+T1133,Flame Retardant Silo Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Silo_Layout.pdf,,TPO_Silo_Layout.pdf
+T1136,Flame Retardant Silo Rotary Airlock (Future),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1146,Flame Retardant Super Sack (Rail Backup),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1149,Flame Retardant Super Sack Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1159,Bottom Flame Retardant Vacuum Blower (Silo to Feeders),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1169,Top Flame Retardant Vacuum Blower (Silo to Feeders),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Blowers.pdf,,TPO_Resin_and_Flame_Retardant_Blowers.pdf
+T1179,Flame Retardant Piping,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Resin_and_Flame_Retardant_Systems.pdf,,TPO_Resin_and_Flame_Retardant_Systems.pdf
+T1310,Carbon Black Bins (Received in Boxes),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Carbon_Black_Color_Storage_Delivery.pdf,,TPO_Carbon_Black_Color_Storage_Delivery.pdf
+T1320,Carbon Black Piping,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Carbon_Black_Color_Storage_Delivery.pdf,,TPO_Carbon_Black_Color_Storage_Delivery.pdf
+T1350,Color 2 Bins (White Section/Received in Boxes),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Carbon_Black_Color_Storage_Delivery.pdf,,TPO_Carbon_Black_Color_Storage_Delivery.pdf
+T1360,Color/Carbon Black Vacuum Blower (Bins to Feeders),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Carbon_Black_Color_Storage_Delivery.pdf,,TPO_Carbon_Black_Color_Storage_Delivery.pdf
+T1380,Color 2 Piping (White),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Carbon_Black_Color_Storage_Delivery.pdf,,TPO_Carbon_Black_Color_Storage_Delivery.pdf
+T1510,Bottom Weathering Package 1 Bins,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1520,Bottom Weathering Package 1 Bucket Elevator Feeder,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1525,Bottom Weathering Package 1 Bucket Elevator,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1545,Top Weathering Package 2 Bins,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1555,Top Weathering Package 2 Bucket Elevator Feeder,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1565,Top Weathering Package 2 Bucket Elevator,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Weathering_Package_Storage_Delivery.pdf,,TPO_Weathering_Package_Storage_Delivery.pdf
+T1710,"Recycle Sheeter (Unrolls, Flattens, and Cuts TPO Sections)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1720,Recycle Transfer Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1730,Recycle Shredder,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1740,Recycle Transfer Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1750,Recycle Extruder (Scrim Bonds to TPO),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1760,Recycle Pelletizer,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1770,Recycle Bins,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1780,Recycle Vacuum Blower (Bins to Feeder),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T1790,Recycle Piping,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Recycle_Storage_Delivery.pdf,,TPO_Recycle_Storage_Delivery.pdf
+T2000,Bottom Calender Roll Temperature Control System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Line_Top_View.pdf,,TPO_Line_Top_View.pdf
+T2010,Bottom Calender Roll Temperature Control Heat Exchanger 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2013,Bottom Calender Roll Temperature Control Heat Exchanger 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2016,Bottom Calender Roll Temperature Control Heat Exchanger 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2036,Bottom Calender Roll Temperature Control Pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2039,Bottom Calender Roll Temperature Control Pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2042,Bottom Calender Roll Temperature Control Pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf,,TPO_Bottom_Calender_Roll_Temperature_Control_System.pdf
+T2100,Top Calender Roll Temperature Control System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Line_Top_View.pdf,,TPO_Line_Top_View.pdf
+T2110,Top Calender Roll Temperature Control Heat Exchanger 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2113,Top Calender Roll Temperature Control Heat Exchanger 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2116,Top Calender Roll Temperature Control Heat Exchanger 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2136,Top Calender Roll Temperature Control Pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2139,Top Calender Roll Temperature Control Pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2142,Top Calender Roll Temperature Control Pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Calender_Roll_Temperature_Control_System.pdf,,TPO_Top_Calender_Roll_Temperature_Control_System.pdf
+T2200,Cooling Roll Temperature Control System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Line_Top_View.pdf,,TPO_Line_Top_View.pdf
+T2210,Cooling Roll Temperature Control Heat Exchanger 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2213,Cooling Roll Temperature Control Heat Exchanger 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2216,Cooling Roll Temperature Control Heat Exchanger 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2236,Cooling Roll Temperature Control Pump 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2239,Control Roll Temperature Control Pump 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2242,Control Roll Temperature Control Pump 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling Roll_Temperature_Control_System.pdf,,TPO_Cooling Roll_Temperature_Control_System.pdf
+T2300,Bottom/Top Extruder Barrel Temperature Control System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Line_Top_View.pdf,,TPO_Line_Top_View.pdf
+T2310,Bottom/Top Extruder Barrel Temperature Control Heat Exchanger,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Extruder_Barrel_Temperature_Control_Systems.pdf,,TPO_Extruder_Barrel_Temperature_Control_Systems.pdf
+T2320,Bottom/Top Extruder Barrel Temperature Control Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Extruder_Barrel_Temperature_Control_Systems.pdf,,TPO_Extruder_Barrel_Temperature_Control_Systems.pdf
+T3030,Dry Mat Unwind Stand,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Unwind_Stand.pdf,,TPO_Unwind_Stand.pdf
+T3040,Dry Mat Splicing System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Unwind_Stand.pdf,,TPO_Unwind_Stand.pdf
+T3060,DMA Entry Clamp Roll,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3065,DMA Entry Roll,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3070,DMA Frame and Bottom Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3075,DMA Counterweight System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3080,DMA Carriage System (Top Rolls and Drive),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3085,DMA Exit Roll,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3090,DMA Dancer Rolls (Tension),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3095,DMA Carry-over Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3100,DMA Exit Center Alignment Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3105,DMA Exit Pull Rolls (Spreader),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3110,DMA Exit Slitter (Parallel Center Cut),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Accumulator_And_Spreader.pdf,,TPO_Accumulator_And_Spreader.pdf
+T3160,Bottom Extrusion Tension/Entry Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3165,Bottom Extrusion Edge Alignment Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3170,Bottom Resin 1 Feeder 7 (E Middle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3176,Bottom Carbon Black Feeder 9 (W Middle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3179,"Bottom Flame Retardant Feeder 10 (NE, Side Feeder)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3182,Bottom Flame Retardant Feeder 10 Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3185,Bottom Recycle Feeder 11 (SW),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3188,Bottom Edge Trim Feeder 12 (NW),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3193,"Bottom Weathering Package 1 Feeder 13 (Low UV Stabilizer, N Center)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder_Feeders.pdf,,TPO_Bottom_Extruder_Feeders.pdf
+T3194,Bottom Extrusion Metal Detector/Diverter,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3198,Bottom Extrusion Extruder,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3203,Bottom Extrusion Melt Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3208,"Bottom Extrusion Calender Roll 1 - Polishing (Nip/Crown/SAU5deg, Bottom)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3211,"Bottom Extrusion Calender Roll 2 - Polishing (Nip/No Crown/Fixed/SAU180deg, Middle Bottom)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3214,"Bottom Extrusion Calender Roll 3 - Cooling (No Nip/SAU270deg, Middle Top)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3217,"Bottom Extrusion Calender Roll 4 - Reversing (No Nip, Top)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3222,Bottom Extrusion Die,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3227,Bottom Extrusion Thickness Monitoring System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3232,Bottom Extrusion Calender Hydraulic System (Roll 1/3 Gap Control),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3233,Bottom Extrusion Extruder Hydraulic System (Screen Changer),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bottom_Extruder.pdf,,TPO_Bottom_Extruder.pdf
+T3260,Top Extrusion Tension/Entry Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3265,Top Resin 1 Feeder 1 (E Middle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder_Feeders.pdf,,TPO_Top_Extruder_Feeders.pdf
+T3274,"Top Flame Retardant Feeder 4 (NE, Side Feeder)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder_Feeders.pdf,,TPO_Top_Extruder_Feeders.pdf
+T3277,Top Flame Retardant Feeder 4 Rotary Airlock,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder_Feeders.pdf,,TPO_Top_Extruder_Feeders.pdf
+T3280,"Top Weathering Package 2 Feeder 5 (High UV Stabilizer, N Center)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder_Feeders.pdf,,TPO_Top_Extruder_Feeders.pdf
+T3283,"Top Color 2 Feeder 6 (White, W Middle)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder_Feeders.pdf,,TPO_Top_Extruder_Feeders.pdf
+T3284,Top Extrusion Metal Detector/Diverter,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3285,Top Extrusion Extruder,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3288,Top Extrusion Melt Pump,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3290,"Top Extrusion Calender Roll 1 - Polishing (Nip/Crown/SAU5deg, Bottom)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3291,"Top Extrusion Calender Roll 2 - Polishing (Nip/No Crown/Fixed/SAU180deg, Middle Bottom)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3293,"Top Extrusion Calender Roll 3 - Cooling (No Nip/SAU270deg, Middle Top)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3294,"Top Extrusion Calender Roll 4 - Reversing (No Nip, Top)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3298,Top Extrusion Die,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3299,Top Extrusion Thickness Monitoring System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3303,Top Extrusion Calender Hydraulic System (Roll 1/3 Gap Control),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3304,Top Extrusion Extruder Hydraulic System (Screen Changer),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Top_Extruder.pdf,,TPO_Top_Extruder.pdf
+T3410,Cooling Rolls Frame and Guiding Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3420,Cooling Roll 1 (Top E),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3423,Cooling Roll 2 (Bottom E),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3426,Cooling Roll 3 (Bottom Middle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3429,Cooling Roll 4 (Top W),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3432,Cooling Roll 5 (Bottom W),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Cooling_Section.pdf,,TPO_Cooling_Section.pdf
+T3610,Finish Product Carry-over Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Placeholder_System.pdf,,TPO_Placeholder_System.pdf
+T3660,FLA Entry Dancer Roll (Tension/Accumulation),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T3670,FLA Frame and Bottom Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T3680,FLA Counterweight System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T3690,FLA Carriage System (Top Rolls and Drive),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T3700,FLA Exit Rolls,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T3710,FLA Marking Unit (Overlap/Fastener Line/Product Code/Time Stamp),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_FPL_System.pdf,,TPO_FPL_System.pdf
+T4010,Nip/Slitting Frame,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4015,Nip/Slitting Edge Trim Slitting Knife 1 (N),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4020,Nip/Slitting Center Slitting Knife (Center),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4025,Nip/Slitting Edge Trim Slitting Knife 2 (S),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4030,Nip/Slitting Nip (Tension),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4035,Nip/Slitting Bowed Roll (Spread at Center to Cores),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Nip_Slitting_System.pdf,,TPO_Nip_Slitting_System.pdf
+T4110,Edge Trim Granulator,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Edge_Trim_System.pdf,,TPO_Edge_Trim_System.pdf
+T4120,Edge Trim Vacuum Blower (Granulator to Receiver to Feeder),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Edge_Trim_System.pdf,,TPO_Edge_Trim_System.pdf
+T4130,Edge Trim Receiver (Vacuum/Manual Loaded),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Line_Top_View.pdf,,TPO_Line_Top_View.pdf
+T4140,Edge Trim Piping,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Edge_Trim_System.pdf,,TPO_Edge_Trim_System.pdf
+T4210,Winding Dancer Rolls (Tension/Accumulation),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4220,Winding Winder (Two Spindles/Air Expanded),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4225,Winding Turret Assembly,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4230,Winding Lay On Roll (Start Roll Accumulation On Spindle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4240,Winding Cutover Blade (Cross-Cut),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4250,Winding Taping System (6 Heads),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4255,Winding Tucking Assembly (Enveloper),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4260,Winding Roll Receiving Table (Lifts to Extract Roll),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4270,"Winding Shaft Extractor (Extracts North, 270deg Facing South)",http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4280,Winding Core Dispenser (Table),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4290,Winding Core Loader (Apply to Spindle),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4300,Winding Exit Inclined Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Rolls_Handling_From_Winder_Section.pdf,,TPO_Rolls_Handling_From_Winder_Section.pdf
+T4310,Winding Exit Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Rolls_Handling_From_Winder_Section.pdf,,TPO_Rolls_Handling_From_Winder_Section.pdf
+T4315,Winding Roll Reject Mechanism,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Wind_Up.pdf,,TPO_Wind_Up.pdf
+T4320,Winding Exit Reject Table (Sample/Scrap/Downstream Packaging Down),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Rolls_Handling_From_Winder_Section.pdf,,TPO_Rolls_Handling_From_Winder_Section.pdf
+T4330,Winding Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Rolls_Handling_From_Winder_Section.pdf,,TPO_Rolls_Handling_From_Winder_Section.pdf
+T4410,Single Roll Entry Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4420,Single Roll Curtain Wrapper,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4430,Single Roll Film Dispenser,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4440,Single Roll Heat Shrink Device (Shrink/Seal Ends),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4450,Single Roll Conveyor (End Can Lift Up),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4460,Single Roll Table (Slope Table/Manually Palletize If Palletizer Down),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4470,Single Roll Labeler 1 (Product Label Printed/Applied),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4480,Single Roll Labeler 2 (Regulatory Label Pre-Printed/Hot Melt/Positioned/Applied),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4490,Single Roll Exit Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Single_Roll_Packaging_System.pdf,,TPO_Single_Roll_Packaging_System.pdf
+T4610,Bundle Entry Belt Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4620,Bundle Alignment System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4630,Bundle Transfer Conveyor 1,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4640,Bundle Transfer Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4650,Bundle Stretch Wrapping System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4660,Bundle Transfer Conveyor 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Bundle_Packaging_System.pdf,,TPO_Bundle_Packaging_System.pdf
+T4810,Palletizing Bundle Lifting System,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4820,Pallet Dispenser,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4830,Pallet Dispenser Conveyor,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4840,Palletizer Transfer Conveyor 1 (After Bundle Demand Is Met),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4850,Palletizer Transfer Conveyor 2,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4860,Banding System (Plastic Straps With Protective Material Underneath),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4870,Palletizer Bundle Labeler,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4880,Palletizer Transfer Conveyor 3,http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
+T4890,Palletizer Discharge Conveyor (Prep Area for Fork Lift),http://operations.connect.na.local/support/Reliability/Snowman/PlantAssetDocs/TPO_Palletizer_System.pdf,,TPO_Palletizer_System.pdf
