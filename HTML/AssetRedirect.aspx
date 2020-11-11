@@ -375,6 +375,20 @@ Released   : 20131201
                         </div>
                     </td> <!-- back option at bottom of the page -->
                 </tr>
+                <tr>
+                    <td>
+                        <div class="boxy">
+                            <p><a class="w3-button w3-light-grey w3-border w3-border-black w3-round-large"
+                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectBootstrap.aspx/?cheese=GH=&cheeseNum=C0641=&mobile=0">Testing Version</a>
+                            </p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="descript">
+                            <p class="text"><a><i class="fa fa-flask"> Testing Version of DNA Redirector</i></a></p>
+                        </div>
+                    </td> <!-- back option at bottom of the page -->
+                </tr>
             </table>
 
         </div>

@@ -63,17 +63,17 @@
     <div class="container-fluid">
         <div class="row">
             <div class="table-responsive  text-nowrap">
-                <table class="table">
-                    <tbody>
-                        <tr>
-                            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <table class="table" id="information">
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <h1><strong>D</strong>ocument <br><strong>N</strong>avigation
+                                            <h1 id="DNA"><strong>D</strong>ocument <br><strong>N</strong>avigation
                                                 <br><strong>A</strong>ccelerator</h1>
                                         </td>
-                                        <td >
+                                        <td>
                                             <div class="row">
                                                 <h6>Site ID:</h6>
                                             </div>
@@ -123,9 +123,8 @@
                                             <button id="submitNum" disabled=true
                                                 onclick="checkSiteCSV()">Generate</button>
                                         </td>
-                                        <td>
-                                            <video id="dna-render" height="200" playsinline autoplay muted
-                                                loop>
+                                        <td style="position: relative; min-width: 295px;">
+                                            <video id="dna-render" playsinline autoplay muted loop>
                                                 <source
                                                     src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
                                                     type="video/mp4" />
@@ -134,9 +133,12 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </tr>
-                        <tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <h4>Asset & Failure Classes Report Links</h4>
+                            <td>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -159,11 +161,13 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </tr>
-                        <tr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <h4>Navigation links</h4>
-                            <table class="table">
-                                <tbody id='dynamic-table-body'>
+                            <table class="table table-fit">
+                                <tbody id='navlinks-table-body'>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
                                                 href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
@@ -205,8 +209,9 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </tr>
-                    </tbody>
+                        </td>
+                    </tr>
+                </tbody>
                 </table>
             </div>
         </div>
@@ -513,11 +518,41 @@
     }
 
     a.btn.disabled {
-        text-decoration-line: line-through;
+        text-decoration: line-through;
         background-color: #fc2c55;
     }
 
     .width-250 {
         min-width: 250px;
+    }
+
+    #dna-render {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 360px;
+        /* using absolute position makes the element 
+        float above other content without moving them
+        Note: a relative element must be a parent of 
+        the absolute element */
+    }
+
+    tbody#navlinks-table-body tr td a {
+        min-width: 100px;
+    }
+
+    .table-fit {
+        width: 1%;
+    }
+
+    h1#DNA {
+        letter-spacing: 0.03em;
+        font-weight: 300;
+        font-size: 350%;
+        color: #3f3f3f;
+    }
+
+    table#information td {
+        padding-right: 30px;
     }
 </style>
