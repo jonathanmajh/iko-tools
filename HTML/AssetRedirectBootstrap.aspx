@@ -61,79 +61,77 @@
         </div>
     </nav>
     <div class="container-fluid" style="padding-top: 10px; padding-left: 2em; padding-right: 2em;">
-        <div class="row justify-content-between">
-            <div class="col-" style="padding-right: 20px;">
-                <h1><strong>D</strong>ocument <br><strong>N</strong>avigation <br><strong>A</strong>ccelerator </h1>
+        <div class="row">
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h1><strong>D</strong>ocument <br><strong>N</strong>avigation
+                                    <br><strong>A</strong>ccelerator</h1>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <h6>Site ID:</h6>
+                                </div>
+                                <div class="row">
+                                    <select id="siteName">
+                                        <option value="RAM">RAM: Alconbury</option>
+                                        <option value="CAM">CAM: Appley Bridge</option>
+                                        <option value="GE">GE: Ashcroft</option>
+                                        <option value="GR">GR: BramCal</option>
+                                        <option value="BA">BA: Calgary</option>
+                                        <option value="GJ">GJ: CRC Toronto</option>
+                                        <option value="BL">BL: Hagerstown </option>
+                                        <option value="GH">GH: Hawkesbury</option>
+                                        <option value="GV">GV: Hillsboro (Southwest)</option>
+                                        <option value="GK">GK: IG Brampton</option>
+                                        <option value="CA">CA: Kankakee</option>
+                                        <option value="GI">GI: Madoc </option>
+                                        <option value="PBM">PBM: Senica/Sloviakia</option>
+                                        <option value="GC">GC: Sumas</option>
+                                        <option value="GS">GS: Sylacauga</option>
+                                        <option value="GA">GA: Wilmington</option>
+                                    </select>
+                                </div>
+                                <div class="row" style="padding-top: 15px;">
+                                    <h6>Failure Class Description:</h6>
+                                </div>
+                                <div class="row">
+                                    <p id="failure-description">Please enter asset number to get the asset's failure
+                                        class
+                                        description</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="row">
+                                    <h6>Asset Number:</h6>
+                                </div>
+                                <div class="row">
+                                    <div id="AssetNum"><input type="text" id="assetNum" oninput="buttonEnable()"></div>
+                                </div>
+                                <div class="row" style="padding-top: 10px;">
+                                    <h6>Asset Description:</h6>
+                                </div>
+                                <div class="row">
+                                    <p id="description">Please enter asset number to get asset description</p>
+                                </div>
+                            </td>
+                            <td style="padding-top: 40px;">
+                                <button id="submitNum" disabled=true onclick="checkSiteCSV()">Generate</button>
+                            </td>
+                            <td>
+                                <video id="dna-render" width="164" height="200" playsinline autoplay muted loop>
+                                    <source src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
+                                        type="video/mp4" />
+                                    Your browser does not support this video</video>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-5">
-                        <div class="row">
-                            <h6>Site ID:</h6>
-                        </div>
-                        <div class="row">
-                            <select id="siteName">
-                                <option value="RAM">RAM: Alconbury</option>
-                                <option value="CAM">CAM: Appley Bridge</option>
-                                <option value="GE">GE: Ashcroft</option>
-                                <option value="GR">GR: BramCal</option>
-                                <option value="BA">BA: Calgary</option>
-                                <option value="GJ">GJ: CRC Toronto</option>
-                                <option value="BL">BL: Hagerstown </option>
-                                <option value="GH">GH: Hawkesbury</option>
-                                <option value="GV">GV: Hillsboro (Southwest)</option>
-                                <option value="GK">GK: IG Brampton</option>
-                                <option value="CA">CA: Kankakee</option>
-                                <option value="GI">GI: Madoc </option>
-                                <option value="PBM">PBM: Senica/Sloviakia</option>
-                                <option value="GC">GC: Sumas</option>
-                                <option value="GS">GS: Sylacauga</option>
-                                <option value="GA">GA: Wilmington</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- Force next columns to break to new line at md breakpoint and up -->
-                    <div class="w-100 d-block d-md-none" style="padding-top: 20px;"></div>
-                    <div class="col-5">
-                        <div class="row">
-                            <h6>Asset Number:</h6>
-                        </div>
-                        <div class="row">
-                            <div id="AssetNum"><input type="text" id="assetNum" oninput="buttonEnable()"></div>
-                        </div>
-                    </div>
-                    <div class="w-100 d-block d-md-none"></div>
-                    <div class="col-" style="padding-top: 25px;">
-                        <button id="submitNum" disabled=true onclick="checkSiteCSV()">Generate</button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="row">
-                            <h6>Description:</h6>
-                        </div>
-                        <div class="row">
-                            <p id="description">Please enter asset number to get asset description</p>
-                        </div>
-                        <div class="row">
-                            <h6>Failure Class Description:</h6>
-                        </div>
-                        <div class="row">
-                            <p id="failure-description">Please enter asset number to get the asset's failure class
-                                description</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-">
-                <video id="dna-render" width="164" height="200" playsinline autoplay muted loop>
-                    <source src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
-                        type="video/mp4" />
-                    Your browser does not support this video</video>
-            </div>
-
         </div>
+
         <div class="row">
             <h4>Asset & Failure Classes Report Links</h4>
             <div class="table-responsive text-nowrap">
