@@ -3,6 +3,8 @@
 # After all content is loaded, the body tag can be copied from 
 # the Element tab in Chrome Dev Console into the exported_html.html file
 # All data will be outputed into a csv file named [YYYY-MM-DD]_KPI.csv
+# This is NOT intended to be a user friendly application
+# scrapping html elements like this is rather fragil, generated data should be reviewed 
 
 
 from bs4 import BeautifulSoup

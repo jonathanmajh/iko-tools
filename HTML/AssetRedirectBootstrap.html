@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-danger">
+    <nav class="navbar navbar-expand-md navbar-light bg-white navbar-border">
         <a class="navbar-brand" href="http://connect.na.local/Pages/Connect.aspx"><img
                 src="/support/Reliability/ReliabilityShared/Pages/Assets/IKO_Logo-nobg.png" alt="IKO" height=50px /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
@@ -60,7 +60,7 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid" style="padding-top: 10px;">
+    <div class="container-fluid" style="padding-top: 10px; padding-left: 2em; padding-right: 2em;">
         <div class="row justify-content-between">
             <div class="col-" style="padding-right: 20px;">
                 <h1><strong>D</strong>ocument <br><strong>N</strong>avigation <br><strong>A</strong>ccelerator </h1>
@@ -115,18 +115,27 @@
                         <div class="row">
                             <p id="description">Please enter asset number to get asset description</p>
                         </div>
+                        <div class="row">
+                            <h6>Failure Class Description:</h6>
+                        </div>
+                        <div class="row">
+                            <p id="failure-description">Please enter asset number to get the asset's failure class
+                                description</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="col-">
                 <video id="dna-render" width="164" height="200" playsinline autoplay muted loop>
-                    <source src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4" type="video/mp4" />
+                    <source src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
+                        type="video/mp4" />
                     Your browser does not support this video</video>
             </div>
 
         </div>
         <div class="row">
+            <h4>Asset & Failure Classes Report Links</h4>
             <div class="table-responsive text-nowrap">
                 <table class="table">
                     <thead>
@@ -153,8 +162,51 @@
             </div>
         </div>
         <div class="row">
-            <p>Looking for Navigation links? They have moved to the top of the page, check the 3 lines menu on mobile
-            </p>
+            <h4>Navigation links</h4>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <tbody id='dynamic-table-body'>
+                        <tr>
+                            <td><a class="btn btn-primary btn-light-gray"
+                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
+                            </td>
+                            <td>
+                                <h4><i class="fa fa-youtube-play"></i> Technical Training Videos (In Developement)</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="btn btn-primary btn-light-gray" hidden href="#"></a></td>
+                            <td>
+                                <h4><i class="fa fa-chain"></i> Lockout and Tagout (In Developement)</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="btn btn-primary btn-light-gray"
+                                    href="http://operations.connect.na.local/support/Reliability/SitePages/Home.aspx">Home</a>
+                            </td>
+                            <td>
+                                <h4><i class="fa fa-gears"></i> Reliability Sharepoint Homepage</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="btn btn-primary btn-light-gray"
+                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/DNASitemap.aspx?mobile=0">Map</a>
+                            </td>
+                            <td>
+                                <h4><i class="fa fa-map"></i> DNA Site Map</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="btn btn-primary btn-light-gray"
+                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx/?mobile=0">Finder</a>
+                            </td>
+                            <td>
+                                <h4><i class="fa fa-search"></i> DNA Asset Finder</h4>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -165,12 +217,15 @@
 </html>
 
 <script type="application/javascript">
+    "use strict";
     var loadedCSV = "";
     var failureClassDataSheet;
+    var failureClassNameSheet;
     var siteCVSReadIn;
     var failureCode = "N/A";
     var assetN;
     var siteID;
+    var reliabilityAlerts;
     var site_names = {
         "GE": "GJ:%20Ashcroft",
         "GR": "GR:%20BramCal",
@@ -238,29 +293,39 @@
         var desc = "No description available";
 
         //get asset list using site id
-        url = "/support/Reliability/ReliabilityShared/Pages/Assets/" + siteID + ".csv";
+        var url = "/support/Reliability/ReliabilityShared/Pages/Assets/" + siteID + ".csv";
         readCSV(url, genLinks);
 
     }
     function genLinks(data) {
         console.log("start processing data");
         siteCVSReadIn = data;
-        var description = "No Description Found For This Asset"
+        var description = "No Description Found For This Asset";
         var j = siteCVSReadIn.length;
-        for (i = 0; i < j - 1; i++) {
+        for (var i = 0; i < j - 1; i++) {
             if (siteCVSReadIn[i][0] == assetN) {
                 description = siteCVSReadIn[i][1];
                 i = j;
             } //consider adding asset location links ie replace 'Asset Finder' in nav bar with this
         }
         document.getElementById("description").textContent = description
-        //get failure code
+        //get failure class
         var j = failureClassDataSheet.length;
-        for (i = 0; i < j - 1; i++) {
+        for (var i = 0; i < j - 1; i++) {
             if (assetN == failureClassDataSheet[i][0] && siteID == failureClassDataSheet[i][2]) {
                 failureCode = failureClassDataSheet[i][1];
             };
         }
+        //get failure class description
+        var failureClassDescription = "No Failure Class Found for This Asset";
+        var j = failureClassNameSheet.length;
+        for (var i = 0; i < j - 1; i++) {
+            if (failureCode == failureClassNameSheet[i][0]) {
+                failureClassDescription = failureClassNameSheet[i][1];
+            };
+        }
+        document.getElementById("failure-description").textContent = failureClassDescription
+
         var urls = [
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=1",
@@ -308,15 +373,16 @@
             ["fa fa-check-square-o", " PMs For The Asset (In Progress)"],
             ["fa fa-bullhorn", " Work Orders (In Progress)"],
             ["fa fa-hourglass-2", " Downtime Report with MTBF (In Progress)"],
-            ["fa fa-bell-o", " Reliability Alerts"],
+            ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
         ]
         var parent = document.getElementById("dynamic-table-body");
         parent.textContent = ''; //remove placeholder or old data
-        for (i = 0; i < 7; i++) {
+        for (var i = 0; i < 7; i++) {
             var row = document.createElement("tr");
-            row.setAttribute("id", "dynamic-row-" + (i + 1));
-            for (j = 0; j < 5; j++) {
+            row.setAttribute("id", "dynamic-row-".concat(i));
+            for (var j = 0; j < 5; j++) {
                 var cellTD = document.createElement("td");
+                cellTD.setAttribute("id", "cellR".concat(i, "C", j));
                 var button = document.createElement("a");
                 if (j == 4) {
                     var button = document.createElement("h4");
@@ -339,7 +405,22 @@
             }
             parent.appendChild(row);
         }
-        //generate table links
+        //disable buttons as required
+        var checkForValues = [siteID.concat("_", assetN), siteID.concat("_", failureCode), assetN, failureCode];
+        for (var i = 0; i < 4; i++) {
+            var found = false;
+            var k = reliabilityAlerts[i].length;
+            for (j = 0; j < k; j++) {
+                if (reliabilityAlerts[i][j] == checkForValues[i]) {
+                    found = true;
+                    break //if value is found no need to disable button, so go check next value
+                }
+            }
+            if (!found) {
+                const div = document.getElementById("cellR6C".concat(i)).firstElementChild
+                div.classList.add("disabled")
+            }
+        }
     }
 
 
@@ -361,14 +442,27 @@
         }
     }
 
+    function getFailureCodeNames(data) {
+        failureClassNameSheet = data;
+    }
+
+    function getReliabilityAlerts(data) {
+        reliabilityAlerts = data;
+    }
+
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
         console.log("finished loading")
         var paraURL = window.location.search
 
-        var url = "/support/Reliability/ReliabilityShared/Pages/Assets/FailureClasses.csv";//reads in failure classes as soon as program starts
+        var url = "/support/Reliability/ReliabilityShared/Pages/Assets/FailureClassesDescriptions.csv";
+        readCSV(url, getFailureCodeNames);
 
+        url = "/support/Reliability/ReliabilityShared/Pages/Assets/FailureClasses.csv";//reads in failure classes as soon as program starts
         readCSV(url, startGenLinks);
+
+        url = "/support/Reliability/ReliabilityShared/Pages/Assets/ReliabilityAlerts.csv";
+        readCSV(url, getReliabilityAlerts);
 
         if (paraURL.indexOf("cheese") != -1) {
             var cheese = paraURL.split('=')[1]; //get siteID
@@ -413,5 +507,14 @@
 
     .nav-iko :hover {
         background-color: #f0a1a1;
+    }
+
+    .navbar-border {
+        border-bottom: 4px solid black;
+    }
+
+    a.btn.disabled {
+        text-decoration-line: line-through;
+        background-color: #fc2c55;
     }
 </style>
