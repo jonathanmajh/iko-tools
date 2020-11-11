@@ -347,7 +347,7 @@
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
-                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Asset_x0023_&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
+                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=0",
@@ -365,7 +365,7 @@
                 "",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
-                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Asset_x0023_&FilterValue1=" + failureCode,
+                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode,
             ],
         ]
         var cellFormat = ["btn-light-gray", "btn-light-yellow", "btn-baby-blue", "btn-light-green"]
