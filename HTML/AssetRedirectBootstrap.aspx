@@ -60,156 +60,157 @@
             </ul>
         </div>
     </nav>
-    <div class="container-fluid" style="padding-top: 10px; padding-left: 2em; padding-right: 2em;">
+    <div class="container-fluid">
         <div class="row">
-            <div class="table-responsive text-nowrap">
+            <div class="table-responsive  text-nowrap">
                 <table class="table">
                     <tbody>
                         <tr>
-                            <td>
-                                <h1><strong>D</strong>ocument <br><strong>N</strong>avigation
-                                    <br><strong>A</strong>ccelerator</h1>
-                            </td>
-                            <td>
-                                <div class="row">
-                                    <h6>Site ID:</h6>
-                                </div>
-                                <div class="row">
-                                    <select id="siteName">
-                                        <option value="RAM">RAM: Alconbury</option>
-                                        <option value="CAM">CAM: Appley Bridge</option>
-                                        <option value="GE">GE: Ashcroft</option>
-                                        <option value="GR">GR: BramCal</option>
-                                        <option value="BA">BA: Calgary</option>
-                                        <option value="GJ">GJ: CRC Toronto</option>
-                                        <option value="BL">BL: Hagerstown </option>
-                                        <option value="GH">GH: Hawkesbury</option>
-                                        <option value="GV">GV: Hillsboro (Southwest)</option>
-                                        <option value="GK">GK: IG Brampton</option>
-                                        <option value="CA">CA: Kankakee</option>
-                                        <option value="GI">GI: Madoc </option>
-                                        <option value="PBM">PBM: Senica/Sloviakia</option>
-                                        <option value="GC">GC: Sumas</option>
-                                        <option value="GS">GS: Sylacauga</option>
-                                        <option value="GA">GA: Wilmington</option>
-                                    </select>
-                                </div>
-                                <div class="row" style="padding-top: 15px;">
-                                    <h6>Failure Class Description:</h6>
-                                </div>
-                                <div class="row">
-                                    <p id="failure-description">Please enter asset number to get the asset's failure
-                                        class
-                                        description</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="row">
-                                    <h6>Asset Number:</h6>
-                                </div>
-                                <div class="row">
-                                    <div id="AssetNum"><input type="text" id="assetNum" oninput="buttonEnable()"></div>
-                                </div>
-                                <div class="row" style="padding-top: 10px;">
-                                    <h6>Asset Description:</h6>
-                                </div>
-                                <div class="row">
-                                    <p id="description">Please enter asset number to get asset description</p>
-                                </div>
-                            </td>
-                            <td style="padding-top: 40px;">
-                                <button id="submitNum" disabled=true onclick="checkSiteCSV()">Generate</button>
-                            </td>
-                            <td>
-                                <video id="dna-render" width="164" height="200" playsinline autoplay muted loop>
-                                    <source src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
-                                        type="video/mp4" />
-                                    Your browser does not support this video</video>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="row">
-            <h4>Asset & Failure Classes Report Links</h4>
-            <div class="table-responsive text-nowrap">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Asset<br />(Site Specific)</th>
-                            <th scope="col">Failure Class<br />(Site Specific)</th>
-                            <th scope="col">Asset<br />(All Sites)</th>
-                            <th scope="col">Failure Class<br />(All Sites)</th>
-                            <th scope="col">Description</th>
-                        </tr>
-                    </thead>
-                    <tbody id='dynamic-table-body'>
-                        <tr id="placeholder">
-                            <td><a class="btn btn-primary btn-light-gray">Please Enter</a></td>
-                            <td><a class="btn btn-primary btn-light-yellow">Asset ID</a></td>
-                            <td><a class="btn btn-primary btn-baby-blue">And Select </a></td>
-                            <td><a class="btn btn-primary btn-light-green">A Site</a></td>
-                            <td>
-                                <h4><i class="fa fa-ban"></i> Placeholder Text</h4>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row">
-            <h4>Navigation links</h4>
-            <div class="table-responsive text-nowrap">
-                <table class="table">
-                    <tbody id='dynamic-table-body'>
-                        <tr>
-                            <td><a class="btn btn-primary btn-light-gray"
-                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
-                            </td>
-                            <td>
-                                <h4><i class="fa fa-youtube-play"></i> Technical Training Videos (In Developement)</h4>
-                            </td>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h1><strong>D</strong>ocument <br><strong>N</strong>avigation
+                                                <br><strong>A</strong>ccelerator</h1>
+                                        </td>
+                                        <td >
+                                            <div class="row">
+                                                <h6>Site ID:</h6>
+                                            </div>
+                                            <div class="row">
+                                                <select id="siteName">
+                                                    <option value="RAM">RAM: Alconbury</option>
+                                                    <option value="CAM">CAM: Appley Bridge</option>
+                                                    <option value="GE">GE: Ashcroft</option>
+                                                    <option value="GR">GR: BramCal</option>
+                                                    <option value="BA">BA: Calgary</option>
+                                                    <option value="GJ">GJ: CRC Toronto</option>
+                                                    <option value="BL">BL: Hagerstown </option>
+                                                    <option value="GH">GH: Hawkesbury</option>
+                                                    <option value="GV">GV: Hillsboro (Southwest)</option>
+                                                    <option value="GK">GK: IG Brampton</option>
+                                                    <option value="CA">CA: Kankakee</option>
+                                                    <option value="GI">GI: Madoc </option>
+                                                    <option value="PBM">PBM: Senica/Sloviakia</option>
+                                                    <option value="GC">GC: Sumas</option>
+                                                    <option value="GS">GS: Sylacauga</option>
+                                                    <option value="GA">GA: Wilmington</option>
+                                                </select>
+                                            </div>
+                                            <div class="row" style="padding-top: 15px;">
+                                                <h6>Failure Class Description:</h6>
+                                            </div>
+                                            <div class="row text-wrap width-250">
+                                                <p id="failure-description">Please enter asset number</p>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="row">
+                                                <h6>Asset Number:</h6>
+                                            </div>
+                                            <div class="row">
+                                                <div id="AssetNum"><input type="text" id="assetNum"
+                                                        oninput="buttonEnable()"></div>
+                                            </div>
+                                            <div class="row" style="padding-top: 10px;">
+                                                <h6>Asset Description:</h6>
+                                            </div>
+                                            <div class="row text-wrap">
+                                                <p id="description">Please enter asset number</p>
+                                            </div>
+                                        </td>
+                                        <td style="padding-top: 40px;">
+                                            <button id="submitNum" disabled=true
+                                                onclick="checkSiteCSV()">Generate</button>
+                                        </td>
+                                        <td>
+                                            <video id="dna-render" height="200" playsinline autoplay muted
+                                                loop>
+                                                <source
+                                                    src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
+                                                    type="video/mp4" />
+                                                Your browser does not support this video</video>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </tr>
                         <tr>
-                            <td><a class="btn btn-primary btn-light-gray" hidden href="#"></a></td>
-                            <td>
-                                <h4><i class="fa fa-chain"></i> Lockout and Tagout (In Developement)</h4>
-                            </td>
+                            <h4>Asset & Failure Classes Report Links</h4>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Asset<br />(Site Specific)</th>
+                                        <th scope="col">Failure Class<br />(Site Specific)</th>
+                                        <th scope="col">Asset<br />(All Sites)</th>
+                                        <th scope="col">Failure Class<br />(All Sites)</th>
+                                        <th scope="col">Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody id='dynamic-table-body'>
+                                    <tr id="placeholder">
+                                        <td><a class="btn btn-primary btn-light-gray">Please Enter</a></td>
+                                        <td><a class="btn btn-primary btn-light-yellow">Asset ID</a></td>
+                                        <td><a class="btn btn-primary btn-baby-blue">And Select </a></td>
+                                        <td><a class="btn btn-primary btn-light-green">A Site</a></td>
+                                        <td>
+                                            <h4><i class="fa fa-ban"></i> Placeholder Text</h4>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </tr>
                         <tr>
-                            <td><a class="btn btn-primary btn-light-gray"
-                                    href="http://operations.connect.na.local/support/Reliability/SitePages/Home.aspx">Home</a>
-                            </td>
-                            <td>
-                                <h4><i class="fa fa-gears"></i> Reliability Sharepoint Homepage</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a class="btn btn-primary btn-light-gray"
-                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/DNASitemap.aspx?mobile=0">Map</a>
-                            </td>
-                            <td>
-                                <h4><i class="fa fa-map"></i> DNA Site Map</h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><a class="btn btn-primary btn-light-gray"
-                                    href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx/?mobile=0">Finder</a>
-                            </td>
-                            <td>
-                                <h4><i class="fa fa-search"></i> DNA Asset Finder</h4>
-                            </td>
+                            <h4>Navigation links</h4>
+                            <table class="table">
+                                <tbody id='dynamic-table-body'>
+                                    <tr>
+                                        <td><a class="btn btn-primary btn-light-gray"
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
+                                        </td>
+                                        <td>
+                                            <h4><i class="fa fa-youtube-play"></i> Technical Training Videos (In
+                                                Developement)</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="btn btn-primary btn-light-gray" hidden href="#"></a></td>
+                                        <td>
+                                            <h4><i class="fa fa-chain"></i> Lockout and Tagout (In Developement)</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="btn btn-primary btn-light-gray"
+                                                href="http://operations.connect.na.local/support/Reliability/SitePages/Home.aspx">Home</a>
+                                        </td>
+                                        <td>
+                                            <h4><i class="fa fa-gears"></i> Reliability Sharepoint Homepage</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="btn btn-primary btn-light-gray"
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/DNASitemap.aspx?mobile=0">Map</a>
+                                        </td>
+                                        <td>
+                                            <h4><i class="fa fa-map"></i> DNA Site Map</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a class="btn btn-primary btn-light-gray"
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx/?mobile=0">Finder</a>
+                                        </td>
+                                        <td>
+                                            <h4><i class="fa fa-search"></i> DNA Asset Finder</h4>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
-
-
-
 </body>
 
 </html>
@@ -514,5 +515,9 @@
     a.btn.disabled {
         text-decoration-line: line-through;
         background-color: #fc2c55;
+    }
+
+    .width-250 {
+        min-width: 250px;
     }
 </style>
