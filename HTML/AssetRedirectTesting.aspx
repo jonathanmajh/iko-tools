@@ -3,6 +3,8 @@
 
 <head>
     <!-- Required meta tags -->
+    <!-- Remember to refer to SOP before working on file -->
+    <!-- P:\MRO Items\CORPORATE RELIABILITY ENGINEERING\Co-op Files\CO-OP TOOLS AND PROGRAMS\Asset Redirect - DNA Enhanced Page\AssetRedirectSOP.docx -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -342,7 +344,7 @@
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
-                "",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + siteID + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
@@ -360,7 +362,7 @@
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=0",
-                "",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + "&paramFailureClass=" + failureCode,
                 "",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
