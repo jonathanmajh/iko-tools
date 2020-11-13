@@ -94,68 +94,11 @@
                 </td>
             </tr>
 
-
-            <!--               <tr>
-                <td id="col1">
-                    <p>Failure Component: </p>
-                </td>
-                <td id="col2">
-                    <select class="js-tags" id="failureComponentList" style="width: 90%" onchange="ChangeFailureComponent()">
-                        <option value="selectFailureComponent">Select a Failure Component:</option>
-                    </select>
-                </td>
-            </tr>
-
-
-            <tr>
-                <td id="col1">
-                    <p>Root Cause: </p>
-                </td>
-                <td id="col2">
-                    <select class="js-tags" id="rootCauseList" style="width: 90%" onchange="ChangeRootCause()">
-                        <option value="selectRootCause">Select a Root Cause:</option>
-                    </select>
-                </td>
-            </tr>
-
-            <tr>
-                <td id="col1">
-                    <p>Symptom: </p>
-                </td>
-                <td id="col2">
-                    <select class="js-tags" id="symptomList" style="width: 90%" onchange="ChangeSymptom()">
-                        <option value="selectSymptom">Select a symptom:</option>
-                    </select>
-                </td>
-            </tr> -->
-
             <tr>
                 <td id="col3">
                     <button id="submitButt" onclick="getSymptomDatabase()">Submit</button>
                 </td>
             </tr>
-
-            <!--           <tr>
-                            <td id="col1">
-                                <p>Failure Mode: </p>
-                            </td>
-                            <td id="col2">
-                                <select class="js-tags" id="failureModeList" style="width: 90%" onchange="ChangeFailureMode()">
-                                    <option value="selectFailureMode">Select a failure mode:</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="col1">
-                                <p>Cause Code: </p>
-                            </td>
-                            <td id="col2">
-                                <select class="js-tags" id="causeCodeList" style="width: 90%">
-                                    <option value="selectCauseCode">Select a cause code:</option>
-                                </select>
-                            </td>
-                        </tr>
-            -->
 
         </table>
         <font size="3">
@@ -485,23 +428,6 @@
     //console.log(tempSymptomList.indexOf("CTL jams"))
     }
 
-    /*function ChangeFailureComponent() {
-        failureComponent = document.getElementById("failureComponentList").value;
-        console.log("the selected failure component is: " + failureComponent);
-        mode = 2;
-        readCSV(urlSymptomDatabase, getSymptomLists);
-    }
-
-    function ChangeRootCause() {
-        rootCause = document.getElementById("rootCauseList").value;
-        console.log("the selected root cause is: " + rootCause);
-        mode = 3;
-    }
-    function ChangeSymptom() {
-        symptom = document.getElementById("symptomList").value;
-        console.log("the selected symptom: " + symptom);
-        mode = 4;
-    }*/
 
     function getSymptomDatabase() {
         //1. call the symptom database csv file
@@ -642,111 +568,6 @@
                 }
         }
     }
-
-    //function getSymptomList(data) {
-    //    // 1. to import data and define dimension
-    //    var lastSymptom = null;
-    //    var length = data.length;
-
-    //    // 2. to create object in session
-    //    var symptomSelect = document.getElementById("symptomList");
-
-    //    // 3. run loop, if ( site column == site && asset column == asset), include non repeating symptoms into the list
-    //    for (var i = 1; i < length; i++) {
-    //        if (data[i][colSite] == siteID && data[i][colAssetNumber] == assetID) {
-
-    //            // 4. if(symptom is not in the symptom list), add symptom in symptom list
-    //            if (data[i][colSymptom] != lastSymptom) {
-    //                var newOption = document.createElement("option");
-    //                newOption.text = data[i][colSymptom];
-    //                newOption.value = data[i][colSymptom];
-
-    //                symptomSelect.appendChild(newOption);
-    //                lastSymptom = data[i][colSymptom];
-    //            }
-    //        }
-    //    }
-    //}
-
-    //function ChangeSymptom() {
-    //    //1. to reset all following options (failureMode, causeCode)
-    //    clearList('causeCodeList');
-    //    clearList('failureModeList');
-
-        // 2. to save the current symptom as symptom
-        //symptom = document.getElementById("symptomList").value;
-        //console.log("the selected symptom: " + symptom);
-
-        // 3. call readCSV to get file and prepare for the asset list
-        //readCSV(getFailureModeList);
-    //}
-
-    //function getFailureModeList(data) {
-    //    // 1. to import data and define dimension
-    //    var lastFailureMode = null;
-    //    var length = data.length;
-
-    //    // 2. to create object in session
-    //    var failureModeSelect = document.getElementById("failureModeList");
-
-    //    /* 3. run loop, if (site column == site && asset column == asset && symptom column = symptom),
-    //        include non repeating failure modes into the list*/
-    //    for (var i = 1; i < length; i++) {
-    //        if (data[i][colSite] == siteID && data[i][colAssetNumber] == assetID && data[i][colSymptom] == symptom) {
-
-    //            // 4. if(failureMode is not in the failureMode list), add failureMode in failureMode list
-    //            if (data[i][colFailureMode] != lastFailureMode) {
-    //                var newOption = document.createElement("option");
-    //                newOption.text = data[i][colFailureMode];
-    //                newOption.value = data[i][colFailureMode];
-
-    //                failureModeSelect.appendChild(newOption);
-    //                lastFailureMode = data[i][colFailureMode];
-    //            }
-    //        }
-    //    }
-    //}
-
-    //function ChangeFailureMode() {
-    //    //1. to reset all following options (causeCode)
-    //    clearList('causeCodeList');
-
-    //    // 2. to save the current symptom as symptom
-    //    failureMode = document.getElementById("failureModeList").value;
-    //    console.log("the selected failure mode: " + failureMode);
-
-    //    // 3. call readCSV to get file and prepare for the asset list
-    //    readCSV(getCauseCodeList);
-    //}
-
-    //function getCauseCodeList(data) {
-    //    // 1. to import data and define dimension
-    //    var lastCauseCode = null;
-    //    var length = data.length;
-
-    //    // 2. to create object in session
-    //    var causeCodeSelect = document.getElementById("causeCodeList");
-
-    //    /* 3. run loop, if (site column == site && asset column == asset && symptom column = symptom
-    //        && failure mode column = failureMode), include non repeating failure modes into the list
-    //        Note: This is temporary, later there will be a separate excel file for failure modes and cause codes
-    //    */
-    //    for (var i = 1; i < length; i++) {
-    //        if (data[i][colSite] == siteID && data[i][colAssetNumber] == assetID && data[i][colSymptom] == symptom
-    //            && data[i][colFailureMode] == failureMode) {
-
-    //            // 4. if(causeCode is not in the causeCode list), add causeCode in causeCode list
-    //            if (data[i][colCauseCode] != lastCauseCode) {
-    //                var newOption = document.createElement("option");
-    //                newOption.text = data[i][colCauseCode];
-    //                newOption.value = data[i][colCauseCode];
-
-    //                causeCodeSelect.appendChild(newOption);
-    //                lastCauseCode = data[i][colCauseCode];
-    //            }
-    //        }
-    //    }
-    //}
 
     function clearList(dropList) {
         //removes options from dropdown list provided, except first value (please select line) unless it is failure mode list

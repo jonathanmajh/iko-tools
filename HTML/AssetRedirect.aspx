@@ -55,10 +55,11 @@
                         href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Technical
                         Training Videos</a>
                 </li>
-                <!-- <li class="nav-item nav-iko active">
-                    <a id="plant-layout-link" class="nav-link disabled" href="#" aria-disabled="true">[Plant] Layout</a>
-                    pain in the butt since plant layouts dont follow a naming scheme
-                </li> -->
+            </ul>
+            <ul class="navbar-nav  justify-content-start">
+                <li class="nav-item nav-iko">
+                    <a class="nav-link" href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectTesting.html?cheese=GH=&cheeseNum=C0641=&mobile=0"><i class="fa fa-flask"></i></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -257,8 +258,13 @@
     function checkValid() {
         var patt = new RegExp("[A-Z][0-9]{4}"); //check if input is right format
         var str = assetNum.value.toUpperCase();
+        console.log(str)
+        if (str=="TEST VERSION") {
+            var paraURL = window.location.href
+            window.open(paraURL.replace(".aspx/", "Testing.html"));
+        }
         var result = patt.test(str);
-        if (result == true && str.length == 5) {
+        if (result == true) {
             assetNum.value = str;
             return true;
         } else {
