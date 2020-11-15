@@ -266,7 +266,6 @@
     }
 
     window.onerror = function (msg, url, lineNo, columnNo, error) {
-        console.log('error has occurred')
         var string = msg.toLowerCase();
         var substring = "script error";
         if (string.indexOf(substring) > -1){
@@ -527,15 +526,15 @@
     }
 
     function readCSV(url, callback) { //reads csv into an array using papaparse libary
-        console.log("Running readCSV" + url);
+        console.log("Running readCSV: " + url);
         Papa.parse(url, {
             download: true,
             complete: function (results) {
-                console.log("Finished Parsing Array");
+                console.log("Finished Parsing Array: " + url);
                 callback(results.data.slice(0))
             },
             error: function (err, file, inputElem, reason) {
-                console.log("Error parsing Array");
+                console.log("Error parsing Array: " + url);
                 console.log(err);
                 console.log(reason);
             }
@@ -553,6 +552,25 @@
     function getReliabilityAlerts(data) {
         reliabilityAlerts = data;
     }
+
+    function CheckLoading() {
+        if (typeof window.bootstrap == 'undefined') {
+            console.log("Bootstrap Has not been loaded");
+        } else {
+            console.log("Bootstrap Has been loaded");
+        }
+        if (typeof window.Papa == 'undefined') {
+            console.log("papaparse Has not been loaded");
+        }else {
+            console.log("papaparse Has been loaded");
+        }
+        if (typeof window.jQuery == 'undefined') {
+            console.log("Jquery Has not been loaded");
+        }else {
+            console.log("jquery Has been loaded");
+        }
+    }
+
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
@@ -578,6 +596,7 @@
             url_query.assetID = cheeseNum.toUpperCase();
         }
         ChangeSite();
+        CheckLoading();
     }, false);
 
 
