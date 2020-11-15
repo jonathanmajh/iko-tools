@@ -233,7 +233,7 @@
 
 <script type="application/javascript">
     "use strict";
-    console.log("Starting JS")
+    console.log("Starting JS");
     var currentAssetListSite = "N/A";
     var dataURL = "/support/Reliability/ReliabilityShared/Pages/Assets/";
     var maximoReportUrl = "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/";
@@ -263,15 +263,16 @@
         "GV": "GV:%20Southwest%20(Hillsboro)",
         "GC": "GC:%20Sumas",
         "GA": "GA:%20Wilmington",
-    }
+    };
 
     window.onerror = function (msg, url, lineNo, columnNo, error) {
         var string = msg.toLowerCase();
         var substring = "script error";
+        var message = '';
         if (string.indexOf(substring) > -1){
-            var message = msg + "|||" + 'Script Error: See Browser Console for Detail';
+            message = msg + "|||" + 'Script Error: See Browser Console for Detail';
         } else {
-            var message = [
+            message = [
             'Message: ' + msg,
             'URL: ' + url,
             'Line: ' + lineNo,
@@ -282,8 +283,6 @@
         document.getElementById('consoleLog').innerText += message + '\r\n';
         return false;
     };
-
-    document.getElementById('consoleLog').innerText += navigator.userAgent + '\r\n';
 
 
     function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -334,28 +333,28 @@
     }
 
     function checkData() {
-        console.log("Running checkData")
+        console.log("Running checkData");
         // while using a predefined asset list already makes sure only existing assets can be selected
         // this checking function is left here in case we need to open up custom user inputs (see 'tags' for select2)
         var patt = new RegExp("[A-Z][0-9]{4}"); //check if input is right format
-        var data = $('.select2-asset-id').select2('data')[0]
+        var data = $('.select2-asset-id').select2('data')[0];
         var userInput = data.id.toUpperCase();
-        console.log(userInput)
+        console.log(userInput);
         if (userInput == "TEST VERSION") {
-            var paraURL = window.location.href
+            var paraURL = window.location.href;
             window.open(paraURL.replace(".aspx/", "Testing.html"));
         }
         var result = patt.test(userInput);
         if (result == true) {
             assetNum.value = userInput;
-            genLinks(data)
+            genLinks(data);
         } else {
             return false; //TODO some kinda of error message
         }
     }
 
     function ChangeSite() {
-        console.log("Running ChangeSite")
+        console.log("Running ChangeSite");
         var siteID = document.getElementById("siteName").value;
         if (!(currentAssetListSite == siteID)) {
             var url = dataURL.concat(siteID, ".csv");
@@ -367,27 +366,27 @@
     }
 
     function PopulateAssetIds(csvData) {
-        console.log("Running PopulateAssetIds")
+        console.log("Running PopulateAssetIds");
         var j = csvData.length;
         var assetIds = [];
         var assetIdTracker = {};
         for (var i = 0; i < j; i++) {
             if (csvData[i][0] == url_query.assetID) {
-                url_query.assetDescription = csvData[i][0]
+                url_query.assetDescription = csvData[i][0];
             }
             if (!(csvData[i][0] in assetIdTracker)) {
                 assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1]) });
                 assetIdTracker[csvData[i][0]] = "";
             }
         }
-        $(".select2-asset-id").empty()
+        $(".select2-asset-id").empty();
         $(".select2-asset-id").select2({
             // create and set options for the asset id dropdown
             // tags: true, uncomment for custom inputs
             data: assetIds,
             templateSelection: formatDisplay, //uses formatDisplay function to only display id in input field
             // dropdownAutoWidth: true, //make the dropdown wider than the input field
-        })
+        });
         currentAssetListSite = document.getElementById("siteName").value;
         if (currentAssetListSite == url_query.siteID) {
             // check if selected site is the same as the one specified in the url
@@ -396,15 +395,15 @@
             $(".select2-asset-id").trigger('change');
             $(".select2-asset-id").trigger('select2:select');
         }
-        checkData()
+        checkData();
     }
 
     function formatDisplay(asset) {
-        return asset.id
+        return asset.id;
     }
 
     function genLinks(selected_data) {
-        console.log("Running genLinks")
+        console.log("Running genLinks");
         var description = selected_data.text;
         var assetN = selected_data.id;
         var siteID = document.getElementById("siteName").value;
@@ -416,17 +415,17 @@
         for (var i = 0; i < j - 1; i++) {
             if (assetN == failureClassDataSheet[i][0] && siteID == failureClassDataSheet[i][2]) {
                 failureCode = failureClassDataSheet[i][1];
-            };
+            }
         }
         //get failure class description
         var failureClassDescription = "No Failure Class Found for This Asset";
-        var j = failureClassNameSheet.length;
-        for (var i = 0; i < j - 1; i++) {
+        j = failureClassNameSheet.length;
+        for (i = 0; i < j - 1; i++) {
             if (failureCode == failureClassNameSheet[i][0]) {
                 failureClassDescription = failureClassNameSheet[i][1];
-            };
+            }
         }
-        document.getElementById("failure-description").textContent = failureClassDescription
+        document.getElementById("failure-description").textContent = failureClassDescription;
 
         var urls = [
             [
@@ -465,9 +464,9 @@
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode,
             ],
-        ]
-        var cellFormat = ["btn-light-gray", "btn-light-yellow", "btn-baby-blue", "btn-light-green"]
-        var cellText = [assetN + "(" + siteID + ")", failureCode + "(" + siteID + ")", assetN + "(All Sites)", failureCode + "(All Sites)"]
+        ];
+        var cellFormat = ["btn-light-gray", "btn-light-yellow", "btn-baby-blue", "btn-light-green"];
+        var cellText = [assetN + "(" + siteID + ")", failureCode + "(" + siteID + ")", assetN + "(All Sites)", failureCode + "(All Sites)"];
         var descriptions = [
             ["fa fa-th-list", " Symptom Database"],
             ["fa fa-file-text-o", " Spare Parts List"],
@@ -476,18 +475,18 @@
             ["fa fa-bullhorn", " Work Orders (In Progress)"],
             ["fa fa-hourglass-2", " Downtime Report with MTBF (In Progress)"],
             ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
-        ]
+        ];
         var parent = document.getElementById("dynamic-table-body");
         parent.textContent = ''; //remove placeholder or old data
-        for (var i = 0; i < 7; i++) {
+        for (i = 0; i < 7; i++) {
             var row = document.createElement("tr");
             row.setAttribute("id", "dynamic-row-".concat(i));
-            for (var j = 0; j < 5; j++) {
+            for (j = 0; j < 5; j++) {
                 var cellTD = document.createElement("td");
                 cellTD.setAttribute("id", "cellR".concat(i, "C", j));
                 var button = document.createElement("a");
                 if (j == 4) {
-                    var button = document.createElement("h4");
+                    button = document.createElement("h4");
                     var icon = document.createElement("i");
                     icon.setAttribute("class", descriptions[i][0]);
                     button.appendChild(icon);
@@ -509,18 +508,18 @@
         }
         //disable buttons as required
         var checkForValues = [siteID.concat("_", assetN), siteID.concat("_", failureCode), assetN, failureCode];
-        for (var i = 0; i < 4; i++) {
+        for (i = 0; i < 4; i++) {
             var found = false;
             var k = reliabilityAlerts[i].length;
             for (j = 0; j < k; j++) {
                 if (reliabilityAlerts[i][j] == checkForValues[i]) {
                     found = true;
-                    break //if value is found no need to disable button, so go check next value
+                    break; //if value is found no need to disable button, so go check next value
                 }
             }
             if (!found) {
-                const div = document.getElementById("cellR6C".concat(i)).firstElementChild
-                div.classList.add("disabled")
+                var div = document.getElementById("cellR6C".concat(i)).firstElementChild;
+                div.classList.add("disabled");
             }
         }
     }
@@ -531,7 +530,7 @@
             download: true,
             complete: function (results) {
                 console.log("Finished Parsing Array: " + url);
-                callback(results.data.slice(0))
+                callback(results.data.slice(0));
             },
             error: function (err, file, inputElem, reason) {
                 console.log("Error parsing Array: " + url);
@@ -574,8 +573,9 @@
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
-        console.log("Running Script after loading")
-        var paraURL = window.location.search
+        console.log("Running Script after loading");
+        document.getElementById('consoleLog').innerText += navigator.userAgent + '\r\n';
+        var paraURL = window.location.search;
 
         var url = dataURL.concat("FailureClassesDescriptions.csv");
         readCSV(url, getFailureCodeNames);
