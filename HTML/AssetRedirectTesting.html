@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
         type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"
         type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"
         type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
         type="text/javascript"></script>
 
     <title>IKO DNA Asset Redirect</title>
@@ -220,6 +220,12 @@
                 </table>
             </div>
         </div>
+        <div class="row">
+            <p id="consoleLog"></p>
+        </div>
+        <div class="row">
+            <p id="log"></p>
+        </div>
     </div>
 </body>
 
@@ -227,6 +233,7 @@
 
 <script type="application/javascript">
     "use strict";
+    console.log("Starting JS")
     var currentAssetListSite = "N/A";
     var dataURL = "/support/Reliability/ReliabilityShared/Pages/Assets/";
     var maximoReportUrl = "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/";
@@ -258,7 +265,77 @@
         "GA": "GA:%20Wilmington",
     }
 
+    window.onerror = function (msg, url, lineNo, columnNo, error) {
+        console.log('error has occurred')
+        var string = msg.toLowerCase();
+        var substring = "script error";
+        if (string.indexOf(substring) > -1){
+            var message = msg + "|||" + 'Script Error: See Browser Console for Detail';
+        } else {
+            var message = [
+            'Message: ' + msg,
+            'URL: ' + url,
+            'Line: ' + lineNo,
+            'Column: ' + columnNo,
+            'Error object: ' + JSON.stringify(error)
+            ].join(' - ');
+        }
+        document.getElementById('consoleLog').innerText += message + '\r\n';
+        return false;
+    };
+
+    document.getElementById('consoleLog').innerText += navigator.userAgent + '\r\n';
+
+
+    function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+    
+    rewireLoggingToElement(function () {
+        return document.getElementById("log");
+        }, true);
+
+        function rewireLoggingToElement(eleLocator, eleOverflowLocator, autoScroll) {
+        fixLoggingFunc('log');
+        fixLoggingFunc('debug');
+        fixLoggingFunc('warn');
+        fixLoggingFunc('error');
+        fixLoggingFunc('info');
+
+        function fixLoggingFunc(name) {
+            console['old' + name] = console[name];
+
+            console[name] = function () {
+            for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+                args[_key] = arguments[_key];
+            }
+
+            var output = produceOutput(name, args);
+            var eleLog = eleLocator();
+
+            if (autoScroll) {
+                var eleContainerLog = eleOverflowLocator();
+                var isScrolledToBottom = eleContainerLog.scrollHeight - eleContainerLog.clientHeight <= eleContainerLog.scrollTop + 1;
+                eleLog.innerHTML += output + "<br>";
+
+                if (isScrolledToBottom) {
+                eleContainerLog.scrollTop = eleContainerLog.scrollHeight - eleContainerLog.clientHeight;
+                }
+            } else {
+                eleLog.innerHTML += output + "<br>";
+            }
+
+            console['old' + name].apply(undefined, args);
+            };
+        }
+
+        function produceOutput(name, args) {
+            return args.reduce(function (output, arg) {
+            return output + "<span class=\"log-" + _typeof(arg) + " log-" + name + "\">" + (_typeof(arg) === "object" && (JSON || {}).stringify ? JSON.stringify(arg) : arg) + "</span>&nbsp;";
+            }, '');
+        }
+    }
+
     function checkData() {
+        console.log("Running checkData")
         // while using a predefined asset list already makes sure only existing assets can be selected
         // this checking function is left here in case we need to open up custom user inputs (see 'tags' for select2)
         var patt = new RegExp("[A-Z][0-9]{4}"); //check if input is right format
@@ -279,6 +356,7 @@
     }
 
     function ChangeSite() {
+        console.log("Running ChangeSite")
         var siteID = document.getElementById("siteName").value;
         if (!(currentAssetListSite == siteID)) {
             var url = dataURL.concat(siteID, ".csv");
@@ -290,6 +368,7 @@
     }
 
     function PopulateAssetIds(csvData) {
+        console.log("Running PopulateAssetIds")
         var j = csvData.length;
         var assetIds = [];
         var assetIdTracker = {};
@@ -326,7 +405,7 @@
     }
 
     function genLinks(selected_data) {
-        console.log("start processing data");
+        console.log("Running genLinks")
         var description = selected_data.text;
         var assetN = selected_data.id;
         var siteID = document.getElementById("siteName").value;
@@ -448,12 +527,17 @@
     }
 
     function readCSV(url, callback) { //reads csv into an array using papaparse libary
-        console.log("Start CSV");
+        console.log("Running readCSV" + url);
         Papa.parse(url, {
             download: true,
             complete: function (results) {
                 console.log("Finished Parsing Array");
                 callback(results.data.slice(0))
+            },
+            error: function (err, file, inputElem, reason) {
+                console.log("Error parsing Array");
+                console.log(err);
+                console.log(reason);
             }
         });
     }
@@ -472,7 +556,7 @@
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
-        console.log("finished loading")
+        console.log("Running Script after loading")
         var paraURL = window.location.search
 
         var url = dataURL.concat("FailureClassesDescriptions.csv");
@@ -495,6 +579,7 @@
         }
         ChangeSite();
     }, false);
+
 
 </script>
 
