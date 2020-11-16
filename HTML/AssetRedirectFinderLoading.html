@@ -59,10 +59,6 @@
                         href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Technical
                         Training Videos</a>
                 </li>
-                <li class="nav-item nav-iko active"></liclass>
-                    <a class="nav-link"
-                            href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help (SOP)</a>
-                </li>
             </ul>
             <ul class="navbar-nav  justify-content-start">
                 <li class="nav-item nav-iko">
@@ -120,7 +116,7 @@
                                                 <h6>Asset Number:</h6>
                                             </div>
                                             <div class="row">
-                                                <select id="assetNum" class="select2-asset-id"></select>
+                                                <select id="assetNum" class="select2-asset-id" style="width: 200px"></select>
                                             </div>
                                             <div class="row" style="padding-top: 10px;">
                                                 <h6>Asset Description:</h6>
@@ -177,14 +173,6 @@
                             <h4>Navigation links</h4>
                             <table class="table table-fit">
                                 <tbody id='navlinks-table-body'>
-                                    <tr>
-                                        <td><a class="btn btn-primary btn-light-gray"
-                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help</a>
-                                        </td>
-                                        <td>
-                                            <h4><i class="fa fa-question-circle"></i> Help (SOP)</h4>
-                                        </td>
-                                    </tr>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
                                                 href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
@@ -276,7 +264,14 @@
         "GC": "GC:%20Sumas",
         "GA": "GA:%20Wilmington",
     };
-// debugging ⬇⬇⬇⬇⬇⬇
+
+    $(".select2-asset-id").select2({
+            // create and set options for the asset id dropdown
+            // tags: true, uncomment for custom inputs
+            templateSelection: formatDisplay, //uses formatDisplay function to only display id in input field
+            dropdownAutoWidth: true, //make the dropdown wider than the input field
+        });
+
     window.onerror = function (msg, url, lineNo, columnNo, error) {
         var string = msg.toLowerCase();
         var substring = "script error";
@@ -343,7 +338,6 @@
             }, '');
         }
     }
-// debugging ⬆⬆⬆⬆⬆⬆
 
     function checkData() {
         console.log("Running checkData");
@@ -371,6 +365,7 @@
         var siteID = document.getElementById("siteName").value;
         if (!(currentAssetListSite == siteID)) {
             var url = dataURL.concat(siteID, ".csv");
+            $(".select2-asset-id").empty();
             readCSV(url, PopulateAssetIds);
         }
         else {
@@ -383,23 +378,22 @@
         var j = csvData.length;
         var assetIds = [];
         var assetIdTracker = {};
+        var select = document.getElementById("assetNum");
+        var fragment = document.createDocumentFragment();
         for (var i = 0; i < j; i++) {
             if (csvData[i][0] == url_query.assetID) {
                 url_query.assetDescription = csvData[i][0];
             }
             if (!(csvData[i][0] in assetIdTracker)) {
-                assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1]) });
+                var el = document.createElement("option");
+                el.textContent = csvData[i][0].concat(": ", csvData[i][1]);
+                el.value = csvData[i][0];
+                fragment.appendChild(el);
                 assetIdTracker[csvData[i][0]] = "";
             }
         }
-        $(".select2-asset-id").empty();
-        $(".select2-asset-id").select2({
-            // create and set options for the asset id dropdown
-            // tags: true, uncomment for custom inputs
-            data: assetIds,
-            templateSelection: formatDisplay, //uses formatDisplay function to only display id in input field
-            dropdownAutoWidth: true, //make the dropdown wider than the input field
-        });
+        select.appendChild(fragment);
+
         currentAssetListSite = document.getElementById("siteName").value;
         if (currentAssetListSite == url_query.siteID) {
             // check if selected site is the same as the one specified in the url
@@ -564,7 +558,7 @@
     function getReliabilityAlerts(data) {
         reliabilityAlerts = data;
     }
-// debugging ⬇⬇⬇⬇⬇⬇
+
     function CheckLoading() {
         if (typeof window.bootstrap == 'undefined') {
             console.log("Bootstrap Has not been loaded");
@@ -582,7 +576,7 @@
             console.log("jquery Has been loaded");
         }
     }
-// debugging ⬆⬆⬆⬆⬆⬆
+
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded

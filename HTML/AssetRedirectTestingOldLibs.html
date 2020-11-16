@@ -11,15 +11,17 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        type="text/javascript"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"
         type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"
         type="text/javascript"></script>
 
     <title>IKO DNA Asset Redirect</title>
@@ -58,10 +60,6 @@
                     <a class="nav-link"
                         href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Technical
                         Training Videos</a>
-                </li>
-                <li class="nav-item nav-iko active"></liclass>
-                    <a class="nav-link"
-                            href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help (SOP)</a>
                 </li>
             </ul>
             <ul class="navbar-nav  justify-content-start">
@@ -179,14 +177,6 @@
                                 <tbody id='navlinks-table-body'>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
-                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help</a>
-                                        </td>
-                                        <td>
-                                            <h4><i class="fa fa-question-circle"></i> Help (SOP)</h4>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a class="btn btn-primary btn-light-gray"
                                                 href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Videos</a>
                                         </td>
                                         <td>
@@ -276,7 +266,7 @@
         "GC": "GC:%20Sumas",
         "GA": "GA:%20Wilmington",
     };
-// debugging ⬇⬇⬇⬇⬇⬇
+
     window.onerror = function (msg, url, lineNo, columnNo, error) {
         var string = msg.toLowerCase();
         var substring = "script error";
@@ -343,7 +333,6 @@
             }, '');
         }
     }
-// debugging ⬆⬆⬆⬆⬆⬆
 
     function checkData() {
         console.log("Running checkData");
@@ -398,7 +387,7 @@
             // tags: true, uncomment for custom inputs
             data: assetIds,
             templateSelection: formatDisplay, //uses formatDisplay function to only display id in input field
-            dropdownAutoWidth: true, //make the dropdown wider than the input field
+            // dropdownAutoWidth: true, //make the dropdown wider than the input field
         });
         currentAssetListSite = document.getElementById("siteName").value;
         if (currentAssetListSite == url_query.siteID) {
@@ -564,7 +553,7 @@
     function getReliabilityAlerts(data) {
         reliabilityAlerts = data;
     }
-// debugging ⬇⬇⬇⬇⬇⬇
+
     function CheckLoading() {
         if (typeof window.bootstrap == 'undefined') {
             console.log("Bootstrap Has not been loaded");
@@ -582,7 +571,7 @@
             console.log("jquery Has been loaded");
         }
     }
-// debugging ⬆⬆⬆⬆⬆⬆
+
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
