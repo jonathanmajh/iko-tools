@@ -59,14 +59,18 @@
                         href="http://operations.connect.na.local/support/Reliability/ReliabilityPublished/TrainingMaterial/AssetVideos/Forms/AllItems.aspx">Technical
                         Training Videos</a>
                 </li>
-                <li class="nav-item nav-iko active"></liclass>
+                <li class="nav-item nav-iko active">
+                    </liclass>
                     <a class="nav-link"
-                            href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help (SOP)</a>
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help
+                        (SOP)</a>
                 </li>
             </ul>
             <ul class="navbar-nav  justify-content-start">
                 <li class="nav-item nav-iko">
-                    <a class="nav-link" href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectTesting.html?cheese=GH=&cheeseNum=C0641=&mobile=0"><i class="fa fa-flask"></i></a>
+                    <a class="nav-link"
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectTesting.html?cheese=GH=&cheeseNum=C0641=&mobile=0"><i
+                            class="fa fa-flask"></i></a>
                 </li>
             </ul>
         </div>
@@ -82,7 +86,7 @@
                                     <tr>
                                         <td>
                                             <h1 id="DNA"><strong>D</strong>ocument <br><strong>N</strong>avigation
-                                                <br><strong>A</strong>ccelerator<br>Testing</h1>
+                                                <br><strong>A</strong>ccelerator</h1>
                                         </td>
                                         <td>
                                             <div class="row">
@@ -133,11 +137,12 @@
                                             <button id="submitNum" onclick="checkData()">Generate</button>
                                         </td>
                                         <td style="position: relative; min-width: 295px;">
-                                            <video id="dna-render" playsinline autoplay muted loop>
+                                            <video id="dna-render" autoplay muted loop playsinline
+                                                poster="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA_Cover.jpg">
                                                 <source
                                                     src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
                                                     type="video/mp4" />
-                                                Your browser does not support this video</video>
+                                            </video>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -232,12 +237,6 @@
                 </table>
             </div>
         </div>
-        <div class="row">
-            <p id="consoleLog"></p>
-        </div>
-        <div class="row">
-            <p id="log"></p>
-        </div>
     </div>
 </body>
 
@@ -276,74 +275,7 @@
         "GC": "GC:%20Sumas",
         "GA": "GA:%20Wilmington",
     };
-// debugging ⬇⬇⬇⬇⬇⬇
-    window.onerror = function (msg, url, lineNo, columnNo, error) {
-        var string = msg.toLowerCase();
-        var substring = "script error";
-        var message = '';
-        if (string.indexOf(substring) > -1){
-            message = msg + "|||" + 'Script Error: See Browser Console for Detail';
-        } else {
-            message = [
-            'Message: ' + msg,
-            'URL: ' + url,
-            'Line: ' + lineNo,
-            'Column: ' + columnNo,
-            'Error object: ' + JSON.stringify(error)
-            ].join(' - ');
-        }
-        document.getElementById('consoleLog').innerText += message + '\r\n';
-        return false;
-    };
 
-
-    function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-    
-    rewireLoggingToElement(function () {
-        return document.getElementById("log");
-        }, true);
-
-        function rewireLoggingToElement(eleLocator, eleOverflowLocator, autoScroll) {
-        fixLoggingFunc('log');
-        fixLoggingFunc('debug');
-        fixLoggingFunc('warn');
-        fixLoggingFunc('error');
-        fixLoggingFunc('info');
-
-        function fixLoggingFunc(name) {
-            console['old' + name] = console[name];
-
-            console[name] = function () {
-            for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-                args[_key] = arguments[_key];
-            }
-
-            var output = produceOutput(name, args);
-            var eleLog = eleLocator();
-
-            if (autoScroll) {
-                var eleContainerLog = eleOverflowLocator();
-                var isScrolledToBottom = eleContainerLog.scrollHeight - eleContainerLog.clientHeight <= eleContainerLog.scrollTop + 1;
-                eleLog.innerHTML += output + "<br>";
-
-                if (isScrolledToBottom) {
-                eleContainerLog.scrollTop = eleContainerLog.scrollHeight - eleContainerLog.clientHeight;
-                }
-            } else {
-                eleLog.innerHTML += output + "<br>";
-            }
-
-            console['old' + name].apply(undefined, args);
-            };
-        }
-
-        function produceOutput(name, args) {
-            return args.reduce(function (output, arg) {
-            return output + "<span class=\"log-" + _typeof(arg) + " log-" + name + "\">" + (_typeof(arg) === "object" && (JSON || {}).stringify ? JSON.stringify(arg) : arg) + "</span>&nbsp;";
-            }, '');
-        }
-    }
-// debugging ⬆⬆⬆⬆⬆⬆
 
     function checkData() {
         console.log("Running checkData");
@@ -564,30 +496,10 @@
     function getReliabilityAlerts(data) {
         reliabilityAlerts = data;
     }
-// debugging ⬇⬇⬇⬇⬇⬇
-    function CheckLoading() {
-        if (typeof window.bootstrap == 'undefined') {
-            console.log("Bootstrap Has not been loaded");
-        } else {
-            console.log("Bootstrap Has been loaded");
-        }
-        if (typeof window.Papa == 'undefined') {
-            console.log("papaparse Has not been loaded");
-        }else {
-            console.log("papaparse Has been loaded");
-        }
-        if (typeof window.jQuery == 'undefined') {
-            console.log("Jquery Has not been loaded");
-        }else {
-            console.log("jquery Has been loaded");
-        }
-    }
-// debugging ⬆⬆⬆⬆⬆⬆
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
         //this runs as soon as the site has been loaded
         console.log("Running Script after loading");
-        document.getElementById('consoleLog').innerText += navigator.userAgent + '\r\n';
         var paraURL = window.location.search;
 
         var url = dataURL.concat("FailureClassesDescriptions.csv");
@@ -609,7 +521,6 @@
             url_query.assetID = cheeseNum.toUpperCase();
         }
         ChangeSite();
-        CheckLoading();
     }, false);
 
 
@@ -667,11 +578,7 @@
         position: absolute;
         right: 0px;
         top: 0px;
-        height: 360px;
-        /* using absolute position makes the element 
-        float above other content without moving them
-        Note: a relative element must be a parent of 
-        the absolute element */
+        height: 350px;
     }
 
     tbody#navlinks-table-body tr td a {

@@ -14,7 +14,7 @@ from datetime import date
 html = 'exported_html.html'
 # --------------------------------
 # variables to change
-month = 10
+month = 11
 year = 2020
 # variables to change
 # --------------------------------
@@ -30,11 +30,11 @@ sites = ['kankakee', 'sumas', 'calgary', 'sylacauga', 'hillsboro', 'hawkesbury',
 kpis =  [
     ['MLH V KLH', ['MonthYear', 'Kronos Hours', 'Maximo Hours', 'MaximoVsKronosPercentage'], ['MM-YYYY']],
     ['LHC-LLCA', ['MonthYear', 'Labor Hours Charged to Lowest Level Child Assets', 'Total Labor Hours', "% of Labor Hours Charged To Lowest Level Child Assets"], ['MM-YYYY']],
-    ['WONCP', ['MonthYear', 'Percentage'], ['MM-YYYY']],
+    ['WONCP', ['MonthYear', 'Percentage'], ['PERCENT', 'MM-YYYY']],
     ['JPC', ['MonthYear', 'JobPlan Count'], ['MM-YYYY']],
     ['PMCOTT', ['PMType', 'MonthYear', 'OnTimeCount', 'Percentage'], ['MM-YYYY', 'All']],
     ['MROPRLM', ['Year', 'Month', 'MaximoPRLine', 'Mapics/JDE PRLine', '% PR Lines from Maximo'], ['YYYY', 'mm']],
-    ['SWO', ['MonthYear', 'ActualNonSchedHours', 'ActualSchedHours', 'Percentage'], ['MM-YYYY']],
+    ['SWO', ['MonthYear', 'ActualNonSchedHours', 'ActualSchedHours', 'Percentage'], ['PERCENT', 'MM-YYYY']],
     ['ASPCWC', ['MonthYear', 'PriorityGroup', 'SparePartsCount'], ['SUM', 'MM-YYYY']],
     ['CC', ['MonthYear', 'No of Cycle Counts'], ['MM-YYYY']],
     ['WOFW', ['MonthYear', 'All Work Orders', 'Work Orders With First Why', 'Percentage'], ['MM-YYYY']],
@@ -89,10 +89,17 @@ for i in range(14): #loop through site pages
                         results[month_count].append(temp)
                         month_count = month_count + 1
                     else: # other fields values can be found in the last column of the correct month
+                        percent = False
+                        if search[0] == 'PERCENT':
+                            percent = True
+                            search = search[1:]
                         found = False
                         for row in table:
                             if set(search).issubset(set(row)):
-                                results[month_count].append(row[-1])
+                                if percent:
+                                    results[month_count].append(f'{round(float(row[-1]))}%')
+                                else:
+                                    results[month_count].append(row[-1])
                                 month_count = month_count + 1
                                 found = True
                                 break
