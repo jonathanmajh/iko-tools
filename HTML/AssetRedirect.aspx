@@ -86,7 +86,8 @@
                                     <tr>
                                         <td>
                                             <h1 id="DNA"><strong>D</strong>ocument <br><strong>N</strong>avigation
-                                                <br><strong>A</strong>ccelerator</h1>
+                                                <br><strong>A</strong>ccelerator
+                                            </h1>
                                         </td>
                                         <td>
                                             <div class="row">
@@ -140,7 +141,7 @@
                                             <video id="dna-render" autoplay muted loop playsinline
                                                 poster="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA_Cover.jpg">
                                                 <source
-                                                    src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4"
+                                                    src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4?mobile=0"
                                                     type="video/mp4" />
                                             </video>
                                         </td>
@@ -150,8 +151,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <h4>Asset & Failure Classes Report Links</h4>
                         <td>
                             <table class="table">
                                 <thead>
@@ -165,12 +164,9 @@
                                 </thead>
                                 <tbody id='dynamic-table-body'>
                                     <tr id="placeholder">
-                                        <td><a class="btn btn-primary btn-light-gray">Please Enter</a></td>
-                                        <td><a class="btn btn-primary btn-light-yellow">Asset ID</a></td>
-                                        <td><a class="btn btn-primary btn-baby-blue">And Select </a></td>
-                                        <td><a class="btn btn-primary btn-light-green">A Site</a></td>
                                         <td>
-                                            <h4><i class="fa fa-ban"></i> Placeholder Text</h4>
+                                            <h4><i class="fa fa-ban"></i> Please refresh the page if you still see this
+                                                message after 5 seconds</h4>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -386,7 +382,7 @@
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + siteID + "&paramFailureClass=" + failureCode,
-                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "", //"http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
@@ -415,10 +411,10 @@
         var descriptions = [
             ["fa fa-th-list", " Symptom Database"],
             ["fa fa-file-text-o", " Spare Parts List"],
-            ["fa fa-chain-broken", " Failure Modes & Causes (In Progress)"],
-            ["fa fa-check-square-o", " PMs For The Asset (In Progress)"],
-            ["fa fa-bullhorn", " Work Orders (In Progress)"],
-            ["fa fa-hourglass-2", " Downtime Report with MTBF (In Progress)"],
+            ["fa fa-chain-broken", " Failure Modes & Causes"],
+            ["fa fa-check-square-o", " PMs For The Asset"],
+            ["fa fa-bullhorn", " Work Orders"],
+            ["fa fa-hourglass-2", " Downtime Report"],
             ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
         ];
         var parent = document.getElementById("dynamic-table-body");
@@ -487,14 +483,26 @@
 
     function startGenLinks(data) {
         failureClassDataSheet = data;
+        delayStart();
     }
 
     function getFailureCodeNames(data) {
         failureClassNameSheet = data;
+        delayStart();
     }
 
     function getReliabilityAlerts(data) {
         reliabilityAlerts = data;
+        delayStart();
+    }
+
+    function delayStart() {
+        if (failureClassDataSheet && failureClassNameSheet && reliabilityAlerts) {
+            console.log("FC and RA loaded");
+            ChangeSite();
+        } else {
+            console.log("FC & RA not loaded")
+        }
     }
 
     document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
@@ -520,7 +528,6 @@
             var cheeseNum = paraURL.split('=')[3]; //get assetNum
             url_query.assetID = cheeseNum.toUpperCase();
         }
-        ChangeSite();
     }, false);
 
 
@@ -578,7 +585,7 @@
         position: absolute;
         right: 0px;
         top: 0px;
-        height: 350px;
+        height: 250px;
     }
 
     tbody#navlinks-table-body tr td a {
@@ -590,13 +597,17 @@
     }
 
     h1#DNA {
-        letter-spacing: 0.03em;
+        /* letter-spacing: 0.03em; */
         font-weight: 300;
-        font-size: 350%;
+        font-size: 250%;
         color: #3f3f3f;
     }
 
     table#information td {
         padding-right: 30px;
+    }
+
+    .table {
+        margin-bottom: 0px;
     }
 </style>

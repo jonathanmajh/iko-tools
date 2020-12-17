@@ -4,12 +4,23 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "name": "Electron Main",
+            "program": "${workspaceFolder}/ItemStandardization/iko_mro_items/main.js",
+            "request": "launch",
+            "runtimeExecutable": "${workspaceFolder}/ItemStandardization/iko_mro_items/node_modules/.bin/electron",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
         {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
+        },
     ]
 }
