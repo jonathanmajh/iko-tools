@@ -2,11 +2,23 @@
 const {app, BrowserWindow, ipcMain} = require('electron')
 const path = require('path')
 const ExcelReader = require('./assets/spreadsheet')
+const Database = require('./assets/database')
+const Validate = require('./assets/validators')
 
-ipcMain.handle('getManufacturer', (event, somearg) => {
+ipcMain.handle('updateManufacturer', (event, somearg) => {
   console.log(somearg);
-  const excel = new ExcelReader()
-  console.log(excel.getManufactures())
+  const excel = new ExcelReader();
+  let data = excel.getManufactures();
+  const db = new Database();
+  // db.createManufacturers();
+  db.populateManufacturers(data);
+  db.close();
+})
+
+ipcMain.handle('validSingle', (event, desc) => {
+  console.log(desc);
+  let valid = new Validate;
+  console.log(valid.validateSingle(desc));
 })
 
 function createWindow () {

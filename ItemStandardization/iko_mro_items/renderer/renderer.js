@@ -7,7 +7,7 @@
 
 const { ipcRenderer } = require('electron')
 
-document.getElementById("valid-single").addEventListener("click", stub);
+document.getElementById("valid-single").addEventListener("click", validSingle);
 document.getElementById("valid-triple").addEventListener("click", stub);
 document.getElementById("batch-file").addEventListener("click", stub);
 document.getElementById("single-input").addEventListener("hide.bs.collapse", stub);
@@ -17,5 +17,10 @@ document.getElementById("batch-input").addEventListener("show.bs.collapse", stub
 
 function stub() {
     console.log('stub function')
-    ipcRenderer.invoke('getManufacturer', 'some arg')
+    // ipcRenderer.invoke('updateManufacturer', 'some arg')
+}
+
+function validSingle() {
+    let raw_desc = document.getElementById("maximo-desc").value;
+    ipcRenderer.invoke('validSingle', raw_desc);
 }
