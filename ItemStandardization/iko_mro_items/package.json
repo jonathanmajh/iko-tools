@@ -28,6 +28,7 @@
     "electron-rebuild": "^2.3.4"
   },
   "dependencies": {
+    "better-sqlite3-with-prebuilds": "^7.1.1",
     "electron-squirrel-startup": "^1.0.0",
     "xlsx": "^0.16.9"
   },
