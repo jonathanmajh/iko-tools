@@ -14,16 +14,16 @@ from datetime import date
 html = 'exported_html.html'
 # --------------------------------
 # variables to change
-month = 12
-year = 2020
+month = 1
+year = 2021
 # variables to change
 # --------------------------------
 
 with open(html, encoding='utf8', errors='ignore') as fp:
     soup = BeautifulSoup(fp, 'lxml')
 
-sites = ['kankakee', 'sumas', 'calgary', 'sylacauga', 'hillsboro', 'hawkesbury',
-'wilmington', 'ig brampton', 'bramcal', 'maximix', 'crc toronto', 'appleybridge', 'alconbury', 'madoc']
+sites = ['sylacauga', 'kankakee', 'sumas', 'calgary', 'hillsboro', 'hawkesbury',
+'wilmington', 'ig brampton', 'bramcal', 'maximix', 'crc toronto', 'appleybridge', 'alconbury', 'madoc', 'ashcroft']
 
 # information about tables
 # [Table acronum, [table header to look for to id table], [(special operation), month / year format]]
@@ -45,7 +45,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 #[[site], [metric], [-3 month], [-2 month], [-1 month], [report month]]
 results = [['Site'], ['KPI metric'], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
 
-for i in range(14): #loop through site pages
+for i in range(15): #loop through site pages
     site_page = soup.find(id=f"bux_iwidget_canvas_Canvas_{i}")
 
     # below retrives all table tags and their contents on the site's tab

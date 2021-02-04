@@ -1,71 +1,98 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-    crossorigin="anonymous" />
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+  crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+  rel="stylesheet"
+/>
 <style>
-    *:not(i) {
-        font-family: 'Roboto', sans-serif;
-    }
+  *:not(i) {
+    font-family: "Roboto", sans-serif;
+  }
 
-    body {
-        background-color: white;
-    }
+  body {
+    background-color: white;
+  }
 
-    .ms-rteImage-0 {
-        border-style: solid;
-        border-radius: 2rem;
-        border-color: white;
-        border-width: 1px;
-    }
+  .ms-rteImage-0,
+  #roundedButton {
+    border-style: solid;
+    border-radius: 2rem;
+    border-color: white;
+    border-width: 1px;
+  }
 
-    .ms-rteImage-0:hover {
-        border-color: gray;
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    }
+  .ms-rteImage-0:hover,
+  #roundedButton:hover {
+    border-color: gray;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  #roundedButton {
+    padding: 2px 10px 2px 10px;
+    font-size: 18px;
+  }
+  #pageStatusBar {
+    display: none !important;
+  }
 
-    #pageStatusBar {
-        display: none !important;
-    }
+  table.ms-acal-month > tbody > tr > th:nth-of-type(1) {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr>th:nth-of-type(1) {
-        display: none;
-    }
+  table.ms-acal-month > tbody > tr > th:nth-of-type(7) {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr>th:nth-of-type(7) {
-        display: none;
-    }
+  table.ms-acal-month > tbody > tr > th:nth-of-type(8) {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr>th:nth-of-type(8) {
-        display: none;
-    }
+  table.ms-acal-month > tbody > tr > td:nth-of-type(7) {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr>td:nth-of-type(7) {
-        display: none;
-    }
+  table.ms-acal-month > tbody > tr.ms-acal-summary-itemrow > td:nth-of-type(6) {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr.ms-acal-summary-itemrow>td:nth-of-type(6) {
-        display: none;
-    }
+  table.ms-acal-month
+    > tbody
+    > tr.ms-acal-summary-dayrow
+    > td:nth-of-type(6)
+    > div {
+    display: none;
+  }
 
-    table.ms-acal-month>tbody>tr.ms-acal-summary-dayrow>td:nth-of-type(6)>div {
-        display: none;
-    }
+  table.ms-acal-month > tbody > tr.ms-acal-summary-dayrow > td:nth-of-type(6) {
+    border-top-width: 0px;
+    border-right-width: 0px;
+  }
 
-    table.ms-acal-month>tbody>tr.ms-acal-summary-dayrow>td:nth-of-type(6) {
-        border-top-width: 0px;
-        border-right-width: 0px;
-    }
+  .ms-acal-month-top {
+    width: 20%;
+  }
 
-    .ms-acal-month-top {
-        width: 20%;
-    }
+  #WebPartWPQ3 {
+    overflow: hidden !important;
+  }
 
-    #WebPartWPQ3 {
-        overflow: hidden !important;
-    }
+  .ms-rteTableOddRow-2 a:not(.ms-headerSortTitleLink) {
+    color: blue !important;
+  }
 
-    .ms-rteTableOddRow-2 a:not(.ms-headerSortTitleLink) {
-        color: blue !important;
-    }
+  .ms-rteTableOddRow-2 h2:not(.ms-headerSortTitleLink) {
+    color: blue !important;
+  }
+
+  #sideNavBox {
+    display: none;
+  }
+
+  #contentBox {
+    margin-left: 20px;
+  }
 </style>
