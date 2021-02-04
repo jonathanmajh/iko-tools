@@ -44,7 +44,7 @@ kpis =  [
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 #[[site], [metric], [-3 month], [-2 month], [-1 month], [report month]]
-results = [['Site'], ['KPI metric'], [months[month-12]], [months[month-11]], [months[month-10]], [months[month-9]], [months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
+results = [['Site'], ['KPI metric'], [months[month-11]], [months[month-10]], [months[month-9]], [months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
 
 for i in range(15): #loop through site pages
     site_page = soup.find(id=f"bux_iwidget_canvas_Canvas_{i}")
@@ -74,7 +74,7 @@ for i in range(15): #loop through site pages
             if kpi[1] in table:
                 found_kpi = True
                 month_count = 2
-                for j in range(month-12, month): # get current month and past 4 months of data
+                for j in range(month-11, month): # get current month and past 11 months of data
                     search_year = year if j > 0 else year-1
                     search = [text.replace('YYYY', str(year)).replace('MM', months[j]).replace('mm', f'0{j+1}' if j < 9 else str(j+1)) for text in kpi[2]]
                     # find and replace to generate search strings for the month & year
