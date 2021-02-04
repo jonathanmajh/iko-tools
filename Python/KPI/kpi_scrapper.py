@@ -14,8 +14,8 @@ from datetime import date
 html = 'exported_html.html'
 # --------------------------------
 # variables to change
-month = 1
-year = 2021
+month = 12
+year = 2020
 # variables to change
 # --------------------------------
 
@@ -38,12 +38,13 @@ kpis =  [
     ['ASPCWC', ['MonthYear', 'PriorityGroup', 'SparePartsCount'], ['SUM', 'MM-YYYY']],
     ['CC', ['MonthYear', 'No of Cycle Counts'], ['MM-YYYY']],
     ['WOFW', ['MonthYear', 'All Work Orders', 'Work Orders With First Why', 'Percentage'], ['MM-YYYY']],
+    ['IILSPL', ['MonthYear', 'Items Issued', 'Inventory Adjustment', 'Issued Items Listed in Spare Part List', 'Percentage'], ['MM-YYYY']],
 ]
 
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 #[[site], [metric], [-3 month], [-2 month], [-1 month], [report month]]
-results = [['Site'], ['KPI metric'], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
+results = [['Site'], ['KPI metric'], [months[month-12]], [months[month-11]], [months[month-10]], [months[month-9]], [months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
 
 for i in range(15): #loop through site pages
     site_page = soup.find(id=f"bux_iwidget_canvas_Canvas_{i}")
@@ -61,11 +62,8 @@ for i in range(15): #loop through site pages
         for kpi in kpis:
             results[0].append(sites[i])
             results[1].append(kpi[0])
-            results[2].append('Error Tables Not Found')
-            results[3].append('Error Tables Not Found')
-            results[4].append('Error Tables Not Found')
-            results[5].append('Error Tables Not Found')
-            results[6].append('Error Tables Not Found')
+            for j in range(len(results)-2):
+                results[j+2].append('Error Tables Not Found')
         continue
 
     for kpi in kpis: # loop through each kpi
@@ -76,7 +74,7 @@ for i in range(15): #loop through site pages
             if kpi[1] in table:
                 found_kpi = True
                 month_count = 2
-                for j in range(month-5, month): # get current month and past 4 months of data
+                for j in range(month-12, month): # get current month and past 4 months of data
                     search_year = year if j > 0 else year-1
                     search = [text.replace('YYYY', str(year)).replace('MM', months[j]).replace('mm', f'0{j+1}' if j < 9 else str(j+1)) for text in kpi[2]]
                     # find and replace to generate search strings for the month & year
@@ -107,11 +105,8 @@ for i in range(15): #loop through site pages
                             results[month_count].append('Value Not Found for this KPI')
                             month_count = month_count + 1
         if not found_kpi: # some tables are blank even if they exist
-            results[2].append('Error Tables Not Found')
-            results[3].append('Error Tables Not Found')
-            results[4].append('Error Tables Not Found')
-            results[5].append('Error Tables Not Found')
-            results[6].append('Error Tables Not Found')
+            for j in range(len(results)-2):
+                results[j+2].append('Error Tables Not Found')
 
 with open(f'{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
     writer = csv.writer(f)
