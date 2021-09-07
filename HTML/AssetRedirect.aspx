@@ -28,7 +28,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-white navbar-border">
         <a class="navbar-brand" href="http://connect.na.local/Pages/Connect.aspx"><img
-                src="/support/Reliability/ReliabilityShared/Pages/Assets/IKO_Logo-nobg.png" alt="IKO" height=50px /></a>
+                src="/support/Reliability/ReliabilityShared/Pages/IKO_Logo-nobg.png" alt="IKO" height=50px /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
             aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@
                 <li class="nav-item nav-iko active">
                     </liclass>
                     <a class="nav-link"
-                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectSOP.pdf">Help
                         (SOP)</a>
                 </li>
             </ul>
@@ -100,6 +100,7 @@
                                                     <option value="GE">GE: Ashcroft</option>
                                                     <option value="GR">GR: BramCal</option>
                                                     <option value="BA">BA: Calgary</option>
+                                                    <option value="COM">COM: Combronde</option>
                                                     <option value="GJ">GJ: CRC Toronto</option>
                                                     <option value="BL">BL: Hagerstown </option>
                                                     <option selected value="GH">GH: Hawkesbury</option>
@@ -139,9 +140,9 @@
                                         </td>
                                         <td style="position: relative; min-width: 295px;">
                                             <video id="dna-render" autoplay muted loop playsinline
-                                                poster="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA_Cover.jpg">
+                                                poster="/support/Reliability/ReliabilityShared/Pages/RotatingDNA_Cover.jpg">
                                                 <source
-                                                    src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4?mobile=0"
+                                                    src="/support/Reliability/ReliabilityShared/Pages/RotatingDNA.mp4?mobile=0"
                                                     type="video/mp4" />
                                             </video>
                                         </td>
@@ -180,7 +181,7 @@
                                 <tbody id='navlinks-table-body'>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
-                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help</a>
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectSOP.pdf">Help</a>
                                         </td>
                                         <td>
                                             <h4><i class="fa fa-question-circle"></i> Help (SOP)</h4>
@@ -242,7 +243,7 @@
     "use strict";
     console.log("Starting JS");
     var currentAssetListSite = "N/A";
-    var dataURL = "/support/Reliability/ReliabilityShared/Pages/Assets/";
+    var dataURL = "/support/Reliability/ReliabilityShared/Pages/";
     var maximoReportUrl = "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/";
     var sharepointReliabilityUrl = "http://operations.connect.na.local/support/Reliability/";
     var url_query = { siteID: "None", assetID: "None", assetDescription: "Loading Asset Description" };
@@ -316,7 +317,12 @@
                 url_query.assetDescription = csvData[i][0];
             }
             if (!(csvData[i][0] in assetIdTracker)) {
-                assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1]) });
+                if (csvData[i][5]) {
+                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1], " : ", csvData[i][5]) });
+                } else {
+                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1] )});
+                }
+                
                 assetIdTracker[csvData[i][0]] = "";
             }
         }

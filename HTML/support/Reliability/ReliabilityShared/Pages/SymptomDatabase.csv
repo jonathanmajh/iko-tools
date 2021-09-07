@@ -1,0 +1,585 @@
+Site,Asset Number,Asset Name,Failure Class,Symptom,Component,Failure Mode,Cause Code,Date&Time,InputTime
+IG Brampton,B3410,Laminator ,,Output - Improper Cutting,Knife,,,8/24/2019,5/5/2020 10:46
+IKO Hawkesbury,S0257,Filler Receiving Bin Rotary Feeder,,,Sensor,Sensor Faillure,"Sensor, (Reflective) Not Sensing, Misalignment",4/20/2020,5/4/2020 12:28
+IKO Hawkesbury,S4621,Pattern Cutter Metering Roll System,"Measuring Roll, FPL Sheet, Laminate Section",Improper Cutting,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",4/20/2020,5/4/2020 12:04
+IKO Wilmington,C7485,Colour Granule Silo Feeder,,Quality - Granule Contaminated,Applicator(Granule),Applicator(Granule) Incorrect Quantity,"Quantity, High, Incorrect Setting & Human Error",3/24/2020,5/4/2020 11:08
+IKO Wilmington,C7500,Colour Granule Silo Feeder,,Quality - Granule Contaminated,,,,3/24/2020,5/5/2020 10:33
+IKO Wilmington,M4988,Cooling System,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",3/24/2020,5/5/2020 10:42
+IKO Wilmington,S0222,Filler Silo 1,,Low Input,Heater,,,3/24/2020,5/5/2020 10:38
+IKO Sumas,M3600,Cooling Section System,,Output - Sheet Break,Belt(Conveyor),,,2/9/2020,5/13/2020 15:51
+IG Brampton,B3410,Laminator,,Asset Failed To Start,,,,7/8/2019,5/7/2020 16:57
+IKO Sumas,M4809,Backing Film Applicator Carriage System 2,,Asset Stopped,Motor(AC),Motor(DC) Mechanical Failure,"Fan(Motor), Imbalance, Crack",2/9/2020,7/2/2020 14:01
+IKO Sumas,M5230,Winder Mandrel and Ejection System,,Output - Sheet Jammed,Rail,,,2/9/2020,7/2/2020 13:59
+IKO Sumas,S6582,Twist Belt Lane 1,,Belt Slipping,Belt(Conveyor),,,2/9/2020,5/13/2020 15:50
+IKO Calgary,B3410,Laminator ,,Output - Sheet Break,Sheet,Sheet Defect,"Sheet, Defect, Quality Defect",2/3/2020,5/13/2020 10:31
+IKO Calgary,M0460,Granule System,,Belt Slipping,Pulley(Coveyor),,,2/3/2020,5/13/2020 10:29
+IKO Calgary,S6500,Cut To Length (CTL) System,,Bundle Improper Cutting,Tape Roll,Roll(Caliper) Mechanical Failure,"Roll(Caliper), Surface Wear, Usage/Contamination",2/3/2020,5/13/2020 10:27
+IKO Sumas,M5230,Winder Mandrel and Ejection System,,Asset Stopped,Mandrel,,,2/2/2020,7/2/2020 13:51
+IKO Sumas,M0460,Granule System,,Asset Stopped,Conveyor(Belt),Conveyor(Belt) Failure,"Bearing, Wear, Dust Contamination",1/26/2020,5/13/2020 15:45
+IKO Sumas,M4175,Flux Preheat Tank (with Load Cell),,Output - Tank Leak,Tank,Tank Mechanical Failure,"Joint Failure,Loose,Usage",1/26/2020,7/2/2020 13:02
+IKO Sumas,M4785,Cooling Water Tray Exit Rolls (2),,Roll Contaminated,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",1/26/2020,7/2/2020 13:06
+IKO Sumas,M4809,Backing Film Applicator Carriage System 2,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Not Sensing, Electrical Failure",1/26/2020,7/2/2020 13:40
+IKO Sumas,M5100,Finish Product Looper (FPL) System,,Output - Sheet Break,Guide,,,1/26/2020,5/13/2020 15:46
+IKO Sumas,S4739,Shim Conveying System 3&4,,,Cutter,Cutter Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",1/26/2020,5/13/2020 15:48
+IKO Sumas,H1585,Mod Line Dust Collector Bag System ENV,,Asset Stopped,Screw,,,1/19/2020,7/2/2020 13:01
+IKO Sumas,M5504,Palletizer Roll Conveyor 1,,Chain Transmission Failed,Chain,,,1/19/2020,7/2/2020 12:50
+IKO Sumas,C8114,Laminate Applicator Pump (P2),,Pump Failed,Pump(Gear),Pump(Gear) Mechanical Failure,"Bearing, Clearance Loose, Process impact",1/12/2020,5/13/2020 15:43
+IKO Sumas,S2420,Blender 1,"Blender, Granule Blend, Granule Application",,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",1/12/2020,5/13/2020 15:40
+IKO Sumas,S6582,Twist Belt Lane 1,,Star Wheel Jammed,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Bolt, Loose, Thread Wear",1/12/2020,5/13/2020 15:42
+IKO Sumas,M3600,Cooling Section System,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",12/15/2019,5/13/2020 15:35
+IKO Sumas,S6582,Twist Belt Lane 1,,,Shaft,,,12/15/2019,5/13/2020 15:33
+IKO Sumas,S7391,Catcher/Stacker Lane 1,,Star Wheel Jammed,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Shaft, Wear, Usage",12/15/2019,5/13/2020 15:32
+CRC Brampton,B3210,Pouring Table,,Asset Stopped,Table,,,12/13/2019,5/7/2020 14:58
+CRC Brampton,B3410,Laminator,,,,,,12/13/2019,5/7/2020 14:55
+CRC Brampton,B3410,Laminator,,Quality - High Scrap Rate,,,,12/13/2019,5/7/2020 15:47
+CRC Brampton,B3410,Laminator,,Quality - High Scrap Rate,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",12/13/2019,5/7/2020 15:50
+CRC Toronto,B3410,Laminator,,Quality - High Scrap Rate,TBD,TBD,TBD,12/13/2019,5/7/2020 15:52
+CRC Brampton,B3410,Laminator,,Quality - High Scrap Rate,TBD,TBD,TBD,12/13/2019,5/7/2020 15:53
+CRC Brampton,B3410,Laminator,,Quality - High Scrap Rate,TBD,TBD,TBD,12/13/2019,5/7/2020 15:54
+IKO Calgary,C1504,Fire Alarm Security System,,Safety - False Fire Alarm,TBD,TBD,TBD,12/9/2019,5/13/2020 10:23
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Surface Wear, Usage/Contamination",12/9/2019,5/13/2020 10:24
+IG Brampton,M0105,B7 Backsurfacing/Sand Silo,,Quality - Sheet Contaminated,Silo,Silo Failure,Silo Contaminated,6/30/2019,6/23/2020 16:01
+IG Brampton,M0105,B7 Backsurfacing/Sand Silo,,Quality - Sheet Contaminated,Silo,Silo Failure,Silo Overflow,6/30/2019,6/25/2020 11:03
+IG Brampton,M0411,Granule Silo,,Quality - Granule Contaminated,Silo,Silo Failure,Silo Contaminated,6/30/2019,6/16/2020 12:09
+IKO Calgary,S2914,Release Tape Rack - Dynasty,,Output - Tape Break,Tape Roll,Tape Quality Defect,TBD,12/9/2019,5/13/2020 10:21
+IKO Sumas,S3946,Armourshake Combining Rolls,,Output - Sheet Break,Roll,Roll Bearing Failure,"Bearing, Wear, Underlubrication",12/8/2019,5/13/2020 15:31
+IKO Sumas,S6500,Cut To Length (CTL) System,,Asset Jammed,Knife,,,12/8/2019,5/13/2020 15:29
+IKO Sumas,S7415,Catcher/Stacker Lane 3,,Asset Jammed,Hose,,,12/8/2019,5/13/2020 15:26
+IKO Sumas,S2081,Dry Mat Accumulation (DMA) System,,Quality - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",12/1/2019,5/6/2020 12:27
+IKO Sumas,S3028,Press Rolls,"Press Roll, Granuled Sheet, Cooling Section",Quality - Sheet Break,Sheet,Sheet Quality Defect,"Sheet, Defect, Quality Defect",12/1/2019,5/6/2020 12:38
+IG Brampton,M2108,Laminator Press Rolls 1,,,Valve,,,6/30/2019,6/18/2020 14:51
+IKO Sumas,S7033,Delivery Belt Lane Diverter,,Asset Jammed,Teeth,,,12/1/2019,5/6/2020 12:48
+IKO Sumas,S6562,Entry Flat Belt Lane 3,,Asset Stopped,Conveyor(Belt),Conveyor(Belt) Failure,"Bearing, Wear, Underlubrication",11/28/2019,5/13/2020 15:21
+IKO Sumas,S0822,"Granule Bin Gates, Splitters and Hose Systems - Yellow",,Asset Jammed,Hose,,,11/17/2019,5/6/2020 11:09
+IG Brampton,M3600,Cooling Section System,,Asset Stopped,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",7/8/2019,5/7/2020 16:38
+IG Brampton,M4101,B7 SBS Delivery System,,Low Input,Motor(AC),Motor(AC) Mechanical Failure,"Shaft, Fracture, Usage",6/30/2019,6/23/2020 12:58
+IG Brampton,M4103,B7 SBS Hopper System,,Output - Hopper Low Level,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/16/2020 11:05
+IG Brampton,M4103,B7 SBS Hopper System,,,Gate,Gate Mechanical Failure,"Lugs, Wear, Usage",6/30/2019,6/19/2020 15:21
+IG Brampton,M4103,B7 SBS Hopper System,,Output - Hopper Low Level,Pipeline,Pipeline Mechanical Failure,"Hose, Leak, Material Disintegrated",6/30/2019,6/19/2020 17:26
+IG Brampton,M4103,B7 SBS Hopper System,,Output - Hopper Low Level,Chute,Chute Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/23/2020 13:01
+IG Brampton,M4103,B7 SBS Hopper System,,Output Raw Material,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/24/2020 11:48
+IG Brampton,M4187,B7 Dissolver Tank 2,,Safety - False Alarm,Temperature,,,6/30/2019,6/19/2020 16:15
+IG Brampton,M4221,B7 Filler Mixer Feed Screw,,Output - No Flow,Pipeline,Pipeline Mechanical Failure,"Hose, Plugged, Buildup",6/30/2019,6/25/2020 12:53
+IG Brampton,M4231,B7 Filler/Asphalt Mixer Pump to Secondary Tanks (M30),,Asset Stopped,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,6/18/2020 15:30
+IG Brampton,M4241,B7 Saturant Tank S1,,Output - Tank Low Level,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,6/19/2020 14:02
+IG Brampton,M4246,B7 Saturant Tank Pump (P3),,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/17/2020 15:02
+IG Brampton,M4253,B7 Secondary Tank Feed Filter,,Output - Low Flow,Filter(Liquid),Filter(Liquid) Mechanical Failure,"Filter(Liquid), Insufficient Filtering, Clogging",6/30/2019,6/25/2020 12:55
+IG Brampton,M4253,B7 Secondary Tank Feed Filter,,Output - Sheet Defect,Filter(Liquid),,,6/30/2019,6/25/2020 13:04
+IG Brampton,M4256,B7 Secondary Tank feed Pump to Coater (P5),,Output - Low Flow,Tank,Tank Mechanical Failure,"Pipe(Hydraulic), Jam, Buildup",6/30/2019,6/24/2020 15:37
+IG Brampton,M4407,B7 Splice Table,,Quality - Sheet Splice Failure,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/19/2020 16:41
+IG Brampton,M4503,Saturator Entry Feed Rolls,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll(Rubber), Misalignment, Usage/Improper Installation",6/30/2019,6/16/2020 11:00
+IG Brampton,M4542,B7 Graphite Applicator,,Output - Insufficient Graphite,Conveyor(Screw),Conveyor(Screw) Mechanical Failure,"Screw, Flight Wear, Usage",6/30/2019,6/16/2020 8:19
+IG Brampton,M4563,B7 Coater Entry Drive Roll,,Asset Jammed,Encoder,Encoder Mechanical Failure,"Encoder, Bearing Failure, Coupling Misaligned",6/30/2019,6/17/2020 15:28
+IG Brampton,M4563,B7 Coater Entry Drive Roll,,Output - Sheet Incorrect Tension,Transmission System(Chain),Transmission System(Chain) Mechanical Failure,"Chain, Wear, Contamination",6/30/2019,6/24/2020 11:53
+IG Brampton,M4584,B7 Coater Top Calendar Roll,,Quality - Sheet Splice Failure,Transmission System(Chain),Transmission System(Chain) Mechanical Failure,"Chain, Wear, Contamination",6/30/2019,6/16/2020 8:10
+IG Brampton,M4588,B7 Coater Bottom Calendar Roll,,Output - Sheet Incorrect Tension,Motor(AC),Motor(AC) Mechanical Failure,"Coupling, Wear, Misalignment",6/30/2019,6/19/2020 14:03
+IG Brampton,M4588,B7 Coater Bottom Calendar Roll,,Output - Sheet Break,Valve,Valve Mechanical Failure,"Valve, Clogged, Contamination",6/30/2019,6/19/2020 16:13
+IG Brampton,M4588,B7 Coater Bottom Calendar Roll,,Output - Sheet Break,Valve,Valve Mechanical Failure,"Valve, Clogged, Contamination",6/30/2019,6/24/2020 12:36
+IG Brampton,M4588,B7 Coater Bottom Calendar Roll,,Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",6/30/2019,6/25/2020 11:06
+IG Brampton,M4633,B7 Upper Cooling Water Tray,,Asset Stopped,Tray,,,6/30/2019,6/16/2020 11:47
+IG Brampton,M4639,B7 Salvage Film Dispensor 1,,,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/17/2020 15:22
+IG Brampton,M4639,B7 Salvage Film Dispensor 1,,Asset Stopped,Bearing,Bearing,"Bearing, Wear, Underlubrication",6/30/2019,6/18/2020 8:24
+IG Brampton,M4672,B7 Granule Use Bin,,Output - Granule Contaminated,Bin,,,6/30/2019,6/17/2020 15:00
+IG Brampton,M4672,B7 Granule Use Bin,,Quality - Granule Contaminated,Chute,Chute Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/17/2020 15:21
+IG Brampton,M4672,B7 Granule Use Bin,,Quality - Granule Contaminated,Chute,Chute Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/18/2020 8:26
+IG Brampton,M4672,B7 Granule Use Bin,,Output - No Flow,Hopper,Hopper Mechanical Failure,"Gate, Waer, Failed to Open/Move",6/30/2019,6/18/2020 15:01
+IG Brampton,M4672,B7 Granule Use Bin,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Misaligned",6/30/2019,6/24/2020 12:40
+IG Brampton,M4684,B7 Granule/Sand Applicator,,Output - Incorrect Sand Supply,Applicator(Sand),Applicator(Sand) Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/16/2020 7:52
+IG Brampton,M4690,B7 Colour Change Reclaim Screw,,Quality - Granule Contaminated,Conveyor(Belt),Conveyor(Belt) Failure,"Mesh Belt(Conveyor), Mistracking, UnderTension",6/30/2019,6/24/2020 15:41
+IG Brampton,M4692,B7 Bottom Slate Drum,,,Encoder,Encoder Mechanical Failure,"Encoder, Failure, Bearing Failure",6/30/2019,6/16/2020 12:23
+IG Brampton,M4692,B7 Bottom Slate Drum,,Output - No Flow,Applicator(Sand),Applicator(Sand) Mechanical Failure,"Gate, Waer, Failed to Open/Move",6/30/2019,6/16/2020 12:26
+IG Brampton,M4692,B7 Bottom Slate Drum,,Asset Stopped,Motor(AC),Motor(AC) Mechanical Failure,"Fan, Imbalance, Crack",6/30/2019,6/18/2020 12:34
+IG Brampton,M4699,B7 Sand Delivery Screw,,Asset Stopped,Conveyor(Screw),Conveyor(Screw) Mechanical Failure,,6/30/2019,6/16/2020 7:56
+IG Brampton,M4699,B7 Sand Delivery Screw,,Asset Stopped,Switch,,,6/30/2019,6/19/2020 16:08
+IG Brampton,M4700,B7 Sand Reclaim Screw,,Asset Stopped,Elevator,,,6/30/2019,6/24/2020 14:53
+IG Brampton,M4709,B7 Bowed Roll,,Output - Film Break,Roll(Bow),Roll(Bow) Mechanical Failure,"Bearing, Wear, Underlubrication",6/30/2019,6/17/2020 14:57
+IG Brampton,M4717,B7 Sand Applicator 1,,Output - Incorrect Sand Supply,Valve,,,6/30/2019,6/16/2020 8:23
+IG Brampton,M4731,B7 Granule Reclaim Elevator,,Asset Stopped,Elevator,Elevator Mechanical Failure,"Bearing, Wear, Underlubrication",6/30/2019,6/18/2020 12:41
+IG Brampton,M4732,B7 Sand Reclaim/Delivery Elevator,,Low Input,Elevator,Elevator Mechanical Failure,"Elevator Belt, Wear, Buildup",6/30/2019,6/18/2020 12:29
+IG Brampton,M4735,B7 Exit Slating Press Rolls,,,Bolt,,,6/30/2019,6/17/2020 14:59
+IG Brampton,M4735,B7 Exit Slating Press Rolls,,,Water,,,6/30/2019,6/18/2020 8:23
+IG Brampton,M4735,B7 Exit Slating Press Rolls,,,Tensioner,Tensioner Incorrect Setting,"Pressure(Air), High, Incorrect Setting & Human Error",6/30/2019,6/18/2020 15:14
+IG Brampton,M4735,B7 Exit Slating Press Rolls,,,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/19/2020 13:55
+IG Brampton,M4735,B7 Exit Slating Press Rolls,,,Guard,,,6/30/2019,6/19/2020 15:16
+IG Brampton,M4755,B7 Cooling Rolls,,,FIFE System,FIFE System Sensor Failure,"Sensor(Level), Not Sensing, Buildup",6/30/2019,6/23/2020 13:13
+IG Brampton,M4774,B7 Cooling Water Tray Middle Section,,Output - Asphalt Contaminated,Tray,,,6/30/2019,6/19/2020 16:35
+IG Brampton,M4916,B7 Roofast Coater Driven Roll Scraper,,Output - Uneven Coating,Scraper,Scraper Mechanical Failure,"Scraper Blade, Uneven Scraping, Contamination",6/30/2019,6/24/2020 15:04
+IG Brampton,M5103,"B7 FPL Rolls, Frame and Catwalks",,Frame Incorrect Posision,Frame,Frame Mechanical Failure,"Frame, Crack, Welding Failure",6/30/2019,6/16/2020 7:49
+IG Brampton,M5103,"B7 FPL Rolls, Frame and Catwalks",,Frame Incorrect Posision,Frame,Frame Mechanical Failure,"Frame, Crack, Welding Failure",6/30/2019,6/16/2020 11:30
+IG Brampton,M5103,"B7 FPL Rolls, Frame and Catwalks",,Frame Incorrect Posision,Carrier,Carrier Mechanical Failure,"Frame, Crack, Welding Failure",6/30/2019,6/19/2020 15:27
+IG Brampton,M5103,"B7 FPL Rolls, Frame and Catwalks",,Output - Sheet Misaligned,Frame,Frame Mechanical Failure,"Frame, Crack, Welding Failure",6/30/2019,6/24/2020 15:02
+IG Brampton,M5103,"B7 FPL Rolls, Frame and Catwalks",,Frame Incorrect Posision,Sprocket,,,6/30/2019,6/24/2020 15:03
+IG Brampton,M5120,B7 Free Loop Pit (to Winder),,Output - Sheet Not Feeding,Sensor,Sensor Faillure,"Sensor, Not Sensing, Contact Corroded/Moisture",6/30/2019,6/18/2020 15:26
+IG Brampton,M5202,B7 Winder Entry Guide Roll,,,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/17/2020 15:30
+IG Brampton,M5202,B7 Winder Entry Guide Roll,,Asset Stopped,Transmission System(Chain),,"Chain, Wear, Contamination",6/30/2019,6/18/2020 12:37
+IG Brampton,M5202,B7 Winder Entry Guide Roll,,Asset Failed To Start,Motor(AC),Motor(AC) Mechanical Failure,"Encoder, Terminals Corrosion, Water Contamination",6/30/2019,6/19/2020 16:18
+IG Brampton,M5202,B7 Winder Entry Guide Roll,,Tank Level Low,,,,6/30/2019,6/23/2020 13:15
+IG Brampton,M5210,B7 Winder Bottom Metering Roll,,,Plate,,,6/30/2019,6/19/2020 16:46
+IG Brampton,M5214,B7 Winder Cross-cut Knife,,Asset Stopped,Bearing,,,6/30/2019,6/16/2020 8:12
+IG Brampton,M5214,B7 Winder Cross-cut Knife,,Asset Stopped,Winding,,,6/30/2019,6/18/2020 15:23
+IG Brampton,M5221,B7 Winder Tape Dispensor 1,,Asset Stopped,Tape Roll,,,6/30/2019,6/16/2020 11:43
+IG Brampton,M5221,B7 Winder Tape Dispensor 1,,Asset Stopped,Shaft,,,6/30/2019,6/19/2020 16:49
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Stopped,Valve,,,6/30/2019,6/16/2020 11:42
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Stopped,Mandrel,,,6/30/2019,6/17/2020 14:54
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Stopped,Bolt,,,6/30/2019,6/17/2020 14:56
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Output - Sheet Not Feeding,Bearing,,,6/30/2019,6/18/2020 12:30
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Failed To Start,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,6/18/2020 15:32
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Output - Sheet Not Feeding,Water,,,6/30/2019,6/19/2020 13:53
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Failed To Start,Sensor,Sensor Faillure,"Sensor, (Thermal) Not Sensing, Insultation Failure",6/30/2019,6/19/2020 16:19
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Failed To Start,Sensor,Sensor Faillure,"Sensor, (Reflective) Not Sensing, Misalignment",6/30/2019,6/19/2020 16:43
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Stopped,Frame,Frame Mechanical Failure,"Frame, Crack, Welding Failure",6/30/2019,6/19/2020 16:47
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Stopped,Seal,,,6/30/2019,6/19/2020 17:27
+IG Brampton,M5230,B7 Winder Mandrel and Ejection System,,Asset Vibrating,Mandrel,Mandrel Mechanical Failure,"Mandrel Shaft, Breakdown, Leak/Crack",6/30/2019,6/23/2020 13:11
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",10/28/2019,5/13/2020 10:13
+IG Brampton,M5300,B7 Winder Hydraulic System,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Misaligned",6/30/2019,6/24/2020 15:40
+IG Brampton,M5402,B7 Jumbo Winder Carry-over Entry Pull Rolls,,Asset Stopped,Mandrel,Mandrel Mechanical Failure,"Chuck, Wear, Usage",6/30/2019,6/16/2020 11:45
+IG Brampton,M5422,B7 Jumbo Winder Turret Winder (Pyradia),,Asset Stopped,Mandrel,Mandrel Mechanical Failure,"Chuck, Wear, Usage",6/30/2019,6/24/2020 12:38
+IKO Calgary,S6500,Cut To Length (CTL) System,,Asset Stopped,Cutter,Cutter Mechanical Failure,Impact/Gap too small,10/28/2019,5/13/2020 10:17
+IG Brampton,M5504,B7 Palletizer Roll Conveyor 1,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,6/18/2020 12:39
+CRC Brampton,B3410,Laminator,,Asset Stopped,Valve,,,10/20/2019,5/6/2020 15:30
+IG Brampton,M5516,B7 Palletizer Roll Conveyor 2,,,Roller,,,6/30/2019,6/18/2020 12:27
+IG Brampton,M5540,B7 Pallet Exit Conveyor 1,,Conveyor Stopped,Sensor,Sensor Faillure,"Sensor, Not Sensing, Mislocate",6/30/2019,6/17/2020 15:36
+IG Brampton,M5542,B7 Pallet Turn Table Conveyor,,Asset Stopped,Roller,,,6/30/2019,6/18/2020 14:58
+IG Brampton,M5554,B7 Palletizer Hydraulic System,,,Seal,,,6/30/2019,6/16/2020 11:51
+IG Brampton,M5554,B7 Palletizer Hydraulic System,,Asset Stopped,Cylinder(Hydraulic),,,6/30/2019,6/23/2020 13:03
+CRC Brampton,B3410,Laminator,,Asset Failed To Start,,,,10/20/2019,5/6/2020 15:32
+CRC Brampton,B3410,Laminator,,Asset Stopped,Roller,,,10/20/2019,5/6/2020 15:35
+CRC Brampton,B3410,Laminator,,Quality - High Scrap Rate,Valve,,,10/20/2019,5/6/2020 15:37
+IG Brampton,M6430,Dry Mat Looper System,,Asset Stopped,FIFE System,FIFE System Sensor Failure,,7/8/2019,5/7/2020 16:42
+IKO Sumas,M4940,Talc Application System,,Asset Stopped,Elevator,Elevator Mechanical Failure,"Elevator Belt, Wear, Buildup",10/20/2019,5/4/2020 15:47
+IKO Sumas,S0282,Hot Filler Screw,,Asset Stopped,Chain,,,10/20/2019,5/4/2020 15:33
+IKO Sumas,S3980,Armour CTL Frame,,,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",10/20/2019,5/4/2020 15:51
+IKO Sumas,S8599,Plastic Wrap Unwind Stand,,Output - Bundle Jammed,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",10/20/2019,5/4/2020 15:43
+IKO Kankakee,M5100,Finished Product Looper (FPL) System,,Output - Sheet Improper Cutting,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",10/15/2019,5/6/2020 15:05
+IKO Kankakee,S2270,Coater Caliper Roll Application System,"Caliper Roll & Scraper, Coated Sheet, Coater",Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Surface Wear, Usage/Contamination",10/15/2019,5/6/2020 14:36
+IKO Kankakee,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",Applicator Jammed,Applicator(Paint),Applicator(Paint) Incorrect Quantity,"Quantity, Low, Incorrect Parameter",10/15/2019,5/6/2020 14:57
+IKO Kankakee,S4603,Patter Cutter System,,Output - Sheet Improper Cutting,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",10/15/2019,5/6/2020 14:40
+IKO Kankakee,S6510,CTL Lane A/C Frame System,"Frame System, Slitted Laminated Sheet, CTL",Output - Sheet Improper Cutting,Rubber(Bumpter),,,10/15/2019,5/6/2020 15:02
+IKO Kankakee,S6546,CTL Scrap Diverter,"Scrap Diverter, Laminated Shingle, CTL",Diverter Jammed,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",10/15/2019,5/6/2020 14:45
+CRC Brampton,H1011,Main Line Dust Collector,,Asset Stopped,Dust Collector,,,10/14/2019,5/6/2020 12:03
+IKO Wilmington,M4692,Bottom Slate Drum,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",9/30/2019,5/7/2020 9:24
+IKO Wilmington,M5430,Wrapper System,,Output - Bundle Misaligned,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",9/30/2019,5/7/2020 9:29
+IKO Calgary,M6800,Finish Product Looper (FPL) System,,,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",9/30/2019,5/13/2020 10:10
+IKO Wilmington,S0521,Laminate Applicator System,,Asset Jammed,Roll,Roll Bearing Failure,"Bearing, Crack, Thermal Expansion",9/30/2019,5/7/2020 9:22
+IKO Wilmington,S2100,DMA Carriage,"Carriage, Spliced Sheet, DMA",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",9/30/2019,5/7/2020 9:18
+IKO Calgary,S4050,3 Tab Cutter System,,Asset Jammed,Cutter,Cutter Mechanical Failure,"Bolt, Snapped, Shear",9/30/2019,5/13/2020 10:07
+IKO Wilmington,S4790,Soap Applicator System,,Applicator Failed,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",9/30/2019,5/7/2020 9:26
+IKO Calgary,S8209,Hi-Lug System,,,Lugs,Lugs Mechanical Failure,"Lugs, Wear, Usage",9/30/2019,5/13/2020 10:03
+IG Brampton,M7536,B8 Palletizer Reject Roll Lifter,,Asset Stopped,Chain,,,6/30/2019,6/19/2020 15:31
+IKO Wilmington,S8720,Palleizer Accumulation Conveyor,,Output - Bundle Jammed,Motor(AC),Motor(AC) Mechanical Failure,"Bolt, Snapped, Shear",9/30/2019,5/7/2020 9:15
+IKO Kankakee,C7443,Colour Granule Silo,,Quality - Granule Contaminated,Bin,,,9/24/2019,5/7/2020 14:09
+IKO Sumas,M3600,Cooling Section System,,Output - Sheet Break,Sheet,Sheet Defect,"Sheet, Defect, Quality Defect",9/24/2019,5/6/2020 16:59
+IKO Kankakee,M3600,Cooling Section System,,Output - Sheet Break,Spray Nozzle,,,9/24/2019,5/7/2020 14:13
+IKO Kankakee,M3600,Cooling Section System,,Output - Sheet Break,Guide Rail(Ceramic),Guide Rail(Ceramic) Mechanical Failure,"Guide, Not Guiding, Wear&Usage",9/24/2019,5/7/2020 14:14
+IKO Sumas,M4900,Coater System,,Quality - Sheet Splice Failure,,,,9/24/2019,5/6/2020 16:56
+IKO Kankakee,S2230,Coater System,,Output - Sheet Break,,,,9/24/2019,5/7/2020 14:06
+IKO Kankakee,S2230,Coater System,,Output - Sheet Break,Sheet,Sheet Defect,"Sheet, Defect, Quality Defect",9/24/2019,5/7/2020 14:10
+IKO Kankakee,S2256,Coater Pan Overflow Box,"Box, Asphalt, Coater",Output - High Flow,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",9/24/2019,5/7/2020 14:31
+IKO Kankakee,S3435,FPL Loop Former/Accumulator System,"Accumulator System, FPL Sheet, FPL",Output - Sheet Break,,,,9/24/2019,5/7/2020 14:29
+IKO Kankakee,S6500,Cut To Length (CTL) System,,,Guide Rail(Ceramic),Guide Rail(Ceramic) Mechanical Failure,"Guide, Not Guiding, Wear&Usage",9/24/2019,5/7/2020 14:03
+IKO Kankakee,S6524,CTL Inspection Belts,"Inspection Belt, Slitted Laminated Sheet, CTL",Cramic Tile Missing,Guide Rail(Ceramic),Guide Rail(Ceramic) Mechanical Failure,"Tile(Ceramic), Missing, Loose Adhesive",9/24/2019,5/7/2020 14:19
+IKO Kankakee,S8210,Wrapper #2 High Lug System,,Bundle Jammed,Conveyor(Belt),Conveyor(Belt) Incorrect Delivery Timing,"Timing, Early, Incorrect Setting & Human Error",9/24/2019,5/7/2020 14:22
+IKO Kankakee,S9426,Wrapper 2 Flight Bar,,Bundle Jammed,Flight Bar,Flight Bar Incorrect Start Timing,"Timing, Early, Incorrect Setting & Human Error",9/24/2019,5/7/2020 14:24
+CRC Brampton,B3410,Laminator ,,Asset Stopped,,,,9/23/2019,5/6/2020 9:55
+IKO Kankakee,S3360,FPL Entry Roll,"Pull Roll, FPL Sheet, FPL",Output - Sheet Jammed,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Chroming Wear Out",9/16/2019,5/6/2020 10:40
+IKO Kankakee,S4603,Pattern Cutter System,,Quality - Sheet Break,Sheet,Sheet Defect,"Sheet, Defect, Quality Defect",9/16/2019,5/6/2020 10:35
+IKO Kankakee,S6521,CTL Carriage,"Carriage, Slitted Laminated Sheet, CTL",Asset Stopped,Gearbox,Gearbox Mechanical Failure,"Gear, Wear, Usage",9/16/2019,5/6/2020 10:38
+IKO Kankakee,S9513,Palletizer 2,,Asset Jammed,,,,9/16/2019,5/6/2020 10:42
+IKO Sumas,M4237,Secondary Tank S2,,Asset Stopped,Valve(Solenoid),Valve(Solenoid) Failure,"Valve(Solenoid), Leak, Clogged, (Solenoid) Malfunction, Incorrect wiring, Incorrect connection",9/15/2019,5/6/2020 11:36
+IKO Sumas,M4720,Top Slate Drum,,Output - Sticker Off Sheet,Valve(Solenoid),Valve(Solenoid) Failure,"Valve(Solenoid), Leak, Clogged, (Solenoid) Malfunction, Incorrect wiring, Incorrect connection",9/15/2019,5/6/2020 11:41
+IKO Calgary,B3410,Laminator ,,Quality - Sheet Contaminated,Applicator(Paint),Applicator(Paint) Mechanical Failure,"Painting Wheel, Wear, Rubber Wear",9/9/2019,5/13/2020 9:58
+IKO Calgary,M0460,Granule System,,Quality - Granule Contaminated,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",9/9/2019,5/13/2020 10:00
+IKO Calgary,M6750,Cooling Section System,,Output - Sheet Break,Tape Roll,,,9/9/2019,5/13/2020 9:55
+IKO Kankakee,S2081,Dry Mat Accumulation (DMA) System,,Quality - Sheet Splice Failure,Coater Pan,Coater Pan Mechanical Failure,"Coater Pan, Hole, Corrosion",9/5/2019,5/7/2020 11:26
+IKO Kankakee,S2440,Laminate Granule Secondary Cover Up Hopper,"Spill Hopper, Granule Blend, Granule Application",Asset Jammed,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",9/5/2019,5/7/2020 11:09
+IKO Kankakee,S3435,FPL Looper Former/Accumulator System,"Accumulator System, FPL Sheet, FPL",Quality - Hole on Sheet,Knife,,,9/5/2019,5/7/2020 11:02
+IKO Kankakee,S4603,Pattern Cutter System,,Output - Sheet Improper Cutting,Roll(Anvil),Roll(Anvil) Mechanical Failure,"Roll(Anvil), Surface Wear, Usage",9/5/2019,5/7/2020 11:23
+IKO Kankakee,S6510,CTL Frame System,"Frame System, Slitted Laminated Sheet, CTL",,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Chroming Wear Out",9/5/2019,5/7/2020 11:13
+IKO Kankakee,S6526,CTL Scrap Diverter,"Scrap Diverter, Slitted Laminated Sheet, CTL",Bundle Jammed,Belt(Conveyor),,,9/5/2019,5/7/2020 11:16
+IKO Kankakee,S6544,CTL Inspection Belts,"Inspection Belt, Laminated Shingle, CTL",Asset Stopped,Bearing,,,9/5/2019,5/7/2020 11:20
+IKO Calgary,M0460,Granule System,,Asset Stopped,Conveyor(Belt),Conveyor(Belt) Failure,"Belt(Conveyor), Mistracking, Improper Installation",9/3/2019,5/13/2020 9:39
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",9/3/2019,5/13/2020 9:40
+IKO Calgary,M6800,Finish Product Looper (FPL) System,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",9/3/2019,5/13/2020 9:42
+IKO Kankakee,M3120,Filler Silo,,Asset Stopped,Airlock,Airlock Mechanical Failure,"Shaft, Wear, Misalignment",9/2/2019,5/7/2020 13:15
+IKO Kankakee,M4991,Cooling Section Rolls,,Output - Sheet Break,Spray Nozzle,,,9/2/2019,5/7/2020 13:23
+IKO Kankakee,S3355,Finished Product Looper (FPL),,Asset Stopped,Switch,,,9/2/2019,5/7/2020 13:26
+IKO Kankakee,S4603,Pattern Cutter System,,Quality - Hole on Sheet,Rubber(Bumpter),Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",9/2/2019,5/7/2020 13:39
+IKO Kankakee,S6403,Pattern Cutter System,,Output - Sheet Improper Cutting,Knife(Dragon Tooth),,,9/2/2019,5/7/2020 13:41
+IKO Kankakee,S6524,CTL Inspection Belts,"Inspection Belt, Slitted Laminated Sheet, CTL",Asset Jammed,Motor(AC),Motor(AC) Electrical Failure,,9/2/2019,5/7/2020 13:17
+IKO Kankakee,S0300,Backsurfacing Delivery System,,Output - Sheet Break,,,,8/28/2019,5/7/2020 10:13
+IKO Kankakee,S0803,Granule Bin Red,,Quality - Granule Contaminated,Hose,,,8/28/2019,5/7/2020 10:17
+IKO Kankakee,S4603,Pattern Cutter System,,Output - Sheet Break,Cylinder(Air),,,8/28/2019,5/7/2020 10:12
+IKO Kankakee,S4692,Bottom Slate Drum,,,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",8/28/2019,5/7/2020 10:24
+IKO Kankakee,S6510,CTL Frame System Lane A/C,"Frame System, Slitted Laminated Sheet, CTL",Asset Stopped,Bearing,,,8/28/2019,5/7/2020 10:15
+CRC Brampton,B3410,Laminator ,,Asset Jammed,,,,8/26/2019,5/5/2020 12:31
+CRC Brampton,B3430,Laminator Heater,,Motor(AC) Stopped,Heater,,,8/26/2019,5/5/2020 12:38
+IKO Sylacauga,C4326,3 Tab Starwheel Catcher,,Asset Jammed,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Shaft, Wear, Misalignment",8/15/2019,5/7/2020 9:42
+IKO Sylacauga,S8209,Hi-Lug System,,Asset Jammed,Knocker,,,8/15/2019,5/7/2020 9:49
+IKO Kankakee,M4720,Top Slate Drum,,Motor(AC) Stopped,Encoder,Encoder Failure,"Encoder, Terminals Corrosion, Water Contamination",8/14/2019,5/6/2020 13:53
+IKO Kankakee,S0465,Filler/Asphalt Mixer,,Asset Stopped,Pulley,,,8/14/2019,5/6/2020 14:24
+IKO Kankakee,S2440,Laminate Secondary Spill Hopper,"Spill Hopper, Granule Blend, Granule Application",Motor(AC) Stopped,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",8/14/2019,5/6/2020 14:04
+IKO Kankakee,S4603,Pattern Cutter System,,Output - Sheet Break,Knife(Dragon Tooth),,,8/14/2019,5/6/2020 14:19
+IKO Kankakee,S6526,CTL Lane Scrap Diverter,"Scrap Diverter, Slitted Laminated Sheet, CTL",Asset Jammed,Diverter Finger,,,8/14/2019,5/6/2020 14:00
+IKO Kankakee,S6526,CTL Lane Scrap Diverter,"Scrap Diverter, Slitted Laminated Sheet, CTL",Blade Break,Knife,,,8/14/2019,5/6/2020 14:12
+IKO Sumas,M4900,Coater System,,Output - Sheet Break,Plate,,,8/13/2019,5/6/2020 16:24
+IKO Sumas,M4900,Coater System,,Asset Jammed,Star Wheel Assembly,Star Wheel Assembly Incorrect Timing,"Timing, Early, Incorrect Setting & Human Error",8/13/2019,5/6/2020 16:28
+IKO Sumas,M4941,Talc Feed Screw,,Asset Stopped,Bearing,,,8/13/2019,5/6/2020 16:38
+IKO Sumas,M7085,Plastic Wrap Oven,,Oven Low Temperature,Heater,,,8/13/2019,5/6/2020 16:21
+IKO Sumas,S2420,Blender 1,"Blender, Granule Blend, Granule Application",Asset Stopped,Gearbox,Gearbox Mechanical Failure,"Gear, Wear, Debris Condamination",8/13/2019,5/6/2020 16:19
+IKO Calgary,M0460,Granule System,,Asset Jammed,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",8/5/2019,5/12/2020 16:10
+IKO Calgary,M0460,Granule System,,Quality - Granule Contaminated,Shim Lane(Ceramic),Shim Lane(Ceramic) Mechanical Failure,"Disc(Ceramic), Wear, Usage",8/5/2019,5/12/2020 16:12
+IKO Calgary,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,8/5/2019,5/12/2020 16:07
+IKO Kankakee,B1145,Polycol Metering Pump,,Output - Improper Flow,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Usage",7/29/2019,5/7/2020 12:20
+IKO Kankakee,C7528,Headlap Granule Silo,,Quality - Granule Contaminated,Bin,,,7/29/2019,5/7/2020 12:10
+IKO Kankakee,E0210,Distribution Panel,,Power Failed,,,,7/29/2019,5/7/2020 12:23
+IKO Calgary,M0460,Granule System,,Quality - Granule Contaminated,Hose,,,7/29/2019,5/12/2020 15:55
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Surface Wear, Usage/Contamination",7/29/2019,5/12/2020 16:00
+IKO Kankakee,S2081,Dry Mat Accumulation (DMA) System,,Quality - Sheet Splice Failure,Cylinder(Air),,,7/29/2019,5/7/2020 12:31
+IKO Hawkesbury,S3040,Cooling Section,,Sheet Incorrect Tension,Load Cell,Load Cell Failure,"Load Cell, Malfunction, Improper Welding",7/29/2019,5/5/2020 15:10
+IKO Calgary,S4603,Pattern Cutter System ,,Output - Sheet Break,Gap,,,7/29/2019,5/12/2020 15:48
+IKO Kankakee,S6526,CTL Scrap Diverter,"Scrap Diverter, Slitted Laminated Sheet, CTL",Asset Jammed,Diverter,Diverter Mechanical Failure,"Diverter Finger, Wear, Usage",7/29/2019,5/7/2020 12:14
+IKO Hawkesbury,S0122,Filler Delivery Screw Conveyor,,Asset Jammed,Elevator,Elevator Mechanical Failure,"Bearing, Wear, Overload",7/22/2019,5/4/2020 12:48
+IKO Hawkesbury,S0761,Fiesta Bin,,Output - Granule Contaminated,Bin,,,7/22/2019,5/4/2020 12:52
+IKO Hawkesbury,S0800,Granule Bin Red,,Output - Granule Contaminated,Bin,Sensor Faillure,"Sensor, (Reflective) Not Sensing, Misalignment",7/22/2019,5/4/2020 12:41
+IKO Calgary,S3488,Sealant Applicator,,Asset Jammed,,,,7/22/2019,5/4/2020 14:22
+IKO Calgary,S4050,3 Tab Cutter System,,Output - Sheet Improper Cutting,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Small, Incorrect Setting & Human Error",7/22/2019,5/4/2020 14:27
+IKO Calgary,S4358,3 Tab Bundle Handling,,Output - Bundle Jammed,Conveyor(Belt),Conveyor(Belt) Incorrect Delivery Timing,"Timing, Early, Incorrect Setting & Human Error",7/22/2019,5/4/2020 14:31
+IKO Calgary,S7445,3 Tab Catcher/Stacker Systems,,Output - Shingle Misaligned,,,,7/22/2019,5/4/2020 14:36
+IKO Calgary,S8713,Palletizer,,Output - Bundle Jammed,Photo Eye,Photo Eye Mechanical Failure,"Photo Eye, Not Functionning, No Power",7/22/2019,5/4/2020 14:42
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",7/15/2019,5/12/2020 15:35
+IKO Calgary,S4603,Pattern Cutter System ,,Output - Sheet Break,Pattern Cutter Cylinder,Pattern Cutter Cylinder Mechanical Failure,Impact/Gap too small,7/15/2019,5/12/2020 15:39
+IKO Calgary,S6500,Cut To Length (CTL) System,,Asset Jammed,Rubber Bladder,,,7/15/2019,5/12/2020 15:37
+IKO Sumas,S4603,Pattern Cutter Systems,,Quality - Sheet Break,Teeth,,,7/12/2019,5/6/2020 9:48
+IKO Hawkesbury,C1511,Network Equipment,,Diverter Failed,Switch,,,6/30/2019,5/19/2020 11:44
+IKO Wilmington,C2036,HOS Booster Pump (Laminator Return),,Asset Failed To Start,Motor(AC),Motor(AC) Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,5/27/2020 12:50
+IKO Hawkesbury,C6422,Fuel/Oil Pump System #2 (Coating Asphalt Preheater),,Output - Sheet Slipping,Temperature,,,6/30/2019,5/19/2020 12:25
+IKO Kankakee,C7443,Colour Granule Silo #1,,Output - Incorrect Level,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,5/14/2020 14:29
+CRC Toronto,C7447,Colour Granule Silo 3A,,Output - Granule Contaminated,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Big, Incorrect Setting & Human Error",6/30/2019,6/1/2020 16:17
+IKO Wilmington,C7455,Colour Granule Silo 2 Blend,,Asset Stopped,Bin,,,6/30/2019,5/25/2020 17:24
+IKO Wilmington,C7463,Colour Granule Silo Diamond Valve,,Output - Granule Contaminated,Valve,,,6/30/2019,5/27/2020 10:22
+CRC Toronto,C7528,Headlap/Fiesta Granule Silo (9B),,Sensor Failed,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/1/2020 11:50
+CRC Toronto,C7528,Headlap/Fiesta Granule Silo (9B),,Diverter Failed,Diverter,Diverter Mechanical Failure,"Diverter Finger, Wear, Usage",6/30/2019,6/2/2020 10:59
+CRC Toronto,C7528,Headlap/Fiesta Granule Silo (9B),,Quality - Granule Contaminated,Gate,Gate Mechanical Failure,"Gate, Crack/Damage, Usage",6/30/2019,6/2/2020 13:27
+CRC Toronto,C7528,Headlap/Fiesta Granule Silo (9B),,Input - Empty Bin,Screen,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/2/2020 13:34
+IKO Wilmington,C7598,Headlap Receiving Silo Feed Conveyor,,Asset Stopped,Conveyor(Belt),Conveyor(Belt) Failure,"Belt(Conveyor), Mistracking, Improper Installation",6/30/2019,5/27/2020 12:59
+IKO Kankakee,C8114,Laminate Applicator Pump (P5) (Adhesive),,Pump Failed,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",6/30/2019,5/19/2020 9:27
+IKO Kankakee,C8114,Laminate Applicator Pump (P5) (Adhesive),,,Applicator(Glue),Applicator(Glue) Incorrect Quantity,"Quantity, High, Incorrect Setting & Human Error",6/30/2019,5/19/2020 9:36
+IKO Hawkesbury,C8154,Sealant Applicator Pump,,Asset Stopped,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",6/30/2019,5/19/2020 13:59
+IKO Hawkesbury,C8189,3-Tab Sealant Applicator Pump,,Applicator failed,Applicator(Glue),Applicator(Glue) Sensor Failure,"Sensor, (Thermal) Not Sensing, Insultation Failure",6/30/2019,5/19/2020 12:29
+IKO Kankakee,C8253,Scrap Shingle Conveyor,,Asset Jammed,Roller,,,6/30/2019,5/14/2020 11:30
+IKO Sylacauga,S6522,CTL Cylinder System RHS,"Cutting Cylinder, Slitted Laminated Sheet, CTL",Blade Break,Knife,,,6/30/2019,5/27/2020 17:14
+IKO Kankakee,E0300,"PLC Systems (Filled Coating, K105)",,PLC Failed,Power Supply,,,6/30/2019,5/14/2020 16:09
+IKO Kankakee,E0456,"PLC Systems (Emergency Stop, K147)",,PLC Failed,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/14/2020 12:30
+IKO Kankakee,E0456,"PLC Systems (Emergency Stop, K147)",,PLC Failed,PLC,,,6/30/2019,5/14/2020 12:37
+IKO Hawkesbury,H1311,Filler Heater Dust Collector,,Asset Stopped,Heater,,,6/30/2019,5/25/2020 15:13
+IKO Sumas,H1585,Mod Line Dust Collector Bag System ENV,,Asset Jammed,Screw,,,6/30/2019,7/2/2020 11:43
+IKO Sylacauga,H2043,AFES #1 Exhaust Fan (CECO Unit),,Motor(AC) Stopped,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/27/2020 15:40
+IKO Wilmington,H3107,Dry Sprinkler System Risor 6,,Safety - Fire Alarm,Water Spray System,Water Spray System Mechanical Failure,"Pipe(Hydraulic), Jam, Buildup",6/30/2019,5/25/2020 17:00
+IKO Kankakee,M4077,Filler Silo Rotary Valve,,Asset Jammed,Valve,,,6/30/2019,5/14/2020 12:24
+IKO Sumas,M4407,Splice Table,,Output - Sheet Break,Brake,Brake Mechanical Failure,"Brake Pad, Wear, Misalignment",6/30/2019,7/2/2020 10:39
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Coater Pan,Coater Pan Mechanical Failure,"Coater Pan, Hole, Corrosion",6/30/2019,5/4/2020 13:02
+IKO Calgary,M4900,Coater System,,,,,,6/30/2019,5/4/2020 13:28
+IKO Calgary,M4900,Coater System,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/12/2020 15:32
+IKO Sumas,M5008,Main Line Drive System Cooling Rolls,,,Pipeline,Pipeline Mechanical Failure,"Hose, Plugged, Buildup",6/30/2019,7/2/2020 11:20
+IKO Kankakee,M6432,Dry Mat Looper Entry Pull Rolls (S-Wrap),,Output - Sheet Jammed,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/14/2020 12:27
+IKO Kankakee,M6565,Coater Frame and Pan,,,Sensor,Sensor Incorrect Setting,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,5/19/2020 9:11
+IKO Kankakee,M6690,Bottom Slate Drum,,Quality - Sheet Splice Failure,Table,,,6/30/2019,5/14/2020 14:39
+IKO Kankakee,M6694,Backing Film Applicator,,,Brake,Brake Mechanical Failure,"Brake Disk, Malfunction, Wear/Overtightened",6/30/2019,5/14/2020 17:00
+IKO Kankakee,M6703,Backing Film Bowed Roll,,Input - Low Flow,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/14/2020 17:13
+IKO Kankakee,M6755,Cooling Section Rolls,,Output - Sheet Break,Tape Roll,,,6/30/2019,5/19/2020 8:59
+IKO Kankakee,M6767,Cooling Section Spray Bars,,Asset Stopped,Water Spray System,Water Spray System Mechanical Failure,"Pipe(Hydraulic), Leak, Joint Failure,Loose,Usage",6/30/2019,5/14/2020 15:19
+IKO Kankakee,M6805,FPL Exit Pull Rolls,,Output - Sheet Break,Knife(Dragon Tooth),,,6/30/2019,5/14/2020 12:57
+IKO Kankakee,M6921,Winder Tape Dispenser 1,,,Valve(Solenoid),Valve(Solenoid) Failure,"Valve(Solenoid), Leak, Clogged, (Solenoid) Malfunction, Incorrect wiring, Incorrect connection",6/30/2019,5/14/2020 16:30
+IG Brampton,S2015,Dry Mat Roll Mandrel,"Mandrel, Fiberglass Sheet, DMA",Asset Stopped,Encoder,Encoder Failure,"Encoder, Terminals Corrosion, Water Contamination",7/8/2019,5/7/2020 16:51
+IKO Sylacauga,Q0025,Limestone Vibrating Feeder,,Motor(AC) Failed,Motor(AC),Motor(AC) Mechanical Failure,"Bearing, Wear, Tape Contamination",6/30/2019,5/28/2020 15:02
+IKO Sylacauga,Q0025,Limestone Vibrating Feeder,,Output - Granule Contaminated,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/28/2020 15:55
+IKO Sylacauga,Q0168,Backsurfacing Feed Hopper,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,5/28/2020 12:56
+IKO Kankakee,S0207,Main Filler Delivery Blower System,,,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,5/19/2020 9:30
+IKO Hawkesbury,S0212,Filler Screw Conveyor (Feed Screw 2),,,Screw,,,6/30/2019,5/21/2020 15:40
+IKO Hawkesbury,S0230,Backsurfacing Silo System,,,Chute,Chute Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/19/2020 13:54
+IKO Wilmington,S0230,Filler Screw Conveyor (Silo 1),,,Screw,,,6/30/2019,5/27/2020 13:34
+IKO Hawkesbury,S0233,Filler Elevator Bin,,Asset Stopped,Bearing,,,6/30/2019,5/19/2020 15:07
+IKO Hawkesbury,S0257,Filler Receiving Bin Rotary Feeder (Filler Heater Rotary Valve),,,Valve,,,6/30/2019,5/25/2020 12:24
+IKO Hawkesbury,S0272,Filler Weigh Bin System,,,Bracket,,,6/30/2019,5/21/2020 16:00
+IKO Hawkesbury,S0320,Backsurfacing Silo System,,,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,5/19/2020 11:41
+CRC Toronto,S0323,Backsurfacing Delivery Screw Conveyor 1,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,6/1/2020 12:08
+IKO Hawkesbury,S0330,Backsurfacing Delivery Elevator (Talc Elevator),,,Bearing,,,6/30/2019,5/19/2020 11:46
+IKO Hawkesbury,S0334,Backsurfacing Delivery Screw Conveyor (Main Talc Feed Screw),,,Screw,,,6/30/2019,5/19/2020 16:44
+IKO Hawkesbury,S0464,Coating Metering Pump,,,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",6/30/2019,5/19/2020 13:21
+IKO Hawkesbury,S0465,Filler/Asphalt Mixer (Filled Coating Mixer),,Asset Jammed,Bolt,,,6/30/2019,5/25/2020 11:59
+IKO Hawkesbury,S0468,Coating Surge Tank,,Rotary Union Leak,Rotary Union,Rotary Union Mechanical Failure,"Rotary Union, Leak, Wear",6/30/2019,5/21/2020 15:38
+IKO Sylacauga,S0468,Top Coating Surge Tank System,,,Tank,Tank Mechanical Failure,"Tank(Body), Leak, Crack Corrosion",6/30/2019,5/27/2020 15:34
+IKO Kankakee,S0482,Primary Coating Pump System (Coater Basement),,Asset Stopped,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Impeller, Wear, Usage",6/30/2019,5/14/2020 14:21
+IKO Sylacauga,S0482,Primary Top Coating Pump System - RHS (5 inch pump),,,Valve,,,6/30/2019,6/1/2020 10:06
+IKO Hawkesbury,S0494,"""Spreader box""",,,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",6/30/2019,5/19/2020 12:06
+IKO Sylacauga,S0561,Sand Delivery Screw Conveyor #1 System  (BS #3),,Conveyor(Screw) Failed,Shaft,,,6/30/2019,6/1/2020 11:27
+IKO Calgary,S0761,Fiesta Bin,,,Bin,,,6/30/2019,5/12/2020 15:28
+IKO Sylacauga,S0794,Granule Bin Hoses/Splitter Systems,,,Hose,,,6/30/2019,5/28/2020 11:13
+IKO Sylacauga,S0800,Granule Bin 1 Red,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,6/1/2020 10:08
+IKO Wilmington,S0809,Granule Bin Red (Shadow),,Quality - Granule Contaminated,Hose,,,6/30/2019,5/27/2020 10:34
+IKO Hawkesbury,S0830,Granule Storage Bin #4 Yellow,,Quality - Granule Contaminated,Bin,,,6/30/2019,5/21/2020 16:10
+IKO Kankakee,S2045,Splicing Table System,"Splicing Table, Spliced Sheet, DMA",,Cylinder(Air),,,6/30/2019,5/14/2020 14:37
+IKO Kankakee,S2045,Splicing Table System,"Splicing Table, Spliced Sheet, DMA",,Spring,,,6/30/2019,5/14/2020 15:32
+IKO Hawkesbury,S2045,Splicing Table System,"Splicing Table, Spliced Sheet, DMA",Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",6/30/2019,5/19/2020 12:35
+IKO Hawkesbury,S2045,Splicing Table System,"Splicing Table, Spliced Sheet, DMA",Quality - Sheet Splice Failure,Cylinder(Air),,,6/30/2019,5/21/2020 15:59
+IKO Wilmington,S2045,Dry Mat Splicing Table System,"Splicing Table, Spliced Sheet, DMA",,Temperature,,,6/30/2019,5/25/2020 15:31
+IKO Wilmington,S2045,Dry Mat Splicing Table System,"Splicing Table, Spliced Sheet, DMA",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/26/2020 12:23
+IKO Wilmington,S2045,Dry Mat Splicing Table System,"Splicing Table, Spliced Sheet, DMA",Quality - Sheet Splice Failure,Temperature,,,6/30/2019,5/27/2020 12:58
+IKO Sylacauga,S2045,Dry Mat Splicing Table System,"Splicing Table, Spliced Sheet, DMA",Output - Sheet Break,Knife,,,6/30/2019,5/28/2020 17:29
+IKO Hawkesbury,S2048,Manual Glue System,,Quality - Sheet Splice Failure,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Coupling, Wear, Misalignment",6/30/2019,5/21/2020 15:46
+IKO Hawkesbury,S2048,Manual Glue System,,Quality - Sheet Splice Failure,Glue Nozzle,,,6/30/2019,5/21/2020 15:51
+IKO Kankakee,S2050,Dry Mat Semi-Automatic Splice Machine,"Splicing Machine, Spliced Sheet, DMA",Quality - Sheet Splice Failure,Cylinder(Air),,,6/30/2019,5/14/2020 13:08
+IKO Kankakee,S2050,Dry Mat Semi-Automatic Splice Machine,"Splicing Machine, Spliced Sheet, DMA",Quality - Sheet Splice Failure,Cylinder(Air),,,6/30/2019,5/14/2020 13:11
+IKO Wilmington,S2090,DMA Entry Pull Rolls (S-Wrap),"Pull Roll, Spliced Sheet, DMA",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/26/2020 11:27
+IKO Wilmington,S2100,DMA Carriage,"Carriage, Spliced Sheet, DMA",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",6/30/2019,5/27/2020 10:06
+IKO Wilmington,S2100,DMA Carriage,"Carriage, Spliced Sheet, DMA",Output - Sheet Break,Shaft,,,6/30/2019,5/27/2020 10:37
+IKO Wilmington,S2100,DMA Carriage,"Carriage, Spliced Sheet, DMA",Output - Sheet Break,Material,,,6/30/2019,5/27/2020 11:46
+IKO Sylacauga,S2100,DMA Carriage,"Carriage, Spliced Sheet, DMA",Asset Stopped,Bearing,,,6/30/2019,5/28/2020 13:04
+IKO Wilmington,S2102,MA Carriage Drive System,"Drive System, Spliced Sheet, DMA",,Pan,,,6/30/2019,5/26/2020 10:47
+IKO Wilmington,S2133,DMA Pull Rolls 1 (6 Rolls),,,Load Cell,Load Cell Failure,"Load Cell, Malfunction, Improper Welding",6/30/2019,5/25/2020 15:40
+IKO Sylacauga,S2148,Coater Web Guide,"Roll, Spliced Sheet, DMA",,FIFE System,FIFE System Sensor Failure,,6/30/2019,5/28/2020 16:06
+IKO Wilmington,S2252,Coater Frame and Pan,"Frame, Asphalt, Coater",,Pan,,,6/30/2019,5/25/2020 17:25
+IKO Wilmington,S2252,Coater Frame and Pan,"Frame, Asphalt, Coater",,Pan,,,6/30/2019,5/26/2020 10:45
+IKO Wilmington,S2256,Coater Pan Overflow Box,"Box, Asphalt, Coater",,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",6/30/2019,5/26/2020 13:35
+IKO Wilmington,S2256,Coater Pan Overflow Box,"Box, Asphalt, Coater",,Pan,,,6/30/2019,5/27/2020 8:23
+IKO Wilmington,S2256,Coater Pan Overflow Box,"Box, Asphalt, Coater",,Screw,,,6/30/2019,5/27/2020 10:50
+IKO Hawkesbury,S2270,Coater Caliper Roll Appliocation System,"Caliper Roll & Scraper, Coated Sheet, Coater",,Gearbox,Gearbox Mechanical Failure,"Gear, Wear, Debris Condamination",6/30/2019,5/19/2020 12:55
+IKO Wilmington,S2271,Coater Top Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Output - Sheet Break,Pan,,,6/30/2019,5/25/2020 15:43
+IKO Sylacauga,S2271,Coater Top Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Output - Sheet Break,Dust Collector,,,6/30/2019,5/27/2020 15:30
+IKO Sylacauga,S2271,Coater Top Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",6/30/2019,5/28/2020 11:16
+CRC Toronto,S2271,Coater Top Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Output - Sheet Break,Chain,,,6/30/2019,6/2/2020 10:52
+CRC Toronto,S2271,Coater Top Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Asset Stopped,Chain,,,6/30/2019,6/2/2020 13:24
+IKO Kankakee,S2272,Coater Top Caliper Roll Scraper,"Scraper, Coated Sheet, Coater",Asset Jammed,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",6/30/2019,5/19/2020 9:23
+IKO Wilmington,S2276,Coater Bottom Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Asset Stopped,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/27/2020 10:42
+IKO Sylacauga,S2276,Coater Bottom Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Transmission System(Chain) Failed,Chain,,,6/30/2019,5/28/2020 12:03
+CRC Toronto,S2276,Coater Bottom Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Motor Stopped,Motor(AC),Motor(AC) Encoder Failure,"Encoder, Bearing Failure, Coupling Misaligned",6/30/2019,6/1/2020 11:57
+CRC Toronto,S2276,Coater Bottom Caliper Roll,"Caliper Roll, Coated Sheet, Coater",Asset Stopped,Encoder,Encoder Failure,"Encoder, Terminals Corrosion, Water Contamination",6/30/2019,6/2/2020 13:02
+IKO Wilmington,S2292,Back Coating Roll,"Coating Roll, Coated Sheet, Coater",Asset Stopped,Motor(AC),Motor(AC) Mechanical Failure,"Bearing, Wear, Dust Contamination",6/30/2019,5/26/2020 13:37
+IKO Sylacauga,S2298,Coater Back Coating Roll Scraper System,"Scraper, Coated Sheet, Coater",Output - Sheet Break,Scraper,Scraper Mechanical Failure,"Scraper Blade, Uneven Scraping, Contamination",6/30/2019,5/28/2020 11:43
+IKO Sylacauga,S2404,AR Granule Drop / Sand Applicator System,,Output - Granule Contaminated,Applicator(Sand),Applicator(Sand) Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/1/2020 10:00
+IKO Wilmington,S2407,Sand Applicator,,Output - Low Flow,Chute,Chute Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/26/2020 11:57
+IKO Kankakee,S2420,Blender 1,"Blender, Granule Blend, Granule Application",Gearbox Stopped,Gearbox,Gearbox Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,5/14/2020 10:53
+IKO Kankakee,S2420,Blender 1,"Blender, Granule Blend, Granule Application",Asset Stopped,Motor(AC),Motor(AC) Electrical Failure,"Winding, Short, Insulation Breakdown/HighTemperature",6/30/2019,5/14/2020 12:43
+IKO Sylacauga,S2420,Blender 1,"Blender, Granule Blend, Granule Application",Asset Stopped,Encoder,Encoder Failure,"Encoder, Lose Contact, Faulty Cabling",6/30/2019,5/27/2020 17:18
+IKO Hawkesbury,S2421,Blender 2,"Blender, Granule Blend, Granule Application",Asset Stopped,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/25/2020 11:54
+CRC Toronto,S2422,Blender 3,"Blender, Granule Blend, Granule Application",,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,6/1/2020 12:20
+IKO Hawkesbury,S2440,Laminate Secondary Spill Hopper (Applicator),"Spill Hopper, Granule Blend, Granule Application",Output - Granule Contaminated,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/25/2020 12:36
+IKO Kankakee,S2466,Color Cover Up Application System (Primary Spill),,,Pipeline,Pipeline Mechanical Failure,"Pipe(Hydraulic), Vibration/Loose, Insufficient Clamping",6/30/2019,5/14/2020 13:10
+IKO Kankakee,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",,Scraper,Scraper Mechanical Failure,"Scraper Blade, Uneven Scraping, Contamination",6/30/2019,5/14/2020 10:57
+IKO Kankakee,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",Applicator failed,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/14/2020 12:02
+IKO Kankakee,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",Applicator failed,Flow Rate,,,6/30/2019,5/14/2020 12:15
+IKO Sylacauga,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",Output - Granule Contaminated,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/27/2020 17:12
+IKO Sylacauga,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",Asset Jammed,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,5/28/2020 12:12
+IKO Sylacauga,S2470,Laminate Primary Spill Hopper with Dividers,"Spill Hopper, Granule Blend, Granule Application",,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",6/30/2019,6/1/2020 11:22
+IKO Wilmington,S2520,Slate Drum,"Slate Drum, Granuled Sheet, Slating System",Asset Stopped,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/27/2020 11:27
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/27/2020 16:09
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Quality - Granule Contaminated,Divider,Divider Mechanical Failure,"Divider, Wear, Usage",6/30/2019,5/27/2020 16:15
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/27/2020 17:16
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Damage, Shock Load",6/30/2019,5/28/2020 8:15
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/28/2020 15:30
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,6/1/2020 9:54
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,6/1/2020 10:03
+IKO Sylacauga,S2520,Slate Drum System,"Slate Drum, Granuled Sheet, Slating System",Quality - Granule Contaminated,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,6/1/2020 10:33
+CRC Toronto,S2520,Slate Drum,"Slate Drum, Granuled Sheet, Slating System",Output - Sheet Jammed,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,6/2/2020 13:11
+IKO Hawkesbury,S2530,Backsurfacing Applicator (Talc Applicator 37AC),"Backsurfacing Applicator, Granuled Sheet, Slating System",Asset High Vibration,Bolt,,,6/30/2019,5/25/2020 12:21
+IKO Hawkesbury,S2530,Backsurfacing Applicator (Talc Applicator 37AC),"Backsurfacing Applicator, Granuled Sheet, Slating System",,Sensor,Sensor Faillure,"Sensor, (Thermal) Not Sensing, Insultation Failure",6/30/2019,5/25/2020 12:26
+IKO Wilmington,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",,Bolt,,,6/30/2019,5/25/2020 15:33
+IKO Wilmington,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",Applicator failed,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,5/25/2020 15:36
+IKO Wilmington,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",,Applicator(Glue),Applicator(Glue) Mechanical Failure,"Cylinder(Air), Wear, Contamination",6/30/2019,5/25/2020 15:52
+IKO Wilmington,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",Output - Improper Flow,Applicator(Sand),Applicator(Sand) Incorrect Quantity,"Quantity, Low, Incorrect Parameter",6/30/2019,5/26/2020 11:31
+IKO Wilmington,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",Asset Stopped,Applicator(Glue),Applicator(Glue) Sensor Failure,"Sensor, Not Sensing, Buildup",6/30/2019,5/27/2020 13:39
+CRC Toronto,S2550,Backsurfacing Drum (Talc),"Backsurfacing Drum, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,6/2/2020 13:01
+IKO Wilmington,S2590,Slated Sheet Turn Down Drum (Roll),"Turndown Roll, Granuled Sheet, Slating System",Output - Sheet Break,Slating Drum,Slating Drum Mechanical Failure,"Drum, Wear, Buildup",6/30/2019,5/25/2020 15:29
+IKO Wilmington,S2590,Slated Sheet Turn Down Drum (Roll),"Turndown Roll, Granuled Sheet, Slating System",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/26/2020 12:21
+CRC Toronto,S2590,Turndown Roll,"Turndown Roll, Granuled Sheet, Slating System",Asset Stopped,Elevator Head,Encoder Failure,"Encoder, Lose Contact, Dirt Terminals",6/30/2019,6/2/2020 13:25
+IKO Kankakee,S2763,Colour Reclaim Scale Conveyor #2,"Weigh Scale, Granule Blend, Reclaim System",Asset Stopped,Gearbox,Gearbox Mechanical Failure,"Gear, Wear, Usage",6/30/2019,5/14/2020 12:33
+IKO Kankakee,S2763,Colour Reclaim Scale Conveyor #2,"Weigh Scale, Granule Blend, Reclaim System",Asset Stopped,Gearbox,Gearbox Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,5/14/2020 14:27
+IKO Hawkesbury,S2910,Self Seal Tape System,,Asset Stopped,Sensor,Sensor Faillure,"Sensor, Not Sensing, No Power",6/30/2019,5/25/2020 12:29
+IKO Kankakee,S2911,Release Tape Rack - Laminate,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/14/2020 15:57
+IKO Kankakee,S2911,"Tape Rack ""A"" Laminate",,Quality - Sheet Splice Failure,Temperature,,,6/30/2019,5/19/2020 8:57
+IKO Kankakee,S2911,"Tape Rack ""A"" Laminate",,Output - Sheet Break,Tape Roll,,,6/30/2019,5/19/2020 9:07
+IKO Calgary,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/12/2020 14:37
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/19/2020 12:31
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/19/2020 13:26
+IKO Hawkesbury,S2914,Release Tape Rack Dynasty,,,Tape Roll,,,6/30/2019,5/19/2020 16:21
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/19/2020 16:39
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/19/2020 16:55
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/21/2020 15:47
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/25/2020 11:44
+IKO Hawkesbury,S2914,Release Tape Rack - Dynasty,,,Tape Roll,,,6/30/2019,5/25/2020 12:01
+IKO Kankakee,S2936,ArmourZone Splice Machine 2,,,Temperature,,,6/30/2019,5/19/2020 9:00
+CRC Toronto,S3024,Pre-Press / Cooling Section 1 Load Cell Roll,"Cell Roll, Granuled Sheet, Cooling Section",Motor Failed,Encoder,Encoder Failure,"Encoder, Lose Contact, Dirt Terminals",6/30/2019,6/2/2020 10:09
+IKO Hawkesbury,S3026,Press Section Entry Roll,,Output - Tape Jammed,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/19/2020 16:18
+IKO Hawkesbury,S3028,Primary Press Roll System,"Press Roll, Granuled Sheet, Cooling Section",,Regulator,,,6/30/2019,5/21/2020 15:44
+IKO Hawkesbury,S3028,Primary Press Roll System,"Press Roll, Granuled Sheet, Cooling Section",Asset Stopped,Bearing,,,6/30/2019,5/21/2020 16:02
+IKO Calgary,S3040,Cooling Section,,Output - Sheet Break,Roll,Roll Bearing Failure,"Bearing, Wear, Underlubrication",6/30/2019,5/4/2020 13:19
+IKO Kankakee,S3064,Cooling Roll Section 1 System,"Roll, Cooled Sheet, Cooling Section",Output - Sheet Break,Roll,Roll Mechanical Failure,,6/30/2019,5/14/2020 15:11
+IKO Hawkesbury,S3064,Cooling Section 1 Rolls,"Roll, Cooled Sheet, Cooling Section",Output - High Load,Roll,Roll Bearing Failure,"Bearing, Wear, Overload",6/30/2019,5/19/2020 12:37
+IKO Hawkesbury,S3064,Cooling Section 1 Rolls,"Roll, Cooled Sheet, Cooling Section",,Scraper,Scraper Mechanical Failure,"Scraper Blade, Edge Wear, Usage",6/30/2019,5/19/2020 12:58
+IKO Wilmington,S3064,Cooling Section 1 Rolls,"Roll, Cooled Sheet, Cooling Section",,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/27/2020 8:24
+IKO Hawkesbury,S3131,Exhaust Fan #1 Hood,"Fan, Cooled Sheet, Cooling Section",,Bin,,,6/30/2019,5/25/2020 12:18
+IKO Sylacauga,S3200,Cooling Section Spray Bar System,"Spray Bars, Cooled Sheet, Cooling Section",Output - Sheet Break,Spray Nozzle,,,6/30/2019,6/1/2020 10:35
+IKO Wilmington,S3355,Finished Product Looper (FPL),,Output - Sheet Break,Guard,,,6/30/2019,5/26/2020 11:04
+IKO Wilmington,S3357,FPL Entry Rolls,,Output - Sheet Break,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/26/2020 11:55
+IKO Sylacauga,S3360,FPL Entry Pull Rolls,"Pull Roll, FPL Sheet, FPL",Asset Jammed,Wheel,,,6/30/2019,5/28/2020 11:25
+IKO Sylacauga,S3365,FPL Forming Roll,"Forming Roll, FPL Sheet, FPL",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/28/2020 12:05
+IKO Sylacauga,S3365,FPL Forming Roll,"Forming Roll, FPL Sheet, FPL",,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/28/2020 13:01
+IKO Sylacauga,S3365,FPL Forming Roll,"Forming Roll, FPL Sheet, FPL",Quality - Hole on Sheet,Pin,,,6/30/2019,5/28/2020 13:05
+IKO Sylacauga,S3365,FPL Forming Roll,"Forming Roll, FPL Sheet, FPL",,Knife,,,6/30/2019,6/1/2020 9:57
+IKO Wilmington,S3393,FPL Exit Guide Roll,,Output - Sheet Break,Guide,,,6/30/2019,5/26/2020 10:51
+IKO Wilmington,S3393,FPL Exit Guide Roll,,Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/27/2020 13:40
+IKO Wilmington,S3393,FPL Exit Guide Roll,,,Sensor,Sensor Faillure,"Sensor, (Reflective) Not Sensing, Misalignment",6/30/2019,5/27/2020 13:48
+IKO Wilmington,S3393,FPL Exit Guide Roll,,Output - Sheet Break,Material,,,6/30/2019,5/27/2020 13:50
+IKO Hawkesbury,S3400,FPL #1 Pull Roll System,,,Roll,Roll Mechanical Failure,"Roll(Rubber), Jam, Buildup",6/30/2019,5/19/2020 14:59
+IKO Wilmington,S3402,FPL Exit Free Loop,,Output - Sheet Break,Material,,,6/30/2019,5/27/2020 11:48
+IKO Kankakee,S3420,FPL #1 Pattern Cutter Loop System - Laminate,,,Chain,,,6/30/2019,5/14/2020 14:25
+IKO Sylacauga,S3429,FPL Exit Guide Roll,"Guide Roll, FPL Sheet, FPL",Transmission System(Belt) Failed,Belt(Conveyor),,,6/30/2019,5/28/2020 12:07
+IKO Sylacauga,S3429,FPL Exit Guide Roll,"Guide Roll, FPL Sheet, FPL",,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Chroming Wear Out",6/30/2019,5/28/2020 15:09
+IKO Sylacauga,S3463,Laminate Carry-over Pull Rolls,"Pull Roll, FPL Sheet, Carry-over Systems",Asset Stopped,Bearing,,,6/30/2019,5/28/2020 12:11
+IKO Kankakee,S3524,3 Tab Carry-over Free Loop System,,,Photo Eye,,,6/30/2019,5/14/2020 14:10
+CRC Toronto,S3533,3-Tab Carry-over Pull Rolls 3,,Transmission System(Chain) Failed,Chain,,,6/30/2019,6/2/2020 9:51
+CRC Toronto,S4066,3-Tab Cutting Cylinder,"Cutting Cylinder, 3TAB Shingle, 3 Tab Section",Asset Jammed,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Big, Incorrect Setting & Human Error",6/30/2019,6/2/2020 10:06
+IKO Sylacauga,S4068,Hip and Ridge Cutting Cylinder A,,Bundle Improper Cutting,Pin,,,6/30/2019,5/28/2020 11:18
+IKO Sylacauga,S4068,Hip and Ridge Cutting Cylinder A,,Asset Stopped,Servo Motor,Servo Motor Mechanical Failure,,6/30/2019,5/28/2020 15:21
+IKO Hawkesbury,S4508,Paint Pumping System,"Delivery Pump, Paint, Laminate Section",,Pump(Centrifugal),Pump(Centrifugal) Mechanical Failure,"Pump Casing, Wear, Contamination",6/30/2019,5/21/2020 15:50
+IKO Hawkesbury,S4520,Paint Line Applicator System,"Applicator, Paint, Laminate Section",,Painting Wheel,,,6/30/2019,5/21/2020 16:12
+IKO Calgary,S4603,Pattern Cutter System,,Output - Sheet Break,Pattern Cutter Cylinder,Pattern Cutter Cylinder Incorrect Knife Gap,"Gap, Too Big, Incorrect Setting & Human Error",6/30/2019,5/4/2020 13:15
+IKO Wilmington,S4661,Pattern Cutter Cutting Cylinder 1,,Blade Break,Cutter,Cutter Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/26/2020 13:25
+IKO Wilmington,S4661,Pattern Cutter Cutting Cylinder 1,,Blade Break,Knife,,,6/30/2019,5/26/2020 13:27
+IKO Kankakee,S4662,PC Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Jammed,Rubber Bladder,,,6/30/2019,5/14/2020 11:27
+IKO Kankakee,S4662,PC Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Shingle Jammed,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Big, Incorrect Setting & Human Error",6/30/2019,5/14/2020 11:51
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Knife(Dragon Tooth),,,6/30/2019,5/14/2020 12:16
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",,Knife(Dragon Tooth),,,6/30/2019,5/14/2020 12:44
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Knife(Dragon Tooth),,,6/30/2019,5/14/2020 14:18
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Knife(Dragon Tooth),,,6/30/2019,5/14/2020 14:40
+IKO Kankakee,S4662,PC Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Cylinder(Hydraulic),,,6/30/2019,5/14/2020 15:02
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Knife,,,6/30/2019,5/19/2020 9:12
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Blade Break,Knife(Dragon Tooth),,,6/30/2019,5/19/2020 9:17
+IKO Kankakee,S4662,IKO2PLS Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",,Knife,,,6/30/2019,5/19/2020 9:37
+IKO Hawkesbury,S4662,Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Blade Break,Sheet,Sheet Defect,"Sheet, Defect, Quality Defect",6/30/2019,5/19/2020 12:22
+IKO Sylacauga,S4662,Laminate Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Blade Break,Knife,,,6/30/2019,6/1/2020 8:22
+IKO Sylacauga,S4662,Laminate Pattern Cutter Cutting Cylinder System,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",,Pattern Cutter Cylinder,Pattern Cutter Cylinder Incorrect Knife Gap,"Gap, Too Small, Incorrect Setting & Human Error",6/30/2019,6/1/2020 8:29
+CRC Toronto,S4662,Pattern Cutter Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Asset Vibrating,Cylinder(Air),,,6/30/2019,6/1/2020 11:53
+CRC Toronto,S4662,Pattern Cutter Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",Asset Vibrating,Cylinder(Air),,,6/30/2019,6/1/2020 11:55
+CRC Toronto,S4662,Pattern Cutter Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Big, Incorrect Setting & Human Error",6/30/2019,6/2/2020 10:57
+CRC Toronto,S4662,Pattern Cutter Cutting Cylinder,"Cutting Cylinder, Pattern Laminated Sheet, Laminate Section",,Cutter,Cutter Incorrect Knife Gap,"Gap, Too Small, Incorrect Parameter",6/30/2019,6/2/2020 12:55
+IKO Sylacauga,S4665,Laminate Pattern Cutter Anvil System,"Anvil Roll, Pattern Laminated Sheet, Laminate Section",,Roll(Anvil),Roll(Anvil) Incorrect Gap,"Gap, Too Small, Incorrect Setting & Human Error",6/30/2019,5/28/2020 12:52
+IKO Sylacauga,S4665,Laminate Pattern Cutter Anvil System,"Anvil Roll, Pattern Laminated Sheet, Laminate Section",,Cutter,Cutter Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/28/2020 16:23
+IKO Sylacauga,S4665,Laminate Pattern Cutter Anvil System,"Anvil Roll, Pattern Laminated Sheet, Laminate Section",,Roll(Anvil),Roll(Anvil) Mechanical Failure,"Roll(Anvil), Jam, Buildup",6/30/2019,5/28/2020 17:30
+IKO Wilmington,S4671,Pattern Cutter Exit Roll System,"Roll, Pattern Laminated Sheet, Laminate Section",Output - Sheet Break,Sensor,Sensor Incorrect Setting,"Sensor, Improper Sensing, Incorrect Sensor Type",6/30/2019,5/26/2020 11:00
+IKO Hawkesbury,S4731,Dragon Tooth Pull Roll Lanes,,,Roll,Roll Mechanical Failure,"Roll(Rubber), Misalignment, Usage/Improper Installation",6/30/2019,5/19/2020 16:29
+CRC Toronto,S4732,Laminator Dragon Tooth Pull Roll Lane 1,,Output - Sheet Break,Chain,,,6/30/2019,6/1/2020 12:25
+CRC Toronto,S4732,Laminator Dragon Tooth Pull Roll Lane 1,,Dragen Tooth Break,Knife(Dragon Tooth),,,6/30/2019,6/2/2020 10:11
+IKO Hawkesbury,S4739,Shim Lane D/C Conveying,,,Rubber(Bumpter),,,6/30/2019,5/19/2020 12:43
+IKO Hawkesbury,S4752,Laminate Applicator System (Adhesive),,,Applicator(Glue),Applicator(Glue) Mechanical Failure,"Glue Nozzle, Over Feed, Incorrect Setting",6/30/2019,5/19/2020 12:42
+IKO Wilmington,S4752,Laminate Applicator System (Adhesive),,Applicator failed,Shaft,,,6/30/2019,5/25/2020 15:35
+IKO Wilmington,S4752,Laminate Applicator System (Adhesive),,,Applicator(Glue),Applicator(Glue) Mechanical Failure,"Glue Nozzle, Incorrect Feed, Wear",6/30/2019,5/27/2020 10:15
+CRC Toronto,S4752,Laminator Adhesive Applicator System,,Output - Sheet Break,Scraper,Scraper Mechanical Failure,"Scraper Blade, Uneven Scraping, Contamination",6/30/2019,6/2/2020 13:46
+IKO Wilmington,S4760,Laminator Combining Section / Shim Pull System Lane A,,,Shim Lane(Ceramic),Shim Lane(Ceramic) Mechanical Failure,"Disc(Ceramic), Wear, Usage",6/30/2019,5/27/2020 13:12
+IKO Sylacauga,S5005,Laminator Dragon Tooth Lane 3 Web Conveying (Lane A),,Output - Sheet Break,Knife(Dragon Tooth),,,6/30/2019,5/28/2020 14:55
+IKO Sylacauga,S5009,Laminator Dragon Tooth Lane 5 Web Conveying (Lane B),,,Load Cell,Load Cell Failure,"Load Cell, Malfunction, Improper Welding",6/30/2019,5/28/2020 14:59
+IKO Sylacauga,S5021,Laminate Applicator System Lane 3/5 (Lane A/B),,Asset Stopped,Applicator(Glue),Applicator(Glue) Mechanical Failure,"Glue Nozzle, Incorrect Feed, Wear",6/30/2019,6/1/2020 10:28
+IKO Sylacauga,S5027,Laminator Combining Press Roll Lane 3/7 (Lane A),,,Bearing,,,6/30/2019,6/1/2020 10:13
+IKO Sylacauga,S5031,Laminator Sealant Applicator System Lane A/B,,Output - Low Flow,Pipeline,Pipeline Mechanical Failure,"Hose, Plugged, Buildup",6/30/2019,5/27/2020 16:22
+IKO Sylacauga,S5050,Laminator Dragon Tooth Lane 4 Web Conveying (Lane C),,Output - Sheet Break,Guide,,,6/30/2019,5/28/2020 8:17
+IKO Sylacauga,S5050,Laminator Dragon Tooth Lane 4 Web Conveying (Lane C),,Dragen Tooth Break,Guide,,,6/30/2019,5/28/2020 8:22
+IKO Sylacauga,S5072,Laminator Combining Press Roll Lane 4/8 (Lane C),,Asset Stopped,Bearing,,,6/30/2019,5/28/2020 8:18
+IKO Sylacauga,S5072,Laminator Combining Press Roll Lane 4/8 (Lane C),,Output - Sheet Break,Bearing,,,6/30/2019,5/28/2020 8:23
+IKO Sylacauga,S5072,Laminator Combining Press Roll Lane 4/8 (Lane C),,Asset Stopped,Bearing,,,6/30/2019,5/28/2020 13:03
+IKO Sylacauga,S5076,Laminator Sealant Applicator System Lane C/D,,,Wheel,,,6/30/2019,5/27/2020 16:17
+IKO Hawkesbury,S6225,Laminate Transport Sheet Slitter Module Pull Rolls,,Motor Failed,Motor(AC),Motor(AC) Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,5/19/2020 12:26
+IKO Hawkesbury,S6225,Laminate Transport Sheet Slitter Module Pull Rolls,,,Gap,,,6/30/2019,5/19/2020 13:22
+IKO Hawkesbury,S6512,CTL Entry Guide Roll Lane A and B,"Guide Roll, Slitted Laminated Sheet, CTL",,Motor(AC),Motor(AC) Mechanical Failure,"Bearing, Wear, Overload",6/30/2019,5/25/2020 15:26
+IKO Wilmington,S6514,CTL Lower Measuring Rolls Lane A,"Measuring Roll, Slitted Laminated Sheet, CTL",Roll Stopped,Motor(AC),Motor(AC) Electrical Failure,"Winding, Short, Water Contamination",6/30/2019,5/25/2020 17:17
+IKO Wilmington,S6514,CTL Lower Measuring Rolls Lane A,"Measuring Roll, Slitted Laminated Sheet, CTL",Motor(AC) stopped,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/26/2020 11:38
+IKO Wilmington,S6514,CTL Lower Measuring Rolls Lane A,"Measuring Roll, Slitted Laminated Sheet, CTL",Motor(AC) stopped,Motor(AC),Motor(AC) Encoder Failure,"Encoder, Lose Contact, Faulty Cabling",6/30/2019,5/26/2020 13:29
+IKO Kankakee,S6516,Upper Measuring Roll System Lane A/C,"Measuring Roll, Slitted Laminated Sheet, CTL",,Roll,Roll Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/19/2020 9:19
+IKO Kankakee,S6516,Upper Measuring Roll System Lane A/C,"Measuring Roll, Slitted Laminated Sheet, CTL",,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Usage/Contamination",6/30/2019,5/19/2020 9:34
+IKO Kankakee,S6522,Cut to Length Cylinder System Lane A/C,"Cutting Cylinder, Slitted Laminated Sheet, CTL",Blade Break,Cutter,Cutter Incorrect Knife Gap,"Knife, Break, Impact/Gap too small",6/30/2019,5/19/2020 9:02
+IKO Wilmington,S6522,CTL Cutting Cylinder Lane A,"Cutting Cylinder, Slitted Laminated Sheet, CTL",Blade Break,Cutter,Cutter Incorrect Knife Gap,"Knife, Break, Impact/Gap too small",6/30/2019,5/25/2020 15:37
+CRC Toronto,S6522,CTL Cutting Cylinder,"Cutting Cylinder, Slitted Laminated Sheet, CTL",Bundle Improper Cutting,Cutter,Cutter Incorrect Knife Gap,"Knife, Break, Impact/Gap too small",6/30/2019,6/1/2020 16:14
+IKO Sylacauga,S6524,CTL Inspection Belts RHS,"Inspection Belt, Slitted Laminated Sheet, CTL",,Belt(Conveyor),,,6/30/2019,6/1/2020 8:21
+CRC Toronto,S6524,CTL Inspection Belts,"Inspection Belt, Slitted Laminated Sheet, CTL",Asset Stopped,Pulley,,,6/30/2019,6/2/2020 13:06
+IKO Kankakee,S6540,Anvil Roll System Lane B/D,"Anvil Roll, Laminated Shingle, CTL",Asset Jammed,Roll(Anvil),Roll(Anvil) Mechanical Failure,"Roll(Anvil), Groove Wear, Usage",6/30/2019,5/14/2020 12:39
+IKO Kankakee,S6542,Cut to Length Cylinder System Lane B/D,"Cutting Cylinder, Laminated Shingle, CTL",Blade Break,Knife,,,6/30/2019,5/14/2020 14:11
+IKO Hawkesbury,S6542,Cut to Length Cylinder System LHS,"Cutting Cylinder, Laminated Shingle, CTL",Asset Jammed,Gap,,,6/30/2019,5/19/2020 13:45
+IKO Hawkesbury,S6542,Cut To Length Cylinder System LHS,"Cutting Cylinder, Laminated Shingle, CTL",Asset High Vibration,Knife,,,6/30/2019,5/19/2020 14:11
+IKO Hawkesbury,S6542,Cut to Length Cyclinder System (LHS),"Cutting Cylinder, Laminated Shingle, CTL",Bundle Improper Cutting,Cutter,Cutter Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",6/30/2019,5/21/2020 15:53
+IKO Wilmington,S6542,CTL Cutting Cylinder Lane B,"Cutting Cylinder, Laminated Shingle, CTL",Blade Break,Knife,,,6/30/2019,5/26/2020 12:24
+IKO Sylacauga,S6542,CTL Cylinder System LHS,"Cutting Cylinder, Laminated Shingle, CTL",Asset Jammed,Sensor,Sensor Faillure,"Sensor, Not Sensing, Buildup",6/30/2019,5/28/2020 12:59
+CRC Toronto,S6582,Laminate Twist Belt System (Lane 1),,Asset Jammed,Belt(Conveyor),,,6/30/2019,6/2/2020 13:37
+IKO Sylacauga,S7107,Laminate Seconds Diverter Lane A/B,,,Photo Eye,,,6/30/2019,5/28/2020 15:57
+IKO Kankakee,S7128,Laminate A/C Near/Far Lane Diverter System,"Diverter, Laminated Shingle, Laminate Delivery System",Asset Jammed,Diverter Finger,,,6/30/2019,5/19/2020 9:16
+IKO Sylacauga,S7129,Laminate Delivery Conveyor Lane A/B Near System,"Delivery Belt, Laminated Shingle, Laminate Delivery System",,Pulley,,,6/30/2019,5/28/2020 11:45
+IKO Sylacauga,S7177,Laminate C/D Near/Far Lane Diverter System,"Diverter, Laminated Shingle, Laminate Delivery System",Asset Jammed,Diverter,Diverter Mechanical Failure,"Diverter Finger, Wear, Usage",6/30/2019,5/28/2020 11:15
+IKO Sylacauga,S7450,3 Tab Catcher/Stacker System Lane 1 Near,,Asset Jammed,Star Wheel,,,6/30/2019,6/1/2020 11:25
+CRC Toronto,S7455,3-Tab Catcher / Stacker System Lane 2/4,,Asset Jammed,Pulley,,,6/30/2019,6/2/2020 11:11
+IKO Sylacauga,S8011,Laminate Catcher Entry Bridge Lane A/B Near,,,Belt(Conveyor),,,6/30/2019,5/27/2020 17:11
+IKO Sylacauga,S8011,Laminate Catcher Entry Bridge Lane A/B Near,,,Belt(Conveyor),,,6/30/2019,5/28/2020 11:22
+IKO Kankakee,S8021,Laminate Dual Stack Servo Catcher System - Lane A / C Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Shaft, Wear, Misalignment",6/30/2019,5/14/2020 12:04
+IKO Hillsboro,S8021,Laminate Dual Stack Servo Catcher System - Lane A / C Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Output - Bundle Improper Cutting,Cutter,Cutter Mechanical Failure,"Knife, Wear, Usage",6/30/2019,5/14/2020 14:12
+IKO Wilmington,S8021,Laminate Catcher Lane A,"Drop Plate, Laminated Shingle, Laminate Catcher System",Starwheel failure,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Shaft, Wear, Misalignment",6/30/2019,5/27/2020 8:21
+IKO Sylacauga,S8021,Laminate Catcher Lane A/B Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Asset Jammed,Plate,,,6/30/2019,5/28/2020 11:19
+IKO Sylacauga,S8021,Laminate Catcher Lane A/B Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Asset Jammed,Cutter,Cutter Mechanical Failure,"Roll, Jam, Buildup",6/30/2019,5/28/2020 16:32
+IKO Hawkesbury,S8022,RDI Dual Stack Servo Catcher System - Lane A / C Far,"Drop Plate, Laminated Shingle, Laminate Catcher System",Starwheel failure,Motor(Servo),Motor(Servo) Mechanical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/19/2020 15:23
+IKO Wilmington,S8022,Laminate Catcher Lane B,"Drop Plate, Laminated Shingle, Laminate Catcher System",Asset Jammed,Pulley,,,6/30/2019,5/27/2020 12:44
+IKO Kankakee,S8023,Laminate Dual Stack Servo Catcher System - Lane B / D Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Starwheel failure,Star Wheel Assembly,Star Wheel Assembly Mechanical Failure,"Shaft, Wear, Misalignment",6/30/2019,5/14/2020 11:45
+IKO Kankakee,S8023,Laminate Dual Stack Servo Catcher System - Lane B / D Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Asset Jammed,Gap,,,6/30/2019,5/14/2020 12:03
+IKO Sylacauga,S8023,Laminate Catcher Lane C/D Near,"Drop Plate, Laminated Shingle, Laminate Catcher System",Asset Jammed,Star Wheel,,,6/30/2019,5/28/2020 15:19
+IKO Sylacauga,S8062,Laminate Bundle Staging / Inspection Conveyor System - Lane A/B Near (West),"Staging Conveyor, Laminate Bundle, Laminate Bundle Handling",Asset Jammed,Rail,,,6/30/2019,5/28/2020 12:14
+IKO Wilmington,S8110,Laminate Bundle Chain Transfer Conveyor,,Output - Bundle Jammed,Actuator(Air),Actuator(Air) Mechanical Failure,"Cylinder(Air), Wear, Contamination",6/30/2019,5/26/2020 10:43
+IKO Sylacauga,S8120,Laminate Bundle High Lug System 1 (West),,Asset Jammed,Star Wheel,,,6/30/2019,5/28/2020 12:54
+IKO Sylacauga,S8120,Laminate Bundle High Lug System 1 (West),,Asset Jammed,Lugs,Lugs Mechanical Failure,"Lugs, Damage, Over Load",6/30/2019,5/28/2020 15:18
+IKO Sylacauga,S8120,Laminate Bundle High Lug System 1 (West),,Asset Jammed,Lugs,Lugs Mechanical Failure,"Lugs, Wear, Usage",6/30/2019,5/28/2020 15:26
+CRC Toronto,S8304,Hi-Lug Conveyor,"Lug Conveyor, Chain, Shingle Bundle, Lug System",Asset Stopped,Conveyor(Chain),Conveyor(Chain) Failure,"Chain(Conveyor), Jam, by loading Object",6/30/2019,6/2/2020 13:20
+CRC Toronto,S8607,Wrapper Printer 1,"Printer, Printed Film, Wrapper",Printer Stopped,Printer,Printer Mechanical Failure,"PrintHead, Malfunction, Moist Film Sticks",6/30/2019,6/2/2020 13:44
+IKO Wilmington,S8616,Wrapper Plastic Wrap Feed System,"Roll, Film, Wrapper",No Input,Scraper Blade,Sensor Faillure,"Sensor, (Reflective) Not Sensing, Misalignment",6/30/2019,5/26/2020 10:42
+IKO Wilmington,S8618,Wrapper Plastic Wrap Film Cutter,"Cutter, Cutted Film, Wrapper",Output - Bundle Jammed,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",6/30/2019,5/26/2020 11:03
+CRC Toronto,S8620,Wrapper Deionized Air Blower,"Blower, Air, Wrapper",Output - Bundle Misaligned,Blower,Blower Mechanical Failure,"Fan, Imbalance, Improper Installation",6/30/2019,6/2/2020 11:13
+IKO Wilmington,S8626,Wrapper Flight Bar,"Flight Bar, Wrapped Shingle Bundle, Wrapper",Asset Stopped,Switch,,,6/30/2019,5/26/2020 11:29
+IKO Wilmington,S8626,Wrapper Flight Bar,"Flight Bar, Wrapped Shingle Bundle, Wrapper",Motor(AC) stopped,Servo Motor,Servo Motor Mechanical Failure,,6/30/2019,5/27/2020 13:09
+IKO Wilmington,S8632,Wrapper Heat Shrink Tunnel System,,Conveyor Stopped,Belt(Conveyor),,,6/30/2019,5/25/2020 15:45
+IKO Wilmington,S8662,Wrapped Bundle Belt Conveyor 1,,Asset Jammed,Conveyor(Belt),Conveyor(Belt) Failure,"Belt(Conveyor), Jam, Buildup",6/30/2019,5/27/2020 8:28
+IKO Wilmington,S8724,Palletizer Pattern Conveyor,,Conveyor Stopped,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/25/2020 16:43
+CRC Toronto,S8724,Palletizer Pattern Conveyor,,Conveyor Stopped,Belt(Conveyor),,,6/30/2019,6/2/2020 10:55
+IKO Wilmington,S8726,Palletizer Six Lug Conveyor,"Lug Conveyor, Chain, Shingle Bundle, Palletizer",Conveyor Stopped,Conveyor(Belt),Conveyor(Belt) Failure,"Pulley(Coveyor), Jam, Buildup",6/30/2019,5/25/2020 17:03
+CRC Toronto,S8726,Palletizer Six-Lug Conveyor,"Lug Conveyor, Chain, Shingle Bundle, Palletizer",Motor(AC) stopped,Motor(AC),Motor(AC) Electrical Failure,"Winding, Short, External Power Surge",6/30/2019,6/1/2020 11:48
+CRC Toronto,S8730,Palletizer Transfer Conveyor (Gate),,,Seal,,,6/30/2019,6/2/2020 13:48
+IKO Sylacauga,S8736,Palletizer 1 Shuttle Conveyor System,"Conveyor, Belt, Shingle Bundle, Palletizer",Asset Jammed,Conveyor(Belt),Conveyor(Belt) Incorrect Delivery Timing,"Timing, Late, Incorrect Parameter",6/30/2019,5/28/2020 15:28
+IKO Kankakee,S9418,Wrapper 2 Plastic Wrap Film Cutter System,,Bundle Improper Cutting,Roll,Roll Mechanical Failure,"Roll, Misalignment, Usage/Improper Installation",6/30/2019,5/19/2020 9:14
+IKO Hawkesbury,S9418,Wrapper 2 Plastic Wrap Film Cutter System,,,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Chroming Wear Out",6/30/2019,5/19/2020 12:02
+IKO Kankakee,S9436,Wrapper 2 Gas-operated Heat Shrink Tunnel System,,,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",6/30/2019,5/14/2020 14:15
+IKO Hawkesbury,S9534,Palletizer 2 Adjustable Height Conveyor System,"Conveyor, Belt, Shingle Bundle, Palletizer",,Bar,,,6/30/2019,5/19/2020 12:05
+IKO Hawkesbury,M3600,Cooling Section,,Asset Stopped,,,,6/26/2019,5/5/2020 10:13
+IKO Hawkesbury,S2530,Backsurfacing Applicator,"Backsurfacing Applicator, Granuled Sheet, Slating System",Asset Stopped,Scraper,Scraper Mechanical Failure,"Scraper Blade, Edge Wear, Usage",6/26/2019,5/5/2020 10:10
+IKO Sumas,C2000,Hot Oil Systems (HOS),,Output - Oil Leak,Valve,,,5/12/2019,5/13/2020 15:20
+IKO Sumas,S2471,Armourshake Primary Spill Hopper with Dividers ,,,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",5/12/2019,5/13/2020 15:14
+IKO Sumas,S4601,Pattern Cutting Systems,,Bundle Improper Cutting,Belt(Conveyor),,,5/12/2019,5/13/2020 15:18
+IKO Hawkesbury,S2520,Slater Drum,"Slate Drum, Granuled Sheet, Slating System",Rotary Union Leak,Rotary Union,Rotary Union Mechanical Failure,"Rotary Union, Leak, Wear",4/20/2019,5/5/2020 8:52
+IKO Sumas,M4717,Sand Applicator,,,Hopper,Hopper Mechanical Failure,"Chute, Insufficient Outlet, Debris Buildup",4/14/2019,5/13/2020 15:09
+IKO Sumas,M7040,Plastic Wrap System,,Quality - Sheet Splice Failure,Diverter,Diverter Mechanical Failure,"Bearing, Wear, Overload",4/14/2019,5/13/2020 15:12
+IKO Sumas,S6575,Diverter Lane 1,,Asset Stp,Diverter,Diverter Mechanical Failure,"Bearing, Wear, Overload",4/14/2019,5/13/2020 15:10
+IKO Kankakee,M6213,Asphalt/Filler Mixer,,,Valve,,,4/4/2019,7/3/2020 14:58
+IKO Kankakee,M6231,Filler/Asphalt Mixer Pump to Secondary Tanks,,,Motor(AC),Motor(AC) Electrical Failure,"Winding, Short, External Power Surge",4/4/2019,7/3/2020 15:21
+IKO Kankakee,M6442,Dry Mat Looper Web Guide,,Output - Sheet Break,Roll(Caliper),Roll(Caliper) Mechanical Failure,"Roll(Caliper), Jam, Buildup",4/4/2019,7/3/2020 15:15
+IKO Kankakee,M6930,Winder Mandrel and Ejection System,,Asset Stopped,Controller(PLC/Analog),,,3/28/2019,7/3/2020 14:15
+IKO Kankakee,M6807,FPL Dancer rolls,,,Photo Eye,,,3/21/2019,7/3/2020 13:54
+IKO Kankakee,M7085,Plastic Wrap Oven (GAS),,,Heater,,,3/21/2019,7/3/2020 14:00
+IKO Sumas,S0282,Hot Filler Screw,,Conveyor(Screw) Failed,Screw,,,3/17/2019,5/13/2020 15:04
+IKO Sumas,S2471,Armourshake Primary Spill Hopper with Dividers ,,Output - Granule Contaminated,Hose,,,3/17/2019,5/13/2020 15:06
+IKO Kankakee,M6930,Winder Mandrel and Ejection System,,Output - Sheet Misaligned,FIFE System,FIFE System Sensor Failure,,3/14/2019,7/3/2020 13:34
+IKO Kankakee,S2276,Coater Bottom Caliper Roll,"Caliper Roll, Coated Sheet, Coater",,Scraper,Scraper Mechanical Failure,"Scraper Blade, Uneven Scraping, Contamination",3/14/2019,7/3/2020 13:36
+IKO Kankakee,M6921,Winder Tape Dispenser 1,,,Tape Roll,,,3/7/2019,7/3/2020 13:24
+IKO Kankakee,M6930,Winder Mandrel and Ejection System,,Output - Sheet Misaligned,FIFE System,FIFE System Sensor Failure,,3/7/2019,7/3/2020 13:26
+IKO Calgary,M5100,Finish Product Looper (FPL) System,,Output - Sheet Jammed,Cylinder(Air),,,3/3/2019,5/12/2020 14:13
+IKO Calgary,S2081,Dry Mat Accumulation (DMA) System,,Output - Sheet Break,Cylinder(Air),,,3/3/2019,5/12/2020 14:19
+IKO Sumas,S2420,Blender Roll #1,"Blender, Granule Blend, Granule Application",Asset Stopped,Motor(AC),Motor(AC) Electrical Failure,"Power Cable, Open Circuit, Loose Connection",3/3/2019,5/13/2020 15:02
+IKO Calgary,S2530,Backsurfacing Applicator System,"Backsurfacing Applicator, Granuled Sheet, Slating System",,Applicator(Glue),Applicator(Glue) Sensor Failure,"Sensor, Improper Sensing, Incorrect Sensor Type",3/3/2019,5/12/2020 14:17
+IKO Sumas,S3028,Press Roll 1,"Press Roll, Granuled Sheet, Cooling Section",Output - Sheet Break,Roll,Roll Mechanical Failure,"Roll, Surface Wear, Chroming Wear Out",3/3/2019,5/13/2020 15:00
+IKO Sumas,S6526,CTL Scrap Diverter,"Scrap Diverter, Slitted Laminated Sheet, CTL",Asset Jammed,Knife,,,3/3/2019,5/13/2020 12:41
+IKO Kankakee,M6213,Asphalt/Filler Mixer,,,Screw,,,2/15/2019,7/3/2020 12:27
+IKO Kankakee,M6902,Winder Entry Pull Rolls,,Sheet jammed,Temperature,,,2/15/2019,7/3/2020 12:30
+IKO Kankakee,M6902,Winder Entry Pull Rolls,,Output - Sheet Jammed,Temperature,,,2/8/2019,7/3/2020 12:08
+IKO Kankakee,S2520,Slate drum,"Slate Drum, Granuled Sheet, Slating System",Asset Jammed,Slating Drum,Slating Drum Mechanical Failure,"Bearing, Wear, Dust Contamination",12/13/2018,10/31/2019 10:36
+IKO Sumas,S0465,Filler Mixer,,,Ducting,Ducting Mechanical Failure,"Ducting, Insufficiant Flow Rate, Buildup",8/15/2017,
+Southeast,S2045,Splice Table,"Splicing Table, Spliced Sheet, DMA",,Heat&Press Carriage,Heat&Press Carriage Mechanical Failure,"Heater, Improper Heating, Element Failed",12/21/2016,10/30/2019 13:02

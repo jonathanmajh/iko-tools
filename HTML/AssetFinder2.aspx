@@ -1,13 +1,9 @@
-﻿<!--Since Last Upload (April-2020)-->
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!--tag to make IE use its modern rendering engine-->
-    <!--honestly this webpage is put together from a bunch of stackoverflow questions so my browsing history would be more helpful than my comments-->
-    <!--i.redd.it/g68apg56e7a11.jpg-->
     <script src="https://cdn.rawgit.com/mholt/PapaParse/master/papaparse.min.js" type="text/javascript"></script>
     <!-- reader for CSV files-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <!--    These are for the drop down and typing for asset numbers-->
     <title>Asset Finder</title>
+
 </head>
 
 <body>
@@ -116,7 +113,7 @@
 <script type="application/javascript">
     var start;
     var arrayExist = false;
-    var siteData;
+    var siteData = [];
     var convertCase = false;
     var lCaseDesc;
     var UCaseDesc;
@@ -146,6 +143,7 @@
         arrayExist = false;
         //we also convert the description to lowercase so save that array too
         convertCase = false;
+        siteData = [];
         //removes all entries for the drop down asset and list
         for (var i = AssetList.options.length - 1; i >= 0; i--) {
             AssetList.remove(i);
@@ -164,10 +162,22 @@
             success: function () {
                 console.log("File is Good");
                 document.getElementById("result").innerHTML = "<ul><li>Loading Assets List..... Please Wait</li></ul>";
-                readCSV(siteCSV, loadAssetDrop);
+                readCSV(siteCSV, assetLoader);
                 document.getElementById("result").innerHTML = "Press the ? mark for tips";
             }
         });
+    }
+
+    function assetLoader(data) {
+        for (i=0;i<data.length;i++) {
+            if (data[i].length > 1) {
+                siteData.push(data[i]);
+            }
+            if (data[i][5]) {
+                siteData.push([data[i][0], data[i][5], data[i][2], data[i][3], data[i][4]])
+            }
+        }
+        loadAssetDrop(data)
     }
 
     function toolTip(tipNum) {
@@ -243,7 +253,6 @@
             complete: function (results) {
                 arrayExist = true;
                 console.log("Finished Parsing Array");
-                siteData = results.data.slice(0);
                 callback(results.data, true);
             }
         });

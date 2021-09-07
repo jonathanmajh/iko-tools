@@ -1,0 +1,1010 @@
+C0102,Employee Parking Lots,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,,Land.pdf
+C0103,Lawn,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,,Land.pdf
+C0106,Pavement / Concrete Slabs / Concrete Barriers and Walls,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,,Land.pdf
+C0107,Truck Tarping Station,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,A-TS-01,Land.pdf
+C0123,Fences / Gates / Posts and Signs,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,,Land.pdf
+C0124,Truck Scale,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,A-SCALE-01,Land.pdf
+C0125,Truck Scale 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Land.pdf,A-SCALE-02,Land.pdf
+C0154,Storm Water Sump Pump 1 (Quarry),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Storm_Water_System.pdf,Q-P-01,Storm_Water_System.pdf
+C0155,Storm Water Sump Pump 2 (Quarry),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Storm_Water_System.pdf,Q-P-02,Storm_Water_System.pdf
+C0190,City Water Supply,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Storm_Water_System.pdf,,Storm_Water_System.pdf
+C0419,Color Plant Building Roof/Structure (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0419,Color Plant Building Roof/Structure (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0420,Color Plant Building Electrical / Lighting (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0420,Color Plant Building Electrical / Lighting (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0421,MPLB HVAC / Heating,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0421,MPLB HVAC / Heating,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0422,Color Plant Building Stairs / Catwalks (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0422,Color Plant Building Stairs / Catwalks (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0423,Color Plant Building Doors / Overhead Doors / Locks,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0423,Color Plant Building Doors / Overhead Doors / Locks,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0424,Color Plant Building Concrete Slab / Pits / Sumps,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0424,Color Plant Building Concrete Slab / Pits / Sumps,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0431,MPLB Offices,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0431,MPLB Offices,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0433,MPLB Plumbing / Sewage,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0433,MPLB Plumbing / Sewage,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0467,Color Plant Building Roof/Structure (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Color_Plant_Building.pdf,,Color_Plant_Building.pdf
+C0590,Portable Security Trailer,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Main_Production_Line_Building.pdf,,Main_Production_Line_Building.pdf
+C0604,Primary Plant Building Roof/Structure,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,,Primary_Plant_Common_Equipment.pdf
+C0605,Primary Plant Building Electrical/Lighting,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,,Primary_Plant_Common_Equipment.pdf
+C0611,Tertiary Plant Building Roof/Structure,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Building.pdf,,Tertiary_Plant_Building.pdf
+C0612,Tertiary Plant Building Electrical/Lighting,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Building.pdf,,Tertiary_Plant_Building.pdf
+C1098,Maintenance Shop Crane (5 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-04,Overhead_Cranes_and_Hoists.pdf
+C1141,Tertiary Crusher Crane (10 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-CRANE-02,Tertiary_Plant_Common_Equipment.pdf
+C1142,Tertiary Screen Crane (10 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-CRANE-03,Tertiary_Plant_Common_Equipment.pdf
+C1143,"Colour Crane 5 (5 Ton, Pigment)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-CRANE-05,Colour_Plant_Common_Equipment.pdf
+C1144,Tertiary Jib Crane 1 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-01,Tertiary_Plant_Common_Equipment.pdf
+C1145,Tertiary Jib Crane 2 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-02,Tertiary_Plant_Common_Equipment.pdf
+C1146,Machine Shop Jib Crane (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-JIB-03,Overhead_Cranes_and_Hoists.pdf
+C1147,Tertiary Jib Crane 3 (2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-08,Tertiary_Plant_Common_Equipment.pdf
+C1148,MPLB Jib Crane 5 (1/2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-JIB-09,Overhead_Cranes_and_Hoists.pdf
+C1149,MPLB Jib Crane 6 (1/4 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-JIB-10,Overhead_Cranes_and_Hoists.pdf
+C1150,Colour Jib Crane 1 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-05,Colour_Plant_Common_Equipment.pdf
+C1161,Engine Hoist 12 (1/2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-12,Overhead_Cranes_and_Hoists.pdf
+C1200,Primary Overhead Crane (15 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,A-CRANE-01,Primary_Plant_Common_Equipment.pdf
+C1201,Primary Auxiliary Crane (2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,A-CRANE-06,Primary_Plant_Common_Equipment.pdf
+C1202,Tertiary Hoist Classifier Crane (2.5 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-CRANE-07,Tertiary_Plant_Common_Equipment.pdf
+C1203,2nd Floor Crane (2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-08,Overhead_Cranes_and_Hoists.pdf
+C1204,3rd Floor Crane (2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-09,Overhead_Cranes_and_Hoists.pdf
+C1205,4th Floor Crane (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-10,Overhead_Cranes_and_Hoists.pdf
+C1206,Roof Crane (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-11,Overhead_Cranes_and_Hoists.pdf
+C1207,Tertiary Hoist Classifier Crane 2 (3 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-CRANE-12,Tertiary_Plant_Common_Equipment.pdf
+C1208,Pump Room Monorail Crane (1/4 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-13,Overhead_Cranes_and_Hoists.pdf
+C1209,Machine Shop Monorail Crane (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-CRANE-14,Overhead_Cranes_and_Hoists.pdf
+C1210,Colour Jib Crane 2 (1/4 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-06,Colour_Plant_Common_Equipment.pdf
+C1211,Colour Jib Crane 3 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-07,Colour_Plant_Common_Equipment.pdf
+C1212,Colour Jib Crane 4 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-04,Colour_Plant_Common_Equipment.pdf
+C1213,Colour Jib Crane 5 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-15,Colour_Plant_Common_Equipment.pdf
+C1214,Colour Jib Crane 6 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-16,Colour_Plant_Common_Equipment.pdf
+C1215,Colour Jib Crane 7 (1 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-17,Colour_Plant_Common_Equipment.pdf
+C1216,Colour Jib Crane 8,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-18,Colour_Plant_Common_Equipment.pdf
+C1217,Tertiary Jib Crane 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-19,Tertiary_Plant_Common_Equipment.pdf
+C1218,Tertiary Jib Crane 5 (1/2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-20,Tertiary_Plant_Common_Equipment.pdf
+C1219,Tertiary Jib Crane 6 (1/2 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-21,Tertiary_Plant_Common_Equipment.pdf
+C1220,Tertiary Jib Crane 7,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-JIB-22,Tertiary_Plant_Common_Equipment.pdf
+C1221,Colour Jib Crane 9,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-JIB-23,Colour_Plant_Common_Equipment.pdf
+C1270,Lift Device - Cylinder Lifting Basking 1 (500LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-01,Overhead_Cranes_and_Hoists.pdf
+C1271,Lift Device - Cylinder Lifting Basking 2 (500LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-02,Overhead_Cranes_and_Hoists.pdf
+C1272,Lift Device - Lifting Basking 3 (1000LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-03,Overhead_Cranes_and_Hoists.pdf
+C1273,Lift Device - Lifting Basking 4 (1000LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-04,Overhead_Cranes_and_Hoists.pdf
+C1274,Lift Device - Lifting Basking 5 (1000LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-05,Overhead_Cranes_and_Hoists.pdf
+C1275,Lift Device - Lifting Platform 6 (800LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-06,Overhead_Cranes_and_Hoists.pdf
+C1276,Lift Device - Bottle Transport Rack 7,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-07,Overhead_Cranes_and_Hoists.pdf
+C1277,Lift Device - Pallet Lifter 8 (Musclemate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-08,Overhead_Cranes_and_Hoists.pdf
+C1278,Lift Device - Pallet Lifter 9 (Musclemate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-09,Overhead_Cranes_and_Hoists.pdf
+C1279,Lift Device - Pallet Lifter 10 (Kleton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-10,Overhead_Cranes_and_Hoists.pdf
+C1280,Lift Device - Water Bottle Rack 11 (1200LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-11,Overhead_Cranes_and_Hoists.pdf
+C1281,"Lift Device - Lifting Bag 13 (150LB, 36IN X 8IN)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-13,Overhead_Cranes_and_Hoists.pdf
+C1282,"Lift Device - Lifting Bag 14 (150LB, 17IN X 14IN)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-14,Overhead_Cranes_and_Hoists.pdf
+C1283,Lift Device - Cylinder Lifting Basket 15 (500LB),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-15,Overhead_Cranes_and_Hoists.pdf
+C1284,Lift Device - Strongarm Service Jack 16 (10 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-16,Overhead_Cranes_and_Hoists.pdf
+C1285,Lift Device - Bottle Transport Rack 17,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-17,Overhead_Cranes_and_Hoists.pdf
+C1286,Lift Device - Breathing Air Bottle Rack 18,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-18,Overhead_Cranes_and_Hoists.pdf
+C1287,"Lift Device - Lifting Bag 19 (150LB, 36IN X 8IN)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-19,Overhead_Cranes_and_Hoists.pdf
+C1288,"Lift Device - Lifting Bag 20 (150LB, 17IN X 14IN)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Overhead_Cranes_and_Hoists.pdf,A-LFTDVC-20,Overhead_Cranes_and_Hoists.pdf
+C1500,"Alarm, Telecommunications and Network Systems",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Common_Equipment_Systems.pdf,,Common_Equipment_Systems.pdf
+C3002,Air Compressor 1 (100 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-COMP-01,Compressed_Air_System.pdf
+C3003,Air Compressor 4 (150 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-COMP-04,Compressed_Air_System.pdf
+C3004,Air Compressor 5 (150 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-COMP-05,Compressed_Air_System.pdf
+C3005,Air Compressor 7 (150 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-COMP-07,Compressed_Air_System.pdf
+C3040,"Air Receiver Tank 4 (West Compressor Room, Wet)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-AR-04,Compressed_Air_System.pdf
+C3055,Compressed Air Drier (North),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-ADRY-01,Compressed_Air_System.pdf
+C3056,Compressed Air Drier (South),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-ADRY-02,Compressed_Air_System.pdf
+C3059,"Air Receiver Tank 5 (East Compressor Room, Wet)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-AR-05,Compressed_Air_System.pdf
+C3080,Air Receiver Tank 9 (S.E. Compressor Room),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-AR-09,Compressed_Air_System.pdf
+C3092,Compressed Air Condensate Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,C-P-31,Compressed_Air_System.pdf
+C3114,"Air Receiver Tank 6 (East Compressor Room, Wet)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Compressed_Air_System.pdf,A-R-06,Compressed_Air_System.pdf
+C3115,Air Receiver Tank 1 (Primiary),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,A-AR-01,Primary_Plant_Common_Equipment.pdf
+C3116,Air Receiver Tank 2 (Tertiary),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-AR-02,Tertiary_Plant_Common_Equipment.pdf
+C3117,Air Receiver Tank 3 (Tertiary Dome Tunnel),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-AR-03,Tertiary_Plant_Common_Equipment.pdf
+C3118,Air Receiver Tank 7 (Colour Warehouse),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-AR-07,Colour_Plant_Common_Equipment.pdf
+c3122,Air Compressor 603 (100 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,A-COMP-6-03,Belleville Equipment.pdf
+C3200,Mechanical Maintenance Shop Equipment,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Common_Equipment_Systems.pdf,,Common_Equipment_Systems.pdf
+C3502,Forklift 507 (Toyota),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-07,Forklifts.pdf
+C3503,Forklift 519 (Toyota),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-19,Forklifts.pdf
+C3504,Forklift 527 (Toyota),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-27,Forklifts.pdf
+C3505,Forklift 533 (Toyota),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-33,Forklifts.pdf
+C3506,Forklift 548 (Toyota),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-48,Forklifts.pdf
+C3508,Fork Lift 550 (JCB Extended Reach),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,M-FL-5-50,Forklifts.pdf
+C4000,Scissor Lift 532 (Skyjack),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LFT-5-32,Motorized_Support_Equipment.pdf
+C4001,Scissor Lift 535 (Skyjack),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LFT-5-35,Motorized_Support_Equipment.pdf
+C4012,Boom Lift 526 (Genie),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LFT-5-26,Motorized_Support_Equipment.pdf
+C4041,Front End Loader 552 (John Deere),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-52,Motorized_Support_Equipment.pdf
+C4042,Front End Loader 525 (Forktruck),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-25,Motorized_Support_Equipment.pdf
+C4043,Front End Loader 539 (Cat),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-39,Motorized_Support_Equipment.pdf
+C4044,Front End Loader 542 (Komatsu),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-42,Motorized_Support_Equipment.pdf
+C4045,Front End Loader 543 (Forktruck),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-43,Motorized_Support_Equipment.pdf
+C4046,Front End Loader 546 (Caterpillar),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-46,Motorized_Support_Equipment.pdf
+C4049,Skid Loader 547 (Case Skid Steer),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-47,Motorized_Support_Equipment.pdf
+C4050,Skid Loader 549 (Case Skid Steer),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-LDR-5-49,Motorized_Support_Equipment.pdf
+C4054,Haul Truck 540 (Komatsu HD465-7E0),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-TRK-5-40,Motorized_Support_Equipment.pdf
+C4060,Pick-up Truck 553 (GMC),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-TRK-5-53,Motorized_Support_Equipment.pdf
+C4061,"Pick-up Truck 554 (White Dodge, Quarry)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-TRK-5-54,Motorized_Support_Equipment.pdf
+C4062,"Pick-up Truck 555 (White Dodge, Maintenance)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-TRK-5-55,Motorized_Support_Equipment.pdf
+C4068,Trailer (Confined Space Safety),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Motorized_Support_Equipment.pdf,M-TRL-01,Motorized_Support_Equipment.pdf
+C4092,Forklift Lifting Boom,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Forklifts.pdf,A-LFTDVC-21,Forklifts.pdf
+C6705,Diesel Storage Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-01,Non_Production_Liquid_Storage.pdf
+C6706,Diesel Storage Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-02,Non_Production_Liquid_Storage.pdf
+C6780,Gasoline Storage Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-06,Non_Production_Liquid_Storage.pdf
+C6784,Lubrication Oil Storage Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-03,Non_Production_Liquid_Storage.pdf
+C6785,Lubrication Oil Storage Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-04,Non_Production_Liquid_Storage.pdf
+C6786,Lubrication Oil Storage Tank 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,M-T-05,Non_Production_Liquid_Storage.pdf
+C6790,Tertiary Waste Oil Storage Tank 405,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,C-T-4-05,Non_Production_Liquid_Storage.pdf
+C6792,Tertiary Waste Oil Storage Tank Pump 11,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Non_Production_Liquid_Storage.pdf,T-P-11,Non_Production_Liquid_Storage.pdf
+C7212,Emergency Back-Up Generator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-GEN-6-02,Stand_Alone_Portable_Equipment.pdf
+C7213,Ladders,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,,Stand_Alone_Portable_Equipment.pdf
+C7214,Welding Machines,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,,Stand_Alone_Portable_Equipment.pdf
+C7215,Portable Generators,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-GEN-6-01,Stand_Alone_Portable_Equipment.pdf
+C7219,Power Wash Units,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-PRESSURE WASHER-01,Stand_Alone_Portable_Equipment.pdf
+C7233,Portable Air Compressor 9 (Atlas Copco),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-COMP-09,Stand_Alone_Portable_Equipment.pdf
+C7234,Portable Air Compressor 8 (5hp Ingersoll Rand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-COMP-08,Stand_Alone_Portable_Equipment.pdf
+C7235,Portable Air Compressor 10 (Belleville Railyard),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-COMP-10,Stand_Alone_Portable_Equipment.pdf
+C7281,Personnel De-dusting Booth,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,A-VAC-04,Stand_Alone_Portable_Equipment.pdf
+C7285,Vacuum System 1 (Tertiary),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Plant_Common_Equipment.pdf,A-VAC-01,Tertiary_Plant_Common_Equipment.pdf
+C7286,Vacuum System 2 (Colour),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-VAC-02,Colour_Plant_Common_Equipment.pdf
+C7287,"Vacuum System 3 (Pigment Area, Portable)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-VAC-03,Colour_Plant_Common_Equipment.pdf
+C7288,Vacuum System 3 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Plant_Common_Equipment.pdf,A-VAC-03-RF,Colour_Plant_Common_Equipment.pdf
+C7320,Nitrogen Generation System,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Stand_Alone_Portable_Equipment.pdf,C-NG,Stand_Alone_Portable_Equipment.pdf
+E0003,Cell 1 (Air Break Switch),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0004,Cell 2 (Main Breaker),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0005,Cell 3 (Main Breaker),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0011,Electrical Transformer HV (4000KVA),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0012,"Electrical Transformer HV (2000KVA, Primary)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0014,Electrical Generator (5000KVA),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Common_Area.pdf,,Electrical_Common_Area.pdf
+E0111,Electrical Transformer LV (5KVA Hammand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0112,"Electrical Transformer LV (PS32-120-H3527, Westinghouse)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0140,MCC 1 (1600 Amp Breaker),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0150,PLC Systems (Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0151,"Control Panel/PLC System (Lighting, PS31 100A 347/600V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0152,"Control Panel/PLC System (Receptacle, PS32 125A 120/208V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0153,"Control Panel/PLC System (Circuit Breaker Board, 150A)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0154,"Control Panel/PLC System (Lighting, CP2 120/150A)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0155,PLC Systems (Primary Switch Box),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0190,"Control Panels (Level of Grizzly/Feeder, TB1 and Cone Crusher)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0191,Control Panel (PC10 Belt Scale),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0192,Control Panel (Roof Lights),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0230,"VFD 1 (Allen Bradley, Grizzly Feeder)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0231,"VFD 2 (Allen Bradley, PC5 to Cone Crusher)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0232,"VFD 3 (Allen Bradley, Feeder to PC5)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_2.pdf,,Electrical_Room_2.pdf
+E0261,Electrical Transformer LV (Marcus 15KWA),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0262,Electrical Transformer LV (Rex),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0263,Electrical Transformer LV (Hammond 5KVA 240V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0276,Main Circuit Breaker (Color 1200Amp Feed),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0277,Main Circuit Breaker (Tertiary Cell 4 Feeder 1200Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0278,Main Circuit Breaker (Feeder to PP5 625Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0279,Main Circuit Breaker (Generator 500KVA Emergency Back-up),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0280,Main Circuit Breaker (Capacitor Bank Feed 800Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0281,Main Circuit Breaker (Color Side 3 and 4 800Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0282,Main Circuit Breaker (Tertiary Cell 1 and  Comm eq. Feeder 1600Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0283,Main Circuit Breaker (Tertiary Cell 2 and 3 Feeder 1600Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0284,Main Circuit Breaker (Main Incoming Feeder 400Amp),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0290,MCC 1 (Cell 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0291,MCC 2 (Cell 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0292,MCC 3 (Cell 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0293,MCC 4 (Common Equipment),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0295,Control Panel (Tertiary Sampler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0300,"PLC Systems (MC81, Cabinet)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0301,"PLC Systems (MC84, Cabinet)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0302,PLC Systems (Communication Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0340,Control Panel (Outside Lighting LC1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0341,Control Panel (Outside Lighting LC2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0342,Control Panel (Tetiary Blast Horn),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0343,Control Panel (Hydro Meters),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0344,Control Panel (Drive Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0345,"Control Panel (CP1, 120/240V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0346,"Control Panel (Receptacle, RP1A 120/208V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0347,"Control Panel (Receptacle, RP1 120/208V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0348,"Control Panel (Power, PP1 347/600V)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0349,Control Panel (HVAC Thermostat),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0380,VFD (Allen Bradley 20A E 6P1A TA57),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0390,Capacitor Bank (ReactiVar Engineered),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0395,Communication Box (Corning Fibre and Circuit Protector),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_3.pdf,,Electrical_Room_3.pdf
+E0411,Electrical Transformer LV (Marcus 600v 240 7.5KVA),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0412,Electrical Transformer LV (Marcus 600v),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0413,Electrical Transformer LV (Disconnect Feed to PLC Racks 600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0421,Switchgear/PCC Panel (Allen Bradley Switch),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0440,MCC (Cell 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0450,PLC Systems (Cell 4 Crusher),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0451,PLC Systems (Communication Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0452,PLC Systems (Tertiary Cell 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0510,Distribution Panel (RP07 120/209V 3P 4W),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0511,Distribution Panel (120/208V Power/Junction),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0512,Distribution Panel (PP07 347/600V 3P 4W),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0513,Distribution Panel (347/600V Power/Junction),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_4.pdf,,Electrical_Room_4.pdf
+E0561,Electrical Transformer LV (Marcus 600V 14KVA),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0562,Electrical Transformer LV (Hamman 600V 48Y/207V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0563,Electrical Transformer LV (Thormag 240/600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0564,"Electrical Transformer LV (Hamman 240/600V, K45YIC)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0590,MCC (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0600,PLC Systems (MC89),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0601,PLC Systems (MC94),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0602,PLC Systems (MC88),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0603,PLC Systems (Communication Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0620,Control Panel (PP4 400A 347/600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0621,Control Panel (RP3A Receptacle 225A 120/240V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0622,Control Panel (RP3 Receptacle 400A 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0623,Control Panel (Auto Lube),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0624,Control Panel (Outside Lights 347V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0625,Control Panel (Circuit Terminal Box),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0680,VFD (Allen Bradley CP10),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0681,VFD (Allen Bradley Kiln 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0682,VFD (Allen Bradley Mixer 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0683,VFD (Allen Bradley Mixer 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0684,VFD (Allen Bradley Cooler 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0685,VFD (Allen Bradley Cooler 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0686,VFD (Allen Bradley Kiln 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_5.pdf,,Electrical_Room_5.pdf
+E0711,Electrical Transformer LV (45KVA 600 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0712,Electrical Transformer LV (Marcus 34KVA 600 130/230V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0713,Electrical Transformer LV (Disconnect 600VAC),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0740,MCC (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0750,PLC Systems (MC93),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0770,Control Panel (Receptacle 120/208V 3P 4W),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0771,Control Panel (Power 347/600V 3P 4W),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0772,Control Panel (PP3 Outside Lights),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_6.pdf,,Electrical_Room_6.pdf
+E0861,Electrical Transformer (Hammond 600v 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0862,Electrical Transformer (Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0890,MCC 40,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0900,PLC Systems (Shipping),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0920,Control Panel (Shiping 120/208V 3P),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0921,Control Panel (Centriflow Meters),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0922,Control Panel (Outside Lighting 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E0980,VFD (Allen Bradley Slinger),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_7.pdf,,Electrical_Room_7.pdf
+E1011,Electrical Transformer LV (Rex 45KVA 600 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1012,Electrical Transformer LV (Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1070,Control Panel (347/600V 250 A),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1071,Control Panel (Welder Disconnect 30A Fused 600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1072,Control Panel (Welder Disconnect 600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1073,Control Panel (Sterling HVAC Unit),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1074,Control Panel 1 (Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1075,Control Panel 2 (Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1076,Control Panel 3 (Spare Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1077,Control Panel (225A 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Steel_Shop.pdf,,Electrical_Room_Steel_Shop.pdf
+E1161,Electrical Transformer LV (Disconnect 600 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1162,Electrical Transformer LV (45 KVA 600 120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1163,Electrical Transformer 1 (Sola CVS Isolation),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1164,Electrical Transformer 2 (Sola CVS Isolation),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1200,PLC Systems (East Scale),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1201,PLC Systems (WestScale),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1220,Control Panel (60A 600V Splitter 3P),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1221,Control Panel (Main Disconnect 60A 600V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1222,Control Panel (Welder Disconnect 30A),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1223,Control Panel (Feed Disconnect),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1224,Control Panel (120/208V),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+E1225,Control Panel (Pole Outside Lightling),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Electrical_Room_Scale_Shop.pdf,,Electrical_Room_Scale_Shop.pdf
+H0720,Emergency Eye Wash/Shower Station System (EEWSS),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Common_Risk_Management_Resources.pdf,,Common_Risk_Management_Resources.pdf
+H3077,Sprinkler Fire System Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Fire_Fighting_and_Protection_Systems.pdf,A-FP,Fire_Fighting_and_Protection_Systems.pdf
+H3102,Dry Sprinkler System,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Fire_Fighting_and_Protection_Systems.pdf,,Fire_Fighting_and_Protection_Systems.pdf
+H3202,Sprinkler System Air Compressor 11 (Fire Supression),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Fire_Fighting_and_Protection_Systems.pdf,A-COMP-11,Fire_Fighting_and_Protection_Systems.pdf
+H4100,Emergency Lighting System,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Fire_Fighting_and_Protection_Systems.pdf,,Fire_Fighting_and_Protection_Systems.pdf
+H4607,Tertiary Septic Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Process_Water_sewage_System.pdf,T-SPTIC-01,Process_Water_sewage_System.pdf
+H4608,Tertiary Septic Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Process_Water_sewage_System.pdf,T-SPTIC-02,Process_Water_sewage_System.pdf
+H4612,Tertiary Sewage Lift Pump 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Process_Water_sewage_System.pdf,T-SP-01,Process_Water_sewage_System.pdf
+H4614,Tertiary Sewage Lift Pump 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Process_Water_sewage_System.pdf,T-SP-02,Process_Water_sewage_System.pdf
+H4803,Fall Arrest Equipment,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Safety_Equipment.pdf,,Safety_Equipment.pdf
+H4807,Spill Kits,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Safety_Equipment.pdf,,Safety_Equipment.pdf
+H4841,Defibrillators (First Aid Room and MTC Cabinet),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Safety_Equipment.pdf,S-DFB-01,Safety_Equipment.pdf
+H4845,Self-Contained Breathing Apparatus,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Safety_Equipment.pdf,S-SCBA-01,Safety_Equipment.pdf
+H6030,Secondary Crusher Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_and_Tertiary_Dryer_Dust_Collection.pdf,P-DC-01,Primary_and_Tertiary_Dryer_Dust_Collection.pdf
+H6030,Secondary Crusher Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,P-DC-01,Primary_Plant_Common_Equipment.pdf
+H6035,Secondary Crusher Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_and_Tertiary_Dryer_Dust_Collection.pdf,P-DC-01--RF,Primary_and_Tertiary_Dryer_Dust_Collection.pdf
+H6035,Secondary Crusher Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,P-DC-01--RF,Primary_Plant_Common_Equipment.pdf
+H6070,Secondary Dust Collector Bin,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_and_Tertiary_Dryer_Dust_Collection.pdf,P-T-02,Primary_and_Tertiary_Dryer_Dust_Collection.pdf
+H6070,Secondary Dust Collector Bin,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Plant_Common_Equipment.pdf,P-T-02,Primary_Plant_Common_Equipment.pdf
+H6350,Tertiary Rotary Dryer Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DRYDC,Tertiary_Outdoor_Crushing.pdf
+H6355,Tertiary Rotary Dryer Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DRYDC--RF,Tertiary_Outdoor_Crushing.pdf
+H6355,Tertiary Rotary Dryer Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DRYDC--RF,Rotary_Feeders_List.pdf
+H6358,Tertiary Elevator 1 (to TT20),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-E-01,Tertiary_Outdoor_Crushing.pdf
+H6360,Tertiary Dust Collector Bin 20,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-T-20,Tertiary_Outdoor_Crushing.pdf
+H6370,Tertiary Crusher Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-CDC,Tertiary_Dust_Collection_System.pdf
+H6370,Tertiary Crusher Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-CDC,Tertiary_process_cell_1.pdf
+H6375,Tertiary Crusher Dust Collector Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-CDC--RF,Rotary_Feeders_List.pdf
+H6390,Tertiary Screen Dust Collector 101,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-1-01,Tertiary_Dust_Collection_System.pdf
+H6390,Tertiary Screen Dust Collector 101,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-DC-1-01,Tertiary_process_cell_1.pdf
+H6395,Tertiary Screen Dust Collector 101 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-1-01--RF-1-02,Rotary_Feeders_List.pdf
+H6400,Tertiary Screen Dust Collector 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-DC-2-01,Tertiary_process_cell_2.pdf
+H6400,Tertiary Screen Dust Collector 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-2-01,Tertiary_Dust_Collection_System.pdf
+H6405,Tertiary Screen Dust Collector 201 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-2-01--RF-2-02,Rotary_Feeders_List.pdf
+H6430,Tertiary Dust Collector 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-1-02,Tertiary_Dust_Collection_System.pdf
+H6430,Tertiary Dust Collector 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,T-DC-1-02,TDC102_Dust_Collection.pdf
+H6430,Tertiary Dust Collector 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-DC-1-02,Tertiary_process_cell_1.pdf
+H6435,Tertiary Dust Collector 102 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-1-02--RF-1-03,Rotary_Feeders_List.pdf
+H6440,Tertiary Dust Collector 202,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-DC-2-02,Tertiary_process_cell_2.pdf
+H6440,Tertiary Dust Collector 202,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-2-02,Tertiary_Dust_Collection_System.pdf
+H6445,Tertiary Dust Collector 202 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-2-02--RF-2-03,Rotary_Feeders_List.pdf
+H6560,Tertiary Screen Dust Collector 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-DC-3-01,Tertiary_process_cell_3.pdf
+H6560,Tertiary Screen Dust Collector 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-3-01,Tertiary_Dust_Collection_System.pdf
+H6565,Tertiary Screen Dust Collector 301 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-3-01--RF-3-02,Rotary_Feeders_List.pdf
+H6570,Tertiary Screen Dust Collector 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-DC-4-01,Tertiary_process_cell_4.pdf
+H6570,Tertiary Screen Dust Collector 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-4-01,Tertiary_Dust_Collection_System.pdf
+H6572,Tertiary Screen Dust Collector Auger 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-4-01-AUGER,Tertiary_Dust_Collection_System.pdf
+H6575,Tertiary Screen Dust Collector 401 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-4-01-RF,Rotary_Feeders_List.pdf
+H6600,Tertiary Dust Collector 302,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-DC-3-02,Tertiary_process_cell_3.pdf
+H6600,Tertiary Dust Collector 302,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-3-02,Tertiary_Dust_Collection_System.pdf
+H6605,Tertiary Dust Collector 302 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-3-02--RF-3-03,Rotary_Feeders_List.pdf
+H6610,Tertiary Dust Collector 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-DC-4-02,Tertiary_process_cell_4.pdf
+H6610,Tertiary Dust Collector 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-4-02,Tertiary_Dust_Collection_System.pdf
+H6612,Tertiary Dust Collector Auger 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-DC-4-02-AUGER,Tertiary_Dust_Collection_System.pdf
+H6615,Tertiary Dust Collector 402 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-DC-4-02-RF,Rotary_Feeders_List.pdf
+H6618,Tertiary Dust Collector Rotary Airlock 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-RF-4-03,Tertiary_Dust_Collection_System.pdf
+H6618,Tertiary Dust Collector Rotary Airlock 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,T-RF-4-03,Rotary_Feeders_List.pdf
+H6670,Tertiary Dust Collector (Penthouse),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,T-PDC,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H6670,Tertiary Dust Collector (Penthouse),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-PDC,Tertiary_Silos_Process_Flow.pdf
+H6675,Tertiary Dust Collector Rotary Airlock (Penthouse),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,T-PDC--RF,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H6675,Tertiary Dust Collector Rotary Airlock (Penthouse),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-PDC--RF,Tertiary_Silos_Process_Flow.pdf
+H6680,Tertiary Aspirator Dust Collector,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,T-ADC-02,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H6685,Tertiary Aspirator Dust Collector Rotary Airlock 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,T-ADC-02-RF,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H6686,Tertiary Aspirator Dust Collector Rotary Airlock 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,T-ADC-02-RF-02,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H6790,Tertiary Dust Collector Auger 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-A-01,Tertiary_process_cell_1.pdf
+H6795,Tertiary Dust Collector Auger 101,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-A-1-01,Tertiary_Dust_Collection_System.pdf
+H6800,Tertiary Dust Collector Auger 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-A-1-02,Tertiary_Dust_Collection_System.pdf
+H6800,Tertiary Dust Collector Auger 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-A-1-02,Tertiary_process_cell_1.pdf
+H6805,Tertiary Dust Collector Auger 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-A-2-01,Tertiary_process_cell_2.pdf
+H6805,Tertiary Dust Collector Auger 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-A-2-01,Tertiary_Dust_Collection_System.pdf
+H6810,Tertiary Dust Collector Auger 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-A-3-01,Tertiary_process_cell_3.pdf
+H6810,Tertiary Dust Collector Auger 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-A-3-01,Tertiary_Dust_Collection_System.pdf
+H7050,Colour Preheater 1 Dust Collector 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-01,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7055,Colour Preheater 1 Dust Collector 1 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-01--RF-01,Rotary_Feeders_List.pdf
+H7080,Colour Kiln and Mixer Dust Collector 3 (Line 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-03,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7082,Colour Kiln and Mixer Dust Collector 3 Auger 5,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-05,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7085,Colour Kiln and Mixer Dust Collector 3 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-A-05--RF-03,Rotary_Feeders_List.pdf
+H7100,Colour Kiln and Mixer Dust Collector 5 (Line 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-05,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7102,Colour Kiln and Mixer Dust Collector 5 Auger 8,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-08,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7105,Colour Kiln and Mixer Dust Collector 5 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-RF-05,Rotary_Feeders_List.pdf
+H7140,Colour Cooler Dust Collector 2 (Line 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-02,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7142,Colour Cooler Dust Collector 2 Auger 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7145,Colour Cooler Dust Collector 2 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,,Rotary_Feeders_List.pdf
+H7150,Colour Cooler Dust Collector 4 (Line 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-04,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7152,Colour Cooler Dust Collector 4 Auger 7,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-07,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7155,Colour Cooler Dust Collector 4 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-A-07--RF-04,Rotary_Feeders_List.pdf
+H7181,Colour Granule AR Dust Bagging System,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,C-AR-01,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H7185,Colour Granule AR Dust Bagging Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,C-AR-01-RF,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H7187,Colour Granule AR Dust Bagging Weigh Scale,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf,C-AR-01-WS,Tertiary_Aspirator_Penthouse_AR_Granule_Dust_Collection_System.pdf
+H7190,Colour Dust Collector 6 (Line 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-06,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7195,Colour Dust Collector 6 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-06--RF-06,Rotary_Feeders_List.pdf
+H7250,Colour Preheater 2 Dust Collector 8,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-08,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7255,Colour Preheater 2 Dust Collector 8 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-08--RF-08,Rotary_Feeders_List.pdf
+H7280,Colour Kiln and Mixer Dust Collector 9 (Line 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-09,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7282,Colour Kiln and Mixer Dust Collector 9 Auger,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-09--AUGER,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7285,Colour Kiln and Mixer Dust Collector 9 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-09--RF,Rotary_Feeders_List.pdf
+H7290,Colour Kiln and Mixer Dust Collector 13 (Line 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-13,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7292,Colour Kiln and Mixer Dust Collector 13 Auger,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-13--AUGER,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7295,Colour Kiln and Mixer Dust Collector 13 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-13--RF,Rotary_Feeders_List.pdf
+H7340,Colour Cooler Dust Collector 10 (Line 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-10,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7342,Colour Cooler Dust Collector 10 Auger,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-10--AUGER,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7345,Colour Cooler Dust Collector 10 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-10--RF,Rotary_Feeders_List.pdf
+H7350,Colour Cooler Dust Collector 14 (Line 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-14,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7352,Colour Cooler Dust Collector 14 Auger,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-14--AUGER,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7355,Colour Cooler Dust Collector 14 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-14--RF,Rotary_Feeders_List.pdf
+H7380,Colour Dust Collector 11 (Line 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-DC-11,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7385,Colour Dust Collector 11 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Rotary_Feeders_List.pdf,C-DC-11--RF,Rotary_Feeders_List.pdf
+H7400,Colour Dust Collector 7 (Cuprous Oxide),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous Oxide Dust Collection System.pdf,C-DC-07,Cuprous Oxide Dust Collection System.pdf
+H7405,Colour Dust Collector 7 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous Oxide Dust Collection System.pdf,C-RF-07,Cuprous Oxide Dust Collection System.pdf
+H7430,Colour Clay Silo Dust Collector Bin Vent 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Clay Silo Dust Collection System.pdf,C-CLAY-01--VENT,Clay Silo Dust Collection System.pdf
+H7435,Colour Clay Silo Dust Collector Bin Vent 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Clay Silo Dust Collection System.pdf,C-CLAY-02--VENT,Clay Silo Dust Collection System.pdf
+H7440,Colour Dust Collector Bin Vent 12,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-DC-12,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7610,Colour Dust Collector Auger 39,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-39,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7615,Colour Dust Collector Auger 38,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-38,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7620,Colour Dust Collector Auger 43,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-43,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7625,Colour Dust Collector Auger 42,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-42,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7630,Colour Dust Collector Auger 37,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-37,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7635,Colour Dust Collector Auger 41,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-41,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7640,Colour Dust Collector Auger 40,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-40,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7645,Colour Dust Collector Auger 36,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_3_and_4.pdf,C-A-36,Colour_Dust_Collection_System_Lines_3_and_4.pdf
+H7650,Colour Dust Collector Auger 35,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-35,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7655,Colour Dust Collector Auger 11 (from CRF6),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-11,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7660,Colour Dust Collector Auger 34,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-34,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7665,Colour Dust Collector Auger 33,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-33,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7670,Colour Dust Collector Auger 32,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-32,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7675,Colour Dust Collector Auger 44,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-44,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7680,Colour Dust Collector Auger 45,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-45,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7685,Colour Dust Collector Auger 27 (CRF8 to CA28),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-27,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7690,Colour Dust Collector Auger 28 (CA26 to CA29),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,C-A-28,TDC102_Dust_Collection.pdf
+H7690,Colour Dust Collector Auger 28 (CA26 to CA29),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-28,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7695,Colour Dust Collector Auger 26 (CDC1 to CA25),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-26,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7700,Colour Dust Collector Auger 25 (CA26 to CA24),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-25,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7705,Colour Dust Collector Auger 24 (CA25 to CA6),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-24,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7710,"Colour Dust Collector Auger 6 (from CRF2, CRF3 and CA11)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-06,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7712,Colour Dust Collector Auger Diverter 4 (CA6 to CBT1/CBT2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-06--CDF-04,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7715,Colour Dust Collector Auger 9 (from CRF4 and CRF5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-09,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7720,Colour Dust Collector Auger 23 (CA9 to CA22),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-23,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7725,Colour Dust Collector Auger 22 (CA23 to CT413),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-A-22,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H7730,Colour Dust Collector Auger 29 (CA28 to CA30),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,C-A-29,TDC102_Dust_Collection.pdf
+H7735,Colour Dust Collector Auger 30 (CA29 to CA31),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,C-A-30,TDC102_Dust_Collection.pdf
+H7740,Colour Dust Collector Auger 31 (CA30 to TC55),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,C-A-31,TDC102_Dust_Collection.pdf
+H7910,Colour Dust Collector Storage Bin 413 (75 Ton),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Dust_Collection_System_Lines_1_and_2.pdf,C-T-4-13,Colour_Dust_Collection_System_Lines_1_and_2.pdf
+H8010,Railyard Dust Collector 1 (Clay),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-DC-01,Belleville Equipment.pdf
+H8015,Railyard Dust Collector 1 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,,Belleville Equipment.pdf
+H8020,Railyard Dust Collector 2 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-DC-02,Belleville Equipment.pdf
+H8025,Railyard Dust Collector 2 Rotary Airlock,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-DC-02-RF,Belleville Equipment.pdf
+R1110,Primary Rock Breaker,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-RB-01,Primary_Crushing_Test_Maximo.pdf
+R1110,Primary Rock Breaker,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-RB-01,Primary_Secondary_Crushing.pdf
+R1120,Primary Grizzly Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-GF-01,Primary_Crushing_Test_Maximo.pdf
+R1120,Primary Grizzly Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-GF-01,Primary_Secondary_Crushing.pdf
+R1130,Primary Jaw Crusher (Lokomo),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-JC,Primary_Crushing_Test_Maximo.pdf
+R1130,Primary Jaw Crusher (Lokomo),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-JC,Primary_Secondary_Crushing.pdf
+R1210,Primary Conveyor 1 (Under Jaw Crusher),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-01,Primary_Crushing_Test_Maximo.pdf
+R1210,Primary Conveyor 1 (Under Jaw Crusher),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-01,Primary_Secondary_Crushing.pdf
+R1215,Primary Conveyor 2 (Screen Feed),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-02,Primary_Crushing_Test_Maximo.pdf
+R1215,Primary Conveyor 2 (Screen Feed),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-02,Primary_Secondary_Crushing.pdf
+R2170,Secondary Bin 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-B-01,Primary_Crushing_Test_Maximo.pdf
+R2170,Secondary Bin 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-B-01,Primary_Secondary_Crushing.pdf
+R2173,Secondary Bin 1 Belt Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-B-01--F,Primary_Crushing_Test_Maximo.pdf
+R2173,Secondary Bin 1 Belt Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-B-01--F,Primary_Secondary_Crushing.pdf
+R2180,Secondary Conveyor 5 (to SCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-05,Primary_Crushing_Test_Maximo.pdf
+R2180,Secondary Conveyor 5 (to SCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-05,Primary_Secondary_Crushing.pdf
+R2200,Secondary Crusher (300 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-CRUSH,Primary_Crushing_Test_Maximo.pdf
+R2200,Secondary Crusher (300 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-CRUSH,Primary_Secondary_Crushing.pdf
+R2265,Secondary Conveyor 6 (from SCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-06,Primary_Crushing_Test_Maximo.pdf
+R2265,Secondary Conveyor 6 (from SCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-06,Primary_Secondary_Crushing.pdf
+R2270,Secondary Conveyor 7 (to PC2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-07,Primary_Crushing_Test_Maximo.pdf
+R2270,Secondary Conveyor 7 (to PC2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-07,Primary_Secondary_Crushing.pdf
+R2280,Secondary Screen (8 ft x 20 ft),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-S-01,Primary_Crushing_Test_Maximo.pdf
+R2280,Secondary Screen (8 ft x 20 ft),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-S-01,Primary_Secondary_Crushing.pdf
+R2290,Secondary Conveyor 3 (to PC4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-03,Primary_Crushing_Test_Maximo.pdf
+R2290,Secondary Conveyor 3 (to PC4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-03,Primary_Secondary_Crushing.pdf
+R2295,Secondary Conveyor 4 (to PB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-04,Primary_Crushing_Test_Maximo.pdf
+R2295,Secondary Conveyor 4 (to PB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-04,Primary_Secondary_Crushing.pdf
+R2300,Secondary Magnet 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-MAG-01,Primary_Crushing_Test_Maximo.pdf
+R2300,Secondary Magnet 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-MAG-01,Primary_Secondary_Crushing.pdf
+R2305,Secondary Conveyor 9 (to PC10),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-09,Primary_Crushing_Test_Maximo.pdf
+R2305,Secondary Conveyor 9 (to PC10),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-09,Primary_Secondary_Crushing.pdf
+R2310,Secondary Conveyor 10 (to Stacker),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-10,Primary_Crushing_Test_Maximo.pdf
+R2310,Secondary Conveyor 10 (to Stacker),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-10,Primary_Secondary_Crushing.pdf
+R2315,Secondary Diverter 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-DF,Primary_Crushing_Test_Maximo.pdf
+R2315,Secondary Diverter 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-DF,Primary_Secondary_Crushing.pdf
+R2320,Secondary Conveyor 11 (to PC14),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-11,Primary_Crushing_Test_Maximo.pdf
+R2320,Secondary Conveyor 11 (to PC14),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-11,Primary_Secondary_Crushing.pdf
+R2325,Secondary Conveyor 14 (to TB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-14,Primary_Crushing_Test_Maximo.pdf
+R2325,Secondary Conveyor 14 (to TB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-14,Primary_Secondary_Crushing.pdf
+R2330,Secondary Conveyor 12 (to PST1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-C-12,Primary_Crushing_Test_Maximo.pdf
+R2330,Secondary Conveyor 12 (to PST1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-C-12,Primary_Secondary_Crushing.pdf
+R2380,Secondary Stacker Conveyor 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-ST-01,Primary_Crushing_Test_Maximo.pdf
+R2380,Secondary Stacker Conveyor 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-ST-01,Primary_Secondary_Crushing.pdf
+R2390,Secondary Stacker Conveyor 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Crushing_Test_Maximo.pdf,P-ST-03,Primary_Crushing_Test_Maximo.pdf
+R2390,Secondary Stacker Conveyor 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Primary_Secondary_Crushing.pdf,P-ST-03,Primary_Secondary_Crushing.pdf
+R3110,Tertiary Bin 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-B-01,Tertiary_Outdoor_Crushing.pdf
+R3113,Tertiary Bin 1 Belt Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-B-01--F,Tertiary_Outdoor_Crushing.pdf
+R3117,Tertiary Conveyor 2 (to Dryer),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-02,Tertiary_Outdoor_Crushing.pdf
+R3121,Tertiary Conveyor 3A (to TDF9),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-3A,Tertiary_Outdoor_Crushing.pdf
+R3125,Tertiary Diverter 9,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DF-09,Tertiary_Outdoor_Crushing.pdf
+R3129,Tertiary Conveyor 3B (to TDRY1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-3B,Tertiary_Outdoor_Crushing.pdf
+R3133,Tertiary Screen (Bypass),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-S-01,Tertiary_Outdoor_Crushing.pdf
+R3137,Tertiary Conveyor 4A (to TDRY1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-4A,Tertiary_Outdoor_Crushing.pdf
+R3141,Tertiary Rotary Dryer,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DRY-02,Tertiary_Outdoor_Crushing.pdf
+R3146,Tertiary Rotary Dryer Burner Blower,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DRY-02--CF,Tertiary_Outdoor_Crushing.pdf
+R3150,Tertiary Conveyor 4 (from Dryer),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-04,Tertiary_Outdoor_Crushing.pdf
+R3154,Tertiary Diverter 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DF-01,Tertiary_Outdoor_Crushing.pdf
+R3158,Tertiary Conveyor 7 (to TDF7),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-07,Tertiary_Outdoor_Crushing.pdf
+R3162,Tertiary Diverter 7,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-DF-07,Tertiary_Outdoor_Crushing.pdf
+R3166,Tertiary Conveyor 8 (to TDF8),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-08,Tertiary_Outdoor_Crushing.pdf
+R3166,Tertiary Conveyor 8 (to TDF8),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-08,Tertiary_process_cell_4.pdf
+R3170,Tertiary Diverter 8,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-DF-08,Tertiary_process_cell_4.pdf
+R3174,Tertiary Stacker Conveyor 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-ST-01,Tertiary_Outdoor_Crushing.pdf
+R3186,Tertiary Conveyor 5 (to TDF2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-05,Tertiary_process_cell_3.pdf
+R3186,Tertiary Conveyor 5 (to TDF2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-05,Tertiary_Outdoor_Crushing.pdf
+R3190,Tertiary Diverter 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-DF-02,Tertiary_process_cell_3.pdf
+R3194,Tertiary Scale Conveyor 6 (to TDF3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-06,Tertiary_process_cell_3.pdf
+R3194,Tertiary Scale Conveyor 6 (to TDF3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-06,Tertiary_process_cell_2.pdf
+R3198,Tertiary Diverter 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-DF-03,Tertiary_process_cell_2.pdf
+R3415,Tertiary Bin 101,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-B-1-01,Tertiary_process_cell_1.pdf
+R3418,Tertiary Bin 101 Vibrating Feeder (to TC101),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-B-1-01-F,Tertiary_process_cell_1.pdf
+R3422,Tertiary Conveyor 101 (from TCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-1-01,Tertiary_process_cell_1.pdf
+R3425,Tertiary Screen 101,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-S-1-01,Tertiary_process_cell_1.pdf
+R3430,Tertiary Conveyor 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-1-02,Tertiary_process_cell_1.pdf
+R3433,Tertiary Conveyor 103 (to TB102),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-C-1-03,Madoc_AR_Granule_Process_Flow.pdf
+R3433,Tertiary Conveyor 103 (to TB102),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-1-03,Tertiary_process_cell_1.pdf
+R3436,Tertiary Magnet 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-MAG-04,Tertiary_process_cell_1.pdf
+R3438,Tertiary Bin 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-B-1-02,Tertiary_process_cell_1.pdf
+R3441,Tertiary Bin 102 Belt Feeder (to TCRUSH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-BF-1-02,Tertiary_process_cell_1.pdf
+R3446,Tertiary Crusher 1 (400 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-CRUSH-1,Tertiary_process_cell_1.pdf
+R3456,Tertiary Conveyor 104 (to TE101),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-1-04,Tertiary_process_cell_1.pdf
+R3461,Tertiary Elevator 101 (Bucket),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-E-1-01,Tertiary_process_cell_1.pdf
+R3465,Tertiary Bin 103 (Surge Bin),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-B-1-03,Tertiary_process_cell_1.pdf
+R3468,Tertiary Screen 102 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-SF-1-02,Tertiary_process_cell_1.pdf
+R3471,Tertiary Screen 103 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-SF-1-03,Tertiary_process_cell_1.pdf
+R3475,Tertiary Screen 102,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-S-1-02,Tertiary_process_cell_1.pdf
+R3479,Tertiary Screen 103,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-S-1-03,Tertiary_process_cell_1.pdf
+R3483,Tertiary Screen 104,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-S-1-04,Madoc_AR_Granule_Process_Flow.pdf
+R3483,Tertiary Screen 104,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-S-1-04,Tertiary_process_cell_1.pdf
+R3487,Tertiary Screen 105,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-S-1-05,Backsurfacing_Process_Flow.pdf
+R3487,Tertiary Screen 105,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-S-1-05,Tertiary_Dust_Collection_System.pdf
+R3487,Tertiary Screen 105,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-S-1-05,Tertiary_process_cell_1.pdf
+R3515,Tertiary Bin 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-B-2-01,Tertiary_process_cell_2.pdf
+R3518,Tertiary Bin 201 Vibrating Feeder (to TC201),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-B-2-01-F,Tertiary_process_cell_2.pdf
+R3522,Tertiary Conveyor 201 (from TCRUSH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-2-01,Tertiary_process_cell_2.pdf
+R3525,Tertiary Screen 201,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-S-2-01,Tertiary_process_cell_2.pdf
+R3530,Tertiary Conveyor 202,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-2-02,Tertiary_process_cell_2.pdf
+R3533,Tertiary Conveyor 203,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-2-03,Tertiary_process_cell_2.pdf
+R3536,Tertiary Magnet 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-MAG-03,Tertiary_process_cell_2.pdf
+R3538,Tertiary Bin 202,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-B-2-02,Tertiary_process_cell_2.pdf
+R3541,Tertiary Bin 202 Belt Feeder (to TCRUSH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-BF-2-02,Tertiary_process_cell_2.pdf
+R3546,Tertiary Crusher 2 (400 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-CRUSH-2,Tertiary_process_cell_2.pdf
+R3556,Tertiary Conveyor 204,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-2-04,Tertiary_process_cell_2.pdf
+R3561,Tertiary Elevator 201 (Bucket),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-E-2-01,Tertiary_process_cell_2.pdf
+R3565,Tertiary Bin 203 (Surge Bin),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-B-2-03,Tertiary_process_cell_2.pdf
+R3568,Tertiary Screen 202 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-SF-2-02,Tertiary_process_cell_2.pdf
+R3571,Tertiary Screen 203 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-SF-2-03,Tertiary_process_cell_2.pdf
+R3575,Tertiary Screen 202,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-S-2-02,Tertiary_process_cell_2.pdf
+R3579,Tertiary Screen 203,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-S-2-03,Tertiary_process_cell_2.pdf
+R3583,Tertiary Screen 204,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-S-2-04,Tertiary_process_cell_2.pdf
+R3587,Tertiary Screen 205,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-S-2-05,Backsurfacing_Process_Flow.pdf
+R3587,Tertiary Screen 205,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-S-2-05,Tertiary_process_cell_2.pdf
+R3587,Tertiary Screen 205,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-S-2-05,Tertiary_Dust_Collection_System.pdf
+R3615,Tertiary Bin 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-B-3-01,Tertiary_process_cell_3.pdf
+R3618,Tertiary Bin 301 Vibrating Feeder (to TC301),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-B-3-01-F,Tertiary_process_cell_3.pdf
+R3622,Tertiary Conveyor 301 (to TS301),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-3-01,Tertiary_process_cell_3.pdf
+R3625,Tertiary Screen 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-S-3-01,Tertiary_process_cell_3.pdf
+R3630,Tertiary Conveyor 302 (to TC303),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-3-02,Tertiary_process_cell_3.pdf
+R3633,Tertiary Conveyor 303 (to TB302),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-3-03,Tertiary_process_cell_3.pdf
+R3636,Tertiary Magnet 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-MAG-02,Tertiary_process_cell_3.pdf
+R3638,Tertiary Bin 302,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-B-3-02,Tertiary_process_cell_3.pdf
+R3641,Tertiary Bin 302 Belt Feeder (to TCRUSH3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-B-3-02-F,Tertiary_process_cell_3.pdf
+R3646,Tertiary Crusher 3 (400 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-CRUSH-3,Tertiary_process_cell_3.pdf
+R3656,Tertiary Conveyor 304,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-3-04,Tertiary_process_cell_3.pdf
+R3661,Tertiary Elevator 301,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-E-3-01,Tertiary_process_cell_3.pdf
+R3665,Tertiary Bin 303,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-B-3-03,Tertiary_process_cell_3.pdf
+R3668,Tertiary Screen 302 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-SF-3-02,Tertiary_process_cell_3.pdf
+R3671,Tertiary Screen 303 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-SF-3-03,Tertiary_process_cell_3.pdf
+R3675,Tertiary Screen 302,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-S-3-02,Tertiary_process_cell_3.pdf
+R3679,Tertiary Screen 303,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-S-3-03,Tertiary_process_cell_3.pdf
+R3683,Tertiary Screen 304,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-S-3-04,Tertiary_process_cell_3.pdf
+R3687,Tertiary Screen 305,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-S-3-05,Tertiary_process_cell_3.pdf
+R3687,Tertiary Screen 305,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-S-3-05,Backsurfacing_Process_Flow.pdf
+R3687,Tertiary Screen 305,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-S-3-05,Tertiary_Dust_Collection_System.pdf
+R3715,Tertiary Bin 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-B-4-01,Tertiary_process_cell_4.pdf
+R3718,Tertiary Bin 401 Vibrating Feeder (to TC401),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-B-4-01-F,Tertiary_process_cell_4.pdf
+R3722,Tertiary Conveyor 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-4-01,Tertiary_process_cell_4.pdf
+R3725,Tertiary Screen 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-S-4-01,Tertiary_process_cell_4.pdf
+R3730,Tertiary Conveyor 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-4-02,Tertiary_process_cell_4.pdf
+R3733,Tertiary Conveyor 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-4-03,Tertiary_process_cell_4.pdf
+R3736,Tertiary Magnet 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-MAG-01,Tertiary_process_cell_4.pdf
+R3738,Tertiary Bin 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-B-4-02,Tertiary_process_cell_4.pdf
+R3741,Tertiary Bin 402 Belt Feeder (to TCRUSH4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-B-4-02-F,Tertiary_process_cell_4.pdf
+R3746,Tertiary Crusher 4 (400 HP),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-CRUSH-4,Tertiary_process_cell_4.pdf
+R3756,Tertiary Conveyor 404,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-4-04,Tertiary_process_cell_4.pdf
+R3761,Tertiary Elevator 401,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-E-4-01,Tertiary_process_cell_4.pdf
+R3765,Tertiary Bin 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-B-4-03,Tertiary_process_cell_4.pdf
+R3768,Tertiary Screen 402 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-SF-4-02,Tertiary_process_cell_4.pdf
+R3771,Tertiary Screen 403 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-SF-4-03,Tertiary_process_cell_4.pdf
+R3775,Tertiary Screen 402,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-S-4-02,Tertiary_process_cell_4.pdf
+R3779,Tertiary Screen 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-S-4-03,Tertiary_process_cell_4.pdf
+R3783,Tertiary Screen 404,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-S-4-04,Tertiary_process_cell_4.pdf
+R3787,Tertiary Screen 405,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-S-4-05,Backsurfacing_Process_Flow.pdf
+R3787,Tertiary Screen 405,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-S-4-05,Tertiary_process_cell_4.pdf
+R4510,Tertiary AR Auger 57,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-A-57,Madoc_AR_Granule_Process_Flow.pdf
+R4514,Tertiary AR Elevator 58,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-E-58,Madoc_AR_Granule_Process_Flow.pdf
+R4518,Tertiary AR Diverter 10,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-DF-10,Madoc_AR_Granule_Process_Flow.pdf
+R4522,Tertiary AR Sand Screen 2 (Sweco),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-SANDS-02,Madoc_AR_Granule_Process_Flow.pdf
+R4526,Tertiary AR Diverter 102 (Knife Gate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-DF-1-02,Madoc_AR_Granule_Process_Flow.pdf
+R4528,Tertiary AR Diverter 11 (Knife Gate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-DF-11-KG,Madoc_AR_Granule_Process_Flow.pdf
+R4605,Tertiary Elevator 3 (Clean-Up),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Clean_Out_System.pdf,T-E-03,Tertiary_Clean_Out_System.pdf
+R4608,Tertiary SIlo 30,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Clean_Out_System.pdf,T-T-30,Tertiary_Clean_Out_System.pdf
+R4855,Tertiary Backfurfacing/Sand Conveyor 59,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-C-59,Tertiary_Silos_Detailed_Drawing.pdf
+R4855,Tertiary Backfurfacing/Sand Conveyor 59,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-C-59,Backsurfacing_and_Sand_System.pdf
+R4858,Tertiary Backfurfacing/Sand Conveyor 59 Blower,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-C-59-BL,Tertiary_Silos_Detailed_Drawing.pdf
+R4858,Tertiary Backfurfacing/Sand Conveyor 59 Blower,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-C-59-BL,Backsurfacing_and_Sand_System.pdf
+R4862,Tertiary Backfurfacing/Sand Screen 10,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-S-10,Tertiary_Silos_Detailed_Drawing.pdf
+R4862,Tertiary Backfurfacing/Sand Screen 10,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-S-10,Backsurfacing_and_Sand_System.pdf
+R4870,Tertiary Backfurfacing Auger 60,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-A-60,Tertiary_Silos_Detailed_Drawing.pdf
+R4870,Tertiary Backfurfacing Auger 60,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-A-60,Backsurfacing_and_Sand_System.pdf
+R4875,Tertiary Backfurfacing Diverter 15,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-DF-15,Tertiary_Silos_Detailed_Drawing.pdf
+R4875,Tertiary Backfurfacing Diverter 15,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-DF-15,Backsurfacing_and_Sand_System.pdf
+R4880,Tertiary Fine Sand Auger 61,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-A-61,Tertiary_Silos_Detailed_Drawing.pdf
+R4880,Tertiary Fine Sand Auger 61,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-A-61,Backsurfacing_and_Sand_System.pdf
+R4885,Tertiary Fine Sand Diverter 16,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-DF-16,Tertiary_Silos_Detailed_Drawing.pdf
+R4885,Tertiary Fine Sand Diverter 16,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-DF-16,Backsurfacing_and_Sand_System.pdf
+R4910,Tertiary Silo 10 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-10,Tertiary_Silos_Detailed_Drawing.pdf
+R4910,Tertiary Silo 10 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-10,Backsurfacing_and_Sand_System.pdf
+R4910,Tertiary Silo 10 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-T-10,Backsurfacing_Process_Flow.pdf
+R4910,Tertiary Silo 10 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-10,Tertiary_Silos_Process_Flow.pdf
+R4914,Tertiary Silo 11 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-11,Tertiary_Silos_Detailed_Drawing.pdf
+R4914,Tertiary Silo 11 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-11,Backsurfacing_and_Sand_System.pdf
+R4914,Tertiary Silo 11 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-T-11,Backsurfacing_Process_Flow.pdf
+R4914,Tertiary Silo 11 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-11,Tertiary_Silos_Process_Flow.pdf
+R4918,Tertiary Silo 12 (Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-T-12,Backsurfacing_Process_Flow.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-60,Tertiary_process_cell_3.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-60,Tertiary_Outdoor_Crushing.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-60,Tertiary_process_cell_2.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-60,Tertiary_process_cell_4.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-60,Tertiary_Silos_Process_Flow.pdf
+R5110,Tertiary Conveyor 60 (to TC61 and TC51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-60,Tertiary_process_cell_1.pdf
+R5124,Tertiary Conveyor 61 (to Dome),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-61,Tertiary_Outdoor_Crushing.pdf
+R5128,Tertiary Granule Storage Dome,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-T-99,Tertiary_Outdoor_Crushing.pdf
+R5132,Tertiary Granule Storage Dome Exhaust Fan,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-T-99--FAN,Tertiary_Outdoor_Crushing.pdf
+R5134,Tertiary Conveyor 62 (to TE6),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-C-62,Tertiary_Outdoor_Crushing.pdf
+R5136,Tertiary Elevator 2 (Dome),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Outdoor_Crushing.pdf,T-E-02,Tertiary_Outdoor_Crushing.pdf
+R5140,Tertiary Conveyor 51 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-51,Tertiary_process_cell_3.pdf
+R5140,Tertiary Conveyor 51 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-51,Tertiary_process_cell_2.pdf
+R5140,Tertiary Conveyor 51 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-51,Tertiary_process_cell_4.pdf
+R5140,Tertiary Conveyor 51 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-51,Tertiary_Silos_Process_Flow.pdf
+R5140,Tertiary Conveyor 51 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-51,Tertiary_process_cell_1.pdf
+R5144,Tertiary Autosampler (Conveyor 51),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-SA-01,Tertiary_Silos_Process_Flow.pdf
+R5148,Tertiary Elevator 70 (Product),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-E-70,Tertiary_Silos_Process_Flow.pdf
+R5160,Tertiary Shuttle Conveyor 53 (to TC54),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-53,Tertiary_Silos_Process_Flow.pdf
+R5164,Tertiary Shuttle Conveyor 53 Positioner,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-53--MTR-TM292,Tertiary_Silos_Process_Flow.pdf
+R5168,Tertiary Diverter 4 (TC53 to TC54/TT4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-DF-04,Tertiary_Silos_Process_Flow.pdf
+R5172,Tertiary Shuttle Conveyor 54 (to Natural Silos),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-54,Tertiary_Silos_Process_Flow.pdf
+R5172,Tertiary Shuttle Conveyor 54 (to Natural Silos),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Oiler_System.pdf,T-C-54,Tertiary_Oiler_System.pdf
+R5176,Tertiary Shuttle Conveyor 54 Positioner,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,,Tertiary_Silos_Process_Flow.pdf
+R5180,Tertiary Diverter 12 (TC54 to TT07/TT08),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-DF-12,Tertiary_Silos_Process_Flow.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-C-52,Tertiary_Silos_Detailed_Drawing.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-52,Tertiary_process_cell_3.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-C-52,Backsurfacing_and_Sand_System.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-52,Tertiary_process_cell_2.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-52,Tertiary_process_cell_4.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-52,Tertiary_Silos_Process_Flow.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-C-52,Tertiary_Dust_Collection_System.pdf
+R5184,Tertiary Conveyor 52 (Modified Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-52,Tertiary_process_cell_1.pdf
+R5188,Tertiary Elevator 71 (Modified Sand and Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-E-71,Tertiary_Silos_Detailed_Drawing.pdf
+R5188,Tertiary Elevator 71 (Modified Sand and Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-E-71,Backsurfacing_and_Sand_System.pdf
+R5188,Tertiary Elevator 71 (Modified Sand and Backsurfacing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-E-71,Tertiary_Silos_Process_Flow.pdf
+R5194,Tertiary Sand Diverter 17,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-DF-17,Tertiary_Silos_Detailed_Drawing.pdf
+R5194,Tertiary Sand Diverter 17,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-DF-17,Backsurfacing_and_Sand_System.pdf
+R5196,Tertiary Sand Screen 3 (Kason Circular),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-SANDS-03,Tertiary_Silos_Detailed_Drawing.pdf
+R5196,Tertiary Sand Screen 3 (Kason Circular),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-SANDS-03,Backsurfacing_and_Sand_System.pdf
+R5196,Tertiary Sand Screen 3 (Kason Circular),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-SANDS-03,Tertiary_Silos_Process_Flow.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-C-55,Tertiary_Silos_Detailed_Drawing.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_3.pdf,T-C-55,Tertiary_process_cell_3.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_Process_Flow.pdf,T-C-55,Backsurfacing_Process_Flow.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_2.pdf,T-C-55,Tertiary_process_cell_2.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_4.pdf,T-C-55,Tertiary_process_cell_4.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-C-55,Tertiary_Silos_Process_Flow.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Dust_Collection_System.pdf,T-C-55,Tertiary_Dust_Collection_System.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,T-C-55,TDC102_Dust_Collection.pdf
+R5204,Tertiary Conveyor 55 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_process_cell_1.pdf,T-C-55,Tertiary_process_cell_1.pdf
+R5208,Tertiary Elevator 72 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-E-72,Tertiary_Silos_Process_Flow.pdf
+R5208,Tertiary Elevator 72 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,T-E-72,TDC102_Dust_Collection.pdf
+R5210,Tertiary Auger 70 (TE72 to TT5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-A-70,Tertiary_Silos_Detailed_Drawing.pdf
+R5210,Tertiary Auger 70 (TE72 to TT5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-A-70,Tertiary_Silos_Process_Flow.pdf
+R5310,Tertiary Oil Day Tank Supply Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Oiler_System.pdf,T-OILP,Tertiary_Oiler_System.pdf
+R5315,Tertiary Oil Day Tank 21,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Oiler_System.pdf,T-T-21,Tertiary_Oiler_System.pdf
+R5318,Tertiary Oiler Pump 10,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Oiler_System.pdf,T-P-10,Tertiary_Oiler_System.pdf
+R5410,Tertiary Silo 1 (Natural Granule),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-01,Tertiary_Silos_Process_Flow.pdf
+R5413,Tertiary Silo 2 (Natural Granule),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-02,Tertiary_Silos_Process_Flow.pdf
+R5416,Tertiary Silo 3 (Natural Granule),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-03,Tertiary_Silos_Process_Flow.pdf
+R5419,Tertiary Silo 4 (Natural Granule),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,T-T-04,Madoc_AR_Granule_Process_Flow.pdf
+R5419,Tertiary Silo 4 (Natural Granule),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-04,Tertiary_Silos_Process_Flow.pdf
+R5434,Tertiary Silo 7 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-07,Tertiary_Silos_Detailed_Drawing.pdf
+R5434,Tertiary Silo 7 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-07,Backsurfacing_and_Sand_System.pdf
+R5434,Tertiary Silo 7 (Optimal Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-07,Tertiary_Silos_Process_Flow.pdf
+R5437,Tertiary Silo 8 (Headlap),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-08,Tertiary_Silos_Detailed_Drawing.pdf
+R5437,Tertiary Silo 8 (Headlap),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-08,Tertiary_Silos_Process_Flow.pdf
+R5440,Tertiary Silo 5 (Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-05,Tertiary_Silos_Detailed_Drawing.pdf
+R5440,Tertiary Silo 5 (Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-05,Backsurfacing_and_Sand_System.pdf
+R5440,Tertiary Silo 5 (Sand),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-05,Tertiary_Silos_Process_Flow.pdf
+R5443,Tertiary Silo 9 (Sweco),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-09,Tertiary_Silos_Detailed_Drawing.pdf
+R5443,Tertiary Silo 9 (Sweco),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-09,Backsurfacing_and_Sand_System.pdf
+R5443,Tertiary Silo 9 (Sweco),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-09,Tertiary_Silos_Process_Flow.pdf
+R5446,Tertiary Silo 6 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Detailed_Drawing.pdf,T-T-06,Tertiary_Silos_Detailed_Drawing.pdf
+R5446,Tertiary Silo 6 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Backsurfacing_and_Sand_System.pdf,T-T-06,Backsurfacing_and_Sand_System.pdf
+R5446,Tertiary Silo 6 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,T-T-06,Tertiary_Silos_Process_Flow.pdf
+R5446,Tertiary Silo 6 (Filler),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/TDC102_Dust_Collection.pdf,T-T-06,TDC102_Dust_Collection.pdf
+R6120,Colour Clay Unloading Blower 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-CLBL-01,Colour_Process_Pigment_Slurry.pdf
+R6124,Colour Clay Silo 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-CLAY-01,Colour_Process_Pigment_Slurry.pdf
+R6128,Colour Clay Silo 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-CLAY-02,Colour_Process_Pigment_Slurry.pdf
+R6131,Colour Clay Auger 1 (From Clay Silo 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-A-01,Colour_Process_Pigment_Slurry.pdf
+R6134,Colour Clay Auger 2 (From Clay Silo 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-A-02,Colour_Process_Pigment_Slurry.pdf
+R6137,Colour Clay Auger 3 (From Clay Silo 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-A-03,Colour_Process_Pigment_Slurry.pdf
+R6210,Colour Sodium Silicate Holding Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-T-4-00,Silicate_and_Water_System.pdf
+R6215,Colour Sodium Silicate Pump 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-02,Silicate_and_Water_System.pdf
+R6260,Colour Cuprous Oxide Bag Unloader,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-BU-01,Cuprous_Oxide_System.pdf
+R6263,Colour Batch Auger 20 (Cuprous Oxide),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-A-20,Cuprous_Oxide_System.pdf
+R6267,Colour Elevator 7 (Cuprous Oxide),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-E-07,Cuprous_Oxide_System.pdf
+R6271,Colour Cuprous Oxide Storage Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-T-4-11,Cuprous_Oxide_System.pdf
+R6274,Colour Cuprous Oxide Feeder Auger 21,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-A-21,Cuprous_Oxide_System.pdf
+R6371,Colour Pigment Feeder 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-01,Colour_Process_Pigment_Carts.pdf
+R6372,Colour Pigment Feeder 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-02,Colour_Process_Pigment_Carts.pdf
+R6373,Colour Pigment Feeder 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-03,Colour_Process_Pigment_Carts.pdf
+R6374,Colour Pigment Feeder 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-04,Colour_Process_Pigment_Carts.pdf
+R6375,Colour Pigment Feeder 5,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-05,Colour_Process_Pigment_Carts.pdf
+R6376,Colour Pigment Feeder 6,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-06,Colour_Process_Pigment_Carts.pdf
+R6377,Colour Pigment Feeder 7,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-07,Colour_Process_Pigment_Carts.pdf
+R6378,Colour Pigment Feeder 8,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-08,Colour_Process_Pigment_Carts.pdf
+R6379,Colour Pigment Feeder 9,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-09,Colour_Process_Pigment_Carts.pdf
+R6380,Colour Pigment Feeder 10 (Dispersant),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-10,Colour_Process_Pigment_Carts.pdf
+R6381,Colour Pigment Feeder 11,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-11,Colour_Process_Pigment_Carts.pdf
+R6383,Colour Pigment Feeder 13,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-13,Colour_Process_Pigment_Carts.pdf
+R6384,Colour Pigment Feeder 14,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-14,Colour_Process_Pigment_Carts.pdf
+R6385,Colour Pigment Feeder 15,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-15,Colour_Process_Pigment_Carts.pdf
+R6386,Colour Pigment Feeder 16 (Dispersant),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-16,Colour_Process_Pigment_Carts.pdf
+R6387,Colour Pigment Feeder 17,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-17,Colour_Process_Pigment_Carts.pdf
+R6388,Colour Pigment Feeder 18,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PF-18,Colour_Process_Pigment_Carts.pdf
+R6419,Colour Pigment Cart 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PCART-01,Colour_Process_Pigment_Carts.pdf
+R6423,Colour Pigment Cart 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Carts.pdf,C-PCART-02,Colour_Process_Pigment_Carts.pdf
+R6510,Colour Batch Tanks Sump Pump 14,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-14,Batch_Tanks.pdf
+R6520,Colour Dirty Water Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-T-4-01,Silicate_and_Water_System.pdf
+R6523,Colour Dirty Water Tank Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-T-4-01--AG,Silicate_and_Water_System.pdf
+R6535,"Colour Pump 3 (Dirty Water Tank, Side 1 and 2)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-03,Silicate_and_Water_System.pdf
+R6545,"Colour Pump 21 (Dirty Water Tank, Side 3 and 4)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-21,Silicate_and_Water_System.pdf
+R6550,Colour Cold Water Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-T-4-02,Silicate_and_Water_System.pdf
+R6553,Colour Quenching Water Pump 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-04,Silicate_and_Water_System.pdf
+R6558,Colour Clean Water Pump 5,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-05,Silicate_and_Water_System.pdf
+R6562,Colour Hot Water Day Tank,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-T-4-10,Silicate_and_Water_System.pdf
+R6565,Colour Batch Tank Hot Water Pump 37 (For Rinsing),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-37,Silicate_and_Water_System.pdf
+R6611,Colour Boiler 1 (RayPak HI/Delta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,A-BLR-01,Silicate_and_Water_System.pdf
+R6612,Colour Boiler 2 (RayPak HI/Delta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,A-BLR-02,Silicate_and_Water_System.pdf
+R6615,Colour Boiler Recirculation Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Silicate_and_Water_System.pdf,C-P-01,Silicate_and_Water_System.pdf
+R6660,Colour Batch Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-B-01,Colour_Process_Pigment_Slurry.pdf
+R6660,Colour Batch Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-B-01,Cuprous_Oxide_System.pdf
+R6660,Colour Batch Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-01,Batch_Tanks.pdf
+R6663,Colour Batch Tank 1 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-01--AG,Batch_Tanks.pdf
+R6666,Colour Batch Tank 1 Transfer Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-06,Batch_Tanks.pdf
+R6670,Colour Batch Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-B-02,Colour_Process_Pigment_Slurry.pdf
+R6670,Colour Batch Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-B-02,Cuprous_Oxide_System.pdf
+R6670,Colour Batch Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-02,Batch_Tanks.pdf
+R6673,Colour Batch Tank 2 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-02--AG,Batch_Tanks.pdf
+R6676,Colour Batch Tank 2 Transfer Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-18,Batch_Tanks.pdf
+R6680,Colour Batch Tank 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-B-03,Colour_Process_Pigment_Slurry.pdf
+R6680,Colour Batch Tank 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-B-03,Cuprous_Oxide_System.pdf
+R6680,Colour Batch Tank 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-03,Batch_Tanks.pdf
+R6683,Colour Batch Tank 3 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-03--AG,Batch_Tanks.pdf
+R6686,Colour Batch Tank 3 Transfer Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-19,Batch_Tanks.pdf
+R6690,Colour Batch Tank 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Pigment_Slurry.pdf,C-B-04,Colour_Process_Pigment_Slurry.pdf
+R6690,Colour Batch Tank 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Cuprous_Oxide_System.pdf,C-B-04,Cuprous_Oxide_System.pdf
+R6690,Colour Batch Tank 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-04,Batch_Tanks.pdf
+R6693,Colour Batch Tank 4 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-B-04--AG,Batch_Tanks.pdf
+R6696,Colour Batch Tank 4 Transfer Pump,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-20,Batch_Tanks.pdf
+R6701,Colour Batch Tank Drain Pump 35,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-35,Batch_Tanks.pdf
+R6703,Colour Batch Tank Drain Pump 36,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tanks.pdf,C-P-36,Batch_Tanks.pdf
+R6710,Color Batch Tank 1 Valve (Sodium Silicate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-00,Batch_Tank_Valves.pdf
+R6711,Color Batch Tank 1 Valve (Dirty Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-01,Batch_Tank_Valves.pdf
+R6712,Color Batch Tank 1 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-02,Batch_Tank_Valves.pdf
+R6713,Color Batch Tank 1 Valve (Spray Clean Out),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-03,Batch_Tank_Valves.pdf
+R6714,Color Batch Tank 1 Valve (Suction Line 8 IN),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-24,Batch_Tank_Valves.pdf
+R6715,Color Batch Tank 1 Valve (Sump Discharge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-04,Batch_Tank_Valves.pdf
+R6716,Color Batch Tank 1 Valve (to Holding Tank),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-05,Batch_Tank_Valves.pdf
+R6717,Color Batch Tank 1 Valve (to Holding Tank Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-06,Batch_Tank_Valves.pdf
+R6718,Color Batch Tank 1 Valve (Air Purge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-1-07,Batch_Tank_Valves.pdf
+R6720,Color Batch Tank 2 Valve (Sodium Silicate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-00,Batch_Tank_Valves.pdf
+R6721,Color Batch Tank 2 Valve (Dirty Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-01,Batch_Tank_Valves.pdf
+R6722,Color Batch Tank 2 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-02,Batch_Tank_Valves.pdf
+R6723,Color Batch Tank 2 Valve (Spray Clean Out),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-03,Batch_Tank_Valves.pdf
+R6724,Color Batch Tank 2 Valve (Suction Line 8 IN),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-24,Batch_Tank_Valves.pdf
+R6725,Color Batch Tank 2 Valve (Sump Discharge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-04,Batch_Tank_Valves.pdf
+R6726,Color Batch Tank 2 Valve (to Holding Tank),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-05,Batch_Tank_Valves.pdf
+R6727,Color Batch Tank 2 Valve (to Holding Tank Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-06,Batch_Tank_Valves.pdf
+R6728,Color Batch Tank 2 Valve (Air Purge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-2-07,Batch_Tank_Valves.pdf
+R6730,Color Batch Tank 3 Valve (Sodium Silicate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-00,Batch_Tank_Valves.pdf
+R6731,Color Batch Tank 3 Valve (Dirty Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-01,Batch_Tank_Valves.pdf
+R6732,Color Batch Tank 3 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-02,Batch_Tank_Valves.pdf
+R6733,Color Batch Tank 3 Valve (Spray Clean Out),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-03,Batch_Tank_Valves.pdf
+R6734,Color Batch Tank 3 Valve (Sump Discharge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-04,Batch_Tank_Valves.pdf
+R6735,Color Batch Tank 3 Valve (Suction Line 8 IN),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-24,Batch_Tank_Valves.pdf
+R6736,Color Batch Tank 3 Valve (to Holding Tank),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-05,Batch_Tank_Valves.pdf
+R6737,Color Batch Tank 3 Valve (to Holding Tank Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-06,Batch_Tank_Valves.pdf
+R6738,Color Batch Tank 3 Valve (Air Purge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-3-07,Batch_Tank_Valves.pdf
+R6740,Color Batch Tank 4 Valve (Sodium Silicate),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-00,Batch_Tank_Valves.pdf
+R6741,Color Batch Tank 4 Valve (Dirty Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-01,Batch_Tank_Valves.pdf
+R6742,Color Batch Tank 4 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-02,Batch_Tank_Valves.pdf
+R6743,Color Batch Tank 4 Valve (Spray Clean Out),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-03,Batch_Tank_Valves.pdf
+R6744,Color Batch Tank 4 Valve (Sump Discharge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-04,Batch_Tank_Valves.pdf
+R6745,Color Batch Tank 4 Valve (Suction Line 8 IN),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-24,Batch_Tank_Valves.pdf
+R6746,Color Batch Tank 4 Valve (to Holding Tank),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-05,Batch_Tank_Valves.pdf
+R6747,Color Batch Tank 4 Valve (to Holding Tank Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-06,Batch_Tank_Valves.pdf
+R6748,Color Batch Tank 4 Valve (Air Purge),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Batch_Tank_Valves.pdf,C-V-4-07,Batch_Tank_Valves.pdf
+R6760,Colour Holding Tank 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-01,Holding_Tanks.pdf
+R6763,Colour Holding Tank 1 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-01--AG,Holding_Tanks.pdf
+R6766,Colour Paint Pump 7 (Side 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-P-07,Holding_Tanks.pdf
+R6770,Colour Holding Tank 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-02,Holding_Tanks.pdf
+R6773,Colour Holding Tank 2 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-02--AG,Holding_Tanks.pdf
+R6776,Colour Paint Pump 8 (Side 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-P-08,Holding_Tanks.pdf
+R6780,Colour Holding Tank 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-03,Holding_Tanks.pdf
+R6783,Colour Holding Tank 3 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-03--AG,Holding_Tanks.pdf
+R6786,Colour Paint Pump 22 (Side 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-P-22,Holding_Tanks.pdf
+R6790,Colour Holding Tank 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-04,Holding_Tanks.pdf
+R6793,Colour Holding Tank 4 Agitator,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-H-04--AG,Holding_Tanks.pdf
+R6796,Colour Paint Pump 23 (Side 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-P-23,Holding_Tanks.pdf
+R6801,Colour Holding Tank Drain Pump 38,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-P-38,Holding_Tanks.pdf
+R6810,Color Holding Tank 1 Valve (Spray Clean),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-14,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6811,Color Holding Tank 1 Valve (Water Flush),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-09,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6812,Color Holding Tank 1 Valve (Paint 108),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-08,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6813,Color Holding Tank 1 Valve (Paint 216),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-16,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6814,Color Holding Tank 1 Valve (Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-10,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6815,Color Holding Tank 1 Valve (Mixer Shutoff),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-17,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6816,Color Holding Tank 1 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-11,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6817,Color Holding Tank 1 Valve (Paint Line),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-22,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6820,Color Holding Tank 2 Valve (Spray Clean),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-14,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6821,Color Holding Tank 2 Valve (Water Flush),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-09,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6822,Color Holding Tank 2 Valve (Paint 208),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-08,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6823,Color Holding Tank 2 Valve (Paint 116),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-1-16,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6824,Color Holding Tank 2 Valve (Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-10,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6825,Color Holding Tank 2 Valve (Mixer Shutoff),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-17,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6826,Color Holding Tank 2 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-11,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6827,Color Holding Tank 2 Valve (Paint Line),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank1_and_Holding_Tank2_Valves.pdf,C-V-2-22,Holding_Tank1_and_Holding_Tank2_Valves.pdf
+R6830,Color Holding Tank 3 Valve (Spray Clean),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-14,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6831,Color Holding Tank 3 Valve (Water Flush),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-09,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6832,Color Holding Tank 3 Valve (Paint 308),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-08,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6833,Color Holding Tank 3 Valve (Paint 416),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-16,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6834,Color Holding Tank 3 Valve (Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-10,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6835,Color Holding Tank 3 Valve (Mixer Shutoff),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-17,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6836,Color Holding Tank 3 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-11,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6837,Color Holding Tank 3 Valve (Paint Line),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-22,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6840,Color Holding Tank 4 Valve (Spray Clean),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-14,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6841,Color Holding Tank 4 Valve (Water Flush),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-09,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6842,Color Holding Tank 4 Valve (Paint 408),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-08,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6843,Color Holding Tank 4 Valve (Paint 316),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-3-16,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6844,Color Holding Tank 4 Valve (Drain),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-10,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6845,Color Holding Tank 4 Valve (Mixer Shutoff),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-17,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6846,Color Holding Tank 4 Valve (Fresh Water),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-11,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6847,Color Holding Tank 4 Valve (Paint Line),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tank3_and_Holding_Tank4_Valves.pdf,C-V-4-22,Holding_Tank3_and_Holding_Tank4_Valves.pdf
+R6910,Colour Bathtub 1 (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Bathtub.pdf,C-BT-01,Colour_Process_Bathtub.pdf
+R6915,Colour Bathtub Pump 15 (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Bathtub.pdf,C-P-15,Colour_Process_Bathtub.pdf
+R6920,Colour Bathtub 2 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Bathtub.pdf,C-BT-02,Colour_Process_Bathtub.pdf
+R6925,Colour Bathtub Pump 30 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Bathtub.pdf,C-P-30,Colour_Process_Bathtub.pdf
+R6930,Colour Bathtub Sump Pump 34 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Bathtub.pdf,C-P-34,Colour_Process_Bathtub.pdf
+R7010,Colour Vibrating Feeder 1 (from TS1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-F-01,Tertiary_Silos_Process_Flow.pdf
+R7012,Colour Vibrating Feeder 2 (from TS2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-F-02,Tertiary_Silos_Process_Flow.pdf
+R7014,Colour Vibrating Feeder 3 (from TS3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-F-03,Tertiary_Silos_Process_Flow.pdf
+R7016,Colour Vibrating Feeder 4 (from TS4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,C-F-04,Madoc_AR_Granule_Process_Flow.pdf
+R7016,Colour Vibrating Feeder 4 (from TS4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-F-04,Tertiary_Silos_Process_Flow.pdf
+R7038,Colour Conveyor 1 (Tertiary Silos to CC2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-C-01,Tertiary_Silos_Process_Flow.pdf
+R7042,Colour Conveyor 2 (to CE1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-C-02,Tertiary_Silos_Process_Flow.pdf
+R7053,Colour Elevator 1 (to CB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Silos_Process_Flow.pdf,C-E-01,Tertiary_Silos_Process_Flow.pdf
+R7053,Colour Elevator 1 (to CB1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-E-01,Colour_Process_Distributor_Section.pdf
+R7057,Colour Diverter 8 (CE1 to CB5/CB13),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-DF-08,Colour_Process_Distributor_Section.pdf
+R7061,Colour Bin 5 (to CPH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Madoc_AR_Granule_Process_Flow.pdf,C-B-05,Madoc_AR_Granule_Process_Flow.pdf
+R7061,Colour Bin 5 (to CPH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-B-05,Colour_Process_Distributor_Section.pdf
+R7064,Colour Bin 5 Vibrating Feeder (to CPH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-F-05,Colour_Process_Distributor_Section.pdf
+R7068,Colour Conveyor 3 (to CPH1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-C-03,Colour_Process_Distributor_Section.pdf
+R7073,Colour Preheater 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-PH-01,Colour_Process_Distributor_Section.pdf
+R7078,Colour Preheater 1 Blower,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-PH-01--MTR-CM12,Colour_Process_Distributor_Section.pdf
+R7083,Colour Bin 13 (to CPH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-B-13,Colour_Process_Distributor_Section.pdf
+R7086,Colour Bin 13 Vibrating Feeder (to CPH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-F-13,Colour_Process_Distributor_Section.pdf
+R7089,Colour Conveyor 19 (to CPH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-C-19,Colour_Process_Distributor_Section.pdf
+R7092,Colour Conveyor 20 (to CPH2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-C-20,Colour_Process_Distributor_Section.pdf
+R7103,Colour Preheater 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-PH-02,Colour_Process_Distributor_Section.pdf
+R7108,Colour Preheater 2 Blower,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-PH-02--FAN,Colour_Process_Distributor_Section.pdf
+R7210,Colour Elevator 2 (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-E-02,Colour_Process_Distributor_Section.pdf
+R7214,"Colour Diverter 1 (Side 1 and 2, CE2 to CB6/CB7)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-DF-01,Colour_Process_Distributor_Section.pdf
+R7230,"Colour Elevator 8 (Side 3 and 4, to Mixer)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-E-08,Colour_Process_Distributor_Section.pdf
+R7234,"Colour Diverter 22 (Side 3 and 4, CE8 to CF14/CF15)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-DF-22,Colour_Process_Distributor_Section.pdf
+R7241,Colour Bin 6 (Side 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-B-06,Colour_Process_Side_1.pdf
+R7245,Colour Bin 7 (Side 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-B-07,Colour_Process_Side_2.pdf
+R7249,Colour Bin 14 (Side 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-B-14,Colour_Process_Side_3.pdf
+R7277,"Colour Bin 6 Scale Belt Feeder (Side 1, CB6 to CM1)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-F-06,Colour_Process_Side_1.pdf
+R7281,"Colour Bin 7 Scale Belt Feeder (Side 2, CB7 to CM2)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-F-07,Colour_Process_Side_2.pdf
+R7285,"Colour Bin 14 Scale Belt Feeder (Side 3, CB14 to CM3)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-F-14,Colour_Process_Side_3.pdf
+R7410,Colour Mixer 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-M-01,Holding_Tanks.pdf
+R7410,Colour Mixer 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-M-01,Colour_Process_Side_1.pdf
+R7418,Colour Diverter 10 (CM1 to CK1/CBT1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-DF-10,Colour_Process_Side_1.pdf
+R7422,Colour Mixer 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-M-02,Holding_Tanks.pdf
+R7422,Colour Mixer 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-M-02,Colour_Process_Side_2.pdf
+R7430,Colour Diverter 12 (CM2 to CK2/CBT1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-DF-12,Colour_Process_Side_2.pdf
+R7434,Colour Mixer 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-M-03,Holding_Tanks.pdf
+R7434,Colour Mixer 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-M-03,Colour_Process_Side_3.pdf
+R7442,Colour Diverter 14 (CM3 to CK3/CBT2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-DF-14,Colour_Process_Side_3.pdf
+R7446,Colour Mixer 4,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Holding_Tanks.pdf,C-M-04,Holding_Tanks.pdf
+R7510,Colour Kiln 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-K-01,Colour_Process_Side_1.pdf
+R7513,Colour Kiln 1 Combustion Fan,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-K-01-FAN,Colour_Process_Side_1.pdf
+R7520,Colour Kiln 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-K-02,Colour_Process_Side_2.pdf
+R7523,Colour Kiln 2 Combustion Fan,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-K-02-FAN,Colour_Process_Side_2.pdf
+R7530,Colour Kiln 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-K-03,Colour_Process_Side_3.pdf
+R7533,Colour Kiln 3 Combustion Fan,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-K-03--FAN,Colour_Process_Side_3.pdf
+R7610,Colour Cooler 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-CL-01,Colour_Process_Side_1.pdf
+R7620,Colour Cooler 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-CL-02,Colour_Process_Side_2.pdf
+R7630,Colour Cooler 3,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-CL-03,Colour_Process_Side_3.pdf
+R7710,"Colour Diverter 11 (Side 1, CCL1 to CS2/Bin)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-DF-11,Colour_Process_Side_1.pdf
+R7714,"Colour Diverter 13 (Side 2, CCL2 to CS3/Bin)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-DF-13,Colour_Process_Side_2.pdf
+R7718,"Colour Diverter 15 (Side 3, CCL3 to CS4/Bin)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-DF-15,Colour_Process_Side_3.pdf
+R7736,Colour Screen 2 (Side 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-S-02,Colour_Process_Side_1.pdf
+R7740,Colour Screen 3 (Side 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-S-03,Colour_Process_Side_2.pdf
+R7744,Colour Screen 4 (Side 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-S-04,Colour_Process_Side_3.pdf
+R7762,"Colour Elevator 4 (Side 1, to Blend)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_1.pdf,C-E-04,Colour_Process_Side_1.pdf
+R7764,"Colour Elevator 3 (Side 2, to Blend)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-E-03,Colour_Process_Side_2.pdf
+R7768,"Colour Elevator 9 (Side 3, to Blend)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_3.pdf,C-E-09,Colour_Process_Side_3.pdf
+R7910,"Colour Diverter 2 (Side 2, CE3 to CT8/CT9/CT12)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-DF-02,Colour_Process_Blend_1.pdf
+R7912,"Colour Diverter 3 (Side 1, CE4 to CT10/CT11/CDF03B)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-DF-03,Colour_Process_Blend_1.pdf
+R7914,"Colour Diverter 3B (Blend 1, CDF03 to CC4/CT12)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-DF-03-B,Colour_Process_Blend_1.pdf
+R7930,"Colour Bin 8 (8 ft DIA, Product)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-T-08,Colour_Process_Blend_1.pdf
+R7932,"Colour Bin 9 (8 ft DIA, Product)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-T-09,Colour_Process_Blend_1.pdf
+R7934,"Colour Bin 10 (8 ft DIA, Product)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-T-10,Colour_Process_Blend_1.pdf
+R7936,"Colour Bin 11 (8 ft DIA, Product)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-T-11,Colour_Process_Blend_1.pdf
+R7938,"Colour Bin 12 (8 ft DIA, Fiesta)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-T-12,Colour_Process_Blend_1.pdf
+R7960,Colour Bin 8 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-F-08,Colour_Process_Blend_1.pdf
+R7962,Colour Bin 9 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-F-09,Colour_Process_Blend_1.pdf
+R7964,Colour Bin 10 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-F-10,Colour_Process_Blend_1.pdf
+R7966,Colour Bin 11 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-F-11,Colour_Process_Blend_1.pdf
+R7982,Colour Off Spec Fiesta Sprayer Valve (CT12),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,,Colour_Process_Blend_1.pdf
+R7985,Colour Scale Conveyor 5 (to Oiler CO1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-C-05,Colour_Process_Blend_1.pdf
+R8010,"Colour Conveyor 21 (Side 3, Reversible)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-C-21,Colour_Process_Blend_2.pdf
+R8014,"Colour Conveyor 22 (Side 4, Reversible)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-C-22,Colour_Process_Blend_2.pdf
+R8024,"Colour Diverter 18 (Side 3, CC21 to CT17/CT20)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-DF-18,Colour_Process_Blend_2.pdf
+R8026,"Colour Diverter 19 (Side 4, CC22 to CT18/CT20)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-DF-19,Colour_Process_Blend_2.pdf
+R8030,Colour Bin 16 (Blend),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-T-16,Colour_Process_Blend_2.pdf
+R8032,Colour Bin 17 (Blend),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-T-17,Colour_Process_Blend_2.pdf
+R8034,Colour Bin 18 (Blend),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-T-18,Colour_Process_Blend_2.pdf
+R8036,Colour Bin 19 (Blend),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-T-19,Colour_Process_Blend_2.pdf
+R8038,Colour Bin 20 (Fiesta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-T-20,Colour_Process_Blend_2.pdf
+R8060,Colour Bin 16 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-F-16,Colour_Process_Blend_2.pdf
+R8062,Colour Bin 17 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-F-17,Colour_Process_Blend_2.pdf
+R8064,Colour Bin 18 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-F-18,Colour_Process_Blend_2.pdf
+R8068,Colour Bin 19 Vibrating Feeder,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-F-19,Colour_Process_Blend_2.pdf
+R8082,Colour Off Spec Fiesta Valve 10 (CT20),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-V-10,Colour_Process_Blend_2.pdf
+R8085,Colour Scale Conveyor 23 (to Oiler CO2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-C-23,Colour_Process_Blend_2.pdf
+R8310,Colour Oil Storage Tank 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-T-4-03,Colour_Oiler_System.pdf
+R8310,Colour Oil Storage Tank 403,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Tertiary_Oiler_System.pdf,C-T-4-03,Tertiary_Oiler_System.pdf
+R8315,Colour Oil Day Transfer Pump 25 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-P-25,Colour_Oiler_System.pdf
+R8320,Colour Oil Day Tank 415,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-T-4-15,Colour_Oiler_System.pdf
+R8325,Colour Oil Application Pump 26 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-P-26,Colour_Oiler_System.pdf
+R8330,Colour Oil Day Tank 404,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-T-4-04,Colour_Oiler_System.pdf
+R8335,Colour Oil Application Pump 10 (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-P-10,Colour_Oiler_System.pdf
+R8360,Colour Wacker Silicone Tank (CWST1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,,Colour_Oiler_System.pdf
+R8365,Colour Wacker Silicon Pump 17 (Side 1 and 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-P-17,Colour_Oiler_System.pdf
+R8367,Colour Wacker Silicon Pump 24 (Side 3 and 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-P-24,Colour_Oiler_System.pdf
+R8375,Colour Oiler 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-O-01,Colour_Oiler_System.pdf
+R8375,Colour Oiler 1,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-O-01,Colour_Process_Blend_1.pdf
+R8380,Colour Oiler 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Oiler_System.pdf,C-O-02,Colour_Oiler_System.pdf
+R8380,Colour Oiler 2,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-O-02,Colour_Process_Blend_2.pdf
+R8520,"Colour Elevator 5 (Side 1 and 2, to Penthouse)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-E-05,Colour_Silos_Process_Flow.pdf
+R8520,"Colour Elevator 5 (Side 1 and 2, to Penthouse)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-E-05,Colour_Process_Blend_1.pdf
+R8523,Colour Diverter 5 (CE5 to CC6/CDF06),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-DF-05,Colour_Silos_Process_Flow.pdf
+R8526,Colour Diverter 6 (CDF05 to CT47/CT48),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-DF-06,Colour_Silos_Process_Flow.pdf
+R8540,"Colour Elevator 11 (Side 3 and 4, to Colour Silos)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-E-11,Colour_Silos_Process_Flow.pdf
+R8540,"Colour Elevator 11 (Side 3 and 4, to Colour Silos)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_2.pdf,C-E-11,Colour_Process_Blend_2.pdf
+R8543,Colour Conveyor 24 (from CE11),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-C-24,Colour_Silos_Process_Flow.pdf
+R8546,Colour Diverter 20 (CC24 to CC25/CC26),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-DF-20,Colour_Silos_Process_Flow.pdf
+R8550,Colour Conveyor 25 (to CC5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-C-25,Colour_Silos_Process_Flow.pdf
+R8553,Colour Conveyor 6 (from CE5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-C-06,Colour_Silos_Process_Flow.pdf
+R8566,Colour Shuttle Conveyor 7 (North/South),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-07,Colour_Silos_Detail.pdf
+R8569,Colour Shuttle Conveyor 7 Positioner (North/South),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,,Colour_Silos_Detail.pdf
+R8573,Colour Shuttle Conveyor 8 (East/West),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-08,Colour_Silos_Detail.pdf
+R8575,Colour Shuttle Conveyor 8 Positioner (East/West),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,,Colour_Silos_Detail.pdf
+R8578,Colour Shuttle Conveyor 8 Positioner (North/South),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,,Colour_Silos_Detail.pdf
+R8591,Colour Conveyor 26 (Penthouse Shuttle to N Colour Silos),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-26,Colour_Silos_Detail.pdf
+R8593,"Colour Conveyor 27 (Incline, to W Colour Silos)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-27,Colour_Silos_Detail.pdf
+R8596,Colour Conveyor 28 (to Penthouse Silos CT72 to CT78),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-28,Colour_Silos_Detail.pdf
+R8660,Colour Elevator 6 (Double Coat Return),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-E-06,Colour_Silos_Process_Flow.pdf
+R8663,"Colour Conveyor 17 (Double Coat Return, CE6 to CC4)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Process_Flow.pdf,C-C-17,Colour_Silos_Process_Flow.pdf
+R8663,"Colour Conveyor 17 (Double Coat Return, CE6 to CC4)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-C-17,Colour_Process_Blend_1.pdf
+R8668,"Colour Diverter 7 (Double Coat Return, CC17 to CC4/CT10)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-DF-07,Colour_Process_Blend_1.pdf
+R8670,Colour Conveyor 4 (Double Coat Return),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-C-04,Colour_Process_Side_2.pdf
+R8670,Colour Conveyor 4 (Double Coat Return),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Blend_1.pdf,C-C-04,Colour_Process_Blend_1.pdf
+R8675,"Colour Diverter 9 (Double Coat Return, CC4 to CB7/CC18)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-DF-09,Colour_Process_Side_2.pdf
+R8680,"Colour Conveyor 18 ( Double Coat Return, to CPH1)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Side_2.pdf,C-C-18,Colour_Process_Side_2.pdf
+R8680,"Colour Conveyor 18 ( Double Coat Return, to CPH1)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Process_Distributor_Section.pdf,C-C-18,Colour_Process_Distributor_Section.pdf
+R8810,Colour Silo 47,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-47,Colour_Silos_List.pdf
+R8811,Colour Silo Clamshell Gate 47,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-DF-47,Colour_Silos_List.pdf
+R8813,Colour Silo 48,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-48,Colour_Silos_List.pdf
+R8814,Colour Silo Clamshell Gate 48,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-DF-48,Colour_Silos_List.pdf
+R8816,Colour Silo 49,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-49,Colour_Silos_List.pdf
+R8819,Colour Silo 50,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-50,Colour_Silos_List.pdf
+R8822,Colour Silo 51,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-51,Colour_Silos_List.pdf
+R8825,Colour Silo 52,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-52,Colour_Silos_List.pdf
+R8828,Colour Silo 53,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-53,Colour_Silos_List.pdf
+R8831,Colour Silo 54,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-54,Colour_Silos_List.pdf
+R8834,Colour Silo 55,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-55,Colour_Silos_List.pdf
+R8837,Colour Silo 56,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-56,Colour_Silos_List.pdf
+R8840,Colour Silo 57,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-57,Colour_Silos_List.pdf
+R8843,Colour Silo 58,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-58,Colour_Silos_List.pdf
+R8846,Colour Silo 59,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-59,Colour_Silos_List.pdf
+R8849,Colour Silo 60,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-60,Colour_Silos_List.pdf
+R8852,Colour Silo 61,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-61,Colour_Silos_List.pdf
+R8855,Colour Silo 62,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-62,Colour_Silos_List.pdf
+R8858,Colour Silo 63,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-63,Colour_Silos_List.pdf
+R8861,Colour Silo 64,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-64,Colour_Silos_List.pdf
+R8864,Colour Silo 65,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-65,Colour_Silos_List.pdf
+R8867,Colour Silo 66,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-66,Colour_Silos_List.pdf
+R8870,Colour Silo 67,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-67,Colour_Silos_List.pdf
+R8873,Colour Silo 68,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-68,Colour_Silos_List.pdf
+R8876,Colour Silo 69,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-69,Colour_Silos_List.pdf
+R8879,Colour Silo 70 (Fiesta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-70,Colour_Silos_List.pdf
+R8882,Colour Silo 71 (Fiesta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-71,Colour_Silos_List.pdf
+R8885,Colour Silo 72 (Fiesta),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-72,Colour_Silos_List.pdf
+R8888,Colour Silo 73,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-73,Colour_Silos_List.pdf
+R8891,Colour Silo 74,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-74,Colour_Silos_List.pdf
+R8894,Colour Silo 75,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-75,Colour_Silos_List.pdf
+R8897,Colour Silo 76,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-76,Colour_Silos_List.pdf
+R8900,Colour Silo 77,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-77,Colour_Silos_List.pdf
+R8903,Colour Silo 78,http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_List.pdf,C-T-78,Colour_Silos_List.pdf
+R9010,Colour Conveyor 13 (Under E Loadout Silos),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-13,Colour_Silos_Detail.pdf
+R9014,"Colour Conveyor 14 (Incline, E Loadout Silos)",http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-14,Colour_Silos_Detail.pdf
+R9018,Colour Conveyor 15 (Slinger Loadout),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-15,Colour_Silos_Detail.pdf
+R9026,Colour Scale Conveyor 9 (Lane 1),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-09,Colour_Silos_Detail.pdf
+R9034,Colour Scale Conveyor 10 (Lane 2),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-10,Colour_Silos_Detail.pdf
+R9042,Colour Scale Conveyor 11 (Lane 3),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-11,Colour_Silos_Detail.pdf
+R9050,Colour Scale Conveyor 12 (Lane 4),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-12,Colour_Silos_Detail.pdf
+R9054,Colour Scale Conveyor 29 (Lane 5),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Colour_Silos_Detail.pdf,C-C-29,Colour_Silos_Detail.pdf
+R9218,Loadout Conveyor (Belleville Belt),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-C-01,Belleville Equipment.pdf
+R9222,Loadout Conveyor (Belleville Clay Unloading),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-C-03,Belleville Equipment.pdf
+R9226,Loadout Conveyor (Havelock Belt),http://operations.connect.na.local/support/Reliability/IKOMadoc/PlantAssetDocs/Belleville Equipment.pdf,B-C-04,Belleville Equipment.pdf

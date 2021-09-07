@@ -14,8 +14,8 @@ from datetime import date
 html = 'exported_html.html'
 # --------------------------------
 # variables to change
-month = 12
-year = 2020
+month = 7
+year = 2021
 # variables to change
 # --------------------------------
 
@@ -23,12 +23,12 @@ with open(html, encoding='utf8', errors='ignore') as fp:
     soup = BeautifulSoup(fp, 'lxml')
 
 sites = ['sylacauga', 'kankakee', 'sumas', 'calgary', 'hillsboro', 'hawkesbury',
-'wilmington', 'ig brampton', 'bramcal', 'maximix', 'crc toronto', 'appleybridge', 'alconbury', 'madoc', 'ashcroft']
+'ig brampton', 'bramcal', 'maximix', 'crc toronto', 'appleybridge', 'alconbury', 'madoc', 'ashcroft']
 
 # information about tables
 # [Table acronum, [table header to look for to id table], [(special operation), month / year format]]
 kpis =  [
-    ['MLH V KLH', ['MonthYear', 'Kronos Hours', 'Maximo Hours', 'MaximoVsKronosPercentage'], ['MM-YYYY']],
+    ['MLH V KLH', ['MonthYear', 'Kronos Hours', 'Maximo Hours', 'MaximoVsKronosPercentage', 'CompletedWOCount'], ['PERCENT', 'MM-YYYY'], -2],
     ['LHC-LLCA', ['MonthYear', 'Labor Hours Charged to Lowest Level Child Assets', 'Total Labor Hours', "% of Labor Hours Charged To Lowest Level Child Assets"], ['MM-YYYY']],
     ['WONCP', ['MonthYear', 'Percentage'], ['PERCENT', 'MM-YYYY']],
     ['JPC', ['MonthYear', 'JobPlan Count'], ['MM-YYYY']],
@@ -46,7 +46,7 @@ months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 #[[site], [metric], [-3 month], [-2 month], [-1 month], [report month]]
 results = [['Site'], ['KPI metric'], [months[month-11]], [months[month-10]], [months[month-9]], [months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
 
-for i in range(15): #loop through site pages
+for i in range(14): #loop through site pages
     site_page = soup.find(id=f"bux_iwidget_canvas_Canvas_{i}")
 
     # below retrives all table tags and their contents on the site's tab
@@ -70,6 +70,10 @@ for i in range(15): #loop through site pages
         results[0].append(sites[i])
         results[1].append(kpi[0])
         found_kpi = False
+        if len(kpi) == 4:
+            column = kpi[3]
+        else:
+            column = -1
         for table in tables: # loop through each table on the tab
             if kpi[1] in table:
                 found_kpi = True
@@ -95,9 +99,9 @@ for i in range(15): #loop through site pages
                         for row in table:
                             if set(search).issubset(set(row)):
                                 if percent:
-                                    results[month_count].append(f'{round(float(row[-1]))}%')
+                                    results[month_count].append(f'{round(float(row[column]))}%')
                                 else:
-                                    results[month_count].append(row[-1])
+                                    results[month_count].append(row[column])
                                 month_count = month_count + 1
                                 found = True
                                 break

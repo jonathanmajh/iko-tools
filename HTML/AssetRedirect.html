@@ -1,3 +1,14 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <!-- Remember to refer to SOP before working on file -->
+    <!-- P:\MRO Items\CORPORATE RELIABILITY ENGINEERING\Co-op Files\CO-OP TOOLS AND PROGRAMS\Asset Redirect - DNA Enhanced Page\AssetRedirectSOP.docx -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
@@ -10,9 +21,14 @@
         type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
         type="text/javascript"></script>
+
+    <title>IKO DNA Asset Redirect</title>
+</head>
+
+<body>
     <nav class="navbar navbar-expand-md navbar-light bg-white navbar-border">
         <a class="navbar-brand" href="http://connect.na.local/Pages/Connect.aspx"><img
-                src="/support/Reliability/ReliabilityShared/Pages/Assets/IKO_Logo-nobg.png" alt="IKO" height=50px /></a>
+                src="/support/Reliability/ReliabilityShared/Pages/IKO_Logo-nobg.png" alt="IKO" height=50px /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
             aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,7 +62,7 @@
                 <li class="nav-item nav-iko active">
                     </liclass>
                     <a class="nav-link"
-                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectSOP.pdf">Help
                         (SOP)</a>
                 </li>
             </ul>
@@ -84,6 +100,7 @@
                                                     <option value="GE">GE: Ashcroft</option>
                                                     <option value="GR">GR: BramCal</option>
                                                     <option value="BA">BA: Calgary</option>
+                                                    <option value="COM">COM: Combronde</option>
                                                     <option value="GJ">GJ: CRC Toronto</option>
                                                     <option value="BL">BL: Hagerstown </option>
                                                     <option selected value="GH">GH: Hawkesbury</option>
@@ -123,9 +140,9 @@
                                         </td>
                                         <td style="position: relative; min-width: 295px;">
                                             <video id="dna-render" autoplay muted loop playsinline
-                                                poster="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA_Cover.jpg">
+                                                poster="/support/Reliability/ReliabilityShared/Pages/RotatingDNA_Cover.jpg">
                                                 <source
-                                                    src="/support/Reliability/ReliabilityShared/Pages/Assets/RotatingDNA.mp4?mobile=0"
+                                                    src="/support/Reliability/ReliabilityShared/Pages/RotatingDNA.mp4?mobile=0"
                                                     type="video/mp4" />
                                             </video>
                                         </td>
@@ -164,7 +181,7 @@
                                 <tbody id='navlinks-table-body'>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
-                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Assets/AssetRedirectSOP.pdf">Help</a>
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirectSOP.pdf">Help</a>
                                         </td>
                                         <td>
                                             <h4><i class="fa fa-question-circle"></i> Help (SOP)</h4>
@@ -218,3 +235,385 @@
             </div>
         </div>
     </div>
+</body>
+
+</html>
+
+<script type="application/javascript">
+    "use strict";
+    console.log("Starting JS");
+    var currentAssetListSite = "N/A";
+    var dataURL = "/support/Reliability/ReliabilityShared/Pages/";
+    var maximoReportUrl = "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/";
+    var sharepointReliabilityUrl = "http://operations.connect.na.local/support/Reliability/";
+    var url_query = { siteID: "None", assetID: "None", assetDescription: "Loading Asset Description" };
+    var failureClassDataSheet;
+    var failureClassNameSheet;
+    var failureCode = "N/A";
+    var reliabilityAlerts;
+    var site_names = {
+        "GE": "GJ:%20Ashcroft",
+        "GR": "GR:%20BramCal",
+        "AA": "AA:IKO%20Brampton",
+        "BA": "BA:%20Calgary",
+        "GJ": "GJ:%20Canroof/CRC%20Toronto",
+        "GP": "GP:%20CRC%20Insulation",
+        "GG": "GG:%20Hamilton",
+        "GH": "GH:%20Hawkesbury",
+        "GM": "GM:%20IG%20West%20High%20River",
+        "GK": "GK:%20IG%20Machine%20%26%20Fibers%20Brampton",
+        "GT": "GT:%20Ingersoll",
+        "CA": "CA:%20Kankakee",
+        "GI": "GI:%20Madoc",
+        "GX": "GX:%20Maxi-Mix",
+        "PBM": "PBM:%20Slovakia",
+        "GS": "GS:%20Southeast%20(Sylacauga)",
+        "GV": "GV:%20Southwest%20(Hillsboro)",
+        "GC": "GC:%20Sumas",
+        "GA": "GA:%20Wilmington",
+    };
+
+
+    function checkData() {
+        console.log("Running checkData");
+        // while using a predefined asset list already makes sure only existing assets can be selected
+        // this checking function is left here in case we need to open up custom user inputs (see 'tags' for select2)
+        var patt = new RegExp("[A-Z][0-9]{4}"); //check if input is right format
+        var data = $('.select2-asset-id').select2('data')[0];
+        var userInput = data.id.toUpperCase();
+        console.log(userInput);
+        if (userInput == "TEST VERSION") {
+            var paraURL = window.location.href;
+            window.open(paraURL.replace(".aspx/", "Testing.html"));
+        }
+        var result = patt.test(userInput);
+        if (result == true) {
+            assetNum.value = userInput;
+            genLinks(data);
+        } else {
+            return false; //TODO some kinda of error message
+        }
+    }
+
+    function ChangeSite() {
+        console.log("Running ChangeSite");
+        var siteID = document.getElementById("siteName").value;
+        if (!(currentAssetListSite == siteID)) {
+            var url = dataURL.concat(siteID, ".csv");
+            readCSV(url, PopulateAssetIds);
+        }
+        else {
+            console.log("Asset List for ".concat(siteID, " is already loaded"));
+        }
+    }
+
+    function PopulateAssetIds(csvData) {
+        console.log("Running PopulateAssetIds");
+        var j = csvData.length;
+        var assetIds = [];
+        var assetIdTracker = {};
+        for (var i = 0; i < j; i++) {
+            if (csvData[i][0] == url_query.assetID) {
+                url_query.assetDescription = csvData[i][0];
+            }
+            if (!(csvData[i][0] in assetIdTracker)) {
+                if (csvData[i][5]) {
+                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1], " : ", csvData[i][5]) });
+                } else {
+                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1] )});
+                }
+                
+                assetIdTracker[csvData[i][0]] = "";
+            }
+        }
+        $(".select2-asset-id").empty();
+        $(".select2-asset-id").select2({
+            // create and set options for the asset id dropdown
+            // tags: true, uncomment for custom inputs
+            data: assetIds,
+            templateSelection: formatDisplay, //uses formatDisplay function to only display id in input field
+            dropdownAutoWidth: true, //make the dropdown wider than the input field
+        });
+        currentAssetListSite = document.getElementById("siteName").value;
+        if (currentAssetListSite == url_query.siteID) {
+            // check if selected site is the same as the one specified in the url
+            // this would mean we should use the initial asset id as well
+            $(".select2-asset-id").val(url_query.assetID);
+            $(".select2-asset-id").trigger('change');
+            $(".select2-asset-id").trigger('select2:select');
+        }
+        checkData();
+    }
+
+    function formatDisplay(asset) {
+        return asset.id;
+    }
+
+    function genLinks(selected_data) {
+        console.log("Running genLinks");
+        var description = selected_data.text;
+        var assetN = selected_data.id;
+        var siteID = document.getElementById("siteName").value;
+
+        document.getElementById("description").textContent = description;
+
+        //get failure class
+        var j = failureClassDataSheet.length;
+        for (var i = 0; i < j - 1; i++) {
+            if (assetN == failureClassDataSheet[i][0] && siteID == failureClassDataSheet[i][2]) {
+                failureCode = failureClassDataSheet[i][1];
+            }
+        }
+        //get failure class description
+        var failureClassDescription = "No Failure Class Found for This Asset";
+        j = failureClassNameSheet.length;
+        for (i = 0; i < j - 1; i++) {
+            if (failureCode == failureClassNameSheet[i][0]) {
+                failureClassDescription = failureClassNameSheet[i][1];
+            }
+        }
+        document.getElementById("failure-description").textContent = failureClassDescription;
+
+        var urls = [
+            [
+                sharepointReliabilityUrl.concat("ReliabilityShared/Pages/SymptomDatabase.html?cheese=", siteID, "=&cheeseNum=", assetN, "=&asset=1=&site=1"),
+                maximoReportUrl.concat("Asset%20Spare%20Parts&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                maximoReportUrl.concat("Failure%20Modes%20Problem%20Asset&paramSiteID=", siteID, "&paramAssetNum=", assetN),
+                maximoReportUrl.concat("PMProgram&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                maximoReportUrl.concat("WorkOrders&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                maximoReportUrl.concat("Downtime%20MTBF&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                sharepointReliabilityUrl.concat("ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=", assetN, "&FilterField2=Site_x0020_Descriptions2&FilterValue2=", site_names[siteID]),
+            ],
+            [
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + siteID + "&paramFailureClass=" + failureCode,
+                "", //"http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
+            ],
+            [
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=0",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem%20Asset&paramSiteID=" + "&paramAssetNum=" + assetN,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=" + assetN,
+            ],
+            [
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=0",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=&paramAssetNum=&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + "&paramFailureClass=" + failureCode,
+                "",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode,
+            ],
+        ];
+        var cellFormat = ["btn-light-gray", "btn-light-yellow", "btn-baby-blue", "btn-light-green"];
+        var cellText = [assetN + "(" + siteID + ")", failureCode + "(" + siteID + ")", assetN + "(All Sites)", failureCode + "(All Sites)"];
+        var descriptions = [
+            ["fa fa-th-list", " Symptom Database"],
+            ["fa fa-file-text-o", " Spare Parts List"],
+            ["fa fa-chain-broken", " Failure Modes & Causes"],
+            ["fa fa-check-square-o", " PMs For The Asset"],
+            ["fa fa-bullhorn", " Work Orders"],
+            ["fa fa-hourglass-2", " Downtime Report"],
+            ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
+        ];
+        var parent = document.getElementById("dynamic-table-body");
+        parent.textContent = ''; //remove placeholder or old data
+        for (i = 0; i < 7; i++) {
+            var row = document.createElement("tr");
+            row.setAttribute("id", "dynamic-row-".concat(i));
+            for (j = 0; j < 5; j++) {
+                var cellTD = document.createElement("td");
+                cellTD.setAttribute("id", "cellR".concat(i, "C", j));
+                var button = document.createElement("a");
+                if (j == 4) {
+                    button = document.createElement("h4");
+                    var icon = document.createElement("i");
+                    icon.setAttribute("class", descriptions[i][0]);
+                    button.appendChild(icon);
+                    var buttonText = document.createTextNode(descriptions[i][1]);
+                } else {
+                    if (urls[j][i] == "") {
+                        button.setAttribute("hidden", true);
+                    } else {
+                        button.setAttribute("href", urls[j][i]);
+                    }
+                    button.setAttribute("class", "btn btn-primary " + [cellFormat[j]]);
+                    var buttonText = document.createTextNode(cellText[j]);
+                }
+                button.appendChild(buttonText);
+                cellTD.appendChild(button);
+                row.appendChild(cellTD);
+            }
+            parent.appendChild(row);
+        }
+        //disable buttons as required
+        var checkForValues = [siteID.concat("_", assetN), siteID.concat("_", failureCode), assetN, failureCode];
+        for (i = 0; i < 4; i++) {
+            var found = false;
+            var k = reliabilityAlerts[i].length;
+            for (j = 0; j < k; j++) {
+                if (reliabilityAlerts[i][j] == checkForValues[i]) {
+                    found = true;
+                    break; //if value is found no need to disable button, so go check next value
+                }
+            }
+            if (!found) {
+                var div = document.getElementById("cellR6C".concat(i)).firstElementChild;
+                div.classList.add("disabled");
+            }
+        }
+    }
+
+    function readCSV(url, callback) { //reads csv into an array using papaparse libary
+        console.log("Running readCSV: " + url);
+        Papa.parse(url, {
+            download: true,
+            complete: function (results) {
+                console.log("Finished Parsing Array: " + url);
+                callback(results.data.slice(0));
+            },
+            error: function (err, file, inputElem, reason) {
+                console.log("Error parsing Array: " + url);
+                console.log(err);
+                console.log(reason);
+            }
+        });
+    }
+
+    function startGenLinks(data) {
+        failureClassDataSheet = data;
+        delayStart();
+    }
+
+    function getFailureCodeNames(data) {
+        failureClassNameSheet = data;
+        delayStart();
+    }
+
+    function getReliabilityAlerts(data) {
+        reliabilityAlerts = data;
+        delayStart();
+    }
+
+    function delayStart() {
+        if (failureClassDataSheet && failureClassNameSheet && reliabilityAlerts) {
+            console.log("FC and RA loaded");
+            ChangeSite();
+        } else {
+            console.log("FC & RA not loaded")
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function () { //set to siteID equal to the variable in the URL ...?cheese=GK case insensitive
+        //this runs as soon as the site has been loaded
+        console.log("Running Script after loading");
+        var paraURL = window.location.search;
+
+        var url = dataURL.concat("FailureClassesDescriptions.csv");
+        readCSV(url, getFailureCodeNames);
+
+        url = dataURL.concat("FailureClasses.csv");//reads in failure classes as soon as program starts
+        readCSV(url, startGenLinks);
+
+        url = dataURL.concat("ReliabilityAlerts.csv");
+        readCSV(url, getReliabilityAlerts);
+
+        if (paraURL.indexOf("cheese") != -1) {
+            var cheese = paraURL.split('=')[1]; //get siteID
+            siteName.value = cheese.toUpperCase();
+            url_query.siteID = cheese.toUpperCase();
+        }
+        if (paraURL.indexOf("cheeseNum") != -1) {
+            var cheeseNum = paraURL.split('=')[3]; //get assetNum
+            url_query.assetID = cheeseNum.toUpperCase();
+        }
+    }, false);
+
+
+</script>
+
+
+<style>
+    select {
+        width: 200px;
+    }
+
+    .btn-lilac {
+        background-color: #C8A2C8;
+        color: black;
+    }
+
+    .btn-light-gray {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+    .btn-light-yellow {
+        background-color: #fdf5e6;
+        color: black;
+    }
+
+    .btn-baby-blue {
+        background-color: #ddffff;
+        color: black;
+    }
+
+    .btn-light-green {
+        background-color: #ddffdd;
+        color: black;
+    }
+
+    .nav-iko :hover {
+        background-color: #f0a1a1;
+    }
+
+    .navbar-border {
+        border-bottom: 4px solid black;
+    }
+
+    a.btn.disabled {
+        text-decoration: line-through;
+        background-color: #fc2c55;
+    }
+
+    .width-250 {
+        min-width: 250px;
+    }
+
+    #dna-render {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 250px;
+    }
+
+    tbody#navlinks-table-body tr td a {
+        min-width: 100px;
+    }
+
+    .table-fit {
+        width: 1%;
+    }
+
+    h1#DNA {
+        /* letter-spacing: 0.03em; */
+        font-weight: 300;
+        font-size: 250%;
+        color: #3f3f3f;
+    }
+
+    table#information td {
+        padding-right: 30px;
+    }
+
+    .table {
+        margin-bottom: 0px;
+    }
+</style>
