@@ -11,10 +11,10 @@ from bs4 import BeautifulSoup
 import csv
 from datetime import date
 
-html = 'exported_html.html'
+html = 'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html'
 # --------------------------------
 # variables to change
-month = 7
+month = 8
 year = 2021
 # variables to change
 # --------------------------------
@@ -63,7 +63,7 @@ for i in range(14): #loop through site pages
             results[0].append(sites[i])
             results[1].append(kpi[0])
             for j in range(len(results)-2):
-                results[j+2].append('Error Tables Not Found')
+                results[j+2].append('-')
         continue
 
     for kpi in kpis: # loop through each kpi
@@ -106,12 +106,12 @@ for i in range(14): #loop through site pages
                                 found = True
                                 break
                         if not found:
-                            results[month_count].append('Value Not Found for this KPI')
+                            results[month_count].append('-')
                             month_count = month_count + 1
         if not found_kpi: # some tables are blank even if they exist
             for j in range(len(results)-2):
                 results[j+2].append('Error Tables Not Found')
 
-with open(f'{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
+with open(f'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(results)
