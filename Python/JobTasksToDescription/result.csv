@@ -1,0 +1,2458 @@
+route,"assetnum - jt_description - description
+"
+WAC001M1PDME,"B1605 - Winding (AC) Inspection - Pentane Unloading Pump
+B1615 - Winding (AC) Inspection - Pentane Tank Transfer Pump 1
+B1617 - Winding (AC) Inspection - Pentane Tank Transfer Pump 2
+B1635 - Winding (AC) Inspection - Pentane Heat Exchanger
+B1642 - Winding (AC) Inspection - Pentane Metering Tri-pump 1
+B1643 - Winding (AC) Inspection - Pentane Metering Tri-pump 2
+B1644 - Winding (AC) Inspection - Pentane Metering Tri-pump 3
+"
+T4600M3PPMM,"T4630 - Inspect Roller(Conveyor) - Bundle Accumulation Conveyor
+T4640 - Inspect Roller(Conveyor) - Bundle Transfer Conveyor
+T4660 - Inspect Roller(Conveyor) - Bundle Packaging Exit Conveyor (with Lifting System)
+"
+T4600M3HKGM,"T4660 - ROLLER (CONVEYOR) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4640 - ROLLER (CONVEYOR) INSPECTION - Bundle Transfer Conveyor
+T4630 - ROLLER (CONVEYOR) INSPECTION - Bundle Accumulation Conveyor
+"
+T4600M1PDMM,"T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+"
+T4600M1LUBM,"T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+"
+T4400Y1PPMM1,"T4404 - Inspect Idler Roller(Conveyor) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4408 - Inspect Idler Roller(Conveyor) - Single Roll Belt Conveyor 2
+"
+T4400W1HKGO,"T4430 - ROLL INSPECTION - Single Roll Film Dispenser
+T4440 - ROLL INSPECTION - Single Roll Heat Shrink Blowers
+"
+T4400W1HKGM,"T4408 - BELT (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 2
+T4408 - PULLEY (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 2
+T4408 - IDLER ROLLER (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 2
+T4404 - BELT (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - PULLEY (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - IDLER ROLLER (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T4400M1PPMM2,"T4404 - Inspect Belt(Conveyor) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Pulley(Conveyor) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4408 - Inspect Belt(Conveyor) - Single Roll Belt Conveyor 2
+T4408 - Inspect Pulley(Conveyor) - Single Roll Belt Conveyor 2
+"
+T4400M1PPMM1,"T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T4400M1PDMM1,"T4404 - PULLEY (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4408 - PULLEY (CONVEYOR) INSPECTION - Single Roll Belt Conveyor 2
+T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+"
+T4400M1PDMM,"T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+"
+T4400M1LUBM,"T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+"
+T4200W1HKGO,"T4260 - ROLL INSPECTION - Winder Roll Unloading Cart
+T4210 - ROLL INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+T4220 - ROLL INSPECTION - Winder Turret (2 Spindles)
+"
+T4200W1HKGM,"T4280 - PHOTO EYE INSPECTION - Winder Core Hopper
+T4290 - PHOTO EYE INSPECTION - Winder Core Loader
+"
+T3400M1PPMM,"T3420 - Inspect GearBox - Cooling Roll 1
+T3420 - Inspect Roll - Cooling Roll 1
+T3420 - Inspect Roll(Chrome) - Cooling Roll 1
+T3423 - Inspect GearBox - Cooling Roll 2
+T3423 - Inspect Roll - Cooling Roll 2
+T3423 - Inspect Roll(Chrome) - Cooling Roll 2
+T3426 - Inspect GearBox - Cooling Roll 3
+T3426 - Inspect Roll - Cooling Roll 3
+T3426 - Inspect Roll(Chrome) - Cooling Roll 3
+T3429 - Inspect GearBox - Cooling Roll 4
+T3429 - Inspect Roll - Cooling Roll 4
+T3429 - Inspect Roll(Chrome) - Cooling Roll 4
+T3432 - Inspect GearBox - Cooling Roll 5
+T3432 - Inspect Roll - Cooling Roll 5
+T3432 - Inspect Roll(Chrome) - Cooling Roll 5
+"
+T3140Y1PPMM2,"T3299 - NUCLEAR GAUGE INSPECTION - Top Extrusion Thickness Monitoring System
+T3227 - NUCLEAR GAUGE INSPECTION - Bottom Extrusion Thickness Monitoring System
+"
+T3140Y1PPMM1,"T3205 - Inspect Extrusion Die - Bottom Extrusion Die (with Melt Tube)
+T3289 - Inspect Extrusion Die - Top Extrusion Die (with Melt Tube)
+"
+T3140Y1PPMM,"T3285 - CLUTCH INSPECTION - Top Extruder
+T3198 - CLUTCH INSPECTION - Bottom Extruder
+"
+T3140Y1PPME,"T3198 - Inspect Encoder - Bottom Extruder
+T3198 - Inspect Winding(AC) - Bottom Extruder
+T3285 - Inspect Encoder - Top Extruder
+T3285 - Inspect Winding(AC) - Top Extruder
+"
+T3140Y1PDMM,"T3285 - SCREW INSPECTION - Top Extruder
+T3285 - BEARING INSPECTION - Top Extruder
+T3198 - SCREW INSPECTION - Bottom Extruder
+T3198 - BEARING INSPECTION - Bottom Extruder
+"
+T3140Y1PDME,"T3198 - WINDING INSPECTION - Bottom Extruder
+T3285 - WINDING INSPECTION - Top Extruder
+"
+T3140Y1LUBM2,"T3265 - Gearbox Oil Inspection - Top Resin Feeder 1
+T3274 - Gearbox Oil Inspection - Top Flame Retardant Feeder 4
+T3280 - Gearbox Oil Inspection - Top Weathering Package Feeder 5
+T3283 - Gearbox Oil Inspection - Top White Pigment Feeder 6
+T3185 - Gearbox Oil Inspection - Bottom Extrusion Recycle Feeder 11
+T3193 - Gearbox Oil Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3188 - Gearbox Oil Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3176 - Gearbox Oil Inspection - Bottom Extrusion Pigment Feeder 9 (Black)
+T3170 - Gearbox Oil Inspection - Bottom Extrusion Resin Feeder 7
+T3179 - Gearbox Oil Inspection - Bottom Extrusion Flame Retardant Feeder 10
+"
+T3140Y1LUBM1,"T3203 - Replace Gearbox Oil - Bottom Extruder Melt Pump
+T3288 - Replace Gearbox Oil - Top Extruder Melt Pump
+"
+T3140Y1LUBM,"T3285 - OIL (GEARBOX) INSPECTION - Top Extruder
+T3198 - OIL (GEARBOX) INSPECTION - Bottom Extruder
+"
+T3140W52PPMO,"T3193 - Inspect Load Cell Test - Bottom Extrusion Weathering Package Feeder 13
+T3185 - Inspect Load Cell Test - Bottom Extrusion Recycle Feeder 11
+T3179 - Inspect Load Cell Test - Bottom Extrusion Flame Retardant Feeder 10
+T3188 - Inspect Load Cell Test - Bottom Extrusion Edge Trim Feeder 12
+T3170 - Inspect Load Cell Test - Bottom Extrusion Resin Feeder 7
+T3176 - Inspect Load Cell Test - Bottom Extrusion Pigment Feeder 9 (Black)
+T3265 - Inspect Load Cell Test - Top Resin Feeder 1
+"
+T3140W1PPMM1,"T3285 - Inspect Trough(TPO Extruder) - Top Extruder
+T3198 - Inspect Trough(TPO Extruder) - Bottom Extruder
+"
+T3140W1PPMM,"T3198 - AIR NOZZLE INSPECTION - Bottom Extruder
+T3285 - AIR NOZZLE INSPECTION - Top Extruder
+"
+T3140W1HKGO1,"T3227 - LENS INSPECTION - Bottom Extrusion Thickness Monitoring System
+T3299 - LENS INSPECTION - Top Extrusion Thickness Monitoring System
+"
+T3140W1HKGO,"T3294 - ROLL (CALENDER) INSPECTION - Top Calender Roll 4
+T3291 - ROLL (CALENDER) INSPECTION - Top Calender Roll 2
+T3293 - ROLL (CALENDER) INSPECTION - Top Calender Roll 3
+T3290 - ROLL (CALENDER) INSPECTION - Top Calender Roll 1
+T3208 - ROLL (CALENDER) INSPECTION - Bottom Extrusion Calender Roll 1
+T3214 - ROLL (CALENDER) INSPECTION - Bottom Extrusion Calender Roll 3
+T3217 - ROLL (CALENDER) INSPECTION - Bottom Extrusion Calender Roll 4
+T3211 - ROLL (CALENDER) INSPECTION - Bottom Extrusion Calender Roll 2
+"
+T3140W1HKGE,"T3188 - Fan Motor Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Screw Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Chute Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3193 - Fan Motor Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Screw Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Chute Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3179 - Fan Motor Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Screw Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Chute Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3185 - Fan Motor Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Screw Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Chute Inspection - Bottom Extrusion Recycle Feeder 11
+T3170 - Fan Motor Inspection - Bottom Extrusion Resin Feeder 7
+T3170 - Screw Inspection - Bottom Extrusion Resin Feeder 7
+T3170 - Chute Inspection - Bottom Extrusion Resin Feeder 7
+"
+T3140M6PPMM,"T3198 - Inspect Screw - Bottom Extruder
+T3285 - Inspect Screw - Top Extruder
+"
+T3140M6PDMM,"T3285 - PIPE (PNEUMATIC) INSPECTION - Top Extruder
+T3198 - PIPE (PNEUMATIC) INSPECTION - Bottom Extruder
+"
+T3140M3PPMO,"T3205 - Inspect Bolt - Bottom Extrusion Die (with Melt Tube)
+T3289 - Inspect Bolt - Top Extrusion Die (with Melt Tube)
+"
+T3140M3PPMM4,"T3214 - Inspect Bolt (Motor AC and Roll (Calender)) - Bottom Extrusion Calender Roll 3
+T3211 - Inspect Bolts (Motor AC and Roll (Calender)) - Bottom Extrusion Calender Roll 2
+"
+T3140M3PPMM3,"T3260 - Inspect Bolt - Top Extrusion Tension/Entry Rolls
+T3160 - Inspect Bolt - Bottom Extrusion Tension/Entry Rolls
+"
+T3140M3PPMM2,"T3198 - Inspect Regulator(Pneumatic) - Bottom Extruder
+T3285 - Inspect Regulator(Pneumatic) - Top Extruder
+"
+T3140M3PPMM1,"T3285 - Inspect Lubricator - Top Extruder
+T3285 - Inspect Filter - Top Extruder
+T3198 - Inspect Lubricator - Bottom Extruder
+T3198 - Inspect Filter - Bottom Extruder
+"
+T3140M3PPMM,"T3198 - Inspect Bolt - Bottom Extruder
+T3198 - Inspect Bolt - Bottom Extruder
+T3285 - Inspect Bolt - Top Extruder
+T3285 - Inspect Bolt - Top Extruder
+"
+T3140M3PPME3,"T3290 - Junction Box Inspection - Top Calender Roll 1
+T3290 - Fan Motor (AC) Inspection - Top Calender Roll 1
+T3290 - Power Cable Inspection - Top Calender Roll 1
+T3290 - Motor and Gearbox  Coupling Inspection - Top Calender Roll 1
+T3208 - Junction Box Inspection - Bottom Extrusion Calender Roll 1
+T3208 - Fan Motor (AC) Inspection - Bottom Extrusion Calender Roll 1
+T3208 - Power Cable Inspection - Bottom Extrusion Calender Roll 1
+T3208 - Motor and Gearbox  Coupling Inspection - Bottom Extrusion Calender Roll 1
+T3214 - Junction Box Inspection - Bottom Extrusion Calender Roll 3
+T3214 - Fan Motor (AC) Inspection - Bottom Extrusion Calender Roll 3
+T3214 - Power Cable Inspection - Bottom Extrusion Calender Roll 3
+T3214 - Motor and Gearbox  Coupling Inspection - Bottom Extrusion Calender Roll 3
+T3211 - Junction Box Inspection - Bottom Extrusion Calender Roll 2
+T3211 - Fan Motor (AC) Inspection - Bottom Extrusion Calender Roll 2
+T3211 - Power Cable Inspection - Bottom Extrusion Calender Roll 2
+T3211 - Motor and Gearbox  Coupling Inspection - Bottom Extrusion Calender Roll 2
+"
+T3140M3PPME2,"T3193 - Inspect Load Cell - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Inspect Load Cell Test - Bottom Extrusion Weathering Package Feeder 13
+T3170 - Inspect Load Cell - Bottom Extrusion Resin Feeder 7
+T3170 - Inspect Load Cell Test - Bottom Extrusion Resin Feeder 7
+T3176 - Inspect Load Cell - Bottom Extrusion Pigment Feeder 9 (Black)
+T3176 - Inspect Load Cell Test - Bottom Extrusion Pigment Feeder 9 (Black)
+T3179 - Inspect Load Cell - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Inspect Load Cell Test - Bottom Extrusion Flame Retardant Feeder 10
+T3185 - Inspect Load Cell - Bottom Extrusion Recycle Feeder 11
+T3185 - Inspect Load Cell Test - Bottom Extrusion Recycle Feeder 11
+T3188 - Inspect Load Cell - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Inspect Load Cell Test - Bottom Extrusion Edge Trim Feeder 12
+T3265 - Inspect Load Cell - Top Resin Feeder 1
+T3265 - Inspect Load Cell Test - Top Resin Feeder 1
+"
+T3140M3PPME1,"T3289 - Inspect Sensor(Thermo) - Top Extrusion Die (with Melt Tube)
+T3205 - Inspect Sensor(Thermo) - Bottom Extrusion Die (with Melt Tube)
+"
+T3140M3PPME,"T3198 - Inspect Fan(Motor) - Bottom Extruder
+T3198 - Inspect Power Cable - Bottom Extruder
+T3198 - Inspect Junction Box - Bottom Extruder
+T3198 - Inspect Coupling - Bottom Extruder
+T3198 - Inspect Bolt - Bottom Extruder
+T3285 - Inspect Fan(Motor) - Top Extruder
+T3285 - Inspect Power Cable - Top Extruder
+T3285 - Inspect Junction Box - Top Extruder
+T3285 - Inspect Coupling - Top Extruder
+T3285 - Inspect Bolt - Top Extruder
+"
+T3140M3PDMM3,"T3288 - Motor Bearing - Top Extruder Melt Pump
+T3288 - Valve Inspection - Top Extruder Melt Pump
+T3288 - Pump Bearing - Top Extruder Melt Pump
+T3203 - Motor Bearing - Bottom Extruder Melt Pump
+T3203 - Valve Inspection - Bottom Extruder Melt Pump
+T3203 - Pump Bearing - Bottom Extruder Melt Pump
+"
+T3140M3PDMM2,"T3185 - Gearbox Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Belt (Timing) Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Pulley (Timing) Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Conveyor Screw Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Motor (DC) Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3265 - Gearbox Bearing Inspection - Top Resin Feeder 1
+T3265 - Belt (Timing) Inspection - Top Resin Feeder 1
+T3265 - Pulley (Timing) Inspection - Top Resin Feeder 1
+T3265 - Conveyor Screw Bearing Inspection - Top Resin Feeder 1
+T3265 - Motor (DC) Bearing Inspection - Top Resin Feeder 1
+T3274 - Gearbox Bearing Inspection - Top Flame Retardant Feeder 4
+T3274 - Belt (Timing) Inspection - Top Flame Retardant Feeder 4
+T3274 - Pulley (Timing) Inspection - Top Flame Retardant Feeder 4
+T3274 - Conveyor Screw Bearing Inspection - Top Flame Retardant Feeder 4
+T3274 - Motor (DC) Bearing Inspection - Top Flame Retardant Feeder 4
+"
+T3140M3PDMM1,"T3280 - Motor (AC) Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Motor (DC) Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Gearbox Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Belt (Timing) Inspection - Top Weathering Package Feeder 5
+T3280 - Pulley (Timing) Inspection - Top Weathering Package Feeder 5
+T3280 - Conveyor Screw Bearing Inspection - Top Weathering Package Feeder 5
+T3179 - Motor (AC) Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Motor (DC) Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Gearbox Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Belt (Timing) Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Pulley (Timing) Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Conveyor Screw Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3188 - Motor (AC) Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Motor (DC) Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Gearbox Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Belt (Timing) Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Pulley (Timing) Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Conveyor Screw Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3193 - Motor (AC) Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Motor (DC) Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Gearbox Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Belt (Timing) Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Pulley (Timing) Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Conveyor Screw Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+"
+T3140M3PDMM,"T3198 - BEARING INSPECTION - Bottom Extruder
+T3260 - BEARING INSPECTION - Top Extrusion Tension/Entry Rolls
+T3160 - BEARING INSPECTION - Bottom Extrusion Tension/Entry Rolls
+T3285 - BEARING INSPECTION - Top Extruder
+"
+T3140M3PDME,"T3285 - BEARING INSPECTION - Top Extruder
+T3285 - JUNCTION BOX INSPECTION - Top Extruder
+T3198 - BEARING INSPECTION - Bottom Extruder
+T3198 - JUNCTION BOX INSPECTION - Bottom Extruder
+"
+T3140M1PPMM5,"T3211 - Inspect GearBox - Bottom Extrusion Calender Roll 2
+T3211 - Inspect Roll(Calender) - Bottom Extrusion Calender Roll 2
+T3214 - Inspect GearBox - Bottom Extrusion Calender Roll 3
+T3214 - Inspect Roll(Calender) - Bottom Extrusion Calender Roll 3
+"
+T3140M1PPMM4,"T3260 - Inspect Roll - Top Extrusion Tension/Entry Rolls
+T3160 - Inspect Roll - Bottom Extrusion Tension/Entry Rolls
+"
+T3140M1PPMM3,"T3198 - Inspect Hose - Bottom Extruder
+T3285 - Inspect Hose - Top Extruder
+"
+T3140M1PPMM2,"T3285 - Inspect Oil(Gearbox) - Top Extruder
+T3198 - Inspect Oil(Gearbox) - Bottom Extruder
+"
+T3140M1PPMM1,"T3198 - Inspect Packing Gland - Bottom Extruder
+T3285 - Inspect Packing Gland - Top Extruder
+"
+T3140M1PPMM,"T3291 - Inspect GearBox - Top Calender Roll 2
+T3291 - Inspect Roll(Calender) - Top Calender Roll 2
+T3290 - Inspect GearBox - Top Calender Roll 1
+T3290 - Inspect Roll(Calender) - Top Calender Roll 1
+T3293 - Inspect GearBox - Top Calender Roll 3
+T3293 - Inspect Roll(Calender) - Top Calender Roll 3
+"
+T3140M1PDMM1,"T3288 - Inspect Motor(AC) - Top Extruder Melt Pump
+T3203 - Inspect Motor(AC) - Bottom Extruder Melt Pump
+"
+T3140M1PDMM,"T3198 - REGULATOR (PNEUMATIC) INSPECTION - Bottom Extruder
+T3198 - VALVE (PNEUMATIC) INSPECTION - Bottom Extruder
+T3285 - REGULATOR (PNEUMATIC) INSPECTION - Top Extruder
+T3285 - VALVE (PNEUMATIC) INSPECTION - Top Extruder
+"
+T3140M1PDME2,"T3283 - Inspect Motor(DC) - Top White Pigment Feeder 6
+T3274 - Inspect Motor(DC) - Top Flame Retardant Feeder 4
+T3265 - Inspect Motor(DC) - Top Resin Feeder 1
+T3185 - Inspect Motor(DC) - Bottom Extrusion Recycle Feeder 11
+"
+T3140M1PDME1,"T3193 - Inspect Motor(AC) - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Inspect Motor(DC) - Bottom Extrusion Weathering Package Feeder 13
+T3179 - Inspect Motor(AC) - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Inspect Motor(DC) - Bottom Extrusion Flame Retardant Feeder 10
+T3188 - Inspect Motor(AC) - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Inspect Motor(DC) - Bottom Extrusion Edge Trim Feeder 12
+T3280 - Inspect Motor(AC) - Top Weathering Package Feeder 5
+T3280 - Inspect Motor(DC) - Top Weathering Package Feeder 5
+"
+T3140M1PDME,"T3176 - Inspect Motor(AC) - Bottom Extrusion Pigment Feeder 9 (Black)
+T3170 - Inspect Motor(AC) - Bottom Extrusion Resin Feeder 7
+"
+T3140M1LUBM4,"T3193 - Motor (AC) Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Gearbox Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Motor (DC) Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3193 - Conveyor Screw Bearing Inspection - Bottom Extrusion Weathering Package Feeder 13
+T3188 - Motor (AC) Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Gearbox Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Motor (DC) Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3188 - Conveyor Screw Bearing Inspection - Bottom Extrusion Edge Trim Feeder 12
+T3179 - Motor (AC) Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Gearbox Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Motor (DC) Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3179 - Conveyor Screw Bearing Inspection - Bottom Extrusion Flame Retardant Feeder 10
+T3280 - Motor (AC) Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Gearbox Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Motor (DC) Bearing Inspection - Top Weathering Package Feeder 5
+T3280 - Conveyor Screw Bearing Inspection - Top Weathering Package Feeder 5
+"
+T3140M1LUBM3,"T3283 - Motor Bearing Inspection - Top White Pigment Feeder 6
+T3283 - Gearbox Bearing Inspection - Top White Pigment Feeder 6
+T3283 - Conveyor Screw Bearing Inspection - Top White Pigment Feeder 6
+T3265 - Motor Bearing Inspection - Top Resin Feeder 1
+T3265 - Gearbox Bearing Inspection - Top Resin Feeder 1
+T3265 - Conveyor Screw Bearing Inspection - Top Resin Feeder 1
+T3274 - Motor Bearing Inspection - Top Flame Retardant Feeder 4
+T3274 - Gearbox Bearing Inspection - Top Flame Retardant Feeder 4
+T3274 - Conveyor Screw Bearing Inspection - Top Flame Retardant Feeder 4
+T3185 - Motor Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Gearbox Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3185 - Conveyor Screw Bearing Inspection - Bottom Extrusion Recycle Feeder 11
+T3170 - Motor Bearing Inspection - Bottom Extrusion Resin Feeder 7
+T3170 - Gearbox Bearing Inspection - Bottom Extrusion Resin Feeder 7
+T3170 - Conveyor Screw Bearing Inspection - Bottom Extrusion Resin Feeder 7
+"
+T3140M1LUBM2,"T3160 - BEARING INSPECTION - Bottom Extrusion Tension/Entry Rolls
+T3198 - BEARING INSPECTION - Bottom Extruder
+T3260 - BEARING INSPECTION - Top Extrusion Tension/Entry Rolls
+T3285 - BEARING INSPECTION - Top Extruder
+"
+T3140M1LUBM1,"T3285 - BEARING INSPECTION - Top Extruder
+T3198 - BEARING INSPECTION - Bottom Extruder
+"
+T3140M1LUBM,"T3217 - Inspect Bearing - Bottom Extrusion Calender Roll 4
+T3294 - Inspect Bearing - Top Calender Roll 4
+"
+T3050Y1PPME1,"T3110 - Inspect Encoder - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Winding(DC) - DMA Exit Slitter (Parallel Center Cut)
+T3100 - Inspect Encoder - DMA Exit Center Alignment Rolls
+T3100 - Inspect Winding(DC) - DMA Exit Center Alignment Rolls
+"
+T3050Y1PPME,"T3085 - Inspect Encoder - DMA Exit Roll
+T3085 - Inspect Winding(AC) - DMA Exit Roll
+T3065 - Inspect Encoder - DMA Entry Roll
+T3065 - Inspect Winding(AC) - DMA Entry Roll
+"
+T3050M3PPMM1,"T3060 - Inspect Regulator - DMA Entry Clamp Roll
+T3060 - Inspect Hose - DMA Entry Clamp Roll
+T3090 - Inspect Regulator - DMA Dancer Rolls (Tension)
+T3090 - Inspect Hose - DMA Dancer Rolls (Tension)
+"
+T3050M3PPMM,"T3100 - Inspect Bolt - DMA Exit Center Alignment Rolls
+T3100 - Inspect Coupling - DMA Exit Center Alignment Rolls
+T3100 - Inspect Fan(Motor) - DMA Exit Center Alignment Rolls
+T3100 - Inspect Power Cable - DMA Exit Center Alignment Rolls
+T3100 - Inspect Junction Box - DMA Exit Center Alignment Rolls
+T3100 - Inspect Motor Commutator (Brush) - DMA Exit Center Alignment Rolls
+T3110 - Inspect Bolt - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Coupling - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Fan(Motor) - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Power Cable - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Junction Box - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Motor Commutator (Brush) - DMA Exit Slitter (Parallel Center Cut)
+"
+T3050M3PPME,"T3085 - Inspect Power Cable - DMA Exit Roll
+T3085 - Inspect Junction Box - DMA Exit Roll
+T3085 - Inspect Fan(Motor) - DMA Exit Roll
+T3065 - Inspect Power Cable - DMA Entry Roll
+T3065 - Inspect Junction Box - DMA Entry Roll
+T3065 - Inspect Fan(Motor) - DMA Entry Roll
+"
+T3050M3PDME,"T3100 - BEARING INSPECTION - DMA Exit Center Alignment Rolls
+T3100 - JUNCTION BOX INPSECTION - DMA Exit Center Alignment Rolls
+T3100 - JUNCTION BOX INPSECTION - DMA Exit Center Alignment Rolls
+T3110 - BEARING INSPECTION - DMA Exit Slitter (Parallel Center Cut)
+T3110 - JUNCTION BOX INPSECTION - DMA Exit Slitter (Parallel Center Cut)
+T3110 - JUNCTION BOX INPSECTION - DMA Exit Slitter (Parallel Center Cut)
+"
+T3050M3HKGM,"T3105 - BEARING INSPECTION - DMA Exit Pull Rolls
+T3105 - BEARING INSPECTION - DMA Exit Pull Rolls
+T3085 - BEARING INSPECTION - DMA Exit Roll
+T3085 - BEARING INSPECTION - DMA Exit Roll
+T3065 - BEARING INSPECTION - DMA Entry Roll
+T3065 - BEARING INSPECTION - DMA Entry Roll
+"
+T3050M3HKGE,"T3100 - FAN (MOTOR) INSPECTION - DMA Exit Center Alignment Rolls
+T3110 - FAN (MOTOR) INSPECTION - DMA Exit Slitter (Parallel Center Cut)
+"
+T3050M1PPMM,"T3075 - Inspect Sprocket - DMA Counterweight System
+T3075 - Inspect Chain - DMA Counterweight System
+T3080 - Inspect Sprocket - DMA Carriage System
+T3080 - Inspect Chain - DMA Carriage System
+"
+T3050M1PDMM,"T3080 - SPROCKET INSPECTION - DMA Carriage System
+T3080 - CHAIN INSPECTION - DMA Carriage System
+T3075 - SPROCKET INSPECTION - DMA Counterweight System
+T3075 - CHAIN INSPECTION - DMA Counterweight System
+"
+T3050M1LUBM1,"T3110 - BEARING INSPECTION - DMA Exit Slitter (Parallel Center Cut)
+T3100 - BEARING INSPECTION - DMA Exit Center Alignment Rolls
+"
+T3000Y1PPMM2,"T4640 - Inspect Shaft - Bundle Transfer Conveyor
+T4650 - Inspect Shaft - Bundle Stretch Wrapping System
+T4810 - Inspect Shaft - Palletizing Bundle Lifting System (Robot)
+"
+T3000Y1PPMM1,"T4860 - Inspect Shaft - Pallet Banding System
+T4440 - Inspect Shaft - Single Roll Heat Shrink Blowers
+T4630 - Inspect Shaft - Bundle Accumulation Conveyor
+"
+T3000Y1PPME3,"T3100 - Inspect Encoder - DMA Exit Center Alignment Rolls
+T3100 - Inspect Motor(AC) 2 - DMA Exit Center Alignment Rolls
+T3165 - Inspect Encoder - Bottom Extrusion Edge Alignment Rolls
+T3165 - Inspect Motor(AC) 2 - Bottom Extrusion Edge Alignment Rolls
+T3214 - Inspect Encoder - Bottom Extrusion Calender Roll 3
+T3214 - Inspect Motor(AC) 2 - Bottom Extrusion Calender Roll 3
+T3211 - Inspect Encoder - Bottom Extrusion Calender Roll 2
+T3211 - Inspect Motor(AC) 2 - Bottom Extrusion Calender Roll 2
+T3208 - Inspect Encoder - Bottom Extrusion Calender Roll 1
+T3208 - Inspect Motor(AC) 2 - Bottom Extrusion Calender Roll 1
+"
+T3000Y1PPME2,"T3080 - Inspect Encoder - DMA Carriage System
+T3080 - Inspect Winding(AC) - DMA Carriage System
+T3040 - Inspect Encoder - Dry Mat Splicing System
+T3040 - Inspect Winding(AC) - Dry Mat Splicing System
+"
+T3000Y1PPME1,"T4630 - Inspect Encoder - Bundle Accumulation Conveyor
+T4630 - Inspect Junction Box - Bundle Accumulation Conveyor
+T4630 - Inspect Power Cable - Bundle Accumulation Conveyor
+T4440 - Inspect Encoder - Single Roll Heat Shrink Blowers
+T4440 - Inspect Junction Box - Single Roll Heat Shrink Blowers
+T4440 - Inspect Power Cable - Single Roll Heat Shrink Blowers
+T4650 - Inspect Encoder - Bundle Stretch Wrapping System
+T4650 - Inspect Junction Box - Bundle Stretch Wrapping System
+T4650 - Inspect Power Cable - Bundle Stretch Wrapping System
+T4640 - Inspect Encoder - Bundle Transfer Conveyor
+T4640 - Inspect Junction Box - Bundle Transfer Conveyor
+T4640 - Inspect Power Cable - Bundle Transfer Conveyor
+T4660 - Inspect Encoder - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - Inspect Junction Box - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - Inspect Power Cable - Bundle Packaging Exit Conveyor (with Lifting System)
+T4860 - Inspect Encoder - Pallet Banding System
+T4860 - Inspect Junction Box - Pallet Banding System
+T4860 - Inspect Power Cable - Pallet Banding System
+T4810 - Inspect Encoder - Palletizing Bundle Lifting System (Robot)
+T4810 - Inspect Junction Box - Palletizing Bundle Lifting System (Robot)
+T4810 - Inspect Power Cable - Palletizing Bundle Lifting System (Robot)
+T4820 - Inspect Encoder - Pallet Dispenser
+T4820 - Inspect Junction Box - Pallet Dispenser
+T4820 - Inspect Power Cable - Pallet Dispenser
+T4430 - Inspect Encoder - Single Roll Film Dispenser
+T4430 - Inspect Junction Box - Single Roll Film Dispenser
+T4430 - Inspect Power Cable - Single Roll Film Dispenser
+T4420 - Inspect Encoder - Single Roll Curtain Wrapper
+T4420 - Inspect Junction Box - Single Roll Curtain Wrapper
+T4420 - Inspect Power Cable - Single Roll Curtain Wrapper
+T4410 - Inspect Encoder - Single Roll Belt Conveyor 3
+T4410 - Inspect Junction Box - Single Roll Belt Conveyor 3
+T4410 - Inspect Power Cable - Single Roll Belt Conveyor 3
+"
+T3000Y1PPME,"T3293 - Inspect Encoder - Top Calender Roll 3
+T3293 - Inspect Winding(AC) - Top Calender Roll 3
+T3290 - Inspect Encoder - Top Calender Roll 1
+T3290 - Inspect Winding(AC) - Top Calender Roll 1
+T3291 - Inspect Encoder - Top Calender Roll 2
+T3291 - Inspect Winding(AC) - Top Calender Roll 2
+T3432 - Inspect Encoder - Cooling Roll 5
+T3432 - Inspect Winding(AC) - Cooling Roll 5
+T3426 - Inspect Encoder - Cooling Roll 3
+T3426 - Inspect Winding(AC) - Cooling Roll 3
+T3423 - Inspect Encoder - Cooling Roll 2
+T3423 - Inspect Winding(AC) - Cooling Roll 2
+T3420 - Inspect Encoder - Cooling Roll 1
+T3420 - Inspect Winding(AC) - Cooling Roll 1
+T3429 - Inspect Encoder - Cooling Roll 4
+T3429 - Inspect Winding(AC) - Cooling Roll 4
+"
+T3000Y1LUBM2,"T4410 - OIL (GEARBOX) INSPECTION - Single Roll Belt Conveyor 3
+T4420 - OIL (GEARBOX) INSPECTION - Single Roll Curtain Wrapper
+T4430 - OIL (GEARBOX) INSPECTION - Single Roll Film Dispenser
+T4810 - OIL (GEARBOX) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4660 - OIL (GEARBOX) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4820 - OIL (GEARBOX) INSPECTION - Pallet Dispenser
+T4860 - OIL (GEARBOX) INSPECTION - Pallet Banding System
+T4650 - OIL (GEARBOX) INSPECTION - Bundle Stretch Wrapping System
+T4640 - OIL (GEARBOX) INSPECTION - Bundle Transfer Conveyor
+T4440 - OIL (GEARBOX) INSPECTION - Single Roll Heat Shrink Blowers
+T4480 - OIL (GEARBOX) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4630 - OIL (GEARBOX) INSPECTION - Bundle Accumulation Conveyor
+"
+T3000Y1LUBM1,"T4408 - OIL (GEARBOX) INSPECTION - Single Roll Belt Conveyor 2
+T4406 - OIL (GEARBOX) INSPECTION - Single Roll Inspection Table
+T4404 - OIL (GEARBOX) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4402 - OIL (GEARBOX) INSPECTION - Single Roll Inclined Conveyor
+T4290 - OIL (GEARBOX) INSPECTION - Winder Core Loader
+"
+T3000Y1LUBM,"T3423 - Inspect Oil(Gearbox) - Cooling Roll 2
+T3429 - Inspect Oil(Gearbox) - Cooling Roll 4
+T3420 - Inspect Oil(Gearbox) - Cooling Roll 1
+T3426 - Inspect Oil(Gearbox) - Cooling Roll 3
+T3432 - Inspect Oil(Gearbox) - Cooling Roll 5
+T3291 - Inspect Oil(Gearbox) - Top Calender Roll 2
+T3290 - Inspect Oil(Gearbox) - Top Calender Roll 1
+T3293 - Inspect Oil(Gearbox) - Top Calender Roll 3
+T3208 - Inspect Oil(Gearbox) - Bottom Extrusion Calender Roll 1
+T3211 - Inspect Oil(Gearbox) - Bottom Extrusion Calender Roll 2
+T3214 - Inspect Oil(Gearbox) - Bottom Extrusion Calender Roll 3
+T3105 - Inspect Oil(Gearbox) - DMA Exit Pull Rolls
+"
+T3000W1PPMM,"T3110 - Inspect Knife Assy - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Knife Assy - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Knife Assy - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect Knife Assy - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Rotate Square Knife Assy - DMA Exit Slitter (Parallel Center Cut)
+T3110 - Inspect  Knife - DMA Exit Slitter (Parallel Center Cut)
+T4015 - Inspect Knife Assy - Edge Trim Knife 1
+T4015 - Inspect Knife Assy - Edge Trim Knife 1
+T4015 - Inspect Knife Assy - Edge Trim Knife 1
+T4015 - Inspect Knife Assy - Edge Trim Knife 1
+T4015 - Rotate Square Knife Assy - Edge Trim Knife 1
+T4015 - Inspect  Knife - Edge Trim Knife 1
+T4020 - Inspect Knife Assy - Center Slitting Knife
+T4020 - Inspect Knife Assy - Center Slitting Knife
+T4020 - Inspect Knife Assy - Center Slitting Knife
+T4020 - Inspect Knife Assy - Center Slitting Knife
+T4020 - Rotate Square Knife Assy - Center Slitting Knife
+T4020 - Inspect  Knife - Center Slitting Knife
+T4025 - Inspect Knife Assy - Edge Trim Knife 2
+T4025 - Inspect Knife Assy - Edge Trim Knife 2
+T4025 - Inspect Knife Assy - Edge Trim Knife 2
+T4025 - Inspect Knife Assy - Edge Trim Knife 2
+T4025 - Rotate Square Knife Assy - Edge Trim Knife 2
+T4025 - Inspect  Knife - Edge Trim Knife 2
+T4240 - Inspect Knife Assy - Winder Cutover Blade
+T4240 - Inspect Knife Assy - Winder Cutover Blade
+T4240 - Inspect Knife Assy - Winder Cutover Blade
+T4240 - Inspect Knife Assy - Winder Cutover Blade
+T4240 - Rotate Square Knife Assy - Winder Cutover Blade
+T4240 - Inspect  Knife - Winder Cutover Blade
+"
+T3000W1HKGO2,"T3110 - ROLL INSPECTION - DMA Exit Slitter (Parallel Center Cut)
+T3100 - ROLL INSPECTION - DMA Exit Center Alignment Rolls
+T3070 - ROLL INSPECTION - DMA Frame and Bottom Rolls
+T3095 - ROLL INSPECTION - DMA Carry-over Rolls
+T3080 - ROLL INSPECTION - DMA Carriage System
+T3030 - ROLL INSPECTION - Dry Mat Unwind Stand
+"
+T3000W1HKGO1,"T4420 - ROLLER INSPECTION - Single Roll Curtain Wrapper
+T4640 - ROLLER INSPECTION - Bundle Transfer Conveyor
+T4650 - ROLLER INSPECTION - Bundle Stretch Wrapping System
+T4810 - ROLLER INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4810 - ROLLER INSPECTION - Palletizing Bundle Lifting System (Robot)
+"
+T3000W1HKGO,"T3429 - ROLL INSPECTION - Cooling Roll 4
+T3432 - ROLL INSPECTION - Cooling Roll 5
+T3426 - ROLL INSPECTION - Cooling Roll 3
+T3420 - ROLL INSPECTION - Cooling Roll 1
+T3423 - ROLL INSPECTION - Cooling Roll 2
+T3065 - ROLL INSPECTION - DMA Entry Roll
+T3090 - ROLL INSPECTION - DMA Dancer Rolls (Tension)
+T3085 - ROLL INSPECTION - DMA Exit Roll
+T3100 - ROLL INSPECTION - DMA Exit Center Alignment Rolls
+T3105 - ROLL INSPECTION - DMA Exit Pull Rolls
+T3165 - ROLL INSPECTION - Bottom Extrusion Edge Alignment Rolls
+"
+T3000W1HKGM,"T4406 - CHAIN (CONVEYOR) INSPECTION - Single Roll Inspection Table
+T4402 - CHAIN (CONVEYOR) INSPECTION - Single Roll Inclined Conveyor
+T4280 - CHAIN (CONVEYOR) INSPECTION - Winder Core Hopper
+"
+T3000M6PPMM,"T4810 - Inspect Frame - Palletizing Bundle Lifting System (Robot)
+T4820 - Inspect Frame - Pallet Dispenser
+T4860 - Inspect Frame - Pallet Banding System
+T4870 - Inspect Frame - Pallet Bundle Labeler
+T4650 - Inspect Frame - Bundle Stretch Wrapping System
+T4630 - Inspect Frame - Bundle Accumulation Conveyor
+T4480 - Inspect Frame - Single Roll Labeler 2 (Hot Melt)
+T4470 - Inspect Frame - Single Roll Labeler 1 (Printer)
+"
+T3000M3PPMO1,"T4404 - Inspect Bolt - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Hose(Pneumatic) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Regulator(Pneumatic) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - Inspect Bolt - Winder Taping System (6 Heads)
+T4250 - Inspect Hose(Pneumatic) - Winder Taping System (6 Heads)
+T4250 - Inspect Regulator(Pneumatic) - Winder Taping System (6 Heads)
+"
+T3000M3PPMO,"T4410 - Inspect Bolt - Single Roll Belt Conveyor 3
+T4420 - Inspect Bolt - Single Roll Curtain Wrapper
+T4430 - Inspect Bolt - Single Roll Film Dispenser
+T4440 - Inspect Bolt - Single Roll Heat Shrink Blowers
+T4630 - Inspect Bolt - Bundle Accumulation Conveyor
+T4660 - Inspect Bolt - Bundle Packaging Exit Conveyor (with Lifting System)
+T4650 - Inspect Bolt - Bundle Stretch Wrapping System
+T4640 - Inspect Bolt - Bundle Transfer Conveyor
+T4860 - Inspect Bolt - Pallet Banding System
+T4820 - Inspect Bolt - Pallet Dispenser
+T4810 - Inspect Bolt - Palletizing Bundle Lifting System (Robot)
+"
+T3000M3PPMM9,"T4820 - Inspect Bolt - Pallet Dispenser
+T4440 - Inspect Bolt - Single Roll Heat Shrink Blowers
+T4430 - Inspect Bolt - Single Roll Film Dispenser
+"
+T3000M3PPMM8,"T4430 - Inspect Coupling - Single Roll Film Dispenser
+T4420 - Inspect Coupling - Single Roll Curtain Wrapper
+T4440 - Inspect Coupling - Single Roll Heat Shrink Blowers
+T4640 - Inspect Coupling - Bundle Transfer Conveyor
+T4650 - Inspect Coupling - Bundle Stretch Wrapping System
+T4660 - Inspect Coupling - Bundle Packaging Exit Conveyor (with Lifting System)
+T4810 - Inspect Coupling - Palletizing Bundle Lifting System (Robot)
+T4820 - Inspect Coupling - Pallet Dispenser
+"
+T3000M3PPMM7,"T4810 - Inspect Coupling - Palletizing Bundle Lifting System (Robot)
+T4430 - Inspect Coupling - Single Roll Film Dispenser
+"
+T3000M3PPMM6,"T4820 - Inspect Guard - Pallet Dispenser
+T4860 - Inspect Guard - Pallet Banding System
+T4870 - Inspect Guard - Pallet Bundle Labeler
+T4480 - Inspect Guard - Single Roll Labeler 2 (Hot Melt)
+"
+T3000M3PPMM5,"T4480 - Inspect Bolt - Single Roll Labeler 2 (Hot Melt)
+T4470 - Inspect Bolt - Single Roll Labeler 1 (Printer)
+T4650 - Inspect Bolt - Bundle Stretch Wrapping System
+T4870 - Inspect Bolt - Pallet Bundle Labeler
+T4820 - Inspect Bolt - Pallet Dispenser
+T4860 - Inspect Bolt - Pallet Banding System
+T4810 - Inspect Bolt - Palletizing Bundle Lifting System (Robot)
+"
+T3000M3PPMM4,"T4810 - Inspect Bolt - Palletizing Bundle Lifting System (Robot)
+T4810 - Inspect Regulator(Pneumatic) - Palletizing Bundle Lifting System (Robot)
+T4810 - Inspect Hose(Pneumatic) - Palletizing Bundle Lifting System (Robot)
+T4820 - Inspect Bolt - Pallet Dispenser
+T4820 - Inspect Regulator(Pneumatic) - Pallet Dispenser
+T4820 - Inspect Hose(Pneumatic) - Pallet Dispenser
+T4860 - Inspect Bolt - Pallet Banding System
+T4860 - Inspect Regulator(Pneumatic) - Pallet Banding System
+T4860 - Inspect Hose(Pneumatic) - Pallet Banding System
+T4870 - Inspect Bolt - Pallet Bundle Labeler
+T4870 - Inspect Regulator(Pneumatic) - Pallet Bundle Labeler
+T4870 - Inspect Hose(Pneumatic) - Pallet Bundle Labeler
+T4650 - Inspect Bolt - Bundle Stretch Wrapping System
+T4650 - Inspect Regulator(Pneumatic) - Bundle Stretch Wrapping System
+T4650 - Inspect Hose(Pneumatic) - Bundle Stretch Wrapping System
+T4640 - Inspect Bolt - Bundle Transfer Conveyor
+T4640 - Inspect Regulator(Pneumatic) - Bundle Transfer Conveyor
+T4640 - Inspect Hose(Pneumatic) - Bundle Transfer Conveyor
+T4660 - Inspect Bolt - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - Inspect Regulator(Pneumatic) - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - Inspect Hose(Pneumatic) - Bundle Packaging Exit Conveyor (with Lifting System)
+T4470 - Inspect Bolt - Single Roll Labeler 1 (Printer)
+T4470 - Inspect Regulator(Pneumatic) - Single Roll Labeler 1 (Printer)
+T4470 - Inspect Hose(Pneumatic) - Single Roll Labeler 1 (Printer)
+T4480 - Inspect Bolt - Single Roll Labeler 2 (Hot Melt)
+T4480 - Inspect Regulator(Pneumatic) - Single Roll Labeler 2 (Hot Melt)
+T4480 - Inspect Hose(Pneumatic) - Single Roll Labeler 2 (Hot Melt)
+T4420 - Inspect Bolt - Single Roll Curtain Wrapper
+T4420 - Inspect Regulator(Pneumatic) - Single Roll Curtain Wrapper
+T4420 - Inspect Hose(Pneumatic) - Single Roll Curtain Wrapper
+T4430 - Inspect Bolt - Single Roll Film Dispenser
+T4430 - Inspect Regulator(Pneumatic) - Single Roll Film Dispenser
+T4430 - Inspect Hose(Pneumatic) - Single Roll Film Dispenser
+"
+T3000M3PPMM3,"T4406 - Inspect Lug - Single Roll Inspection Table
+T4280 - Inspect Lug - Winder Core Hopper
+T4402 - Inspect Lug - Single Roll Inclined Conveyor
+"
+T3000M3PPMM2,"T4290 - Inspect Coupling - Winder Core Loader
+T4280 - Inspect Coupling - Winder Core Hopper
+T4404 - Inspect Coupling - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4402 - Inspect Coupling - Single Roll Inclined Conveyor
+T4408 - Inspect Coupling - Single Roll Belt Conveyor 2
+T4406 - Inspect Coupling - Single Roll Inspection Table
+"
+T3000M3PPMM13,"T4420 - Inspect Belt (Geared/Toothed) - Single Roll Curtain Wrapper
+T4860 - Inspect Belt (Geared/Toothed) - Pallet Banding System
+T4810 - Inspect Belt (Geared/toothed) - Palletizing Bundle Lifting System (Robot)
+"
+T3000M3PPMM12,"T3165 - Inspect Bolt - Bottom Extrusion Edge Alignment Rolls
+T3100 - Inspect Bolt - DMA Exit Center Alignment Rolls
+T3208 - Inspect Bolt - Bottom Extrusion Calender Roll 1
+T3217 - Inspect Bolt - Bottom Extrusion Calender Roll 4
+"
+T3000M3PPMM11,"T3080 - Inspect Bolt - DMA Carriage System
+T3080 - Inspect Coupling - DMA Carriage System
+T3080 - Inspect Fan(Motor) - DMA Carriage System
+T3080 - Inspect Junction Box - DMA Carriage System
+T3080 - Inspect Power Cable - DMA Carriage System
+T3040 - Inspect Bolt - Dry Mat Splicing System
+T3040 - Inspect Coupling - Dry Mat Splicing System
+T3040 - Inspect Fan(Motor) - Dry Mat Splicing System
+T3040 - Inspect Junction Box - Dry Mat Splicing System
+T3040 - Inspect Power Cable - Dry Mat Splicing System
+"
+T3000M3PPMM1,"T4406 - Inspect Bolt - Single Roll Inspection Table
+T4406 - Inspect Regulator(Pneumatic) - Single Roll Inspection Table
+T4406 - Inspect Hose(Pneumatic) - Single Roll Inspection Table
+T4290 - Inspect Bolt - Winder Core Loader
+T4290 - Inspect Regulator(Pneumatic) - Winder Core Loader
+T4290 - Inspect Hose(Pneumatic) - Winder Core Loader
+T4402 - Inspect Bolt - Single Roll Inclined Conveyor
+T4402 - Inspect Regulator(Pneumatic) - Single Roll Inclined Conveyor
+T4402 - Inspect Hose(Pneumatic) - Single Roll Inclined Conveyor
+T4260 - Inspect Bolt - Winder Roll Unloading Cart
+T4260 - Inspect Regulator(Pneumatic) - Winder Roll Unloading Cart
+T4260 - Inspect Hose(Pneumatic) - Winder Roll Unloading Cart
+T4210 - Inspect Bolt - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Regulator(Pneumatic) - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Hose(Pneumatic) - Winder Dancer Rolls (Tension/Accumulation)
+"
+T3000M3PPMM,"T3432 - Inspect Coupling - Cooling Roll 5
+T3432 - Inspect Bolt - Cooling Roll 5
+T3420 - Inspect Coupling - Cooling Roll 1
+T3420 - Inspect Bolt - Cooling Roll 1
+T3423 - Inspect Coupling - Cooling Roll 2
+T3423 - Inspect Bolt - Cooling Roll 2
+T3426 - Inspect Coupling - Cooling Roll 3
+T3426 - Inspect Bolt - Cooling Roll 3
+T3429 - Inspect Coupling - Cooling Roll 4
+T3429 - Inspect Bolt - Cooling Roll 4
+T3293 - Inspect Coupling - Top Calender Roll 3
+T3293 - Inspect Bolt - Top Calender Roll 3
+T3290 - Inspect Coupling - Top Calender Roll 1
+T3290 - Inspect Bolt - Top Calender Roll 1
+T3291 - Inspect Coupling - Top Calender Roll 2
+T3291 - Inspect Bolt - Top Calender Roll 2
+"
+T3000M3PPME5,"T4420 - Inspect Fan(Motor) - Single Roll Curtain Wrapper
+T4430 - Inspect Fan(Motor) - Single Roll Film Dispenser
+T4410 - Inspect Fan(Motor) - Single Roll Belt Conveyor 3
+T4810 - Inspect Fan(Motor) - Palletizing Bundle Lifting System (Robot)
+T4860 - Inspect Fan(Motor) - Pallet Banding System
+T4440 - Inspect Fan(Motor) - Single Roll Heat Shrink Blowers
+T4630 - Inspect Fan(Motor) - Bundle Accumulation Conveyor
+T4660 - Inspect Fan(Motor) - Bundle Packaging Exit Conveyor (with Lifting System)
+T4650 - Inspect Fan(Motor) - Bundle Stretch Wrapping System
+T4640 - Inspect Fan(Motor) - Bundle Transfer Conveyor
+"
+T3000M3PPME4,"T4408 - Inspect Fan(Motor) - Single Roll Belt Conveyor 2
+T4408 - Inspect Power Cable - Single Roll Belt Conveyor 2
+T4408 - Inspect Junction Box - Single Roll Belt Conveyor 2
+T4408 - Inspect Coupling - Single Roll Belt Conveyor 2
+T4408 - Inspect Bolt - Single Roll Belt Conveyor 2
+T4402 - Inspect Fan(Motor) - Single Roll Inclined Conveyor
+T4402 - Inspect Power Cable - Single Roll Inclined Conveyor
+T4402 - Inspect Junction Box - Single Roll Inclined Conveyor
+T4402 - Inspect Coupling - Single Roll Inclined Conveyor
+T4402 - Inspect Bolt - Single Roll Inclined Conveyor
+T4280 - Inspect Fan(Motor) - Winder Core Hopper
+T4280 - Inspect Power Cable - Winder Core Hopper
+T4280 - Inspect Junction Box - Winder Core Hopper
+T4280 - Inspect Coupling - Winder Core Hopper
+T4280 - Inspect Bolt - Winder Core Hopper
+T4260 - Inspect Fan(Motor) - Winder Roll Unloading Cart
+T4260 - Inspect Power Cable - Winder Roll Unloading Cart
+T4260 - Inspect Junction Box - Winder Roll Unloading Cart
+T4260 - Inspect Coupling - Winder Roll Unloading Cart
+T4260 - Inspect Bolt - Winder Roll Unloading Cart
+T4406 - Inspect Fan(Motor) - Single Roll Inspection Table
+T4406 - Inspect Power Cable - Single Roll Inspection Table
+T4406 - Inspect Junction Box - Single Roll Inspection Table
+T4406 - Inspect Coupling - Single Roll Inspection Table
+T4406 - Inspect Bolt - Single Roll Inspection Table
+T4404 - Inspect Fan(Motor) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Power Cable - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Junction Box - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Coupling - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Bolt - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T3000M3PPME3,"T4404 - Inspect Load Cell - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Load Cell - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Rod(Threaded) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Junction Box - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Cable - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4406 - Inspect Load Cell - Single Roll Inspection Table
+T4406 - Inspect Load Cell - Single Roll Inspection Table
+T4406 - Inspect Rod(Threaded) - Single Roll Inspection Table
+T4406 - Inspect Junction Box - Single Roll Inspection Table
+T4406 - Inspect Cable - Single Roll Inspection Table
+T4402 - Inspect Load Cell - Single Roll Inclined Conveyor
+T4402 - Inspect Load Cell - Single Roll Inclined Conveyor
+T4402 - Inspect Rod(Threaded) - Single Roll Inclined Conveyor
+T4402 - Inspect Junction Box - Single Roll Inclined Conveyor
+T4402 - Inspect Cable - Single Roll Inclined Conveyor
+T4408 - Inspect Load Cell - Single Roll Belt Conveyor 2
+T4408 - Inspect Load Cell - Single Roll Belt Conveyor 2
+T4408 - Inspect Rod(Threaded) - Single Roll Belt Conveyor 2
+T4408 - Inspect Junction Box - Single Roll Belt Conveyor 2
+T4408 - Inspect Cable - Single Roll Belt Conveyor 2
+T4210 - Inspect Load Cell - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Load Cell - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Rod(Threaded) - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Junction Box - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - Inspect Cable - Winder Dancer Rolls (Tension/Accumulation)
+"
+T3000M3PPME,"T3432 - Inspect Fan(Motor) - Cooling Roll 5
+T3432 - Inspect Junction Box - Cooling Roll 5
+T3432 - Inspect Power Cable - Cooling Roll 5
+T3429 - Inspect Fan(Motor) - Cooling Roll 4
+T3429 - Inspect Junction Box - Cooling Roll 4
+T3429 - Inspect Power Cable - Cooling Roll 4
+T3426 - Inspect Fan(Motor) - Cooling Roll 3
+T3426 - Inspect Junction Box - Cooling Roll 3
+T3426 - Inspect Power Cable - Cooling Roll 3
+T3423 - Inspect Fan(Motor) - Cooling Roll 2
+T3423 - Inspect Junction Box - Cooling Roll 2
+T3423 - Inspect Power Cable - Cooling Roll 2
+T3420 - Inspect Fan(Motor) - Cooling Roll 1
+T3420 - Inspect Junction Box - Cooling Roll 1
+T3420 - Inspect Power Cable - Cooling Roll 1
+T3291 - Inspect Fan(Motor) - Top Calender Roll 2
+T3291 - Inspect Junction Box - Top Calender Roll 2
+T3291 - Inspect Power Cable - Top Calender Roll 2
+T3290 - Inspect Fan(Motor) - Top Calender Roll 1
+T3290 - Inspect Junction Box - Top Calender Roll 1
+T3290 - Inspect Power Cable - Top Calender Roll 1
+T3293 - Inspect Fan(Motor) - Top Calender Roll 3
+T3293 - Inspect Junction Box - Top Calender Roll 3
+T3293 - Inspect Power Cable - Top Calender Roll 3
+"
+T3000M3PDMM7,"T4410 - CHAIN INSPECTION - Single Roll Belt Conveyor 3
+T4410 - SPOCKET INSPECTION - Single Roll Belt Conveyor 3
+T4430 - CHAIN INSPECTION - Single Roll Film Dispenser
+T4430 - SPOCKET INSPECTION - Single Roll Film Dispenser
+T4440 - CHAIN INSPECTION - Single Roll Heat Shrink Blowers
+T4440 - SPOCKET INSPECTION - Single Roll Heat Shrink Blowers
+T4860 - CHAIN INSPECTION - Pallet Banding System
+T4860 - SPOCKET INSPECTION - Pallet Banding System
+T4820 - CHAIN INSPECTION - Pallet Dispenser
+T4820 - SPOCKET INSPECTION - Pallet Dispenser
+"
+T3000M3PDMM6,"T4820 - COUPLING INSPECTION - Pallet Dispenser
+T4810 - COUPLING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4640 - COUPLING INSPECTION - Bundle Transfer Conveyor
+T4650 - COUPLING INSPECTION - Bundle Stretch Wrapping System
+T4660 - COUPLING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4430 - COUPLING INSPECTION - Single Roll Film Dispenser
+T4420 - COUPLING INSPECTION - Single Roll Curtain Wrapper
+T4410 - COUPLING INSPECTION - Single Roll Belt Conveyor 3
+"
+T3000M3PDMM5,"T4480 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4860 - CYLINDER (AIR) INSPECTION - Pallet Banding System
+T4870 - CYLINDER (AIR) INSPECTION - Pallet Bundle Labeler
+"
+T3000M3PDMM4,"T4870 - CYLINDER (AIR) INSPECTION - Pallet Bundle Labeler
+T4860 - CYLINDER (AIR) INSPECTION - Pallet Banding System
+T4810 - CYLINDER (AIR) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - CYLINDER (AIR) INSPECTION - Pallet Dispenser
+T4480 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4470 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 1 (Printer)
+T4660 - CYLINDER (AIR) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4650 - CYLINDER (AIR) INSPECTION - Bundle Stretch Wrapping System
+T4640 - CYLINDER (AIR) INSPECTION - Bundle Transfer Conveyor
+T4420 - CYLINDER (AIR) INSPECTION - Single Roll Curtain Wrapper
+T4430 - CYLINDER (AIR) INSPECTION - Single Roll Film Dispenser
+"
+T3000M3PDMM3,"T3030 - BEARING INSPECTION - Dry Mat Unwind Stand
+T3080 - BEARING INSPECTION - DMA Carriage System
+T3095 - BEARING INSPECTION - DMA Carry-over Rolls
+T3100 - BEARING INSPECTION - DMA Exit Center Alignment Rolls
+T3070 - BEARING INSPECTION - DMA Frame and Bottom Rolls
+T3110 - BEARING INSPECTION - DMA Exit Slitter (Parallel Center Cut)
+"
+T3000M3PDMM2,"T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+T4402 - BEARING INSPECTION - Single Roll Inclined Conveyor
+T4260 - BEARING INSPECTION - Winder Roll Unloading Cart
+T4280 - BEARING INSPECTION - Winder Core Hopper
+T4406 - BEARING INSPECTION - Single Roll Inspection Table
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4290 - BEARING INSPECTION - Winder Core Loader
+"
+T3000M3PDMM1,"T4406 - BEARING INSPECTION - Single Roll Inspection Table
+T4406 - SPROCKET INSPECTION - Single Roll Inspection Table
+T4280 - BEARING INSPECTION - Winder Core Hopper
+T4280 - SPROCKET INSPECTION - Winder Core Hopper
+T4402 - BEARING INSPECTION - Single Roll Inclined Conveyor
+T4402 - SPROCKET INSPECTION - Single Roll Inclined Conveyor
+"
+T3000M3PDMM,"T3100 - BEARING INSPECTION - DMA Exit Center Alignment Rolls
+T3100 - JUNCTION BOX INSPECTION - DMA Exit Center Alignment Rolls
+T3100 - WINDING INSPECTION - DMA Exit Center Alignment Rolls
+T3100 - BEARING INSPECTION - DMA Exit Center Alignment Rolls
+T3165 - BEARING INSPECTION - Bottom Extrusion Edge Alignment Rolls
+T3165 - JUNCTION BOX INSPECTION - Bottom Extrusion Edge Alignment Rolls
+T3165 - WINDING INSPECTION - Bottom Extrusion Edge Alignment Rolls
+T3165 - BEARING INSPECTION - Bottom Extrusion Edge Alignment Rolls
+"
+T3000M3PDME2,"T4410 - COUPLING INSPECTION - Single Roll Belt Conveyor 3
+T4410 - JUNCTION BOX INSPECTION - Single Roll Belt Conveyor 3
+T4430 - COUPLING INSPECTION - Single Roll Film Dispenser
+T4430 - JUNCTION BOX INSPECTION - Single Roll Film Dispenser
+T4440 - COUPLING INSPECTION - Single Roll Heat Shrink Blowers
+T4440 - JUNCTION BOX INSPECTION - Single Roll Heat Shrink Blowers
+T4420 - COUPLING INSPECTION - Single Roll Curtain Wrapper
+T4420 - JUNCTION BOX INSPECTION - Single Roll Curtain Wrapper
+T4640 - COUPLING INSPECTION - Bundle Transfer Conveyor
+T4640 - JUNCTION BOX INSPECTION - Bundle Transfer Conveyor
+T4650 - COUPLING INSPECTION - Bundle Stretch Wrapping System
+T4650 - JUNCTION BOX INSPECTION - Bundle Stretch Wrapping System
+T4660 - COUPLING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - JUNCTION BOX INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4630 - COUPLING INSPECTION - Bundle Accumulation Conveyor
+T4630 - JUNCTION BOX INSPECTION - Bundle Accumulation Conveyor
+T4820 - COUPLING INSPECTION - Pallet Dispenser
+T4820 - JUNCTION BOX INSPECTION - Pallet Dispenser
+T4810 - COUPLING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4810 - JUNCTION BOX INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4860 - COUPLING INSPECTION - Pallet Banding System
+T4860 - JUNCTION BOX INSPECTION - Pallet Banding System
+"
+T3000M3PDME1,"T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+T4408 - JUNCTION BOX INSPECTION - Single Roll Belt Conveyor 2
+T4408 - WINDING INSPECTION - Single Roll Belt Conveyor 2
+T4408 - WINDING INSPECTION - Single Roll Belt Conveyor 2
+T4402 - BEARING INSPECTION - Single Roll Inclined Conveyor
+T4402 - JUNCTION BOX INSPECTION - Single Roll Inclined Conveyor
+T4402 - WINDING INSPECTION - Single Roll Inclined Conveyor
+T4402 - WINDING INSPECTION - Single Roll Inclined Conveyor
+T4280 - BEARING INSPECTION - Winder Core Hopper
+T4280 - JUNCTION BOX INSPECTION - Winder Core Hopper
+T4280 - WINDING INSPECTION - Winder Core Hopper
+T4280 - WINDING INSPECTION - Winder Core Hopper
+T4260 - BEARING INSPECTION - Winder Roll Unloading Cart
+T4260 - JUNCTION BOX INSPECTION - Winder Roll Unloading Cart
+T4260 - WINDING INSPECTION - Winder Roll Unloading Cart
+T4260 - WINDING INSPECTION - Winder Roll Unloading Cart
+T4406 - BEARING INSPECTION - Single Roll Inspection Table
+T4406 - JUNCTION BOX INSPECTION - Single Roll Inspection Table
+T4406 - WINDING INSPECTION - Single Roll Inspection Table
+T4406 - WINDING INSPECTION - Single Roll Inspection Table
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - JUNCTION BOX INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - WINDING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - WINDING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T3000M3PDME,"T3040 - JUNCTION BOX INSPECTION - Dry Mat Splicing System
+T3080 - JUNCTION BOX INSPECTION - DMA Carriage System
+"
+T3000M3LUBM1,"T4406 - CYLINDER (AIR) INSPECTION - Single Roll Inspection Table
+T4260 - CYLINDER (AIR) INSPECTION - Winder Roll Unloading Cart
+T4402 - CYLINDER (AIR) INSPECTION - Single Roll Inclined Conveyor
+T4290 - CYLINDER (AIR) INSPECTION - Winder Core Loader
+T4210 - CYLINDER (AIR) INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+"
+T3000M3LUBM,"T3432 - BEARING INSPECTION - Cooling Roll 5
+T3432 - JUNCTION BOX INSPECTION - Cooling Roll 5
+T3432 - WINDING INSPECTION - Cooling Roll 5
+T3432 - GEAR INSPECTION - Cooling Roll 5
+T3432 - BEARING INSPECTION - Cooling Roll 5
+T3432 - BEARING INSPECTION - Cooling Roll 5
+T3420 - BEARING INSPECTION - Cooling Roll 1
+T3420 - JUNCTION BOX INSPECTION - Cooling Roll 1
+T3420 - WINDING INSPECTION - Cooling Roll 1
+T3420 - GEAR INSPECTION - Cooling Roll 1
+T3420 - BEARING INSPECTION - Cooling Roll 1
+T3420 - BEARING INSPECTION - Cooling Roll 1
+T3423 - BEARING INSPECTION - Cooling Roll 2
+T3423 - JUNCTION BOX INSPECTION - Cooling Roll 2
+T3423 - WINDING INSPECTION - Cooling Roll 2
+T3423 - GEAR INSPECTION - Cooling Roll 2
+T3423 - BEARING INSPECTION - Cooling Roll 2
+T3423 - BEARING INSPECTION - Cooling Roll 2
+T3426 - BEARING INSPECTION - Cooling Roll 3
+T3426 - JUNCTION BOX INSPECTION - Cooling Roll 3
+T3426 - WINDING INSPECTION - Cooling Roll 3
+T3426 - GEAR INSPECTION - Cooling Roll 3
+T3426 - BEARING INSPECTION - Cooling Roll 3
+T3426 - BEARING INSPECTION - Cooling Roll 3
+T3429 - BEARING INSPECTION - Cooling Roll 4
+T3429 - JUNCTION BOX INSPECTION - Cooling Roll 4
+T3429 - WINDING INSPECTION - Cooling Roll 4
+T3429 - GEAR INSPECTION - Cooling Roll 4
+T3429 - BEARING INSPECTION - Cooling Roll 4
+T3429 - BEARING INSPECTION - Cooling Roll 4
+T3293 - BEARING INSPECTION - Top Calender Roll 3
+T3293 - JUNCTION BOX INSPECTION - Top Calender Roll 3
+T3293 - WINDING INSPECTION - Top Calender Roll 3
+T3293 - GEAR INSPECTION - Top Calender Roll 3
+T3293 - BEARING INSPECTION - Top Calender Roll 3
+T3293 - BEARING INSPECTION - Top Calender Roll 3
+T3290 - BEARING INSPECTION - Top Calender Roll 1
+T3290 - JUNCTION BOX INSPECTION - Top Calender Roll 1
+T3290 - WINDING INSPECTION - Top Calender Roll 1
+T3290 - GEAR INSPECTION - Top Calender Roll 1
+T3290 - BEARING INSPECTION - Top Calender Roll 1
+T3290 - BEARING INSPECTION - Top Calender Roll 1
+T3291 - BEARING INSPECTION - Top Calender Roll 2
+T3291 - JUNCTION BOX INSPECTION - Top Calender Roll 2
+T3291 - WINDING INSPECTION - Top Calender Roll 2
+T3291 - GEAR INSPECTION - Top Calender Roll 2
+T3291 - BEARING INSPECTION - Top Calender Roll 2
+T3291 - BEARING INSPECTION - Top Calender Roll 2
+T3211 - BEARING INSPECTION - Bottom Extrusion Calender Roll 2
+T3211 - JUNCTION BOX INSPECTION - Bottom Extrusion Calender Roll 2
+T3211 - WINDING INSPECTION - Bottom Extrusion Calender Roll 2
+T3211 - GEAR INSPECTION - Bottom Extrusion Calender Roll 2
+T3211 - BEARING INSPECTION - Bottom Extrusion Calender Roll 2
+T3211 - BEARING INSPECTION - Bottom Extrusion Calender Roll 2
+T3214 - BEARING INSPECTION - Bottom Extrusion Calender Roll 3
+T3214 - JUNCTION BOX INSPECTION - Bottom Extrusion Calender Roll 3
+T3214 - WINDING INSPECTION - Bottom Extrusion Calender Roll 3
+T3214 - GEAR INSPECTION - Bottom Extrusion Calender Roll 3
+T3214 - BEARING INSPECTION - Bottom Extrusion Calender Roll 3
+T3214 - BEARING INSPECTION - Bottom Extrusion Calender Roll 3
+T3208 - BEARING INSPECTION - Bottom Extrusion Calender Roll 1
+T3208 - JUNCTION BOX INSPECTION - Bottom Extrusion Calender Roll 1
+T3208 - WINDING INSPECTION - Bottom Extrusion Calender Roll 1
+T3208 - GEAR INSPECTION - Bottom Extrusion Calender Roll 1
+T3208 - BEARING INSPECTION - Bottom Extrusion Calender Roll 1
+T3208 - BEARING INSPECTION - Bottom Extrusion Calender Roll 1
+"
+T3000M3HKGM,"T4280 - LUGS INSPECTION - Winder Core Hopper
+T4402 - LUGS INSPECTION - Single Roll Inclined Conveyor
+T4406 - LUGS INSPECTION - Single Roll Inspection Table
+"
+T3000M3HKGE4,"T3080 - FAN (MOTOR) INSPECTION - DMA Carriage System
+T3040 - FAN (MOTOR) INSPECTION - Dry Mat Splicing System
+"
+T3000M3HKGE3,"T4410 - FAN (MOTOR) INSPECTION - Single Roll Belt Conveyor 3
+T4420 - FAN (MOTOR) INSPECTION - Single Roll Curtain Wrapper
+T4430 - FAN (MOTOR) INSPECTION - Single Roll Film Dispenser
+T4440 - FAN (MOTOR) INSPECTION - Single Roll Heat Shrink Blowers
+T4860 - FAN (MOTOR) INSPECTION - Pallet Banding System
+T4810 - FAN (MOTOR) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4660 - FAN (MOTOR) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4820 - FAN (MOTOR) INSPECTION - Pallet Dispenser
+T4480 - FAN (MOTOR) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4630 - FAN (MOTOR) INSPECTION - Bundle Accumulation Conveyor
+T4650 - FAN (MOTOR) INSPECTION - Bundle Stretch Wrapping System
+T4640 - FAN (MOTOR) INSPECTION - Bundle Transfer Conveyor
+"
+T3000M3HKGE2,"T4408 - FAN (MOTOR) INSPECTION - Single Roll Belt Conveyor 2
+T4406 - FAN (MOTOR) INSPECTION - Single Roll Inspection Table
+T4402 - FAN (MOTOR) INSPECTION - Single Roll Inclined Conveyor
+T4404 - FAN (MOTOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4280 - FAN (MOTOR) INSPECTION - Winder Core Hopper
+T4260 - FAN (MOTOR) INSPECTION - Winder Roll Unloading Cart
+"
+T3000M3HKGE1,"T3100 - FAN (MOTOR) INSPECTION - DMA Exit Center Alignment Rolls
+T3165 - FAN (MOTOR) INSPECTION - Bottom Extrusion Edge Alignment Rolls
+"
+T3000M3HKGE,"T3105 - FAN (MOTOR) INSPECTION - DMA Exit Pull Rolls
+T3085 - FAN (MOTOR) INSPECTION - DMA Exit Roll
+T3208 - FAN (MOTOR) INSPECTION - Bottom Extrusion Calender Roll 1
+T3214 - FAN (MOTOR) INSPECTION - Bottom Extrusion Calender Roll 3
+T3211 - FAN (MOTOR) INSPECTION - Bottom Extrusion Calender Roll 2
+T3065 - FAN (MOTOR) INSPECTION - DMA Entry Roll
+T3429 - FAN (MOTOR) INSPECTION - Cooling Roll 4
+T3432 - FAN (MOTOR) INSPECTION - Cooling Roll 5
+T3426 - FAN (MOTOR) INSPECTION - Cooling Roll 3
+T3423 - FAN (MOTOR) INSPECTION - Cooling Roll 2
+T3420 - FAN (MOTOR) INSPECTION - Cooling Roll 1
+T3291 - FAN (MOTOR) INSPECTION - Top Calender Roll 2
+T3290 - FAN (MOTOR) INSPECTION - Top Calender Roll 1
+T3293 - FAN (MOTOR) INSPECTION - Top Calender Roll 3
+"
+T3000M2HKGO,"T4420 - BELT (V) INSPECTION - Single Roll Curtain Wrapper
+T4810 - BELT (V) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4860 - BELT (V) INSPECTION - Pallet Banding System
+"
+T3000M1PPMM9,"T3100 - Inspect Roll(Chrome) - DMA Exit Center Alignment Rolls
+"
+T3000M1PPMM8,"T4404 - Inspect Cylinder(Air) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - Inspect Cylinder(Air) - Winder Taping System (6 Heads)
+"
+T3000M1PPMM7,"T3110 - Inspect Roll - DMA Exit Slitter (Parallel Center Cut)
+T3080 - Inspect Roll - DMA Carriage System
+T3100 - Inspect Roll - DMA Exit Center Alignment Rolls
+T3095 - Inspect Roll - DMA Carry-over Rolls
+T3070 - Inspect Roll - DMA Frame and Bottom Rolls
+T3030 - Inspect Roll - Dry Mat Unwind Stand
+"
+T3000M1PPMM6,"T4440 - Inspect Pulley - Single Roll Heat Shrink Blowers
+T4440 - Inspect Sprocket - Single Roll Heat Shrink Blowers
+T4430 - Inspect Pulley - Single Roll Film Dispenser
+T4430 - Inspect Sprocket - Single Roll Film Dispenser
+T4410 - Inspect Pulley - Single Roll Belt Conveyor 3
+T4410 - Inspect Sprocket - Single Roll Belt Conveyor 3
+T4860 - Inspect Pulley - Pallet Banding System
+T4860 - Inspect Sprocket - Pallet Banding System
+T4820 - Inspect Pulley - Pallet Dispenser
+T4820 - Inspect Sprocket - Pallet Dispenser
+"
+T3000M1PPMM5,"T4810 - Inspect Roll - Palletizing Bundle Lifting System (Robot)
+T4640 - Inspect Roll - Bundle Transfer Conveyor
+T4650 - Inspect Roll - Bundle Stretch Wrapping System
+T4420 - Inspect Roll - Single Roll Curtain Wrapper
+"
+T3000M1PPMM4,"T4640 - Inspect Linear Drive - Bundle Transfer Conveyor
+T4810 - Inspect Linear Drive - Palletizing Bundle Lifting System (Robot)
+T4820 - Inspect Linear Drive - Pallet Dispenser
+"
+T3000M1PPMM3,"T4820 - Inspect GearBox - Pallet Dispenser
+T4810 - Inspect GearBox - Palletizing Bundle Lifting System (Robot)
+T4860 - Inspect GearBox - Pallet Banding System
+T4640 - Inspect GearBox - Bundle Transfer Conveyor
+T4650 - Inspect GearBox - Bundle Stretch Wrapping System
+T4660 - Inspect GearBox - Bundle Packaging Exit Conveyor (with Lifting System)
+T4630 - Inspect GearBox - Bundle Accumulation Conveyor
+T4480 - Inspect GearBox - Single Roll Labeler 2 (Hot Melt)
+T4410 - Inspect GearBox - Single Roll Belt Conveyor 3
+T4420 - Inspect GearBox - Single Roll Curtain Wrapper
+T4430 - Inspect GearBox - Single Roll Film Dispenser
+T4440 - Inspect GearBox - Single Roll Heat Shrink Blowers
+"
+T3000M1PPMM2,"T4480 - Inspect Cylinder(Air) - Single Roll Labeler 2 (Hot Melt)
+T4860 - Inspect Cylinder(Air) - Pallet Banding System
+T4870 - Inspect Cylinder(Air) - Pallet Bundle Labeler
+"
+T3000M1PPMM10,"T4408 - Inspect Oil(Gearbox) - Single Roll Belt Conveyor 2
+T4406 - Inspect Oil(Gearbox) - Single Roll Inspection Table
+T4404 - Inspect Oil(Gearbox) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4402 - Inspect Oil(Gearbox) - Single Roll Inclined Conveyor
+T4290 - Inspect Oil(Gearbox) - Winder Core Loader
+T4280 - Inspect Oil(Gearbox) - Winder Core Hopper
+"
+T3000M1PPMM,"T4280 - Inspect Chain(Conveyor) - Winder Core Hopper
+T4280 - Inspect Sprocket - Winder Core Hopper
+T4402 - Inspect Chain(Conveyor) - Single Roll Inclined Conveyor
+T4402 - Inspect Sprocket - Single Roll Inclined Conveyor
+T4406 - Inspect Chain(Conveyor) - Single Roll Inspection Table
+T4406 - Inspect Sprocket - Single Roll Inspection Table
+"
+T3000M1PDMM6,"T4420 - BEARING INSPECTION - Single Roll Curtain Wrapper
+T4410 - BEARING INSPECTION - Single Roll Belt Conveyor 3
+T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+T4860 - BEARING INSPECTION - Pallet Banding System
+T4810 - BEARING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4650 - BEARING INSPECTION - Bundle Stretch Wrapping System
+"
+T3000M1PDMM5,"T4640 - LINEAR DRIVE INSPECTION - Bundle Transfer Conveyor
+T4810 - LINEAR DRIVE INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - LINEAR DRIVE INSPECTION - Pallet Dispenser
+"
+T3000M1PDMM4,"T4820 - BEARING INSPECTION - Pallet Dispenser
+T4810 - BEARING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4860 - BEARING INSPECTION - Pallet Banding System
+T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+T4480 - BEARING INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4650 - BEARING INSPECTION - Bundle Stretch Wrapping System
+T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+T4420 - BEARING INSPECTION - Single Roll Curtain Wrapper
+T4410 - BEARING INSPECTION - Single Roll Belt Conveyor 3
+"
+T3000M1PDMM3,"T4420 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Curtain Wrapper
+T4420 - VALVE (PNEUMATIC) INSPECTION - Single Roll Curtain Wrapper
+T4430 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Film Dispenser
+T4430 - VALVE (PNEUMATIC) INSPECTION - Single Roll Film Dispenser
+T4650 - REGULATOR (PNEUMATIC) INSPECTION - Bundle Stretch Wrapping System
+T4650 - VALVE (PNEUMATIC) INSPECTION - Bundle Stretch Wrapping System
+T4660 - REGULATOR (PNEUMATIC) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4660 - VALVE (PNEUMATIC) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4480 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4480 - VALVE (PNEUMATIC) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4470 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Labeler 1 (Printer)
+T4470 - VALVE (PNEUMATIC) INSPECTION - Single Roll Labeler 1 (Printer)
+T4640 - REGULATOR (PNEUMATIC) INSPECTION - Bundle Transfer Conveyor
+T4640 - VALVE (PNEUMATIC) INSPECTION - Bundle Transfer Conveyor
+T4860 - REGULATOR (PNEUMATIC) INSPECTION - Pallet Banding System
+T4860 - VALVE (PNEUMATIC) INSPECTION - Pallet Banding System
+T4870 - REGULATOR (PNEUMATIC) INSPECTION - Pallet Bundle Labeler
+T4870 - VALVE (PNEUMATIC) INSPECTION - Pallet Bundle Labeler
+T4820 - REGULATOR (PNEUMATIC) INSPECTION - Pallet Dispenser
+T4820 - VALVE (PNEUMATIC) INSPECTION - Pallet Dispenser
+T4810 - REGULATOR (PNEUMATIC) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4810 - VALVE (PNEUMATIC) INSPECTION - Palletizing Bundle Lifting System (Robot)
+"
+T3000M1PDMM2,"T3040 - BEARING INSPECTION - Dry Mat Splicing System
+T3040 - WINDING INSPECTION - Dry Mat Splicing System
+T3080 - BEARING INSPECTION - DMA Carriage System
+T3080 - WINDING INSPECTION - DMA Carriage System
+"
+T3000M1PDMM1,"T4406 - CYLINDER (AIR) INSPECTION - Single Roll Inspection Table
+T4406 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Inspection Table
+T4406 - VALVE (PNEUMATIIC) INSPECTION - Single Roll Inspection Table
+T4260 - CYLINDER (AIR) INSPECTION - Winder Roll Unloading Cart
+T4260 - REGULATOR (PNEUMATIC) INSPECTION - Winder Roll Unloading Cart
+T4260 - VALVE (PNEUMATIIC) INSPECTION - Winder Roll Unloading Cart
+T4290 - CYLINDER (AIR) INSPECTION - Winder Core Loader
+T4290 - REGULATOR (PNEUMATIC) INSPECTION - Winder Core Loader
+T4290 - VALVE (PNEUMATIIC) INSPECTION - Winder Core Loader
+T4402 - CYLINDER (AIR) INSPECTION - Single Roll Inclined Conveyor
+T4402 - REGULATOR (PNEUMATIC) INSPECTION - Single Roll Inclined Conveyor
+T4402 - VALVE (PNEUMATIIC) INSPECTION - Single Roll Inclined Conveyor
+T4210 - CYLINDER (AIR) INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - REGULATOR (PNEUMATIC) INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+T4210 - VALVE (PNEUMATIIC) INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+"
+T3000M1PDMM,"T4250 - CYLINDER (AIR) INSPECTION - Winder Taping System (6 Heads)
+T4250 - REGULATOR (PNEUMATIC) INSPECTION - Winder Taping System (6 Heads)
+T4250 - VALVE (PNEUMATIC) INSPECTION - Winder Taping System (6 Heads)
+"
+T3000M1PDME,"T4410 - WINDING (AC) INSPECTION - Single Roll Belt Conveyor 3
+T4430 - WINDING (AC) INSPECTION - Single Roll Film Dispenser
+T4440 - WINDING (AC) INSPECTION - Single Roll Heat Shrink Blowers
+T4420 - WINDING (AC) INSPECTION - Single Roll Curtain Wrapper
+T4810 - WINDING (AC) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - WINDING (AC) INSPECTION - Pallet Dispenser
+T4860 - WINDING (AC) INSPECTION - Pallet Banding System
+T4640 - WINDING (AC) INSPECTION - Bundle Transfer Conveyor
+T4630 - WINDING (AC) INSPECTION - Bundle Accumulation Conveyor
+T4650 - WINDING (AC) INSPECTION - Bundle Stretch Wrapping System
+T4660 - WINDING (AC) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+"
+T3000M1LUBM9,"T4650 - BEARING INSPECTION - Bundle Stretch Wrapping System
+T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4860 - BEARING INSPECTION - Pallet Banding System
+T4820 - BEARING INSPECTION - Pallet Dispenser
+T4810 - BEARING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4420 - BEARING INSPECTION - Single Roll Curtain Wrapper
+T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+T4410 - BEARING INSPECTION - Single Roll Belt Conveyor 3
+"
+T3000M1LUBM8,"T4810 - LINEAR DRIVE INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - LINEAR DRIVE INSPECTION - Pallet Dispenser
+T4640 - LINEAR DRIVE INSPECTION - Bundle Transfer Conveyor
+"
+T3000M1LUBM7,"T4640 - BEARING INSPECTION - Bundle Transfer Conveyor
+T4630 - BEARING INSPECTION - Bundle Accumulation Conveyor
+T4480 - BEARING INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4660 - BEARING INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4650 - BEARING INSPECTION - Bundle Stretch Wrapping System
+T4820 - BEARING INSPECTION - Pallet Dispenser
+T4810 - BEARING INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4860 - BEARING INSPECTION - Pallet Banding System
+T4410 - BEARING INSPECTION - Single Roll Belt Conveyor 3
+T4430 - BEARING INSPECTION - Single Roll Film Dispenser
+T4440 - BEARING INSPECTION - Single Roll Heat Shrink Blowers
+T4420 - BEARING INSPECTION - Single Roll Curtain Wrapper
+"
+T3000M1LUBM6,"T4870 - CYLINDER (AIR) INSPECTION - Pallet Bundle Labeler
+T4860 - CYLINDER (AIR) INSPECTION - Pallet Banding System
+T4480 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+"
+T3000M1LUBM5,"T4480 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 2 (Hot Melt)
+T4470 - CYLINDER (AIR) INSPECTION - Single Roll Labeler 1 (Printer)
+T4640 - CYLINDER (AIR) INSPECTION - Bundle Transfer Conveyor
+T4650 - CYLINDER (AIR) INSPECTION - Bundle Stretch Wrapping System
+T4660 - CYLINDER (AIR) INSPECTION - Bundle Packaging Exit Conveyor (with Lifting System)
+T4860 - CYLINDER (AIR) INSPECTION - Pallet Banding System
+T4870 - CYLINDER (AIR) INSPECTION - Pallet Bundle Labeler
+T4810 - CYLINDER (AIR) INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - CYLINDER (AIR) INSPECTION - Pallet Dispenser
+T4420 - CYLINDER (AIR) INSPECTION - Single Roll Curtain Wrapper
+T4430 - CYLINDER (AIR) INSPECTION - Single Roll Film Dispenser
+"
+T3000M1LUBM4,"T4408 - BEARING INSPECTION - Single Roll Belt Conveyor 2
+T4280 - BEARING INSPECTION - Winder Core Hopper
+T4402 - BEARING INSPECTION - Single Roll Inclined Conveyor
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4406 - BEARING INSPECTION - Single Roll Inspection Table
+T4260 - BEARING INSPECTION - Winder Roll Unloading Cart
+"
+T3000M1LUBM3,"T4406 - BEARING INSPECTION - Single Roll Inspection Table
+T4280 - BEARING INSPECTION - Winder Core Hopper
+T4402 - BEARING INSPECTION - Single Roll Inclined Conveyor
+"
+T3000M1LUBM2,"T4404 - CYLINDER (AIR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - CYLINDER (AIR) INSPECTION - Winder Taping System (6 Heads)
+"
+T3000M1LUBM12,"T3040 - BEARING INSPECTION - Dry Mat Splicing System
+T3080 - BEARING INSPECTION - DMA Carriage System
+"
+T3000M1LUBM11,"T3080 - Bearing Inspection - DMA Carriage System
+T3080 - Bearing Inspection - DMA Carriage System
+T3070 - Bearing Inspection - DMA Frame and Bottom Rolls
+T3040 - Bearing Inspection - Dry Mat Splicing System
+T3030 - Bearing Inspection - Dry Mat Unwind Stand
+T3095 - Bearing Inspection - DMA Carry-over Rolls
+T3100 - Bearing Inspection - DMA Exit Center Alignment Rolls
+T3110 - Bearing Inspection - DMA Exit Slitter (Parallel Center Cut)
+"
+T3000M1LUBM10,"T4410 - CHAIN/SPROCKET INSPECTION - Single Roll Belt Conveyor 3
+T4430 - CHAIN/SPROCKET INSPECTION - Single Roll Film Dispenser
+T4440 - CHAIN/SPROCKET INSPECTION - Single Roll Heat Shrink Blowers
+T4820 - CHAIN/SPROCKET INSPECTION - Pallet Dispenser
+T4860 - CHAIN/SPROCKET INSPECTION - Pallet Banding System
+"
+T3000M1LUBM1,"T3420 - Inspect Bearing - Cooling Roll 1
+T3423 - Inspect Bearing - Cooling Roll 2
+T3426 - Inspect Bearing - Cooling Roll 3
+T3432 - Inspect Bearing - Cooling Roll 5
+T3429 - Inspect Bearing - Cooling Roll 4
+T3293 - Inspect Bearing - Top Calender Roll 3
+T3290 - Inspect Bearing - Top Calender Roll 1
+T3291 - Inspect Bearing - Top Calender Roll 2
+T3105 - Inspect Bearing - DMA Exit Pull Rolls
+T3211 - Inspect Bearing - Bottom Extrusion Calender Roll 2
+T3214 - Inspect Bearing - Bottom Extrusion Calender Roll 3
+"
+T3000M1LUBM,"T3100 - Inspect Bearing - DMA Exit Center Alignment Rolls
+T3165 - Inspect Bearing - Bottom Extrusion Edge Alignment Rolls
+"
+T3000M1HKGO,"T3165 - Sensor Inspection - Bottom Extrusion Edge Alignment Rolls
+T3090 - Sensor Inspection - DMA Dancer Rolls (Tension)
+T3060 - Sensor Inspection - DMA Entry Clamp Roll
+T3065 - Sensor Inspection - DMA Entry Roll
+"
+T3000M1HKGM2,"T4870 - PRINTER (LABEL) INSPECTION - Pallet Bundle Labeler
+T4470 - PRINTER (LABEL) INSPECTION - Single Roll Labeler 1 (Printer)
+"
+T3000M1HKGM1,"T4640 - LINEAR DRIVE INSPECTION - Bundle Transfer Conveyor
+T4810 - LINEAR DRIVE INSPECTION - Palletizing Bundle Lifting System (Robot)
+T4820 - LINEAR DRIVE INSPECTION - Pallet Dispenser
+"
+T3000M1HKGM,"T4210 - SENSOR INSPECTION - Winder Dancer Rolls (Tension/Accumulation)
+T4406 - SENSOR INSPECTION - Single Roll Inspection Table
+T4402 - SENSOR INSPECTION - Single Roll Inclined Conveyor
+"
+T2000M1LUBM,"T3288 - Motor Bearing Inspection - Top Extruder Melt Pump
+T3288 - Pump Bearing Inspection - Top Extruder Melt Pump
+T2242 - Motor Bearing Inspection - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T2242 - Pump Bearing Inspection - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T2239 - Motor Bearing Inspection - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2239 - Pump Bearing Inspection - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2320 - Motor Bearing Inspection - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2320 - Pump Bearing Inspection - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2036 - Motor Bearing Inspection - Bottom Calender Roll 1 Heat Exchanger Pump
+T2036 - Pump Bearing Inspection - Bottom Calender Roll 1 Heat Exchanger Pump
+T2039 - Motor Bearing Inspection - Bottom Calender Roll 2 Heat Exchanger Pump
+T2039 - Pump Bearing Inspection - Bottom Calender Roll 2 Heat Exchanger Pump
+T2042 - Motor Bearing Inspection - Bottom Calender Rolls 3 and 4 Heat Exchanger Pump
+T2042 - Pump Bearing Inspection - Bottom Calender Rolls 3 and 4 Heat Exchanger Pump
+T2136 - Motor Bearing Inspection - Top Calender Roll 1 Heat Exchanger Pump
+T2136 - Pump Bearing Inspection - Top Calender Roll 1 Heat Exchanger Pump
+T2139 - Motor Bearing Inspection - Top Calender Roll 2 Heat Exchanger Pump
+T2139 - Pump Bearing Inspection - Top Calender Roll 2 Heat Exchanger Pump
+T2142 - Motor Bearing Inspection - Top Calender Rolls 3 and 4 Heat Exchanger Pump
+T2142 - Pump Bearing Inspection - Top Calender Rolls 3 and 4 Heat Exchanger Pump
+T2236 - Motor Bearing Inspection - Cooling Rolls 1 Heat Exchanger Pump
+T2236 - Pump Bearing Inspection - Cooling Rolls 1 Heat Exchanger Pump
+"
+T1545M3HKGO,"T1545 - CHUTE INSPECTION - Top Weathering Package Bulk Bag Loading System
+"
+T1500Y1PPMM1,"T1525 - Inspect Elevator Belt - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Elevator Body - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Elevator Head - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Tray - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect Elevator Belt - Top Weathering Package Bucket Elevator
+T1565 - Inspect Elevator Body - Top Weathering Package Bucket Elevator
+T1565 - Inspect Elevator Head - Top Weathering Package Bucket Elevator
+T1565 - Inspect Tray - Top Weathering Package Bucket Elevator
+"
+T1500Y1HKGM,"T1565 - TRAY INSPECTION - Top Weathering Package Bucket Elevator
+T1525 - TRAY INSPECTION - Bottom Weathering Package Bucket Elevator
+"
+T1500M3PPMM1,"T1525 - Inspect Bolt - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Bucket - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect Bolt - Top Weathering Package Bucket Elevator
+T1565 - Inspect Bucket - Top Weathering Package Bucket Elevator
+"
+T1500M3HKGM,"T1565 - ELEVATOR BELT INSPECTION - Top Weathering Package Bucket Elevator
+T1525 - ELEVATOR BELT INSPECTION - Bottom Weathering Package Bucket Elevator
+"
+T1500M1PDMM,"T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Belt(Conveyor) - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+T1565 - Inspect Belt(Conveyor) - Top Weathering Package Bucket Elevator
+"
+T1500M1LUBM,"T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+"
+T1100M3PPMO,"T1133 - Inspect Bolt - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Bolt - Flame Retardant Silo Rotary Airlock (Top)
+"
+T1100M3PDMM,"T1133 - Inspect Chain - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Sprocket - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Chain - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Sprocket - Flame Retardant Silo Rotary Airlock (Top)
+"
+T1100M1PDMM,"T1133 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Top)
+"
+T1100M1LUBM1,"T1136 - Inspect Chain - Flame Retardant Silo Rotary Airlock (Top)
+T1133 - Inspect Chain - Flame Retardant Silo Rotary Airlock (Bottom)
+"
+T1100M1LUBM,"T1133 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Top)
+"
+T1000Y1PPMM2,"T1066 - Inspect Valve(Pressure Relief) - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Valve(Pressure Relief) - Top Resin Vacuum Blower (Silos to Feeders)
+T1020 - Inspect Valve(Pressure Relief) - Resin Vacuum Blower (Rail to Receiver)
+T1043 - Inspect Valve(Pressure Relief) - Resin Pressure Blower (Receiver to Silos)
+T1053 - Inspect Valve(Pressure Relief) - Resin Silo 1
+T1056 - Inspect Valve(Pressure Relief) - Resin Silo 2
+"
+T1000Y1PPMM1,"T1056 - Inspect Silo - Resin Silo 2
+T1053 - Inspect Silo - Resin Silo 1
+T1030 - Inspect Silo - Resin Receiver
+"
+T1000Y1PPMM,"T1020 - LUBRICANT INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1043 - LUBRICANT INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1076 - LUBRICANT INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T1066 - LUBRICANT INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+"
+T1000Y1HKGM,"T1056 - PULSE PIPE INSPECTION - Resin Silo 2
+T1053 - PULSE PIPE INSPECTION - Resin Silo 1
+"
+T1000W1PPMM,"T1053 - AIR NOZZLE INSPECTION - Resin Silo 1
+T1056 - AIR NOZZLE INSPECTION - Resin Silo 2
+"
+T1000M6PPMM,"T1056 - FILTER (AIR CARTRIDGE) INSPECTION - Resin Silo 2
+T1053 - FILTER (AIR CARTRIDGE) INSPECTION - Resin Silo 1
+"
+T1000M6PDMM,"T1053 - PIPE (PNEUMATIC) INSPECTION - Resin Silo 1
+T1056 - PIPE (PNEUMATIC) INSPECTION - Resin Silo 2
+"
+T1000M6HKGO,"T1056 - SCREW INSPECTION - Resin Silo 2
+T1053 - SCREW INSPECTION - Resin Silo 1
+T1030 - SCREW INSPECTION - Resin Receiver
+"
+T1000M3PPMO,"T1030 - Inspect Bolt - Resin Receiver
+T1053 - Inspect Bolt - Resin Silo 1
+T1056 - Inspect Bolt - Resin Silo 2
+"
+T1000M3PPMM2,"T1020 - Inspect Belt(V) - Resin Vacuum Blower (Rail to Receiver)
+T1043 - Inspect Belt(V) - Resin Pressure Blower (Receiver to Silos)
+T1076 - Inspect Belt(V) - Top Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Belt(V) - Bottom Resin Vacuum Blower (Silos to Feeders)
+"
+T1000M3PPMM,"T1056 - Inspect Hose(Pneumatic) - Resin Silo 2
+T1056 - Inspect Regulator(Pneumatic) - Resin Silo 2
+T1053 - Inspect Hose(Pneumatic) - Resin Silo 1
+T1053 - Inspect Regulator(Pneumatic) - Resin Silo 1
+"
+T1000M3LUBM,"T1043 - LOBE INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1020 - LOBE INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1066 - LOBE INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1076 - LOBE INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+"
+T1000M2HKGO,"T1076 - BELT (V) INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T1066 - BELT (V) INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1020 - BELT (V) INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1043 - BELT (V) INSPECTION - Resin Pressure Blower (Receiver to Silos)
+"
+T1000M1PPMM,"T1030 - Inspect Packing Gland - Resin Receiver
+T1056 - Inspect Packing Gland - Resin Silo 2
+"
+T1000M1PDMM4,"T1056 - REGULATOR (PNEUMATIC) INSPECTION - Resin Silo 2
+T1056 - VALVE (PNEUMATIC) INVESTIGATION - Resin Silo 2
+T1053 - REGULATOR (PNEUMATIC) INSPECTION - Resin Silo 1
+T1053 - VALVE (PNEUMATIC) INVESTIGATION - Resin Silo 1
+"
+T1000M1PDMM1,"T1053 - BEARING INSPECTION - Resin Silo 1
+T1053 - SCREW INSPECTION - Resin Silo 1
+T1056 - BEARING INSPECTION - Resin Silo 2
+T1056 - SCREW INSPECTION - Resin Silo 2
+T1030 - BEARING INSPECTION - Resin Receiver
+T1030 - SCREW INSPECTION - Resin Receiver
+"
+T1000M1PDMM,"T1020 - BEARING INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1043 - BEARING INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1066 - BEARING INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1076 - BEARING INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+"
+T1000M1LUBM,"T1076 - BEARING INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T1066 - BEARING INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1043 - BEARING INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1020 - BEARING INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+"
+T0001Y1PPMM1,"T1030 - Resin Storage System Gearbox Inspections - Resin Receiver
+T1056 - Resin Storage System Gearbox Inspections - Resin Silo 2
+T1053 - Resin Storage System Gearbox Inspections - Resin Silo 1
+T2210 - Resin Storage System Gearbox Inspections - Cooling Roll 1 Heat Exchanger
+T2213 - Resin Storage System Gearbox Inspections - Cooling Rolls 2 and 3 Heat Exchanger
+T2216 - Resin Storage System Gearbox Inspections - Cooling Rolls 4 and 5 Heat Exchanger
+T2310 - Resin Storage System Gearbox Inspections - Bottom/Top Extruder Barrels Heat Exchanger
+T3299 - Resin Storage System Gearbox Inspections - Top Extrusion Thickness Monitoring System
+T4250 - Resin Storage System Gearbox Inspections - Winder Taping System (6 Heads)
+T4404 - Resin Storage System Gearbox Inspections - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001Y1PPMM,"T1545 - Inspect Oil(Gearbox) - Top Weathering Package Bulk Bag Loading System
+T1130 - Inspect Oil(Gearbox) - Flame Retardant Silo
+T1525 - Inspect Oil(Gearbox) - Bottom Weathering Package Bucket Elevator
+"
+T0001Y1PPME1,"T1525 - Inspect Encoder - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Winding(AC) - Bottom Weathering Package Bucket Elevator
+T1136 - Inspect Encoder - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Winding(AC) - Flame Retardant Silo Rotary Airlock (Top)
+T1133 - Inspect Encoder - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Winding(AC) - Flame Retardant Silo Rotary Airlock (Bottom)
+T1130 - Inspect Encoder - Flame Retardant Silo
+T1130 - Inspect Winding(AC) - Flame Retardant Silo
+T1120 - Inspect Encoder - Flame Retardant Pressure Blower (Rail to Silo)
+T1120 - Inspect Winding(AC) - Flame Retardant Pressure Blower (Rail to Silo)
+T1545 - Inspect Encoder - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Winding(AC) - Top Weathering Package Bulk Bag Loading System
+T1565 - Inspect Encoder - Top Weathering Package Bucket Elevator
+T1565 - Inspect Winding(AC) - Top Weathering Package Bucket Elevator
+"
+T0001Y1PPME,"T1076 - Inspect Encoder - Top Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Winding(AC) - Top Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Encoder - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Winding(AC) - Bottom Resin Vacuum Blower (Silos to Feeders)
+T3227 - Inspect Encoder - Bottom Extrusion Thickness Monitoring System
+T3227 - Inspect Winding(AC) - Bottom Extrusion Thickness Monitoring System
+T1053 - Inspect Encoder - Resin Silo 1
+T1053 - Inspect Winding(AC) - Resin Silo 1
+T1056 - Inspect Encoder - Resin Silo 2
+T1056 - Inspect Winding(AC) - Resin Silo 2
+T1020 - Inspect Encoder - Resin Vacuum Blower (Rail to Receiver)
+T1020 - Inspect Winding(AC) - Resin Vacuum Blower (Rail to Receiver)
+T1030 - Inspect Encoder - Resin Receiver
+T1030 - Inspect Winding(AC) - Resin Receiver
+T1033 - Inspect Encoder - Resin Receiver Rotary Airlock
+T1033 - Inspect Winding(AC) - Resin Receiver Rotary Airlock
+T1043 - Inspect Encoder - Resin Pressure Blower (Receiver to Silos)
+T1043 - Inspect Winding(AC) - Resin Pressure Blower (Receiver to Silos)
+T4404 - Inspect Encoder - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Winding(AC) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - Inspect Encoder - Winder Taping System (6 Heads)
+T4250 - Inspect Winding(AC) - Winder Taping System (6 Heads)
+T3299 - Inspect Encoder - Top Extrusion Thickness Monitoring System
+T3299 - Inspect Winding(AC) - Top Extrusion Thickness Monitoring System
+"
+T0001Y1LUBM1,"T1130 - Inspect GearBox - Flame Retardant Silo
+T1525 - Inspect GearBox - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect GearBox - Top Weathering Package Bucket Elevator
+T1545 - Inspect GearBox - Top Weathering Package Bulk Bag Loading System
+"
+T0001Y1LUBM,"T3227 - OIL (GEARBOX) INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1030 - OIL (GEARBOX) INSPECTION - Resin Receiver
+T1056 - OIL (GEARBOX) INSPECTION - Resin Silo 2
+T1053 - OIL (GEARBOX) INSPECTION - Resin Silo 1
+T3299 - OIL (GEARBOX) INSPECTION - Top Extrusion Thickness Monitoring System
+T4250 - OIL (GEARBOX) INSPECTION - Winder Taping System (6 Heads)
+T4404 - OIL (GEARBOX) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M6PPMO,"T3299 - Inspect Frame - Top Extrusion Thickness Monitoring System
+T1030 - Inspect Frame - Resin Receiver
+T3227 - Inspect Frame - Bottom Extrusion Thickness Monitoring System
+"
+T0001M6HKGO,"T1545 - SCREW INSPECTION - Top Weathering Package Bulk Bag Loading System
+T1130 - SCREW INSPECTION - Flame Retardant Silo
+"
+T0001M3PPMO1,"T3227 - Inspect Bolt - Bottom Extrusion Thickness Monitoring System
+T3227 - Inspect Guard - Bottom Extrusion Thickness Monitoring System
+T1030 - Inspect Bolt - Resin Receiver
+T1030 - Inspect Guard - Resin Receiver
+T3299 - Inspect Bolt - Top Extrusion Thickness Monitoring System
+T3299 - Inspect Guard - Top Extrusion Thickness Monitoring System
+"
+T0001M3PPMO,"T1130 - Inspect Bolt - Flame Retardant Silo
+T1545 - Inspect Bolt - Top Weathering Package Bulk Bag Loading System
+"
+T0001M3PPMM3,"T1565 - Inspect Bolt - Top Weathering Package Bucket Elevator
+T1565 - Inspect Coupling - Top Weathering Package Bucket Elevator
+T1130 - Inspect Bolt - Flame Retardant Silo
+T1130 - Inspect Coupling - Flame Retardant Silo
+T1120 - Inspect Bolt - Flame Retardant Pressure Blower (Rail to Silo)
+T1120 - Inspect Coupling - Flame Retardant Pressure Blower (Rail to Silo)
+T1525 - Inspect Bolt - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Coupling - Bottom Weathering Package Bucket Elevator
+T1545 - Inspect Bolt - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Coupling - Top Weathering Package Bulk Bag Loading System
+T1133 - Inspect Bolt - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Coupling - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Bolt - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Coupling - Flame Retardant Silo Rotary Airlock (Top)
+"
+T0001M3PPMM1,"T1066 - Inspect Bolt - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Coupling - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Bolt - Top Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Coupling - Top Resin Vacuum Blower (Silos to Feeders)
+T3227 - Inspect Bolt - Bottom Extrusion Thickness Monitoring System
+T3227 - Inspect Coupling - Bottom Extrusion Thickness Monitoring System
+T1020 - Inspect Bolt - Resin Vacuum Blower (Rail to Receiver)
+T1020 - Inspect Coupling - Resin Vacuum Blower (Rail to Receiver)
+T1030 - Inspect Bolt - Resin Receiver
+T1030 - Inspect Coupling - Resin Receiver
+T1033 - Inspect Bolt - Resin Receiver Rotary Airlock
+T1033 - Inspect Coupling - Resin Receiver Rotary Airlock
+T1043 - Inspect Bolt - Resin Pressure Blower (Receiver to Silos)
+T1043 - Inspect Coupling - Resin Pressure Blower (Receiver to Silos)
+T1053 - Inspect Bolt - Resin Silo 1
+T1053 - Inspect Coupling - Resin Silo 1
+T1056 - Inspect Bolt - Resin Silo 2
+T1056 - Inspect Coupling - Resin Silo 2
+T3299 - Inspect Bolt - Top Extrusion Thickness Monitoring System
+T3299 - Inspect Coupling - Top Extrusion Thickness Monitoring System
+T4250 - Inspect Bolt - Winder Taping System (6 Heads)
+T4250 - Inspect Coupling - Winder Taping System (6 Heads)
+T4404 - Inspect Bolt - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Coupling - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M3PPMM,"T1130 - Inspect Coupling - Flame Retardant Silo
+T1545 - Inspect Coupling - Top Weathering Package Bulk Bag Loading System
+T1525 - Inspect Coupling - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect Coupling - Top Weathering Package Bucket Elevator
+"
+T0001M3PPME2,"T2320 - Resin Storage System Coupling Inspections - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2320 - Complete All Child Work Orders - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2239 - Resin Storage System Coupling Inspections - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2239 - Complete All Child Work Orders - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2242 - Resin Storage System Coupling Inspections - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T2242 - Complete All Child Work Orders - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T3227 - Inspect Coupling - Bottom Extrusion Thickness Monitoring System
+T3203 - Resin Storage System Coupling Inspections - Bottom Extruder Melt Pump
+T3203 - Complete All Child Work Orders - Bottom Extruder Melt Pump
+T1056 - Inspect Coupling - Resin Silo 2
+T1053 - Inspect Coupling - Resin Silo 1
+T1030 - Inspect Coupling - Resin Receiver
+T4404 - Inspect Coupling - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - Inspect Coupling - Winder Taping System (6 Heads)
+T3299 - Inspect Coupling - Top Extrusion Thickness Monitoring System
+T3288 - Resin Storage System Coupling Inspections - Top Extruder Melt Pump
+T3288 - Complete All Child Work Orders - Top Extruder Melt Pump
+"
+T0001M3PPME1,"T1565 - Inspect Fan(Motor) - Top Weathering Package Bucket Elevator
+T1565 - Inspect Junction Box - Top Weathering Package Bucket Elevator
+T1565 - Inspect Power Cable - Top Weathering Package Bucket Elevator
+T1525 - Inspect Fan(Motor) - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Junction Box - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Power Cable - Bottom Weathering Package Bucket Elevator
+T1545 - Inspect Fan(Motor) - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Junction Box - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Power Cable - Top Weathering Package Bulk Bag Loading System
+T1136 - Inspect Fan(Motor) - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Junction Box - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Power Cable - Flame Retardant Silo Rotary Airlock (Top)
+T1130 - Inspect Fan(Motor) - Flame Retardant Silo
+T1130 - Inspect Junction Box - Flame Retardant Silo
+T1130 - Inspect Power Cable - Flame Retardant Silo
+T1133 - Inspect Fan(Motor) - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Junction Box - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Power Cable - Flame Retardant Silo Rotary Airlock (Bottom)
+T1120 - Inspect Fan(Motor) - Flame Retardant Pressure Blower (Rail to Silo)
+T1120 - Inspect Junction Box - Flame Retardant Pressure Blower (Rail to Silo)
+T1120 - Inspect Power Cable - Flame Retardant Pressure Blower (Rail to Silo)
+"
+T0001M3PPME,"T1076 - Inspect Fan(Motor) - Top Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Junction Box - Top Resin Vacuum Blower (Silos to Feeders)
+T1076 - Inspect Power Cable - Top Resin Vacuum Blower (Silos to Feeders)
+T3227 - Inspect Fan(Motor) - Bottom Extrusion Thickness Monitoring System
+T3227 - Inspect Junction Box - Bottom Extrusion Thickness Monitoring System
+T3227 - Inspect Power Cable - Bottom Extrusion Thickness Monitoring System
+T1030 - Inspect Fan(Motor) - Resin Receiver
+T1030 - Inspect Junction Box - Resin Receiver
+T1030 - Inspect Power Cable - Resin Receiver
+T1033 - Inspect Fan(Motor) - Resin Receiver Rotary Airlock
+T1033 - Inspect Junction Box - Resin Receiver Rotary Airlock
+T1033 - Inspect Power Cable - Resin Receiver Rotary Airlock
+T1043 - Inspect Fan(Motor) - Resin Pressure Blower (Receiver to Silos)
+T1043 - Inspect Junction Box - Resin Pressure Blower (Receiver to Silos)
+T1043 - Inspect Power Cable - Resin Pressure Blower (Receiver to Silos)
+T1053 - Inspect Fan(Motor) - Resin Silo 1
+T1053 - Inspect Junction Box - Resin Silo 1
+T1053 - Inspect Power Cable - Resin Silo 1
+T1066 - Inspect Fan(Motor) - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Junction Box - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1066 - Inspect Power Cable - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1056 - Inspect Fan(Motor) - Resin Silo 2
+T1056 - Inspect Junction Box - Resin Silo 2
+T1056 - Inspect Power Cable - Resin Silo 2
+T1020 - Inspect Fan(Motor) - Resin Vacuum Blower (Rail to Receiver)
+T1020 - Inspect Junction Box - Resin Vacuum Blower (Rail to Receiver)
+T1020 - Inspect Power Cable - Resin Vacuum Blower (Rail to Receiver)
+T4250 - Inspect Fan(Motor) - Winder Taping System (6 Heads)
+T4250 - Inspect Junction Box - Winder Taping System (6 Heads)
+T4250 - Inspect Power Cable - Winder Taping System (6 Heads)
+T3299 - Inspect Fan(Motor) - Top Extrusion Thickness Monitoring System
+T3299 - Inspect Junction Box - Top Extrusion Thickness Monitoring System
+T3299 - Inspect Power Cable - Top Extrusion Thickness Monitoring System
+T4404 - Inspect Fan(Motor) - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Junction Box - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - Inspect Power Cable - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M3PDMM2,"T2320 - Pump Bearing - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2242 - Pump Bearing - Cooling Rolls 4 and 5 Heat Exchanger Pump
+"
+T0001M3PDMM1,"T2242 - Impeller Inspection - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T2320 - Impeller Inspection - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2139 - Impeller Inspection - Top Calender Roll 2 Heat Exchanger Pump
+T2142 - Impeller Inspection - Top Calender Rolls 3 and 4 Heat Exchanger Pump
+T2239 - Impeller Inspection - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2036 - Impeller Inspection - Bottom Calender Roll 1 Heat Exchanger Pump
+T2039 - Impeller Inspection - Bottom Calender Roll 2 Heat Exchanger Pump
+T2236 - Impeller Inspection - Cooling Rolls 1 Heat Exchanger Pump
+T2042 - Impeller Inspection - Bottom Calender Rolls 3 and 4 Heat Exchanger Pump
+T2136 - Impeller Inspection - Top Calender Roll 1 Heat Exchanger Pump
+"
+T0001M3PDMM,"T2136 - Motor Bearing Inspection - Top Calender Roll 1 Heat Exchanger Pump
+T2136 - Pump Bearing Inspection - Top Calender Roll 1 Heat Exchanger Pump
+T2139 - Motor Bearing Inspection - Top Calender Roll 2 Heat Exchanger Pump
+T2139 - Pump Bearing Inspection - Top Calender Roll 2 Heat Exchanger Pump
+T2236 - Motor Bearing Inspection - Cooling Rolls 1 Heat Exchanger Pump
+T2236 - Pump Bearing Inspection - Cooling Rolls 1 Heat Exchanger Pump
+T2239 - Motor Bearing Inspection - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2239 - Pump Bearing Inspection - Cooling Rolls 2 and 3 Heat Exchanger Pump
+T2039 - Motor Bearing Inspection - Bottom Calender Roll 2 Heat Exchanger Pump
+T2039 - Pump Bearing Inspection - Bottom Calender Roll 2 Heat Exchanger Pump
+T2042 - Motor Bearing Inspection - Bottom Calender Rolls 3 and 4 Heat Exchanger Pump
+T2042 - Pump Bearing Inspection - Bottom Calender Rolls 3 and 4 Heat Exchanger Pump
+T2036 - Motor Bearing Inspection - Bottom Calender Roll 1 Heat Exchanger Pump
+T2036 - Pump Bearing Inspection - Bottom Calender Roll 1 Heat Exchanger Pump
+T2142 - Motor Bearing Inspection - Top Calender Rolls 3 and 4 Heat Exchanger Pump
+T2142 - Pump Bearing Inspection - Top Calender Rolls 3 and 4 Heat Exchanger Pump
+T2320 - Motor Bearing Inspection - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2320 - Pump Bearing Inspection - Bottom/Top Extruder Barrels Heat Exchanger Pump
+T2242 - Motor Bearing Inspection - Cooling Rolls 4 and 5 Heat Exchanger Pump
+T2242 - Pump Bearing Inspection - Cooling Rolls 4 and 5 Heat Exchanger Pump
+"
+T0001M3PDME1,"T1076 - JUNCTION BOX INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T1056 - JUNCTION BOX INSPECTION - Resin Silo 2
+T3227 - JUNCTION BOX INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1020 - JUNCTION BOX INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1066 - JUNCTION BOX INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1053 - JUNCTION BOX INSPECTION - Resin Silo 1
+T1043 - JUNCTION BOX INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1033 - JUNCTION BOX INSPECTION - Resin Receiver Rotary Airlock
+T1030 - JUNCTION BOX INSPECTION - Resin Receiver
+T4404 - JUNCTION BOX INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T3299 - JUNCTION BOX INSPECTION - Top Extrusion Thickness Monitoring System
+T4250 - JUNCTION BOX INSPECTION - Winder Taping System (6 Heads)
+"
+T0001M3PDME,"T1130 - Inspect Junction Box - Flame Retardant Silo
+T1136 - Inspect Junction Box - Flame Retardant Silo Rotary Airlock (Top)
+T1120 - Inspect Junction Box - Flame Retardant Pressure Blower (Rail to Silo)
+T1133 - Inspect Junction Box - Flame Retardant Silo Rotary Airlock (Bottom)
+T1525 - Inspect Junction Box - Bottom Weathering Package Bucket Elevator
+T1565 - Inspect Junction Box - Top Weathering Package Bucket Elevator
+"
+T0001M3HKGE1,"T1565 - FAN (MOTOR) INSPECTION - Top Weathering Package Bucket Elevator
+T1545 - FAN (MOTOR) INSPECTION - Top Weathering Package Bulk Bag Loading System
+T1525 - FAN (MOTOR) INSPECTION - Bottom Weathering Package Bucket Elevator
+T1136 - FAN (MOTOR) INSPECTION - Flame Retardant Silo Rotary Airlock (Top)
+T1130 - FAN (MOTOR) INSPECTION - Flame Retardant Silo
+T1133 - FAN (MOTOR) INSPECTION - Flame Retardant Silo Rotary Airlock (Bottom)
+T1120 - FAN (MOTOR) INSPECTION - Flame Retardant Pressure Blower (Rail to Silo)
+"
+T0001M3HKGE,"T1076 - FAN (MOTOR) INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T3227 - FAN (MOTOR) INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1030 - FAN (MOTOR) INSPECTION - Resin Receiver
+T1033 - FAN (MOTOR) INSPECTION - Resin Receiver Rotary Airlock
+T1043 - FAN (MOTOR) INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1053 - FAN (MOTOR) INSPECTION - Resin Silo 1
+T1066 - FAN (MOTOR) INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1056 - FAN (MOTOR) INSPECTION - Resin Silo 2
+T1020 - FAN (MOTOR) INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T4250 - FAN (MOTOR) INSPECTION - Winder Taping System (6 Heads)
+T3299 - FAN (MOTOR) INSPECTION - Top Extrusion Thickness Monitoring System
+T4404 - FAN (MOTOR) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M1PPMO,"T1130 - Inspect Gland(Packing) - Flame Retardant Silo
+T1545 - Inspect Gland(Packing) - Top Weathering Package Bulk Bag Loading System
+"
+T0001M1PPMM1,"T3227 - GearBox Inspection - Bottom Extrusion Thickness Monitoring System
+T1056 - GearBox Inspection - Resin Silo 2
+T1053 - GearBox Inspection - Resin Silo 1
+T1030 - GearBox Inspection - Resin Receiver
+T4404 - GearBox Inspection - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T3299 - GearBox Inspection - Top Extrusion Thickness Monitoring System
+T4250 - GearBox Inspection - Winder Taping System (6 Heads)
+"
+T0001M1PPMM,"T1545 - Inspect Oil(Gearbox) - Top Weathering Package Bulk Bag Loading System
+T1565 - Inspect Oil(Gearbox) - Top Weathering Package Bucket Elevator
+T1130 - Inspect Oil(Gearbox) - Flame Retardant Silo
+T1525 - Inspect Oil(Gearbox) - Bottom Weathering Package Bucket Elevator
+"
+T0001M1PDMM4,"T3227 - BEARING INSPECTION - Bottom Extrusion Thickness Monitoring System
+T3227 - COUPLING INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1030 - BEARING INSPECTION - Resin Receiver
+T1030 - COUPLING INSPECTION - Resin Receiver
+T1053 - BEARING INSPECTION - Resin Silo 1
+T1053 - COUPLING INSPECTION - Resin Silo 1
+T1056 - BEARING INSPECTION - Resin Silo 2
+T1056 - COUPLING INSPECTION - Resin Silo 2
+T4250 - BEARING INSPECTION - Winder Taping System (6 Heads)
+T4250 - COUPLING INSPECTION - Winder Taping System (6 Heads)
+T3299 - BEARING INSPECTION - Top Extrusion Thickness Monitoring System
+T3299 - COUPLING INSPECTION - Top Extrusion Thickness Monitoring System
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - COUPLING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M1PDMM3,"T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4404 - COUPLING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - BEARING INSPECTION - Winder Taping System (6 Heads)
+T4250 - COUPLING INSPECTION - Winder Taping System (6 Heads)
+T3299 - BEARING INSPECTION - Top Extrusion Thickness Monitoring System
+T3299 - COUPLING INSPECTION - Top Extrusion Thickness Monitoring System
+T1066 - BEARING INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1066 - COUPLING INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1056 - BEARING INSPECTION - Resin Silo 2
+T1056 - COUPLING INSPECTION - Resin Silo 2
+T1053 - BEARING INSPECTION - Resin Silo 1
+T1053 - COUPLING INSPECTION - Resin Silo 1
+T1020 - BEARING INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1020 - COUPLING INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1043 - BEARING INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1043 - COUPLING INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1030 - BEARING INSPECTION - Resin Receiver
+T1030 - COUPLING INSPECTION - Resin Receiver
+T1033 - BEARING INSPECTION - Resin Receiver Rotary Airlock
+T1033 - COUPLING INSPECTION - Resin Receiver Rotary Airlock
+T3227 - BEARING INSPECTION - Bottom Extrusion Thickness Monitoring System
+T3227 - COUPLING INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1076 - BEARING INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T1076 - COUPLING INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+"
+T0001M1PDMM2,"T1120 - Inspect Bearing - Flame Retardant Pressure Blower (Rail to Silo)
+T1120 - Inspect Coupling - Flame Retardant Pressure Blower (Rail to Silo)
+T1130 - Inspect Bearing - Flame Retardant Silo
+T1130 - Inspect Coupling - Flame Retardant Silo
+T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Coupling - Bottom Weathering Package Bucket Elevator
+T1136 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Top)
+T1136 - Inspect Coupling - Flame Retardant Silo Rotary Airlock (Top)
+T1133 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Bottom)
+T1133 - Inspect Coupling - Flame Retardant Silo Rotary Airlock (Bottom)
+T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+T1565 - Inspect Coupling - Top Weathering Package Bucket Elevator
+"
+T0001M1PDMM1,"T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+T1565 - Inspect Coupling - Top Weathering Package Bucket Elevator
+T1545 - Inspect Bearing - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Coupling - Top Weathering Package Bulk Bag Loading System
+T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+T1525 - Inspect Coupling - Bottom Weathering Package Bucket Elevator
+T1130 - Inspect Bearing - Flame Retardant Silo
+T1130 - Inspect Coupling - Flame Retardant Silo
+"
+T0001M1PDMM,"T1130 - Inspect Bearing - Flame Retardant Silo
+T1130 - Inspect Screw Flight - Flame Retardant Silo
+T1545 - Inspect Bearing - Top Weathering Package Bulk Bag Loading System
+T1545 - Inspect Screw Flight - Top Weathering Package Bulk Bag Loading System
+"
+T0001M1PDME1,"T1076 - WINDING (AC) INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T3227 - WINDING (AC) INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1033 - WINDING (AC) INSPECTION - Resin Receiver Rotary Airlock
+T1043 - WINDING (AC) INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1020 - WINDING (AC) INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1030 - WINDING (AC) INSPECTION - Resin Receiver
+T1053 - WINDING (AC) INSPECTION - Resin Silo 1
+T1056 - WINDING (AC) INSPECTION - Resin Silo 2
+T1066 - WINDING (AC) INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T4250 - WINDING (AC) INSPECTION - Winder Taping System (6 Heads)
+T3299 - WINDING (AC) INSPECTION - Top Extrusion Thickness Monitoring System
+T4404 - WINDING (AC) INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+"
+T0001M1PDME,"T1120 - Inspect Winding(AC) - Flame Retardant Pressure Blower (Rail to Silo)
+T1130 - Inspect Winding(AC) - Flame Retardant Silo
+T1525 - Inspect Winding(AC) - Bottom Weathering Package Bucket Elevator
+T1133 - Inspect Winding(AC) - Flame Retardant Silo Rotary Airlock (Bottom)
+T1136 - Inspect Winding(AC) - Flame Retardant Silo Rotary Airlock (Top)
+"
+T0001M1LUBM4,"T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+T1130 - Inspect Bearing - Flame Retardant Silo
+T1545 - Inspect Bearing - Top Weathering Package Bulk Bag Loading System
+T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+"
+T0001M1LUBM3,"T1545 - Inspect Bearing - Top Weathering Package Bulk Bag Loading System
+T1130 - Inspect Bearing - Flame Retardant Silo
+"
+T0001M1LUBM2,"T1133 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Bottom)
+T1130 - Inspect Bearing - Flame Retardant Silo
+T1120 - Inspect Bearing - Flame Retardant Pressure Blower (Rail to Silo)
+T1136 - Inspect Bearing - Flame Retardant Silo Rotary Airlock (Top)
+T1525 - Inspect Bearing - Bottom Weathering Package Bucket Elevator
+T1545 - Inspect Bearing - Top Weathering Package Bulk Bag Loading System
+T1565 - Inspect Bearing - Top Weathering Package Bucket Elevator
+"
+T0001M1LUBM1,"T1076 - BEARING INSPECTION - Top Resin Vacuum Blower (Silos to Feeders)
+T3227 - BEARING INSPECTION - Bottom Extrusion Thickness Monitoring System
+T1056 - BEARING INSPECTION - Resin Silo 2
+T1066 - BEARING INSPECTION - Bottom Resin Vacuum Blower (Silos to Feeders)
+T1020 - BEARING INSPECTION - Resin Vacuum Blower (Rail to Receiver)
+T1043 - BEARING INSPECTION - Resin Pressure Blower (Receiver to Silos)
+T1053 - BEARING INSPECTION - Resin Silo 1
+T1030 - BEARING INSPECTION - Resin Receiver
+T1033 - BEARING INSPECTION - Resin Receiver Rotary Airlock
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T4250 - BEARING INSPECTION - Winder Taping System (6 Heads)
+T3299 - BEARING INSPECTION - Top Extrusion Thickness Monitoring System
+"
+T0001M1LUBM,"T3299 - BEARING INSPECTION - Top Extrusion Thickness Monitoring System
+T4250 - BEARING INSPECTION - Winder Taping System (6 Heads)
+T4404 - BEARING INSPECTION - Single Roll Belt Conveyor 1 (with Reject Mechanism)
+T1030 - BEARING INSPECTION - Resin Receiver
+T1053 - BEARING INSPECTION - Resin Silo 1
+T1056 - BEARING INSPECTION - Resin Silo 2
+T3227 - BEARING INSPECTION - Bottom Extrusion Thickness Monitoring System
+"
+JBX001M3PDME,"B1644 - Junction Box Inspection - Pentane Metering Tri-pump 3
+B1643 - Junction Box Inspection - Pentane Metering Tri-pump 2
+B1642 - Junction Box Inspection - Pentane Metering Tri-pump 1
+B1627 - Junction Box Inspection - Pentane Sump Pump
+B1617 - Junction Box Inspection - Pentane Tank Transfer Pump 2
+B1635 - Junction Box Inspection - Pentane Heat Exchanger
+B1615 - Junction Box Inspection - Pentane Tank Transfer Pump 1
+B1605 - Junction Box Inspection - Pentane Unloading Pump
+"
+IMP001M3PDMM,"B1615 - Impeller Inspection - Pentane Tank Transfer Pump 1
+B1617 - Impeller Inspection - Pentane Tank Transfer Pump 2
+"
+HVL001M3HKGM,"B1617 - Hand Valve Inspection - Pentane Tank Transfer Pump 2
+B1648 - Hand Valve Inspection - Pentane Piping System
+B1615 - Hand Valve Inspection - Pentane Tank Transfer Pump 1
+"
+H3075Y1SAFO,"H3091 - Wet Fire Sprinkler System - Sprinkler Fire System Piping and Valve System
+H3091 - Siamese Connection - Sprinkler Fire System Piping and Valve System
+H3091 - Pipe Inspection - Sprinkler Fire System Piping and Valve System
+H3091 - FunctionTest - Sprinkler Fire System Piping and Valve System
+H3091 - Main Drain Test - Sprinkler Fire System Piping and Valve System
+H3091 - Control Valve Operation - Sprinkler Fire System Piping and Valve System
+H3091 - Lubricate OS&Y Valve - Sprinkler Fire System Piping and Valve System
+H3091 - Inspection Documentation - Sprinkler Fire System Piping and Valve System
+H3077 - Wet Fire Sprinkler System - Sprinkler Fire System Pump (Diesel)
+H3077 - Siamese Connection - Sprinkler Fire System Pump (Diesel)
+H3077 - Pipe Inspection - Sprinkler Fire System Pump (Diesel)
+H3077 - FunctionTest - Sprinkler Fire System Pump (Diesel)
+H3077 - Main Drain Test - Sprinkler Fire System Pump (Diesel)
+H3077 - Control Valve Operation - Sprinkler Fire System Pump (Diesel)
+H3077 - Lubricate OS&Y Valve - Sprinkler Fire System Pump (Diesel)
+H3077 - Inspection Documentation - Sprinkler Fire System Pump (Diesel)
+H3083 - Wet Fire Sprinkler System - Sprinkler Fire System Pump Controller
+H3083 - Siamese Connection - Sprinkler Fire System Pump Controller
+H3083 - Pipe Inspection - Sprinkler Fire System Pump Controller
+H3083 - FunctionTest - Sprinkler Fire System Pump Controller
+H3083 - Main Drain Test - Sprinkler Fire System Pump Controller
+H3083 - Control Valve Operation - Sprinkler Fire System Pump Controller
+H3083 - Lubricate OS&Y Valve - Sprinkler Fire System Pump Controller
+H3083 - Inspection Documentation - Sprinkler Fire System Pump Controller
+H3076 - Wet Fire Sprinkler System - Sprinkler Fire System Pump Room
+H3076 - Siamese Connection - Sprinkler Fire System Pump Room
+H3076 - Pipe Inspection - Sprinkler Fire System Pump Room
+H3076 - FunctionTest - Sprinkler Fire System Pump Room
+H3076 - Main Drain Test - Sprinkler Fire System Pump Room
+H3076 - Control Valve Operation - Sprinkler Fire System Pump Room
+H3076 - Lubricate OS&Y Valve - Sprinkler Fire System Pump Room
+H3076 - Inspection Documentation - Sprinkler Fire System Pump Room
+"
+H3075M3SAFO,"H3077 - Switch Testing - Sprinkler Fire System Pump (Diesel)
+H3077 - Siamese Connection - Sprinkler Fire System Pump (Diesel)
+H3077 - Function test Water Motor Alarm - Sprinkler Fire System Pump (Diesel)
+H3077 - Main Drain Test - Sprinkler Fire System Pump (Diesel)
+H3077 - Inspection Documentation - Sprinkler Fire System Pump (Diesel)
+H3083 - Switch Testing - Sprinkler Fire System Pump Controller
+H3083 - Siamese Connection - Sprinkler Fire System Pump Controller
+H3083 - Function test Water Motor Alarm - Sprinkler Fire System Pump Controller
+H3083 - Main Drain Test - Sprinkler Fire System Pump Controller
+H3083 - Inspection Documentation - Sprinkler Fire System Pump Controller
+H3091 - Switch Testing - Sprinkler Fire System Piping and Valve System
+H3091 - Siamese Connection - Sprinkler Fire System Piping and Valve System
+H3091 - Function test Water Motor Alarm - Sprinkler Fire System Piping and Valve System
+H3091 - Main Drain Test - Sprinkler Fire System Piping and Valve System
+H3091 - Inspection Documentation - Sprinkler Fire System Piping and Valve System
+H3076 - Switch Testing - Sprinkler Fire System Pump Room
+H3076 - Siamese Connection - Sprinkler Fire System Pump Room
+H3076 - Function test Water Motor Alarm - Sprinkler Fire System Pump Room
+H3076 - Main Drain Test - Sprinkler Fire System Pump Room
+H3076 - Inspection Documentation - Sprinkler Fire System Pump Room
+"
+GBX001Y1LUBM,"B1605 - Inspect Gearbox Oil - Pentane Unloading Pump
+B1643 - Inspect Gearbox Oil - Pentane Metering Tri-pump 2
+B1644 - Inspect Gearbox Oil - Pentane Metering Tri-pump 3
+B1617 - Inspect Gearbox Oil - Pentane Tank Transfer Pump 2
+B1615 - Inspect Gearbox Oil - Pentane Tank Transfer Pump 1
+B1642 - Inspect Gearbox Oil - Pentane Metering Tri-pump 1
+"
+FNM001M3HKGE,"B1642 - Fan Motor Inspection - Pentane Metering Tri-pump 1
+B1635 - Fan Motor Inspection - Pentane Heat Exchanger
+B1617 - Fan Motor Inspection - Pentane Tank Transfer Pump 2
+B1627 - Fan Motor Inspection - Pentane Sump Pump
+B1644 - Fan Motor Inspection - Pentane Metering Tri-pump 3
+B1643 - Fan Motor Inspection - Pentane Metering Tri-pump 2
+B1605 - Fan Motor Inspection - Pentane Unloading Pump
+B1615 - Fan Motor Inspection - Pentane Tank Transfer Pump 1
+"
+C3500Y1PPMM,"C3504 - Contact - Forklift 3 (Combi)
+C3504 - Notify - Forklift 3 (Combi)
+C3504 - Document - Forklift 3 (Combi)
+C4025 - Contact - Shaft Lifter (Schlumpf)
+C4025 - Notify - Shaft Lifter (Schlumpf)
+C4025 - Document - Shaft Lifter (Schlumpf)
+C4000 - Contact - Scissor Lift (Skyjack)
+C4000 - Notify - Scissor Lift (Skyjack)
+C4000 - Document - Scissor Lift (Skyjack)
+C4012 - Contact - Boom Lift (Genie)
+C4012 - Notify - Boom Lift (Genie)
+C4012 - Document - Boom Lift (Genie)
+C3502 - Contact - Forklift 1 (Yale)
+C3502 - Notify - Forklift 1 (Yale)
+C3502 - Document - Forklift 1 (Yale)
+C3503 - Contact - Forklift 2 (Combi)
+C3503 - Notify - Forklift 2 (Combi)
+C3503 - Document - Forklift 2 (Combi)
+C3505 - Contact - Forklift 4 (Yale)
+C3505 - Notify - Forklift 4 (Yale)
+C3505 - Document - Forklift 4 (Yale)
+C3506 - Contact - Forklift 5 (Yale)
+C3506 - Notify - Forklift 5 (Yale)
+C3506 - Document - Forklift 5 (Yale)
+"
+C3500M6PPMM,"C3506 - Contact - Forklift 5 (Yale)
+C3506 - Notify - Forklift 5 (Yale)
+C3506 - Document - Forklift 5 (Yale)
+C4000 - Contact - Scissor Lift (Skyjack)
+C4000 - Notify - Scissor Lift (Skyjack)
+C4000 - Document - Scissor Lift (Skyjack)
+C3503 - Contact - Forklift 2 (Combi)
+C3503 - Notify - Forklift 2 (Combi)
+C3503 - Document - Forklift 2 (Combi)
+C3502 - Contact - Forklift 1 (Yale)
+C3502 - Notify - Forklift 1 (Yale)
+C3502 - Document - Forklift 1 (Yale)
+C3504 - Contact - Forklift 3 (Combi)
+C3504 - Notify - Forklift 3 (Combi)
+C3504 - Document - Forklift 3 (Combi)
+C4012 - Contact - Boom Lift (Genie)
+C4012 - Notify - Boom Lift (Genie)
+C4012 - Document - Boom Lift (Genie)
+C4025 - Contact - Shaft Lifter (Schlumpf)
+C4025 - Notify - Shaft Lifter (Schlumpf)
+C4025 - Document - Shaft Lifter (Schlumpf)
+C3505 - Contact - Forklift 4 (Yale)
+C3505 - Notify - Forklift 4 (Yale)
+C3505 - Document - Forklift 4 (Yale)
+"
+C3500M3PPMM,"C4025 - Contact - Shaft Lifter (Schlumpf)
+C4025 - Notify - Shaft Lifter (Schlumpf)
+C4025 - Document - Shaft Lifter (Schlumpf)
+C4000 - Contact - Scissor Lift (Skyjack)
+C4000 - Notify - Scissor Lift (Skyjack)
+C4000 - Document - Scissor Lift (Skyjack)
+C4012 - Contact - Boom Lift (Genie)
+C4012 - Notify - Boom Lift (Genie)
+C4012 - Document - Boom Lift (Genie)
+C3502 - Contact - Forklift 1 (Yale)
+C3502 - Notify - Forklift 1 (Yale)
+C3502 - Document - Forklift 1 (Yale)
+C3503 - Contact - Forklift 2 (Combi)
+C3503 - Notify - Forklift 2 (Combi)
+C3503 - Document - Forklift 2 (Combi)
+C3504 - Contact - Forklift 3 (Combi)
+C3504 - Notify - Forklift 3 (Combi)
+C3504 - Document - Forklift 3 (Combi)
+C3505 - Contact - Forklift 4 (Yale)
+C3505 - Notify - Forklift 4 (Yale)
+C3505 - Document - Forklift 4 (Yale)
+C3506 - Contact - Forklift 5 (Yale)
+C3506 - Notify - Forklift 5 (Yale)
+C3506 - Document - Forklift 5 (Yale)
+"
+C3001Y2SAFM,"C3040 - Contact - Compressed Air Receiver Tank 1 (400 GAL)
+C3040 - Inspect - Compressed Air Receiver Tank 1 (400 GAL)
+C3040 - Document - Compressed Air Receiver Tank 1 (400 GAL)
+C3040 - Display & Document - Compressed Air Receiver Tank 1 (400 GAL)
+C3057 - Contact - Compressed Air Receiver Tank 2 (1500 GAL)
+C3057 - Inspect - Compressed Air Receiver Tank 2 (1500 GAL)
+C3057 - Document - Compressed Air Receiver Tank 2 (1500 GAL)
+C3057 - Display & Document - Compressed Air Receiver Tank 2 (1500 GAL)
+"
+C1660M2PDMM,"C1673 - SDT Route - Cooling Water Transfer Pump 1 (TPO Main)
+C1674 - SDT Route - Cooling Water Transfer Pump 2 (ISO)
+C1675 - SDT Route - Cooling Water Transfer Pump 3 (TPO Spare)
+"
+C1050W4SAFM,"C1141 - Crane & Hoist Inspection - Crane 1 (TPO,Scrim,3 Ton)
+C1141 - Spreader Beam - Crane 1 (TPO,Scrim,3 Ton)
+C1142 - Crane & Hoist Inspection - Crane 2 (TPO,10 Ton)
+C1142 - Spreader Beam - Crane 2 (TPO,10 Ton)
+C1143 - Crane & Hoist Inspection - Crane 3 (ISO,Facer)
+C1143 - Spreader Beam - Crane 3 (ISO,Facer)
+C1161 - Crane & Hoist Inspection - Hoist 1 (TPO,Top Extruder)
+C1161 - Spreader Beam - Hoist 1 (TPO,Top Extruder)
+C1162 - Crane & Hoist Inspection - Hoist 2 (TPO,Bottom Extruder)
+C1162 - Spreader Beam - Hoist 2 (TPO,Bottom Extruder)
+C1163 - Crane & Hoist Inspection - Hoist 3 (TPO,Top Weathering Package)
+C1163 - Spreader Beam - Hoist 3 (TPO,Top Weathering Package)
+C1164 - Crane & Hoist Inspection - Hoist 4 (TPO,Bottom Weathering Package)
+C1164 - Spreader Beam - Hoist 4 (TPO,Bottom Weathering Package)
+C1165 - Crane & Hoist Inspection - Hoist 5 (TPO,MgOH2 Spare)
+C1165 - Spreader Beam - Hoist 5 (TPO,MgOH2 Spare)
+C1166 - Crane & Hoist Inspection - Hoist 6 (ISO,MSK)
+C1166 - Spreader Beam - Hoist 6 (ISO,MSK)
+"
+B1800M3HKGM,"B1822 - Pump Casing Cleaning - Polyol Mix Metering Pump 2
+B1824 - Pump Casing Cleaning - Polyol Mix Metering Pump 3
+"
+B1600Y1PPMM1,"B1643 - Pressure Relief/Safety Valve Inspection - Pentane Metering Tri-pump 2
+B1644 - Pressure Relief/Safety Valve Inspection - Pentane Metering Tri-pump 3
+B1635 - Pressure Relief/Safety Valve Inspection - Pentane Heat Exchanger
+B1642 - Pressure Relief/Safety Valve Inspection - Pentane Metering Tri-pump 1
+"
+B1600Y1PPMM,"B1615 - Flow Switch Inspection - Pentane Tank Transfer Pump 1
+B1615 - Flow Control Valve Inspection - Pentane Tank Transfer Pump 1
+B1617 - Flow Switch Inspection - Pentane Tank Transfer Pump 2
+B1617 - Flow Control Valve Inspection - Pentane Tank Transfer Pump 2
+"
+B1600Y1PPME,"B1615 - Inspect Encoder - Pentane Tank Transfer Pump 1
+B1615 - Inspect Winding(AC) - Pentane Tank Transfer Pump 1
+B1617 - Inspect Encoder - Pentane Tank Transfer Pump 2
+B1617 - Inspect Winding(AC) - Pentane Tank Transfer Pump 2
+B1642 - Inspect Encoder - Pentane Metering Tri-pump 1
+B1642 - Inspect Winding(AC) - Pentane Metering Tri-pump 1
+B1643 - Inspect Encoder - Pentane Metering Tri-pump 2
+B1643 - Inspect Winding(AC) - Pentane Metering Tri-pump 2
+B1644 - Inspect Encoder - Pentane Metering Tri-pump 3
+B1644 - Inspect Winding(AC) - Pentane Metering Tri-pump 3
+"
+B1600M3PPMM2,"B1643 - Inspect Bolt - Pentane Metering Tri-pump 2
+B1644 - Inspect Bolt - Pentane Metering Tri-pump 3
+B1642 - Inspect Bolt - Pentane Metering Tri-pump 1
+B1627 - Inspect Bolt - Pentane Sump Pump
+"
+B1600M3PPMM1,"B1627 - Inspect Fan(Motor) - Pentane Sump Pump
+B1627 - Inspect Power Cable - Pentane Sump Pump
+B1627 - Inspect Junction Box - Pentane Sump Pump
+B1627 - Inspect Brush(Commutator) - Pentane Sump Pump
+B1642 - Inspect Fan(Motor) - Pentane Metering Tri-pump 1
+B1642 - Inspect Power Cable - Pentane Metering Tri-pump 1
+B1642 - Inspect Junction Box - Pentane Metering Tri-pump 1
+B1642 - Inspect Brush(Commutator) - Pentane Metering Tri-pump 1
+B1644 - Inspect Fan(Motor) - Pentane Metering Tri-pump 3
+B1644 - Inspect Power Cable - Pentane Metering Tri-pump 3
+B1644 - Inspect Junction Box - Pentane Metering Tri-pump 3
+B1644 - Inspect Brush(Commutator) - Pentane Metering Tri-pump 3
+B1643 - Inspect Fan(Motor) - Pentane Metering Tri-pump 2
+B1643 - Inspect Power Cable - Pentane Metering Tri-pump 2
+B1643 - Inspect Junction Box - Pentane Metering Tri-pump 2
+B1643 - Inspect Brush(Commutator) - Pentane Metering Tri-pump 2
+"
+B1600M3PPMM,"B1635 - Inspect Bolt - Pentane Heat Exchanger
+B1635 - Inspect Coupling - Pentane Heat Exchanger
+B1635 - Inspect Valve - Pentane Heat Exchanger
+B1635 - Inspect Valve(Hand) - Pentane Heat Exchanger
+B1617 - Inspect Bolt - Pentane Tank Transfer Pump 2
+B1617 - Inspect Coupling - Pentane Tank Transfer Pump 2
+B1617 - Inspect Valve - Pentane Tank Transfer Pump 2
+B1617 - Inspect Valve(Hand) - Pentane Tank Transfer Pump 2
+B1615 - Inspect Bolt - Pentane Tank Transfer Pump 1
+B1615 - Inspect Coupling - Pentane Tank Transfer Pump 1
+B1615 - Inspect Valve - Pentane Tank Transfer Pump 1
+B1615 - Inspect Valve(Hand) - Pentane Tank Transfer Pump 1
+"
+B1600M3PPME,"B1615 - Inspect Fan(Motor) - Pentane Tank Transfer Pump 1
+B1615 - Inspect Power Cable - Pentane Tank Transfer Pump 1
+B1615 - Inspect Junction Box - Pentane Tank Transfer Pump 1
+B1617 - Inspect Fan(Motor) - Pentane Tank Transfer Pump 2
+B1617 - Inspect Power Cable - Pentane Tank Transfer Pump 2
+B1617 - Inspect Junction Box - Pentane Tank Transfer Pump 2
+"
+B1600M2PDMM,"B1617 - Pump (Centrifugal) Valve Inspection - Pentane Tank Transfer Pump 2
+B1617 - Hand Valve Inspection - Pentane Tank Transfer Pump 2
+B1615 - Pump (Centrifugal) Valve Inspection - Pentane Tank Transfer Pump 1
+B1615 - Hand Valve Inspection - Pentane Tank Transfer Pump 1
+"
+B1600M1PPMM,"B1642 - Inspect Oil(Gearbox) - Pentane Metering Tri-pump 1
+B1643 - Inspect Oil(Gearbox) - Pentane Metering Tri-pump 2
+B1644 - Inspect Oil(Gearbox) - Pentane Metering Tri-pump 3
+"
+B1600M1PDMM1,"B1644 - Motor (AC) Bearing Inspection - Pentane Metering Tri-pump 3
+B1644 - Gearbox Bearing Inspection - Pentane Metering Tri-pump 3
+B1643 - Motor (AC) Bearing Inspection - Pentane Metering Tri-pump 2
+B1643 - Gearbox Bearing Inspection - Pentane Metering Tri-pump 2
+B1642 - Motor (AC) Bearing Inspection - Pentane Metering Tri-pump 1
+B1642 - Gearbox Bearing Inspection - Pentane Metering Tri-pump 1
+"
+B1600M1PDMM,"B1615 - Motor (AC) Bearing Inspection - Pentane Tank Transfer Pump 1
+B1615 - Pump (Centrifugal) Bearing Inspection - Pentane Tank Transfer Pump 1
+B1615 - Gearbox Bearing Inspection - Pentane Tank Transfer Pump 1
+B1615 - Coupling Inspection - Pentane Tank Transfer Pump 1
+B1617 - Motor (AC) Bearing Inspection - Pentane Tank Transfer Pump 2
+B1617 - Pump (Centrifugal) Bearing Inspection - Pentane Tank Transfer Pump 2
+B1617 - Gearbox Bearing Inspection - Pentane Tank Transfer Pump 2
+B1617 - Coupling Inspection - Pentane Tank Transfer Pump 2
+"
+B1100M3PPME,"B1110 - Inspect Sensor(Thermo) - Polyol Storage Tank 1
+B1114 - Inspect Sensor(Thermo) - Polyol Storage Tank 2
+"
+B1000Y1PPMM3,"B1050 - Inspect Heater(Electric) - MDI Heat Exchanger
+B1054 - Inspect Heater(Electric) - MDI Metering Heat Exchanger 1
+B1055 - Inspect Heater(Electric) - MDI Metering Heat Exchanger 2
+B1056 - Inspect Heater(Electric) - MDI Metering Heat Exchanger 3
+"
+B1000Y1PPMM2,"B1013 - Valve(Vacuum Relief) Inspection - MDI Storage Tank 2
+B1010 - Valve(Vacuum Relief) Inspection - MDI Storage Tank 1
+"
+B1000Y1PPMM1,"B1010 - Inspect Tank(Body) - MDI Storage Tank 1
+B1013 - Inspect Tank(Body) - MDI Storage Tank 2
+"
+B1000Y1PPMM,"B1050 - Inspect Valve(Flow Control) - MDI Heat Exchanger
+B1056 - Inspect Valve(Flow Control) - MDI Metering Heat Exchanger 3
+B1070 - Inspect Valve(Flow Control) - MDI Piping System
+B1054 - Inspect Valve(Flow Control) - MDI Metering Heat Exchanger 1
+B1055 - Inspect Valve(Flow Control) - MDI Metering Heat Exchanger 2
+"
+B1000Y1LC1M,"B1055 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Metering Heat Exchanger 2
+B1054 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Metering Heat Exchanger 1
+B1056 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Metering Heat Exchanger 3
+B1040 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Tanks Transfer Pump
+B1050 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Heat Exchanger
+B1010 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Storage Tank 1
+B1013 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Storage Tank 2
+B1005 - Inspect Valve(Pressure Relief/Safety Asphalt) - MDI Unloading Pump
+"
+B1000Y1HKGM,"B1010 - Tank (Body) Cleaning - MDI Storage Tank 1
+B1013 - Tank (Body) Cleaning - MDI Storage Tank 2
+"
+B1000M3PPMM5,"B1002 - Inspect Hose(Pneumatic) - MDI Unloading Station (Rail)
+B1003 - Inspect Hose(Pneumatic) - MDI Unloading Station (Truck)
+B1070 - Inspect Hose(Pneumatic) - MDI Piping System
+"
+B1000M3PPMM4,"B1005 - Impeller Inspection - MDI Unloading Pump
+B1040 - Impeller Inspection - MDI Tanks Transfer Pump
+"
+B1000M3PPMM3,"B1040 - Inspect Oil(Gearbox) - MDI Tanks Transfer Pump
+B1005 - Inspect Oil(Gearbox) - MDI Unloading Pump
+"
+B1000M3PPMM2,"B1003 - Inspect Bolt - MDI Unloading Station (Truck)
+B1002 - Inspect Bolt - MDI Unloading Station (Rail)
+"
+B1000M3PPMM1,"B1005 - Inspect Bolt - MDI Unloading Pump
+B1040 - Inspect Bolt - MDI Tanks Transfer Pump
+B1050 - Inspect Bolt - MDI Heat Exchanger
+B1054 - Inspect Bolt - MDI Metering Heat Exchanger 1
+B1055 - Inspect Bolt - MDI Metering Heat Exchanger 2
+B1056 - Inspect Bolt - MDI Metering Heat Exchanger 3
+"
+B1000M3PPMM,"B1040 - Inspect Coupling - MDI Tanks Transfer Pump
+B1005 - Inspect Coupling - MDI Unloading Pump
+"
+B1000M3PPME1,"B1010 - Inspect Sensor(Level) - MDI Storage Tank 1
+B1013 - Inspect Sensor(Level) - MDI Storage Tank 2
+"
+B1000M3PPME,"B1040 - CLEANING - MDI Tanks Transfer Pump
+B1054 - Inspect Power Cable - MDI Metering Heat Exchanger 1
+B1005 - Inspect Fan(Motor) - MDI Unloading Pump
+B1050 - Inspect Junction Box - MDI Heat Exchanger
+B1055 - Inspect Power Cable - MDI Metering Heat Exchanger 2
+B1056 - Inspect Power Cable - MDI Metering Heat Exchanger 3
+"
+B1000M1PDME,"B1056 - Inspect Junction Box - MDI Metering Heat Exchanger 3
+B1055 - Inspect Junction Box - MDI Metering Heat Exchanger 2
+B1005 - Inspect Winding(AC) - MDI Unloading Pump
+B1054 - Inspect Junction Box - MDI Metering Heat Exchanger 1
+B1050 - Inspect Junction Box - MDI Heat Exchanger
+B1040 - Inspect Junction Box - MDI Tanks Transfer Pump
+"
+B0001Y1PPMM1,"B1135 - Inspect Heater(Electric) - Polyol Heat Exchanger
+B1817 - Inspect Heater(Electric) - Polyol Mix Heat Exchanger 3
+B1813 - Inspect Heater(Electric) - Polyol Mix Heat Exchanger 1
+B1815 - Inspect Heater(Electric) - Polyol Mix Heat Exchanger 2
+"
+B0001Y1PPMM,"B1815 - Inspect Valve(Flow Control) - Polyol Mix Heat Exchanger 2
+B1813 - Inspect Valve(Flow Control) - Polyol Mix Heat Exchanger 1
+B1817 - Inspect Valve(Flow Control) - Polyol Mix Heat Exchanger 3
+B1140 - Inspect Valve(Flow Control) - Polyol Piping System
+B1114 - Inspect Valve(Flow Control) - Polyol Storage Tank 2
+B1135 - Inspect Valve(Flow Control) - Polyol Heat Exchanger
+B1110 - Inspect Valve(Flow Control) - Polyol Storage Tank 1
+B1110 - Valve(Vacuum Relief) Inspection - Polyol Storage Tank 1
+B1827 - Inspect Valve(Flow Control) - Polyol Mix Piping System
+"
+B0001Y1PPME,"B1105 - Inspect Motor(AC) 2 - Polyol Unloading Pump
+B1115 - Inspect Motor(AC) 2 - Polyol Tanks Transfer Pump
+B1135 - Inspect Motor(AC) 2 - Polyol Heat Exchanger
+B1820 - Inspect Motor(AC) 2 - Polyol Mix Metering Pump 1
+B1824 - Inspect Motor(AC) 2 - Polyol Mix Metering Pump 3
+B1822 - Inspect Motor(AC) 2 - Polyol Mix Metering Pump 2
+B1817 - Inspect Motor(AC) 2 - Polyol Mix Heat Exchanger 3
+B1815 - Inspect Motor(AC) 2 - Polyol Mix Heat Exchanger 2
+B1805 - Inspect Motor(AC) 2 - Polyol Mix Delivery Pump
+B1813 - Inspect Motor(AC) 2 - Polyol Mix Heat Exchanger 1
+B1803 - Inspect Motor(AC) 2 - Polyol Mix Dynamic Mixer
+"
+B0001Y1LUBM,"B1803 - Inspect Oil(Gearbox) - Polyol Mix Dynamic Mixer
+B1805 - Inspect Oil(Gearbox) - Polyol Mix Delivery Pump
+B1824 - Inspect Oil(Gearbox) - Polyol Mix Metering Pump 3
+B1820 - Inspect Oil(Gearbox) - Polyol Mix Metering Pump 1
+B1822 - Inspect Oil(Gearbox) - Polyol Mix Metering Pump 2
+B1115 - Inspect Oil(Gearbox) - Polyol Tanks Transfer Pump
+B1105 - Inspect Oil(Gearbox) - Polyol Unloading Pump
+"
+B0001Y1LC1M,"B1110 - Inspect Valve(Pressure Relief/Safety) - Polyol Storage Tank 1
+B1115 - Inspect Valve(Pressure Relief/Safety) - Polyol Tanks Transfer Pump
+B1114 - Inspect Valve(Pressure Relief/Safety) - Polyol Storage Tank 2
+B1135 - Inspect Valve(Pressure Relief/Safety) - Polyol Heat Exchanger
+B1820 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Metering Pump 1
+B1822 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Metering Pump 2
+B1824 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Metering Pump 3
+B1803 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Dynamic Mixer
+B1809 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Pressure Vessel
+B1813 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Heat Exchanger 1
+B1815 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Heat Exchanger 2
+B1817 - Inspect Valve(Pressure Relief/Safety) - Polyol Mix Heat Exchanger 3
+"
+B0001M6PPMM,"B1817 - Inspect Valve(Flow Control) 1 - Polyol Mix Heat Exchanger 3
+B1815 - Inspect Valve(Flow Control) 1 - Polyol Mix Heat Exchanger 2
+B1813 - Inspect Valve(Flow Control) 1 - Polyol Mix Heat Exchanger 1
+B1827 - Inspect Valve(Flow Control) 1 - Polyol Mix Piping System
+B1135 - Inspect Valve(Flow Control) 1 - Polyol Heat Exchanger
+B1140 - Inspect Valve(Flow Control) 1 - Polyol Piping System
+B1114 - Inspect Valve(Flow Control) 1 - Polyol Storage Tank 2
+B1110 - Inspect Valve(Flow Control) 1 - Polyol Storage Tank 1
+"
+B0001M6HKGO,"B1110 - Sensor(Level) Cleaning - Polyol Storage Tank 1
+B1114 - Sensor(Level) Cleaning - Polyol Storage Tank 2
+B1135 - Sensor(Level) Cleaning - Polyol Heat Exchanger
+B1813 - Sensor(Level) Cleaning - Polyol Mix Heat Exchanger 1
+B1815 - Sensor(Level) Cleaning - Polyol Mix Heat Exchanger 2
+B1817 - Sensor(Level) Cleaning - Polyol Mix Heat Exchanger 3
+"
+B0001M3PPMO,"B1140 - Inspect Valve(Ball/Butterfly/Globe) - Polyol Piping System
+B1827 - Inspect Valve(Ball/Butterfly/Globe) - Polyol Mix Piping System
+"
+B0001M3PPMM3,"B1824 - Inspect Coupling - Polyol Mix Metering Pump 3
+B1115 - Inspect Coupling - Polyol Tanks Transfer Pump
+B1105 - Inspect Coupling - Polyol Unloading Pump
+B1805 - Inspect Coupling - Polyol Mix Delivery Pump
+B1822 - Inspect Coupling - Polyol Mix Metering Pump 2
+B1820 - Inspect Coupling - Polyol Mix Metering Pump 1
+B1803 - Inspect Coupling - Polyol Mix Dynamic Mixer
+"
+B0001M3PPMM2,"B1820 - Inspect Valve(Hand) - Polyol Mix Metering Pump 1
+B1822 - Inspect Valve(Hand) - Polyol Mix Metering Pump 2
+B1824 - Inspect Valve(Hand) - Polyol Mix Metering Pump 3
+"
+B0001M3PPMM1,"B1805 - Inspect Valve - Polyol Mix Delivery Pump
+B1813 - Inspect Valve - Polyol Mix Heat Exchanger 1
+B1817 - Inspect Valve - Polyol Mix Heat Exchanger 3
+B1815 - Inspect Valve - Polyol Mix Heat Exchanger 2
+B1103 - Inspect Valve - Polyol Unloading Station (Truck)
+B1135 - Inspect Valve - Polyol Heat Exchanger
+"
+B0001M3PPMM,"B1140 - Inspect Hose(Pneumatic) - Polyol Piping System
+B1103 - Inspect Hose(Pneumatic) - Polyol Unloading Station (Truck)
+B1809 - Inspect Hose(Pneumatic) - Polyol Mix Pressure Vessel
+B1827 - Inspect Hose(Pneumatic) - Polyol Mix Piping System
+"
+B0001M3PPME1,"B1813 - Inspect Sensor(Level) - Polyol Mix Heat Exchanger 1
+B1815 - Inspect Sensor(Level) - Polyol Mix Heat Exchanger 2
+B1817 - Inspect Sensor(Level) - Polyol Mix Heat Exchanger 3
+B1110 - Inspect Sensor(Level) - Polyol Storage Tank 1
+B1135 - Inspect Sensor(Level) - Polyol Heat Exchanger
+B1114 - Inspect Sensor(Level) - Polyol Storage Tank 2
+"
+B0001M3PPME,"B1115 - Inspect Motor(AC) 1 - Polyol Tanks Transfer Pump
+B1135 - Inspect Motor(AC) 1 - Polyol Heat Exchanger
+B1105 - Inspect Motor(AC) 1 - Polyol Unloading Pump
+B1817 - Inspect Motor(AC) 1 - Polyol Mix Heat Exchanger 3
+B1815 - Inspect Motor(AC) 1 - Polyol Mix Heat Exchanger 2
+B1813 - Inspect Motor(AC) 1 - Polyol Mix Heat Exchanger 1
+B1824 - Inspect Motor(AC) 1 - Polyol Mix Metering Pump 3
+B1822 - Inspect Motor(AC) 1 - Polyol Mix Metering Pump 2
+B1820 - Inspect Motor(AC) 1 - Polyol Mix Metering Pump 1
+B1803 - Inspect Motor(AC) 1 - Polyol Mix Dynamic Mixer
+B1805 - Inspect Motor(AC) 1 - Polyol Mix Delivery Pump
+"
+B0001M3HKGM1,"B1820 - Valve(Hand) Cleaning - Polyol Mix Metering Pump 1
+B1822 - Valve(Hand) Cleaning - Polyol Mix Metering Pump 2
+B1824 - Valve(Hand) Cleaning - Polyol Mix Metering Pump 3
+B1105 - Valve(Hand) Cleaning - Polyol Unloading Pump
+B1140 - Valve(Hand) Cleaning - Polyol Piping System
+B1140 - Valve(Hand) Cleaning - Polyol Piping System
+B1115 - Valve(Hand) Cleaning - Polyol Tanks Transfer Pump
+B1827 - Valve(Hand) Cleaning - Polyol Mix Piping System
+B1827 - Valve(Hand) Cleaning - Polyol Mix Piping System
+"
+B0001M3HKGM,"B1115 - Pump Cleaning - Polyol Tanks Transfer Pump
+B1105 - Pump Cleaning - Polyol Unloading Pump
+B1805 - Pump Cleaning - Polyol Mix Delivery Pump
+"
+B0001M1PPMM1,"B1822 - Inspect Guard - Polyol Mix Metering Pump 2
+B1824 - Inspect Guard - Polyol Mix Metering Pump 3
+B1820 - Inspect Guard - Polyol Mix Metering Pump 1
+B1805 - Inspect Guard - Polyol Mix Delivery Pump
+B1803 - Inspect Guard - Polyol Mix Dynamic Mixer
+B1105 - Inspect Guard - Polyol Unloading Pump
+B1115 - Inspect Guard - Polyol Tanks Transfer Pump
+"
+B0001M1PPMM,"B1115 - Inspect Arm(Torque) - Polyol Tanks Transfer Pump
+B1105 - Inspect Arm(Torque) - Polyol Unloading Pump
+B1803 - Inspect Arm(Torque) - Polyol Mix Dynamic Mixer
+B1803 - Inspect Gland(Packing) - Polyol Mix Dynamic Mixer
+B1822 - Inspect Arm(Torque) - Polyol Mix Metering Pump 2
+B1820 - Inspect Arm(Torque) - Polyol Mix Metering Pump 1
+B1824 - Inspect Arm(Torque) - Polyol Mix Metering Pump 3
+B1805 - Inspect Arm(Torque) - Polyol Mix Delivery Pump
+"
+B0001M1PPME,"B1805 - Inspect Motor(AC) - Polyol Mix Delivery Pump
+B1813 - Inspect Motor(AC) - Polyol Mix Heat Exchanger 1
+B1815 - Inspect Motor(AC) - Polyol Mix Heat Exchanger 2
+B1817 - Inspect Motor(AC) - Polyol Mix Heat Exchanger 3
+B1824 - Inspect Motor(AC) - Polyol Mix Metering Pump 3
+B1822 - Inspect Motor(AC) - Polyol Mix Metering Pump 2
+B1820 - Inspect Motor(AC) - Polyol Mix Metering Pump 1
+B1803 - Inspect Motor(AC) - Polyol Mix Dynamic Mixer
+B1105 - Inspect Motor(AC) - Polyol Unloading Pump
+B1115 - Inspect Motor(AC) - Polyol Tanks Transfer Pump
+B1135 - Inspect Motor(AC) - Polyol Heat Exchanger
+"
+B0001M1PDMM1,"B1140 - Valve (Check) Inspection - Polyol Piping System
+B1827 - Valve (Check) Inspection - Polyol Mix Piping System
+"
+B0001M1PDMM,"B1827 - Inspect Valve(Hand) - Polyol Mix Piping System
+B1140 - Inspect Valve(Hand) - Polyol Piping System
+B1115 - Inspect Valve(Hand) - Polyol Tanks Transfer Pump
+B1105 - Inspect Valve(Hand) - Polyol Unloading Pump
+"
