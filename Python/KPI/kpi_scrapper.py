@@ -14,7 +14,7 @@ from datetime import date
 html = 'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html'
 # --------------------------------
 # variables to change
-month = 9
+month = 10
 year = 2021
 # variables to change
 # --------------------------------

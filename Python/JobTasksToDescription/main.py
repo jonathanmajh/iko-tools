@@ -1,18 +1,28 @@
 import csv
 from os import read
 
+from openpyxl import load_workbook
+
 jps = {}
+tasks = {}
+wb = load_workbook(filename = 'BL_Route_JobTasks2.xlsx')
+ws = wb["BL_Route_JobTasks2"]
 
-with open('JobTasksToDescription/BL_Route_JobTasks.csv') as f:
-    reader = csv.reader(f, delimiter=',')
-    for row in reader:
-        if (not(row[0] in jps)):
-            jps[row[0]] = f'{row[1]} - {row[5]} - {row[6]}\n'
-        else:
-            jps[row[0]] = f'{jps[row[0]]}{row[1]} - {row[5]} - {row[6]}\n'
+for row in ws.iter_rows():
+    if (not(row[0].value in jps)):
+        jps[row[0].value] = f'{row[4].value} - {row[1].value} - {row[5].value}'
+        tasks[row[0].value] = [row[4].value]
+    else:
+        jps[row[0].value] = f'{jps[row[0].value]}\n{row[4].value} - {row[1].value} - {row[5].value}'
+        if not (row[4].value in tasks[row[0].value]):
+            tasks[row[0].value].append(row[4].value)
 
-with open('JobTasksToDescription/result.csv', 'w', encoding='UTF8', newline='') as f:
+with open('result3.csv', 'w', encoding='UTF8', newline='') as f:
     write = csv.writer(f)
     for item in jps:
-        row = [item, jps[item]]
-        write.writerow(row)
+        if len(tasks[item]) > 1:
+            row = [item, jps[item]]
+            write.writerow(row)
+        else:
+            row = [item, tasks[item][0]]
+            write.writerow(row)

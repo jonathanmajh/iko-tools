@@ -15,7 +15,7 @@ with open('CheckJobLabor.csv', newline='') as f:
     data = list(reader)
 
 for row in data:
-    response = requests.get(f'http://nscandacmaxapp1/maxrest/oslc/os/iko_joblabor?oslc.select=*&oslc.where=jpnum="{row[0]}"&_lid=corcoop3&_lpwd=happy818')
+    response = requests.get(f'http://nscandacmaxapp1/maxrest/oslc/os/iko_joblabor?oslc.select=*&oslc.where=jpnum="{row[0]}"&_lid=majona&_lpwd=maximo')
     response = response.json()
     labors = {}
     logging.info(row[0])
@@ -27,5 +27,5 @@ for row in data:
             logging.info(f'adding   : {search}')
         else:
             logging.info(f'duplicate: {search}')
-            response2 = requests.delete(f"{joblabor['localref'].replace('localhost', 'nscandacmaxapp1')}?_lid=corcoop3&_lpwd=happy818")
+            response2 = requests.delete(f"{joblabor['localref'].replace('localhost', 'nscandacmaxapp1')}?_lid=majona&_lpwd=maximo")
             logging.info(response2)
