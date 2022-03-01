@@ -6,8 +6,8 @@ from openpyxl import load_workbook
 from openpyxl import Workbook
 
 # ------ CHANGE ME ---------
-folder_path = 'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\JDEItemRequestCombiner\\Files'
-save_path = f'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\JDEItemRequestCombiner\\{datetime.now().strftime("%d-%m-%Y_%H-%M-%S")}.xlsx'
+folder_path = 'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\JDEItemRequestCombiner\\Files'
+save_path = f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\JDEItemRequestCombiner\\{datetime.now().strftime("%d-%m-%Y_%H-%M-%S")}.xlsx'
 
 batch_wb = Workbook()
 itemBranch = batch_wb.create_sheet('ItemBranch', 0)

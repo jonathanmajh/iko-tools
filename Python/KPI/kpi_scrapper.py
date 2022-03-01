@@ -11,10 +11,10 @@ from bs4 import BeautifulSoup
 import csv
 from datetime import date
 
-html = 'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html'
+html = 'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html'
 # --------------------------------
 # variables to change
-month = 10
+month = 12
 year = 2021
 # variables to change
 # --------------------------------
@@ -24,7 +24,7 @@ with open(html, encoding='utf8', errors='ignore') as fp:
 
 sites = ['sylacauga', 'kankakee', 'sumas', 'calgary', 'hillsboro', 'hawkesbury',
 'ig brampton', 'bramcal', 'maximix', 'crc toronto', 'appleybridge', 'alconbury', 'madoc',
-'ashcroft', 'iko brampton', 'hagerstown']
+'ashcroft', 'iko brampton', 'hagerstown', 'crc brampton', 'ig high river', 'combronde']
 
 # information about tables
 # [Table acronum, [table header to look for to id table], [(special operation), month / year format]]
@@ -45,7 +45,9 @@ kpis =  [
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 #[[site], [metric], [-3 month], [-2 month], [-1 month], [report month]]
-results = [['Site'], ['KPI metric'], [months[month-11]], [months[month-10]], [months[month-9]], [months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], [months[month-3]], [months[month-2]], [months[month-1]]]
+results = [['Site'], ['KPI metric'], [months[month-11]], [months[month-10]], [months[month-9]], 
+[months[month-8]], [months[month-7]], [months[month-6]], [months[month-5]], [months[month-4]], 
+[months[month-3]], [months[month-2]], [months[month-1]]]
 
 for i in range(len(sites)): #loop through site pages
     site_page = soup.find(id=f"bux_iwidget_canvas_Canvas_{i}")
@@ -113,6 +115,6 @@ for i in range(len(sites)): #loop through site pages
             for j in range(len(results)-2):
                 results[j+2].append('Error Tables Not Found')
 
-with open(f'C:\\Users\\majona\\Documents\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
+with open(f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerows(results)
