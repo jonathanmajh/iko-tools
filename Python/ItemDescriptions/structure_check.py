@@ -14,7 +14,7 @@ tree = ''
 parent = ''
 
 manus = {}
-with open('companies.csv', mode='r', encoding='utf-8-sig') as f:
+with open('C:\\Users\\majona\\GitHub\\iko-tools\\Python\\ItemDescriptions\\companies.csv', mode='r', encoding='utf-8-sig') as f:
     for line in f:
         manus[line.split(',')[0].strip()] = 1
 
@@ -45,7 +45,7 @@ for row in ws.iter_rows(min_row=2):
                 data[tree] = descriptor(word, parent, 1, level)
             else:
                 data[tree].count = data[tree].count + 1
-            parent = tree
+            parent = word
 
 output = Workbook()
 analysis = output.create_sheet('Analysis', 0)
