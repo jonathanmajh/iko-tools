@@ -8,10 +8,14 @@ import 'package:intl/intl.dart';
 import 'dart:convert';
 
 final labors = {
-  'HERISSE Olivier': 'FRCOOHER',
-  'LEMEUX Théophile': 'UNKNOWN',
-  'BLONDEL Matthieu': 'UNKNOWN',
-  'BAYRAND Pascal': 'FRCOPBAY'
+  'HERISSE Olivier': {'laborcode': 'FRCOOHER', 'employee_number': 13},
+  'ASTREINTES HERISSE': {'laborcode': 'FRCOOHER', 'employee_number': 13},
+  'DUBOIS Michaël': {'laborcode': 'FRCOMDUB', 'employee_number': 133},
+  'ASTREINTES DUBOIS M': {'laborcode': 'FRCOMDUB', 'employee_number': 133},
+  'BAYRAND Pascal': {'laborcode': 'FRCOPBAY', 'employee_number': 50},
+  'ASTREINTES BAYRAND P': {'laborcode': 'FRCOPBAY', 'employee_number': 50},
+  'NATIVELLE Lucien': {'laborcode': 'FRCOLNAT', 'employee_number': 94},
+  'ASTREINTES NATIVELLE L': {'laborcode': 'FRCOLNAT', 'employee_number': 94},
 };
 
 void main(List<String> arguments) {
@@ -68,6 +72,9 @@ void main(List<String> arguments) {
     excel.updateCell(sheet, writeCol, 0, cell);
     writeCol++;
   }
+  dynamic totalHrs;
+  dynamic normalHrs;
+  dynamic startTime;
   var writeRow = 1;
   writeCol = 0;
   for (var table in decoder.tables.keys) {
@@ -75,26 +82,34 @@ void main(List<String> arguments) {
       // only parse the sheet if the name is in the list
       continue;
     }
-    var laborCode = labors[table];
+    var employee = labors[table];
     for (var row in decoder.tables[table]!.rows) {
       if (row[2] is int) {
-        var startTime = row[3] ?? row[5] ?? 'all null';
+        if (table.contains('ASTREINTES')) {
+          totalHrs = row[8];
+          normalHrs = 0;
+          startTime = row[4] ?? row[6] ?? 'Blank';
+        } else {
+          totalHrs = row[7];
+          normalHrs = row[8];
+          startTime = row[3] ?? row[5] ?? 'Blank';
+        }
         if (isTimeStamp(startTime)) {
           var weekday = weekdays[row[1]];
           var startTimeStamp =
               addTime(toDartDateTime(row[2].toDouble()), startTime);
           var endTimeStamp = startTimeStamp.add(Duration(
-            hours: row[7].toInt(),
-            minutes: (row[7] % 1 * 60).toInt(),
+            hours: totalHrs.toInt(),
+            minutes: (totalHrs % 1 * 60).round(),
           ));
-          var ot = row[7] - row[8];
+          var ot = totalHrs - normalHrs;
           var write = [
-            '999999', // employee number
-            laborCode,
+            employee?['employee_number'], // employee number
+            employee?['laborcode'],
             weekday,
-            DateFormat('yyyy-MM-dd H:mm').format(startTimeStamp),
-            DateFormat('yyyy-MM-dd H:mm').format(endTimeStamp),
-            (row[7]).toStringAsFixed(2), // hours worked
+            DateFormat('yyyy-MM-dd HH:mm').format(startTimeStamp),
+            DateFormat('yyyy-MM-dd HH:mm').format(endTimeStamp),
+            (totalHrs).toStringAsFixed(2), // hours worked
             null,
             null,
             null,
@@ -102,7 +117,7 @@ void main(List<String> arguments) {
             null,
             null,
             null,
-            (row[7] < row[8] ? row[7] : row[8]).toStringAsFixed(2),
+            (totalHrs < normalHrs ? totalHrs : normalHrs).toStringAsFixed(2),
             (ot > 0 ? ot : 0).toStringAsFixed(2)
           ];
           excel.insertRow(sheet, writeRow);
@@ -133,6 +148,13 @@ final weekdays = {
   'Vendredi': 'FRIDAY',
   'Samedi': 'SATURDAY',
   'Dimanche': 'SUNDAY',
+  'lundi': 'MONDAY',
+  'mardi': 'TUESDAY',
+  'mercredi': 'WEDNESDAY',
+  'jeudi': 'THURSDAY',
+  'vendredi': 'FRIDAY',
+  'samedi': 'SATURDAY',
+  'dimanche': 'SUNDAY',
 };
 
 double toMicrosoftDateTime(DateTime date) {
@@ -150,7 +172,7 @@ DateTime toDartDateTime(double timeStamp) {
 DateTime addTime(DateTime date, String time) {
   var digits = time.split(':');
   return date.add(Duration(
-      hours: int.parse(digits[0]) - 1,
+      hours: int.parse(digits[0]),
       minutes: int.parse(digits[1]),
       seconds: int.parse(digits[2])));
 }
