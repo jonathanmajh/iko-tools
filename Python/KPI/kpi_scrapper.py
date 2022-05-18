@@ -14,7 +14,7 @@ from datetime import date
 html = 'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html'
 # --------------------------------
 # variables to change
-month = 2
+month = 4
 year = 2022
 # variables to change
 # --------------------------------
@@ -30,7 +30,7 @@ sites = ['sylacauga', 'kankakee', 'sumas', 'calgary', 'hillsboro', 'hawkesbury',
 # [Table acronum, [table header to look for to id table], [(special operation), month / year format]]
 kpis =  [
     ['MLH V KLH', ['MonthYear', 'Kronos Hours', 'Maximo Hours', 'MaximoVsKronosPercentage', 'CompletedWOCount'], ['PERCENT', 'MM-YYYY'], -2],
-    ['LHC-LLCA', ['MonthYear', 'Labor Hours Charged to Lowest Level Child Assets', 'Total Labor Hours', "% of Labor Hours Charged To Lowest Level Child Assets"], ['MM-YYYY']],
+    ['LHC-LLCA', ['MonthYear', 'Labor Hours Charged to Lowest Level Child Assets', 'Labor Hours Not Charged to Lowest Level Child Assets', 'Total Labor Hours', "% of Labor Hours Charged To Lowest Level Child Assets"], ['MM-YYYY']],
     ['WONCP', ['MonthYear', 'Percentage'], ['PERCENT', 'MM-YYYY']],
     ['JPC', ['MonthYear', 'JobPlan Count'], ['MM-YYYY']],
     ['PMCOTT', ['PMType', 'MonthYear', 'OnTimeCount', 'Percentage'], ['MM-YYYY', 'All']],
@@ -113,7 +113,7 @@ for i in range(len(sites)): #loop through site pages
                             month_count = month_count + 1
         if not found_kpi: # some tables are blank even if they exist
             for j in range(len(results)-2):
-                results[j+2].append('Error Tables Not Found')
+                results[j+2].append('-')
 
 with open(f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv', 'w', newline='') as f:
     writer = csv.writer(f)
