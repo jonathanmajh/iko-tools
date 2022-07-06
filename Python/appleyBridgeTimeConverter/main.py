@@ -72,7 +72,10 @@ for filepath in glob.glob(os.path.join(folder_path, "*.xls*")):
     for row in sheet.iter_rows(values_only=True):
         if set(['Day', 'Daily Times', 'Basic', 'OT1', 'OT2', 'Hols', 'Sick', 'CC/AB', 'Daily Totals']) <= set(row):
             employee_number = sheet.cell(row=current_row, column=1).value
-            employee = people[sheet.cell(row=current_row, column=2).value]
+            try:
+                employee = people[sheet.cell(row=current_row, column=2).value]
+            except Exception as e:
+                print(row)
         current_row = current_row + 1
         try:
             start_time = datetime.strptime(f'{year}/{row[0]}','%Y/%a/%d/%b')

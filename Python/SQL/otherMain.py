@@ -15,26 +15,24 @@ save_path = f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\SQL\\{datetime.now()
 
 cursor = conn.cursor()
 
-cursor.execute("""select t1.siteid, t1.assetnum as parentassetnum, t1.assetdescription as parentassetdescription, t1.pmnum as parentpmnumber, t1.jpnum as parentjobplan,
-coalesce(t3.assetnum, t1.assetnum) as childasset, coalesce(t3.childassetdescription, t1.assetdescription) as childassetdescription,
-case when ISNULL(t3.route,'bla') = 'bla' then 'No' else 'Yes' end as isroute, t3.route as routenumber, t3.jpnum as childjobplans, 
---bla is placeholder since the original has 0, but a string got coalesced and resulted in a string = 0 comparison error
-t4.jptask as childtask, t4.description as childtaskshortdescription, t4.ldtext as childtasklongdescription
-from 
-(select pm.siteid, pm.assetnum, asset.description as assetdescription, pm.pmnum, pm.description as pmdescription, pm.jpnum, pm.route, pm.status from pm
-left join asset on asset.assetnum = pm.assetnum and asset.siteid = pm.siteid
-where pm.siteid = 'GH') t1
+cursor.execute("""
+select t1.siteid, t1.iko_pmpackage, t1.assetnum as parentassetnum, t1.description as parentassetdesc, t1.pmnum as parentpmnum, t1.frequency, t1.frequnit,
+t1.status, t1.jpnum, t2.assetnum as childassetnum, t2.description as childassetdesc, case when ISNULL(t2.route,'bla') = 'bla' then 'No' else 'Yes' end as isroute,
+t2.route, t2.jpnum, t3.iko_conditions, t3.jptask, t3.description as taskdesc, t3.ldtext as longdescription, t3.metername from
+(select pm.siteid, jobplan.iko_pmpackage, pm.assetnum, asset.description, pm.pmnum, pm.frequency, pm.frequnit, pm.status, pm.jpnum, pm.route from pm
+left join jobplan on pm.jpnum = jobplan.jpnum and pm.siteid = jobplan.siteid
+left join asset on pm.assetnum = asset.assetnum and pm.siteid = asset.siteid) t1
 left join
-(select route_stop.route, route_stop.assetnum, asset.description as childassetdescription, route_stop.jpnum, route_stop.stopsequence * 10 as taskid, route_stop.description from route_stop
-left join asset on asset.assetnum = route_stop.assetnum and asset.siteid = 'pbm'
-where route_stop.siteid = 'GH') t3
-on t1.route = t3.route
+(select route, route_stop.assetnum, asset.description, jpnum, route_stop.siteid, routestopid from route_stop
+left join asset on route_stop.assetnum = asset.assetnum and route_stop.siteid = asset.siteid) t2
+on t1.siteid = t2.siteid and t1.route = t2.route
 left join
-(select jobtask.jpnum, jobtask.siteid, jobtask.jptask, jobtask.description, longdescription.ldtext from jobtask 
-left join longdescription on ldownertable = 'jobtask' and longdescription.ldkey = jobtask.jobtaskid
-where jobtask.siteid = 'GH') t4
-on coalesce(t3.jpnum, t1.jpnum) = t4.jpnum
-order by parentpmnumber, childasset """)
+(select jobtask.jpnum, jobtask.jptask, jobtask.description, jobtask.metername, jobtask.siteid, jobplan.IKO_CONDITIONS, longdescription.ldtext from jobtask
+left join jobplan on jobplan.jpnum = jobtask.jpnum and jobplan.siteid = jobtask.siteid
+left join longdescription on ldownertable = 'jobtask' and longdescription.ldkey = jobtask.jobtaskid) t3
+on t1.siteid = t3.siteid and t3.jpnum = coalesce(t2.jpnum, t1.jpnum)
+where t1.siteid <> 'pbm'
+order by t1.siteid, t1.pmnum, t2.assetnum """)
 
 wb = Workbook()
 sheet = wb.create_sheet('Data')
@@ -47,18 +45,18 @@ CLEANR = re.compile('<.*?>')
 for row in cursor:
     try:
         row = list(row)
-        if (isinstance(row[12], str)):
-            row[12] = re.sub(CLEANR, '', row[12])
+        if (isinstance(row[17], str)):
+            row[17] = re.sub(CLEANR, '', row[17])
         sheet.append(row)
     except IllegalCharacterError:
-        row[12] = row[12].replace('\x19', "'")
-        row[12] = row[12].replace('\x13', "'")
-        row[12] = row[12].replace('\x1d', "'")
-        row[12] = row[12].replace('\x1c', "'")
+        row[17] = row[17].replace('\x19', "'")
+        row[17] = row[17].replace('\x13', "'")
+        row[17] = row[17].replace('\x1d', "'")
+        row[17] = row[17].replace('\x1c', "'")
         try:
             sheet.append(row)
         except Exception:
-            print(row[12])
+            print(row[17])
 
 conn.close()
 
