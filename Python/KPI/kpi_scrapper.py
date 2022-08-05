@@ -14,7 +14,7 @@ from datetime import date
 html = "C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\exported_html.html"
 # --------------------------------
 # variables to change
-month = 5
+month = 6
 year = 2022
 # variables to change
 # --------------------------------
@@ -45,7 +45,7 @@ sites = [
 ]
 
 # information about tables
-# [Table acronum, [table header to look for to id table], [(special operation), month / year format]]
+# [Table acronum, [table header to look for to id table], [(special operation), month / year format]], which column to use (default -1)
 kpis = [
     [
         "MLH V KLH",
@@ -70,12 +70,12 @@ kpis = [
         ],
         ["MM-YYYY"],
     ],
-    ["WONCP", ["MonthYear", "Percentage"], ["PERCENT", "MM-YYYY"]],
-    ["JPC", ["MonthYear", "JobPlan Count"], ["MM-YYYY"]],
+    ["WONCP", ["MonthYear", "Percentage"], ["PERCENT", "MM-YYYY"], ],
+    ["JPC", ["MonthYear", "JobPlan Count"], ["MM-YYYY"], ],
     [
         "PMCOTT",
-        ["PMType", "MonthYear", "OnTimeCount", "Percentage"],
-        ["MM-YYYY", "All"],
+        ["MonthYear", "AssetPriority", "AllCount","OnTimeCount", "OnTimePercentage"],
+        ["MM-YYYY", "Combined"],
     ],
     [
         "MROPRLM",
@@ -94,7 +94,7 @@ kpis = [
         ["PERCENT", "MM-YYYY"],
     ],
     ["ASPCWC", ["MonthYear", "PriorityGroup", "SparePartsCount"], ["SUM", "MM-YYYY"]],
-    ["CC", ["MonthYear", "No of Cycle Counts"], ["MM-YYYY"]],
+    ["CC", ["MonthYear", "No of Cycle Counts", "Percent of Stock Counted"], ["MM-YYYY"]],
     [
         "WOFW",
         ["MonthYear", "All Work Orders", "Work Orders With First Why", "Percentage"],
