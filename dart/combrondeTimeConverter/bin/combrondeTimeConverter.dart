@@ -16,6 +16,8 @@ final labors = {
   'ASTREINTES BAYRAND P': {'laborcode': 'FRCOPBAY', 'employee_number': 50},
   'NATIVELLE Lucien': {'laborcode': 'FRCOLNAT', 'employee_number': 94},
   'ASTREINTES NATIVELLE L': {'laborcode': 'FRCOLNAT', 'employee_number': 94},
+  'LEMOINE Angélis': {'laborcode': 'FRCOALEM', 'employee_number': 95},
+  'SAVY Michaël': {'laborcode': 'FRCOMSAV', 'employee_number': 96},
 };
 
 void main(List<String> arguments) {
@@ -80,6 +82,7 @@ void main(List<String> arguments) {
   for (var table in decoder.tables.keys) {
     if (!(labors.keys.contains(table))) {
       // only parse the sheet if the name is in the list
+      print('skipping sheet "$table"');
       continue;
     }
     var employee = labors[table];
@@ -135,7 +138,8 @@ void main(List<String> arguments) {
       }
     }
   }
-  File('test/out/testfile.xlsx')
+  final format = DateFormat('yyyy-MM-dd-HH-MM-SS');
+  File('out/${format.format(DateTime.now())}.xlsx')
     ..createSync(recursive: true)
     ..writeAsBytesSync(excel.encode());
 }

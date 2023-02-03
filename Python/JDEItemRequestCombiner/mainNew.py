@@ -44,14 +44,14 @@ for filepath in glob.glob(os.path.join(folder_path, '*.xls*')):
                 ]
             )
             elif sheet.cell(row=x, column=1).value == 'Issue Unit:':
-                branch_row.append(sheet.cell(row=x, column=5).value)
-                branch_row.append(sheet.cell(row=x+6, column=5).value)
+                branch_row.append(sheet.cell(row=x, column=5).value) # issue unit
+                branch_row.append(sheet.cell(row=x+6, column=5).value) # gl class
                 branch_row.append('B1')
-                branch_row.append(sheet.cell(row=x+1, column=5).value)
-                branch_row.append(sheet.cell(row=x+8, column=5).value)
-                branch_row.append(sheet.cell(row=x+9, column=5).value)
+                branch_row.append(sheet.cell(row=x+1, column=5).value) # commodity
+                branch_row.append(sheet.cell(row=x+9, column=5).value) #cc8
+                branch_row.append(sheet.cell(row=x+10, column=5).value) #cc10
                 branch_row.append('I')
-                branch_row.append(sheet.cell(row=x+7, column=5).value)
+                branch_row.append(sheet.cell(row=x+8, column=5).value) # branch plant
 
                 master_row.append(sheet.cell(row=x, column=5).value)
                 master_row.append(sheet.cell(row=x+6, column=5).value)

@@ -10,15 +10,14 @@ from openpyxl.formatting.rule import IconSetRule
 #REMEMBER TO MOVE LABOR CHARGED TO LOWEST LEVEL CHILD ASSET TO THE END
 # --------------------------------
 # variables to change
-month = 9
+month = 12
 year = 2022
 # variables to change
 # --------------------------------
 current_month = year * 12 + month
 
 ENDPOINTS = {
-    'IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME':
-    'VH & H Critical Asset PM Completed On Time Trend',
+    'IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME': 'VH & H Critical Asset PM Completed On Time Trend',
     'IKO_KPI_MAXIMOVSKRONOSHOURS': 'Maximo Lbr Hrs vs Kronos Lb Hrs',
     'IKO_KPIWOW1STWHY': "Work Orders with 5 Why's",
     'IKO_KPI_LABORHOURCHARGEDTOLLCA':
@@ -54,25 +53,25 @@ ENDPOINT_URL = list(ENDPOINTS)
 PMONTIME = 'IKO_KPI_PMCOMPLETEDONTIME'
 
 SITES = {
-    'GI': 'Madoc',
-    'GE': 'Ashcroft',
-    'GS': 'Sylacauga',
-    'BA': 'Calgary',
-    'GV': 'Hillsboro',
-    'GH': 'Hawkesbury',
-    'AA': 'IKO Brampton',
-    'GJ': 'CRC Toronto',
+    # 'GI': 'Madoc',
+    # 'GE': 'Ashcroft',
+    # 'GS': 'Sylacauga',
+    # 'BA': 'Calgary',
+    # 'GV': 'Hillsboro',
+    # 'GH': 'Hawkesbury',
+    # 'AA': 'IKO Brampton',
+    # 'GJ': 'CRC Toronto',
     'CA': 'Kankakee',
-    'GC': 'Sumas',
-    'GK': 'IG Brampton',
-    'CAM': 'Appley Bridge',
-    'BL': 'Hagerstown',
-    'RAM': 'Alconbury',
-    'GP': 'CRC Brampton',
-    'GM': 'IG High River',
-    'COM': 'Combronde',
-    'GR': 'Bramcal',
-    'GX': 'MaxiMix'
+    # 'GC': 'Sumas',
+    # 'GK': 'IG Brampton',
+    # 'CAM': 'Appley Bridge',
+    # 'BL': 'Hagerstown',
+    # 'RAM': 'Alconbury',
+    # 'GP': 'CRC Brampton',
+    # 'GM': 'IG High River',
+    # 'COM': 'Combronde',
+    # 'GR': 'Bramcal',
+    # 'GX': 'MaxiMix'
 }
 
 MONTHS = [
@@ -113,7 +112,7 @@ results = [
     [MONTHS[month - 9]],
     [MONTHS[month - 10]],
     [MONTHS[month - 11]],
-    [MONTHS[month]],
+    [MONTHS[month % 12]],
 ]
 
 
@@ -245,8 +244,8 @@ ws.append([
     '',
     'VH & H Critical Asset PM Completed On Time Trend',
     'Maximo Lbr Hrs vs Kronos Lb Hrs',
-    'Issued Items Listed in Spare Part List',
     "Work Orders with 5 Why's",
+    'Issued Items Listed in Spare Part List',
     'MRO PR Lines from Maximo',
     'Asset Spare Parts Count',
     'Cycle Count',
@@ -411,21 +410,21 @@ for site in SITES:
     print(f'{ENDPOINT_URL[1]} : {site}')
     generic_result_reader(f'{URL[0]}{ENDPOINT_URL[1]}{URL[1]}{site}{URL[2]}',
                           results, ws, ws_write_col)
-
-    ws_write_col += 1
-    # IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST
-    results[0].append(site)
-    results[1].append(ENDPOINT_URL[6])
-    print(f'{ENDPOINT_URL[6]} : {site}')
-    generic_result_reader(f'{URL[0]}{ENDPOINT_URL[6]}{URL[1]}{site}{URL[2]}',
-                          results, ws, ws_write_col)
-
+    
     ws_write_col += 1
     # WO With Why
     results[0].append(site)
     results[1].append(ENDPOINT_URL[2])
     print(f'{ENDPOINT_URL[2]} : {site}')
     generic_result_reader(f'{URL[0]}{ENDPOINT_URL[2]}{URL[1]}{site}{URL[2]}',
+                          results, ws, ws_write_col)
+    
+    ws_write_col += 1
+    # IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST
+    results[0].append(site)
+    results[1].append(ENDPOINT_URL[6])
+    print(f'{ENDPOINT_URL[6]} : {site}')
+    generic_result_reader(f'{URL[0]}{ENDPOINT_URL[6]}{URL[1]}{site}{URL[2]}',
                           results, ws, ws_write_col)
 
     ws_write_col += 1
