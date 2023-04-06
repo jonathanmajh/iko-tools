@@ -10,7 +10,7 @@ from dataclasses import dataclass
 # ------ CHANGE ME ---------
 folder_path = "C:\\Users\\majona\\GitHub\\iko-tools\\Python\\appleyBridgeTimeConverter\\input"
 save_path = f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\appleyBridgeTimeConverter\\{datetime.now().strftime("%d-%m-%Y_%H-%M-%S")}.xlsx'
-year = '2022'
+year = '2023'
 
 @dataclass
 class person:
@@ -36,6 +36,7 @@ people = {
     "Rodgers K": person(True, "Rodgers, Kaleb", "UKAPKROD"),
     "Bruckshaw L": person(),
     "Minta N": person(),
+    "Patel H": person(True, "Patel, Hammaad", "UKAPHPAT"),
 }
 
 converted_wb = Workbook()

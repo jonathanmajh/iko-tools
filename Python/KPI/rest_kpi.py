@@ -10,8 +10,8 @@ from openpyxl.formatting.rule import IconSetRule
 #REMEMBER TO MOVE LABOR CHARGED TO LOWEST LEVEL CHILD ASSET TO THE END
 # --------------------------------
 # variables to change
-month = 12
-year = 2022
+month = 2
+year = 2023
 # variables to change
 # --------------------------------
 current_month = year * 12 + month
@@ -53,25 +53,25 @@ ENDPOINT_URL = list(ENDPOINTS)
 PMONTIME = 'IKO_KPI_PMCOMPLETEDONTIME'
 
 SITES = {
-    # 'GI': 'Madoc',
-    # 'GE': 'Ashcroft',
-    # 'GS': 'Sylacauga',
-    # 'BA': 'Calgary',
-    # 'GV': 'Hillsboro',
-    # 'GH': 'Hawkesbury',
-    # 'AA': 'IKO Brampton',
-    # 'GJ': 'CRC Toronto',
+    'GI': 'Madoc',
+    'GE': 'Ashcroft',
+    'GS': 'Sylacauga',
+    'BA': 'Calgary',
+    'GV': 'Hillsboro',
+    'GH': 'Hawkesbury',
+    'AA': 'IKO Brampton',
+    'GJ': 'CRC Toronto',
     'CA': 'Kankakee',
-    # 'GC': 'Sumas',
-    # 'GK': 'IG Brampton',
-    # 'CAM': 'Appley Bridge',
-    # 'BL': 'Hagerstown',
-    # 'RAM': 'Alconbury',
-    # 'GP': 'CRC Brampton',
-    # 'GM': 'IG High River',
-    # 'COM': 'Combronde',
-    # 'GR': 'Bramcal',
-    # 'GX': 'MaxiMix'
+    'GC': 'Sumas',
+    'GK': 'IG Brampton',
+    'CAM': 'Appley Bridge',
+    'BL': 'Hagerstown',
+    'RAM': 'Alconbury',
+    'GP': 'CRC Brampton',
+    'GM': 'IG High River',
+    'COM': 'Combronde',
+    'GR': 'Bramcal',
+    'GX': 'MaxiMix'
 }
 
 MONTHS = [
