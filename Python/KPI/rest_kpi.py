@@ -10,7 +10,7 @@ from openpyxl.formatting.rule import IconSetRule
 #REMEMBER TO MOVE LABOR CHARGED TO LOWEST LEVEL CHILD ASSET TO THE END
 # --------------------------------
 # variables to change
-month = 3
+month = 5
 year = 2023
 # variables to change
 # --------------------------------
@@ -69,12 +69,12 @@ SITES = {
     # 'CAM': 'Appley Bridge',
     # 'BL': 'Hagerstown',
     # 'RAM': 'Alconbury',
-    'GP': 'CRC Brampton',
-    'GM': 'IG High River',
-    'COM': 'Combronde',
-    'GR': 'Bramcal',
-    'GX': 'MaxiMix',
-    'ANT': 'Antwerp'
+    # 'GP': 'CRC Brampton',
+    # 'GM': 'IG High River',
+    # 'COM': 'Combronde',
+    # 'GR': 'Bramcal',
+    # 'GX': 'MaxiMix',
+    # 'ANT': 'Antwerp'
 }
 
 MONTHS = [
@@ -151,7 +151,7 @@ def zero(table):
 
 def compare_values(target, results, ws, ws_write_col):
     # shouldnt need to return ws back
-    ws.cell(row=3, column=ws_write_col, value=target)
+    # ws.cell(row=3, column=ws_write_col, value=target)
     if (results[3][-1] != '-' and target != '-'):
         if ((target <= results[3][-1])):
             ws.cell(row=3 * site_i + 1, column=ws_write_col).fill = green
@@ -248,8 +248,8 @@ ws.append([
     '',
     'VH & H Critical Asset PM Completed On Time',
     'Maximo Lbr Hrs vs Timesheet Hrs',
-    "Work Orders with 5 Why's Completed",
     'Issued Items Listed in Spare Part List',
+    "Work Orders with 5 Why's Completed",
     'MRO PR Lines from Maximo',
     'Asset Spare Parts Count with Criticality',
     'Cycle Count',
@@ -269,8 +269,8 @@ ws.append([
     '',
     '95%',
     '80%',
-    '12',
     '80%',
+    '12',
     '80%',
     '-',
     '10%',
@@ -318,7 +318,7 @@ ws.cell(row=6, column=21, value='Reliability Engineer')
 ws.cell(row=6, column=20).fill = PatternFill(start_color='FABF8F',
                                              end_color='FABF8F',
                                              fill_type='solid')
-ws.cell(row=7, column=21, value='Maintenance Superintendent')
+ws.cell(row=7, column=21, value='Maintenance Manager')
 ws.cell(row=7, column=20).fill = PatternFill(start_color='FF6565',
                                              end_color='FF6565',
                                              fill_type='solid')
@@ -480,6 +480,15 @@ for site in SITES:
         ws, ws_write_col)
 
     ws_write_col += 1
+    # IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST
+    results[0].append(site)
+    results[1].append('IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST')
+    print(f'IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST : {site}')
+    generic_result_reader(
+        f'{URL[0]}IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST{URL[1]}{site}{URL[2]}',
+        results, ws, ws_write_col)
+
+    ws_write_col += 1
     # WO With Why
     results[0].append(site)
     results[1].append('IKO_KPIWOW1STWHY')
@@ -513,15 +522,6 @@ for site in SITES:
     ws.cell(row=3 * site_i + 2, column=ws_write_col).fill = white
     # generic_result_reader(f'{URL[0]}{ENDPOINT_URL[2]}{URL[1]}{site}{URL[2]}',
     #                       results, ws, ws_write_col)
-
-    ws_write_col += 1
-    # IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST
-    results[0].append(site)
-    results[1].append('IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST')
-    print(f'IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST : {site}')
-    generic_result_reader(
-        f'{URL[0]}IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST{URL[1]}{site}{URL[2]}',
-        results, ws, ws_write_col)
 
     ws_write_col += 1
     # IKO_KPI_MROLINEFROMMAXIMO
