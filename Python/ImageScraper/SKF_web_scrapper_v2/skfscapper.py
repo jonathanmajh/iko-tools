@@ -4,6 +4,7 @@ Created on July 12, 2023
 
 @author: Desumai
 
+v0.1.0
 - Functions for image scrapping from SKF.
 - Functions can be reformatted and reused for image scrapping other sites
 - Not all functions are used

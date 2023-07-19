@@ -4,9 +4,11 @@ Created on July 12, 2023
 
 @author: Desumai
 
+v0.1.0
 - Image scrapper for SKF. Scraps the images from SKF's site according to input comma delimited csv file.
 - CSV file should be 2 columns by x rows with a header. Entries are written as: [maximo #],[SKF code]
 - Saves images into a folder, each image is name according to its maximo number
+- Uses URLs to search for items instead of search bar
 - See ..\\dist for release. Remember to update dist with pyinstaller when modifying source code
 """
 
