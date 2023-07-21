@@ -2,15 +2,19 @@ import csv
 # from ctypes import alignment
 # from textwrap import fill
 import requests
+import os
 from datetime import date
 from openpyxl import Workbook
 from openpyxl.styles import Font, Border, Side, PatternFill, Alignment, GradientFill
 from openpyxl.formatting.rule import IconSetRule
 
-#REMEMBER TO MOVE LABOR CHARGED TO LOWEST LEVEL CHILD ASSET TO THE END
+# APIKEYS should be set as a user local environment variable for security reasons
+# MAS is available over the internet
+APIKEY = os.getenv('MASPROD')
+
 # --------------------------------
 # variables to change
-month = 5
+month = 6
 year = 2023
 # variables to change
 # --------------------------------
@@ -18,27 +22,24 @@ current_month = year * 12 + month
 
 # must be in the same order as the KPIs since order is involved in overall average calculations
 ENDPOINTS = {
-    'IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME':
-    'VH & H Critical Asset PM Completed On Time Trend',
+    'IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME': 'VH & H Critical Asset PM Completed On Time Trend',
     'IKO_KPI_MAXIMOVSKRONOSHOURS': 'Maximo Lbr Hrs vs Kronos Lb Hrs',
+    'IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST': 'Issued Items Listed in Spare Part List',
     'IKO_KPIWOW1STWHY': "Work Orders with 5 Why's",
-    'IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST':
-    'Issued Items Listed in Spare Part List',
     'IKO_KPI_MROLINEFROMMAXIMO': 'MRO PR Lines from Maximo',
     'IKO_API_ASSETSPAREPARTCOUNTWITHCRITICALITY': 'Asset Spare Parts Count',
     'IKO_KPI_CYCLECOUNT': 'Cycle Count',
     'IKO_KPI_SCHEDULEDWORKORDERS': 'Scheduled Work Orders',
     'IKO_KPI_WONOTCREATEDBYPLANNER': 'WO Not Created by Planner',
     'IKO_KPI_JOBPLANCREATED': 'Job Plans Created/Updated',
-    'IKO_KPI_LABORHOURCHARGEDTOLLCA':
-    'Labor Hrs Charged to Lowest Child Assets',
+    'IKO_KPI_LABORHOURCHARGEDTOLLCA': 'Labor Hrs Charged to Lowest Child Assets',
 }
 
 averages = {
     'IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME': [0, 0, 0.0],
     'IKO_KPI_MAXIMOVSKRONOSHOURS': [0, 0, 0.0],
-    'IKO_KPIWOW1STWHY': [0, 0, 0.0],
     'IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST': [0, 0, 0.0],
+    'IKO_KPIWOW1STWHY': [0, 0, 0.0],
     'IKO_KPI_MROLINEFROMMAXIMO': [0, 0, 0.0],
     'IKO_API_ASSETSPAREPARTCOUNTWITHCRITICALITY': [0, 0, 0.0],
     'IKO_KPI_CYCLECOUNT': [0, 0, 0.0],
@@ -57,24 +58,24 @@ PMONTIME = 'IKO_KPI_PMCOMPLETEDONTIME'
 SITES = {
     'GI': 'Madoc',
     'GE': 'Ashcroft',
-    # 'GS': 'Sylacauga',
-    # 'BA': 'Calgary',
-    # 'GV': 'Hillsboro',
-    # 'GH': 'Hawkesbury',
-    # 'AA': 'IKO Brampton',
-    # 'GJ': 'CRC Toronto',
-    # 'CA': 'Kankakee',
-    # 'GC': 'Sumas',
-    # 'GK': 'IG Brampton',
-    # 'CAM': 'Appley Bridge',
-    # 'BL': 'Hagerstown',
-    # 'RAM': 'Alconbury',
-    # 'GP': 'CRC Brampton',
-    # 'GM': 'IG High River',
-    # 'COM': 'Combronde',
-    # 'GR': 'Bramcal',
-    # 'GX': 'MaxiMix',
-    # 'ANT': 'Antwerp'
+    'GS': 'Sylacauga',
+    'BA': 'Calgary',
+    'GV': 'Hillsboro',
+    'GH': 'Hawkesbury',
+    'AA': 'IKO Brampton',
+    'GJ': 'CRC Toronto',
+    'CA': 'Kankakee',
+    'GC': 'Sumas',
+    'GK': 'IG Brampton',
+    'CAM': 'Appley Bridge',
+    'BL': 'Hagerstown',
+    'RAM': 'Alconbury',
+    'GP': 'CRC Brampton',
+    'GM': 'IG High River',
+    'COM': 'Combronde',
+    'GR': 'Bramcal',
+    'GX': 'MaxiMix',
+    'ANT': 'Antwerp'
 }
 
 MONTHS = [
@@ -93,9 +94,9 @@ MONTHS = [
 ]
 
 URL = [
-    'http://nscandacmaxapp1.na.iko/maximo/oslc/script/',
+    'https://prod.manage.prod.iko.max-it-eam.com/maximo/api/script/',
     '?site=',
-    '&_lid=majona&_lpwd=happy818',
+    '',
 ]
 
 results = [
@@ -120,7 +121,8 @@ results = [
 
 
 def request_wrapper(url):
-    r = requests.get(url)
+    header = {'apikey': APIKEY}
+    r = requests.get(url, headers = header)
     if (r.status_code != 200):
         print(f'Error: {r.status_code}')
         print(f'Error: {url}')
@@ -645,7 +647,7 @@ ws.cell(row=74, column=7, value=overall['down'])
 
 # write
 with open(
-        f"C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv",
+        f"C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.csv",
         "w",
         newline="",
 ) as f:
@@ -654,5 +656,5 @@ with open(
 
 wb.save(
     filename=
-    f"C:\\Users\\majona\\GitHub\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.xlsx"
+    f"C:\\Users\\majona\\Documents\\Code\\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.xlsx"
 )
