@@ -14,7 +14,7 @@ APIKEY = os.getenv('MASPROD')
 
 # --------------------------------
 # variables to change
-month = 6
+month = 7
 year = 2023
 # variables to change
 # --------------------------------
@@ -287,10 +287,10 @@ ws.cell(row=2, column=8).fill = PatternFill(start_color='FF6565',
 ws.cell(row=2, column=9).fill = PatternFill(start_color='FF6565',
                                             end_color='FF6565',
                                             fill_type='solid')
-ws.cell(row=2, column=10).fill = PatternFill(start_color='FABF8F',
+ws['J2'].fill = GradientFill(stop=("FABF8F", "B1A0C7"))
+ws.cell(row=2, column=11).fill = PatternFill(start_color='FABF8F',
                                              end_color='FABF8F',
                                              fill_type='solid')
-ws['K2'].fill = GradientFill(stop=("FABF8F", "B1A0C7"))
 ws.cell(row=2, column=12).fill = PatternFill(start_color='B1A0C7',
                                              end_color='B1A0C7',
                                              fill_type='solid')
