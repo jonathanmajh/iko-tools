@@ -14,7 +14,7 @@ APIKEY = os.getenv('MASPROD')
 
 # --------------------------------
 # variables to change
-month = 7
+month = 8
 year = 2023
 # variables to change
 # --------------------------------
