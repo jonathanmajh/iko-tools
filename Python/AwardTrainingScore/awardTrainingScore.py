@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 from dataclasses import dataclass
 
 # ------ CHANGE ME ---------
-open_path = "C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\Copy of db989c3457f24f10a9236d7359fe105d.xlsx"
+open_path = "C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\Activity Completion Records Report - 2023 Whole Year.xlsx"
 save_path = f'C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\{datetime.now().strftime("%d-%m-%Y_%H-%M-%S")}.csv'
 year = 2023
 

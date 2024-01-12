@@ -1,3 +1,5 @@
+# Script for compiling OEE is in ReliabilityAwardTrackingYYYY-MM.xlsm file
+
 import time, keyboard
 
 from selenium import webdriver
@@ -14,7 +16,7 @@ sites = [
 ['Hawkesbury','http://ikohawkiis2/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['Calgary','http://ikocalgiis1/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['Sumas','http://ikosumiis1/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'SL_Management KPI'],
-['Sylacauga','http://nsikosyliis1/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'Management KPI'],
+['Sylacauga','http://nsikosyliis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['Hillsboro','http://nsikohiliis1.na.iko/PRODAC/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['Madoc','http://nsikomadiis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'], #requires extra group by Department
 ['Ashcroft','http://igashiis1.na.iko/ProdacNewWeb/Reports/ProdacReports.aspx', 'Management KPI'],  #requires extra group by Department

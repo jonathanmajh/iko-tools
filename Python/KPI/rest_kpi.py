@@ -14,7 +14,7 @@ APIKEY = os.getenv('MASPROD')
 
 # --------------------------------
 # variables to change
-month = 9
+month = 12
 year = 2023
 # variables to change
 # --------------------------------
@@ -63,7 +63,7 @@ SITES = {
     'GV': 'Hillsboro',
     'GH': 'Hawkesbury',
     'AA': 'IKO Brampton',
-    'GJ': 'CRC Toronto',
+    # 'GJ': 'CRC Toronto',
     'CA': 'Kankakee',
     'GC': 'Sumas',
     'GK': 'IG Brampton',
@@ -357,30 +357,30 @@ ws.cell(row=10, column=3).border = Border(top=double,
                                           right=double,
                                           bottom=double)
 ws.cell(row=10, column=3).font = Font(name='Calibri', size=12, bold=True)
-ws.merge_cells(start_row=10, start_column=3, end_row=33, end_column=3)
+ws.merge_cells(start_row=10, start_column=3, end_row=30, end_column=3)
 ws.column_dimensions['C'].width = 2
 ws.cell(row=10, column=4).border = Border(top=double)
 ws.cell(row=10, column=5).border = Border(top=double)
 
-ws.cell(row=28, column=4, value='MEMBRANES')
-ws.cell(row=28, column=4).alignment = ninety_center
-ws.cell(row=28, column=4).border = Border(top=double,
+ws.cell(row=25, column=4, value='MEMBRANES')
+ws.cell(row=25, column=4).alignment = ninety_center
+ws.cell(row=25, column=4).border = Border(top=double,
                                           left=double,
                                           right=double,
                                           bottom=double)
-ws.cell(row=28, column=4).font = Font(name='Calibri', size=12, bold=True)
-ws.merge_cells(start_row=28, start_column=4, end_row=42, end_column=4)
+ws.cell(row=25, column=4).font = Font(name='Calibri', size=12, bold=True)
+ws.merge_cells(start_row=25, start_column=4, end_row=39, end_column=4)
 ws.column_dimensions['D'].width = 2
-ws.cell(row=28, column=5).border = Border(top=double)
+ws.cell(row=25, column=5).border = Border(top=double)
 
-ws.cell(row=40, column=5, value='ISO')
-ws.cell(row=40, column=5).alignment = ninety_center
-ws.cell(row=40, column=5).border = Border(top=double,
+ws.cell(row=37, column=5, value='ISO')
+ws.cell(row=37, column=5).alignment = ninety_center
+ws.cell(row=37, column=5).border = Border(top=double,
                                           left=double,
                                           right=double,
                                           bottom=double)
-ws.cell(row=40, column=5).font = Font(name='Calibri', size=12, bold=True)
-ws.merge_cells(start_row=40, start_column=5, end_row=54, end_column=5)
+ws.cell(row=37, column=5).font = Font(name='Calibri', size=12, bold=True)
+ws.merge_cells(start_row=37, start_column=5, end_row=51, end_column=5)
 ws.column_dimensions['E'].width = 2
 ws.cell(row=2, column=6).border = Border(left=double,
                                          bottom=double,
@@ -629,7 +629,7 @@ for site in SITES:
     #                       results, ws, ws_write_col)
 
 for cell in range(12):
-    ws.cell(row=64, column=6 + cell).border = Border(top=double)
+    ws.cell(row=61, column=6 + cell).border = Border(top=double)
 
 i = 0
 for average in averages:
