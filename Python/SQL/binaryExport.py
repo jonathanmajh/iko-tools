@@ -6,12 +6,12 @@ from openpyxl import Workbook
 from openpyxl.utils.exceptions import IllegalCharacterError 
 
 
-conn = pyodbc.connect('DRIVER={ODBC Driver 18 for SQL Server};SERVER=ESNLDKLUPIRAN1\SQLEXPRESS;DATABASE=PiranaCMMS;Trusted_Connection=yes;Encrypt=no;')
+conn = pyodbc.connect('DRIVER={ODBC Driver 18 for SQL Server};SERVER=ESNLDKLUSQL1\GENERAL;DATABASE=PiranaCMMS;Trusted_Connection=yes;Encrypt=no;')
 
 conn.setdecoding(pyodbc.SQL_CHAR, encoding='latin1')
 conn.setdecoding(pyodbc.SQL_WCHAR, encoding='latin1')
 
-save_path = f'C:\\Users\\majona\\GitHub\\iko-tools\\Python\\SQL\\photos\\'
+save_path = f'C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\SQL\\photos\\'
 
 cursor = conn.cursor()
 

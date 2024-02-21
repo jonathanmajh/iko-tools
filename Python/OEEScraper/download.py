@@ -92,3 +92,9 @@ for site in sites:
 
 print('New Tabs Complete')
 a = keyboard.read_key()
+a = keyboard.read_key()
+a = keyboard.read_key()
+a = keyboard.read_key()
+a = keyboard.read_key()
+a = keyboard.read_key()
+a = keyboard.read_key()

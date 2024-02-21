@@ -8,9 +8,8 @@ from openpyxl import Workbook
 from openpyxl import load_workbook
 
 from dataclasses import dataclass
-
 # ------ CHANGE ME ---------
-open_path = "C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\Activity Completion Records Report - 2023 Whole Year.xlsx"
+open_path = "C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\Vector Report - January 2024.xlsx"
 save_path = f'C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\AwardTrainingScore\\{datetime.now().strftime("%d-%m-%Y_%H-%M-%S")}.csv'
 year = 2023
 

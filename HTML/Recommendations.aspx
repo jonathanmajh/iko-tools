@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <!-- Remember to refer to SOP before working on file -->
@@ -54,7 +55,9 @@
                         Finder</a>
                 </li>
                 <li class="nav-item nav-iko active">
-                    <a class="nav-link" href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirect.aspx?mobile=0">Asset Redirect</a>
+                    <a class="nav-link"
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetRedirect.aspx?mobile=0">Asset
+                        Redirect</a>
                 </li>
                 <li class="nav-item nav-iko active">
                     <a class="nav-link"
@@ -84,12 +87,13 @@
                     <tr>
                         <td>
                             <table class="table" id="information">
-                                <tbody >
+                                <tbody>
                                     <tr>
                                         <td rowspan="2" style="vertical-align: middle;">
                                             <h1 id="recommendations-title-main"> <strong>Recommendations</strong>
                                             </h1>
-                                            <h4 class="title-theme" id="recommendations-title-sub"> from Corporate FMECA Analysis
+                                            <h4 class="title-theme" id="recommendations-title-sub"> from Corporate FMECA
+                                                Analysis
                                             </h4>
                                         </td>
                                         <td>
@@ -98,24 +102,24 @@
                                             </div>
                                             <div class="row">
                                                 <select id="siteName" onchange="ChangeSite()">
-						    <option value="ANT">ANT: Antwerp</option>
+                                                    <option value="ANT">ANT: Antwerp</option>
                                                     <option value="RAM">RAM: Alconbury</option>
                                                     <option value="CAM">CAM: Appley Bridge</option>
                                                     <option value="GE">GE: Ashcroft</option>
                                                     <option value="GR">GR: BramCal</option>
                                                     <option value="BA">BA: Calgary</option>
                                                     <option value="COM">COM: Combronde</option>
-						    <option value="GP">GP: CRC Brampton</option>
+                                                    <option value="GP">GP: CRC Brampton</option>
                                                     <option value="GJ">GJ: CRC Toronto</option>
                                                     <option value="BL">BL: Hagerstown </option>
                                                     <option selected value="GH">GH: Hawkesbury</option>
                                                     <option value="GV">GV: Hillsboro (Southwest)</option>
                                                     <option value="GK">GK: IG Brampton</option>
-						    <option value="GM">GM: IG High River</option>
+                                                    <option value="GM">GM: IG High River</option>
                                                     <option value="AA">AA: IKO Brampton</option>
                                                     <option value="CA">CA: Kankakee</option>
                                                     <option value="GI">GI: Madoc </option>
-						    <option value="GX">GX: Maxi-Mix </option>
+                                                    <option value="GX">GX: Maxi-Mix </option>
                                                     <option value="PBM">PBM: Senica/Sloviakia</option>
                                                     <option value="GC">GC: Sumas</option>
                                                     <option value="GS">GS: Sylacauga</option>
@@ -144,11 +148,11 @@
                                                 <p id="description">Please enter asset number</p>
                                             </div>
                                         </td>
-                                        <td style="padding-top: 40px;" >
+                                        <td style="padding-top: 40px;">
                                             <button id="submitNum" onclick="checkData()">Generate</button>
                                         </td>
                                         <td style="position:fixed; min-width: 295px;">
-                                            <video id="dna-render" autoplay muted loop playsinline 
+                                            <video id="dna-render" autoplay muted loop playsinline
                                                 poster="/support/Reliability/ReliabilityShared/Pages/RotatingDNA_Cover.jpg">
                                                 <source
                                                     src="/support/Reliability/ReliabilityShared/Pages/RotatingDNA.mp4?mobile=0"
@@ -260,10 +264,10 @@
     var attribute;
     var taskByAsset;
     var site_names = {
-	"ANT": "ANT:%20Antwerp",
+        "ANT": "ANT:%20Antwerp",
         "GE": "GE:%20Ashcroft",
         "GR": "GR:%20BramCal",
-        "AA": "AA:IKO%20Brampton",
+        "AA": "AA:%20IKO%20Brampton",
         "BA": "BA:%20Calgary",
         "GJ": "GJ:%20Canroof/CRC%20Toronto",
         "GP": "GP:%20CRC%20Insulation",
@@ -284,20 +288,20 @@
         "COM": "COM:%20Combronde",
         "BL": "BL:%20Hagerstown",
     };
-    
+
     var frequency = {
-    "1D": "Daily",   
-    "1W": "Weekly",
-    "1W \nbefore startup": "A week before start-up",
-    "2W": "Bi-Weekly",
-    "3W": "Every 3 Weeks",
-    "4": "Every 4 Weeks",
-    "1M": "Monthly",
-    "2M": "Bi-Monthly",
-    "3M": "Every 3 Months",
-    "6M": "Semi-Annually",
-    "1Y": "Annually",
-    "":" ",
+        "1D": "Daily",
+        "1W": "Weekly",
+        "1W \nbefore startup": "A week before start-up",
+        "2W": "Bi-Weekly",
+        "3W": "Every 3 Weeks",
+        "4": "Every 4 Weeks",
+        "1M": "Monthly",
+        "2M": "Bi-Monthly",
+        "3M": "Every 3 Months",
+        "6M": "Semi-Annually",
+        "1Y": "Annually",
+        "": " ",
     };
 
 
@@ -348,9 +352,9 @@
                 if (csvData[i][5]) {
                     assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1], " : ", csvData[i][5]) });
                 } else {
-                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1] )});
+                    assetIds.push({ id: csvData[i][0], text: csvData[i][0].concat(": ", csvData[i][1]) });
                 }
-                
+
                 assetIdTracker[csvData[i][0]] = "";
             }
         }
@@ -363,7 +367,7 @@
             dropdownAutoWidth: true, //make the dropdown wider than the input field
         });
         currentAssetListSite = document.getElementById("siteName").value;
-        
+
         if (currentAssetListSite == url_query.siteID) {
             // check if selected site is the same as the one specified in the url
             // this would mean we should use the initial asset id as well
@@ -389,7 +393,7 @@
 
         //get asset description
         document.getElementById("description").textContent = description;
-        
+
         //get failure class
         var j = failureClassDataSheet.length;
         for (var i = 0; i < j - 1; i++) {
@@ -406,11 +410,11 @@
             }
         }
         document.getElementById("failure-description").textContent = failureClassDescription;
-        
+
         var n = taskByAsset.length;
         var relatedTasks;
 
-        for (i = 0; i < n; i++){
+        for (i = 0; i < n; i++) {
             if (`${siteID}_${assetN}` == taskByAsset[i][0]) {
                 relatedTasks.push(taskByAsset[i][1]);
             }
@@ -419,84 +423,90 @@
         //get tasks for assets
         var k = attribute.length;
         var tasks;
-        for (j = 0; j < k ; j++){
+        for (j = 0; j < k; j++) {
             //console.log(taskNumAsset[i][1].concat(" ",attribute[j][0]));
-            if (relatedTasks.includes(attribute[j][0])){
+            if (relatedTasks.includes(attribute[j][0])) {
                 console.log("Found Task ID");
                 tasks.push(attribute[j]);
             }
         }
 
 
-        var uniqueTaskType = taskType(tasks,tasks.length); //gets task types for individual asset
+        var uniqueTaskType = taskType(tasks, tasks.length); //gets task types for individual asset
         var typeCount = uniqueTaskType.slice(-1);          //gets count of unique tasks types for individual asset
 
         //sets text and look for location/asset description
-        document.getElementById("table-heading").textContent  = site_names[siteID].replace(/%20/g," ").replace(/%26/g," ").split(": ")[1].concat(" - ",description.split(": ")[0]," - ",description.split(": ")[1]);
-        document.getElementById("table-heading").setAttribute("class","asset-title-theme");
-        document.getElementById("table-heading").setAttribute("style","padding-left: 1%");
-       
+        document.getElementById("table-heading").textContent = site_names[siteID].replace(/%20/g, " ").replace(/%26/g, " ").split(": ")[1].concat(" - ", description.split(": ")[0], " - ", description.split(": ")[1]);
+        document.getElementById("table-heading").setAttribute("class", "asset-title-theme");
+        document.getElementById("table-heading").setAttribute("style", "padding-left: 1%");
+
         var icons = {
-            "Design Change": "fa fa-pencil-square-o", 
+            "Design Change": "fa fa-pencil-square-o",
             "Installation Procedure": "fa fa-wrench",
             "SOC/SOP": "fa fa-tasks",
             "Pre start Checklist": "fa fa-check-square-o",
-            "Theme":{
-                "Design Change": "design-theme", 
+            "Theme": {
+                "Design Change": "design-theme",
                 "Installation Procedure": "install-theme",
                 "Pre start Checklist": "prestart-theme",
                 "SOC/SOP": "soc-theme",
             },
-            "Color":{
-                "Design Change": "#d2d3db", 
+            "Color": {
+                "Design Change": "#d2d3db",
                 "Installation Procedure": "#cce4e1",
                 "Pre start Checklist": "#c4c0d4",
                 "SOC/SOP": "#bcd0e9",
-            } 
+            },
+            "Replacement": {
+                "Design Change": "",
+                "Installation Procedure": "Installation",
+                "Pre start Checklist": "Inspection",
+                "SOC/SOP": "Inspection",
+            }
         };
 
-        var theme = ["design-theme","install-theme","prestart-theme","soc-theme"];
-  
+        var theme = ["design-theme", "install-theme", "prestart-theme", "soc-theme"];
+
         var parent = document.getElementById("dynamic-table-body");
         parent.textContent = ''; //remove placeholder or old data
 
-        for (i = 0; i < typeCount; i++){
+        for (i = 0; i < typeCount; i++) {
 
             var countEach = 0;
 
             var taskTypeRow = document.createElement("tr");
             taskTypeRow.setAttribute("id", "head-dynamic-row-".concat(i));
-            taskTypeRow.setAttribute("class",icons["Theme"][uniqueTaskType[i]]);
+            taskTypeRow.setAttribute("class", icons["Theme"][uniqueTaskType[i]]);
             //taskTypeRow.setAttribute("class","border-radius-test");
-            
-            
+
+
             var taskTypeCell = document.createElement("td");
             taskTypeCell.setAttribute("id", "cell-".concat(i));
-            taskTypeCell.setAttribute("colspan","3");
-            taskTypeCell.setAttribute("style","padding-bottom: 15px; padding-left: 40px;");
+            taskTypeCell.setAttribute("colspan", "3");
+            taskTypeCell.setAttribute("style", "padding-bottom: 15px; padding-left: 40px;");
             //taskTypeCell.setAttribute("class","mw-collapsible");
-            
-            
+
+
             var taskTypeHeading = document.createElement("h3");
             taskTypeHeading.setAttribute("id", "type-heading-".concat(i));
-            taskTypeHeading.setAttribute("style","padding-left: 20px;");
-            taskTypeHeading.setAttribute("style","padding-top: 15px;");
-            
+            taskTypeHeading.setAttribute("style", "padding-left: 20px;");
+            taskTypeHeading.setAttribute("style", "padding-top: 15px;");
+
             var taskTypeIcon = document.createElement("i");
             taskTypeIcon.setAttribute("class", icons[uniqueTaskType[i]]);
             taskTypeIcon.setAttribute("style", "padding-right: 20px;");
             taskTypeHeading.appendChild(taskTypeIcon);
-            
+
             var taskTypeText = document.createTextNode(uniqueTaskType[i]);
             taskTypeHeading.appendChild(taskTypeText);
-            
+
             taskTypeCell.appendChild(taskTypeHeading);
             taskTypeRow.appendChild(taskTypeCell);
             parent.appendChild(taskTypeRow);
-           
-            for (j = 0; j < tasks.length; j++){
-                
-                if (tasks[j][1] == document.getElementById("type-heading-".concat(i)).textContent){
+
+            for (j = 0; j < tasks.length; j++) {
+
+                if (tasks[j][1] == document.getElementById("type-heading-".concat(i)).textContent) {
 
                     countEach++;
 
@@ -504,60 +514,61 @@
                     taskTitleRow.setAttribute("class", "task-title-theme");
 
                     var taskTitleCell = document.createElement("td");
-                    taskTitleCell.setAttribute("colspan","3");
-                    taskTitleCell.setAttribute("style","padding-left: 40px;")
+                    taskTitleCell.setAttribute("colspan", "3");
+                    taskTitleCell.setAttribute("style", "padding-left: 40px;")
 
-                    
-                    
+
+
                     var taskTitleHeading = document.createElement("h5");
-                    taskTitleHeading.setAttribute("style","padding-top: 10px;");
+                    taskTitleHeading.setAttribute("style", "padding-top: 10px;");
                     taskTitleHeading.setAttribute("style", "font-size: 20px;");
                     taskTitleHeading.setAttribute("class", "strong");
 
-                    var taskTitleText = document.createTextNode(tasks[j][2]);
+                    var taskTitleText = document.createTextNode(tasks[j][2].replace('Inspection', icons["Replacement"][uniqueTaskType[i]]));
 
                     taskTitleHeading.appendChild(taskTitleText);
                     taskTitleCell.appendChild(taskTitleHeading);
+                    console.log(taskTitleText);
                     taskTitleRow.appendChild(taskTitleCell);
                     parent.appendChild(taskTitleRow);
-                    
-                    var taskDetailsRow = document.createElement("tr");
-                    
-                    for (let m = 0; m < 3; m++){
-                      
-                        var taskDetailsCell = document.createElement("td");
-                        taskDetailsCell.setAttribute("style","padding-left: 40px;");
-                        taskDetailsCell.setAttribute("id","cell_".concat(countEach,"_",m));
-                        
 
-                        if (m == 0){
-                            taskDetailsCell.setAttribute("class","break-it");
+                    var taskDetailsRow = document.createElement("tr");
+
+                    for (let m = 0; m < 3; m++) {
+
+                        var taskDetailsCell = document.createElement("td");
+                        taskDetailsCell.setAttribute("style", "padding-left: 40px;");
+                        taskDetailsCell.setAttribute("id", "cell_".concat(countEach, "_", m));
+
+
+                        if (m == 0) {
+                            taskDetailsCell.setAttribute("class", "break-it");
                         }
-                        else{
-                            taskDetailsCell.setAttribute("style","text-align: center");
-                            taskDetailsCell.setAttribute("class","width-20-percent"); 
+                        else {
+                            taskDetailsCell.setAttribute("style", "text-align: center");
+                            taskDetailsCell.setAttribute("class", "width-20-percent");
                         }
-                        
-                        if(m == 2){
+
+                        if (m == 2) {
                             var frequencyAbrv = tasks[j][5];
                             tasks[j][5] = frequency[frequencyAbrv];
                         }
-                        
-                        var detailsTxt = document.createTextNode(tasks[j][m+3]);
+
+                        var detailsTxt = document.createTextNode(tasks[j][m + 3]);
                         taskDetailsCell.appendChild(detailsTxt);
 
                         taskDetailsRow.appendChild(taskDetailsCell);
-                        parent.appendChild(taskDetailsRow);   
+                        parent.appendChild(taskDetailsRow);
                     }
                 }
             }
 
-            
+
             var div = document.createElement("div");
             div.setAttribute("style", "width: 166.7%; border-bottom: 3px solid ".concat(icons["Color"][uniqueTaskType[i]]));
-            
-            parent.appendChild(div); 
-             
+
+            parent.appendChild(div);
+
 
             var space = document.createElement("br");
             space.setAttribute("class", "break-it");
@@ -565,58 +576,58 @@
             parent.appendChild(space);
             parent.appendChild(space);
             parent.appendChild(space);
-           
+
 
         }
     }
 
     // Checks if specific asset has recommendation tasks
-    function CheckRecommendations(assetN){
+    function CheckRecommendations(assetN) {
         var siteID = document.getElementById("siteName").value;
-        var checkForRecommendations = siteID.concat("_",assetN);
+        var checkForRecommendations = siteID.concat("_", assetN);
         var recFound = false;
-        for (let i = 0; i < validAssets.length; i++){
-            if (validAssets[i][0] == checkForRecommendations){
+        for (let i = 0; i < validAssets.length; i++) {
+            if (validAssets[i][0] == checkForRecommendations) {
                 recFound = true;
                 break;
             }
-        } 
+        }
         return (recFound);
     }
 
     // Gets task types for specific asset
-    function taskType(assetTasks,length){
-    // Sort the array
+    function taskType(assetTasks, length) {
+        // Sort the array
         assetTasks.sort(sortFunction);
         var uniqueTaskType = [];
-  
+
         // Traverse the sorted array
         var count = 0;
-        for (let i = 0; i < length; i++){
-  
+        for (let i = 0; i < length; i++) {
+
             // Move the index ahead while there are duplicates
             while (i < length - 1 && assetTasks[i][1] == assetTasks[i + 1][1]) {
                 i++;
             }
             count++;
 
-            uniqueTaskType.push(assetTasks[i][1]); 
+            uniqueTaskType.push(assetTasks[i][1]);
         }
 
         //var order = {"Pre start Checklist": 1, "SOC/SOP": 2, "Installation Procedure": 3, "Design Change": 4};
         var order = ["Pre start Checklist", "SOC/SOP", "Installation Procedure", "Design Change"];
 
-        uniqueTaskType.sort(function(a,b){      // Sorts task type by desired order
-            if ( a == b ) return a - b;
-            return order.indexOf(a) - order.indexOf( b);
+        uniqueTaskType.sort(function (a, b) {      // Sorts task type by desired order
+            if (a == b) return a - b;
+            return order.indexOf(a) - order.indexOf(b);
         });
 
         console.log(uniqueTaskType);
 
 
         uniqueTaskType.push(count); //Adds count of unique task types to array
-        
-        
+
+
         return uniqueTaskType;
     }
 
@@ -662,23 +673,23 @@
         delayStart();
     }
 
-    function getRecommendations(data){
+    function getRecommendations(data) {
         validAssets = data;
         delayStart();
     }
 
-    function getTaskAttribute(data){
+    function getTaskAttribute(data) {
         attribute = data;
         delayStart();
     }
 
-    function getTaskByAsset(data){
+    function getTaskByAsset(data) {
         taskByAsset = data;
         delayStart();
     }
 
     function delayStart() {
-        if (validAssets && attribute && taskByAsset ) {
+        if (validAssets && attribute && taskByAsset) {
             console.log("FC and RA loaded");
             ChangeSite();
         } else {
@@ -702,7 +713,7 @@
 
         url = dataURL.concat("TaskAttribute.csv");
         readCSV(url, getTaskAttribute);
-        
+
         url = dataURL.concat("TaskByAsset.csv");
         readCSV(url, getTaskByAsset);
 
@@ -764,7 +775,7 @@
         column-span: all;
         flex-direction: row;
     }
-    
+
     .prestart-theme {
         border: none;
         border-collapse: separate;
@@ -773,7 +784,7 @@
         display: flex;
         width: 166.7%;
         border-radius: 15px 15px 0px 0px;
-        background-color: #c4c0d4; 
+        background-color: #c4c0d4;
         color: #1f1544;
         border-color: #bcd0e9;
         column-span: all;
@@ -867,7 +878,7 @@
         margin-bottom: 0px;
         margin: 1%;
         max-width: 98%;
-        
+
     }
 
     table.rounded-corners {
@@ -876,25 +887,26 @@
         border-radius: 100px;
     }
 
-    table.rounded-corners th, table.rounded-corners td {
+    table.rounded-corners th,
+    table.rounded-corners td {
         border: 1px solid black;
     }
 
-    .table-dynamic-theme{
+    .table-dynamic-theme {
         margin: 1%;
 
     }
 
-    .width-20-percent{
+    .width-20-percent {
         width: 20%;
     }
 
-    .break-it{
+    .break-it {
         width: 60%;
         white-space: pre-line;
     }
 
-    .width-100-percent{
+    .width-100-percent {
         width: 100;
     }
 </style>
