@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 
 sites = [
-['IKO Brampton','http://nsikobrmiis1n/PRODAC/Reports/ProdacReportsMain.aspx', 'Management KPI'],
+['IKO Brampton','http://nsikobrmiis1n/PRODAC/Reports/ProdacReportsMain.aspx', 'Management KPI'], #http://nsikobrmiis1n/PRODAC/Reports/WebViewer.aspx?PN=77
 ['IG Brampton','http://nsigbrmiis1/PRODAC/Reports/ProdacReportsMain.aspx', 'RL_Management KPI'],
 ['Kankakee','http://ikokankiis1/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'SL_Management KPI'],
 ['Hagerstown','http://nsblmhgriis1/PRODAC/Reports/ProdacReportsMain.aspx', 'ISO_Management KPI'],
@@ -18,7 +18,7 @@ sites = [
 ['Sumas','http://ikosumiis1/ProdacNewWeb/Reports/ProdacReportsMain.aspx', 'SL_Management KPI'],
 ['Sylacauga','http://nsikosyliis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['Hillsboro','http://nsikohiliis1.na.iko/PRODAC/Reports/ProdacReportsMain.aspx', 'Management KPI'],
-['Madoc','http://nsikomadiis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'], #requires extra group by Department
+['Madoc','http://nsikomadiis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'], #requires extra group by Department http://nsikomadiis1/Prodac/Reports/WebViewer.aspx?PN=147
 ['Ashcroft','http://igashiis1.na.iko/ProdacNewWeb/Reports/ProdacReports.aspx', 'Management KPI'],  #requires extra group by Department
 ['IG High River','http://nsighiriviis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'],
 ['CRC Brampton','http://nscrcbrmiis1/Prodac/Reports/ProdacReportsMain.aspx', 'Management KPI'],

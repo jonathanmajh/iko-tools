@@ -415,7 +415,7 @@
         var relatedTasks;
 
         for (i = 0; i < n; i++) {
-            if (`${siteID}_${assetN}` == taskByAsset[i][0]) {
+            if (siteID + '_' + assetN == taskByAsset[i][0]) {
                 relatedTasks.push(taskByAsset[i][1]);
             }
         }
@@ -425,7 +425,7 @@
         var tasks;
         for (j = 0; j < k; j++) {
             //console.log(taskNumAsset[i][1].concat(" ",attribute[j][0]));
-            if (relatedTasks.includes(attribute[j][0])) {
+            if (relatedTasks.indexOf(attribute[j][0]) >= 0) {
                 console.log("Found Task ID");
                 tasks.push(attribute[j]);
             }
@@ -562,13 +562,15 @@
                     }
                 }
             }
-
-
+            
             var div = document.createElement("div");
             div.setAttribute("style", "width: 166.7%; border-bottom: 3px solid ".concat(icons["Color"][uniqueTaskType[i]]));
 
             parent.appendChild(div);
 
+            if (document.getElementById("type-heading-".concat(i)).textContent === 'Design Change') {
+                document.getElementById("type-heading-".concat(i)).lastChild.textContent = 'Design Change (Please Follow MOC Procedure before Implementation)';
+            }
 
             var space = document.createElement("br");
             space.setAttribute("class", "break-it");
@@ -626,7 +628,6 @@
 
 
         uniqueTaskType.push(count); //Adds count of unique task types to array
-
 
         return uniqueTaskType;
     }

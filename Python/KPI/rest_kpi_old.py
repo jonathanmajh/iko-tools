@@ -22,40 +22,50 @@ year = 2024
 current_month = year * 12 + month
 
 # must be in the same order as the KPIs since order is involved in overall average calculations
+# 0 = percentage, 1 = add everything
 ENDPOINTS = {
-    "IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME": "VH & H Critical Asset PM Completed On Time Trend",
-    "IKO_KPI_MAXIMOVSKRONOSHOURS": "Maximo Lbr Hrs vs Timesheet Hrs",
-    "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST": "Spare Parts Issued on Spare Part List",
-    "IKO_KPI_CYCLECOUNT": "Cycle Count & Discrepancies",
-
-    "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST": "Spare Parts Issued Without LLCA Work Order",
-    "IKO_KPI_ASSETSPAREPARTCOUNTWITHCRITICALITY": "Asset Spare Part Count w/ Criticality",
-    "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST": "Spare Parts Purchased on Spare Part List",
-    "IKO_KPI_MROLINEFROMMAXIMO": "MRO PR Lines from Maximo",
-
-    "IKO_KPI_MROLINEFROMMAXIMO": "SDT PM Implementation",
-    "IKO_KPIWOW1STWHY": "Work Orders with 5 Why's Completed",
+    "IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME": [
+        "VH & H Critical Asset PM Completed On Time Trend",
+        0,
+    ],
+    "IKO_KPI_MAXIMOVSKRONOSHOURS": ["Maximo Lbr Hrs vs Timesheet Hrs", 0],
+    "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST": [
+        "Spare Parts Issued on Spare Part List",
+        0,
+    ],
+    "IKO_KPI_CYCLECOUNT": ["Cycle Count & Discrepancies", 0],
+    "IKO_KPI_SPAREISSUEWITHOUTLLCA": ["Spare Parts Issued Without LLCA Work Order", 1],
+    "IKO_KPI_ASSETSPAREPARTCOUNTWITHCRITICALITY": [
+        "Asset Spare Part Count w/ Criticality",
+        1,
+    ],
+    "IKO_KPI_SPAREPURCHASED": ["Spare Parts Purchased on Spare Part List", 0],
+    "IKO_KPI_MROLINEFROMMAXIMO": ["MRO PR Lines from Maximo", 0],
+    "IKO_KPI_SDT": ["SDT PM Implementation", 0],
+    "IKO_KPIWOW1STWHY": ["Work Orders with 5 Why's Completed", 1],
+    "IKO_KPI_SCHEDULEDWORKORDERS": ["Scheduled Work Orders", 0],
+    "IKO_KPI_WONOTCREATEDBYPLANNER": ["WO Not Created by Planner", 0],
+    "IKO_KPI_JOBPLANCREATED": ["Job Plans Created/Updated", 0],
 }
 
-averages = {
-    # "IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME": [0, 0, 0.0],
-    # "IKO_KPI_MAXIMOVSKRONOSHOURS": [0, 0, 0.0],
-    # "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST": [0, 0, 0.0],
-    # "IKO_KPIWOW1STWHY": [0, 0, 0.0],
-    # "IKO_KPI_MROLINEFROMMAXIMO": [0, 0, 0.0],
-    # "IKO_API_ASSETSPAREPARTCOUNTWITHCRITICALITY": [0, 0, 0.0],
-    # "IKO_KPI_CYCLECOUNT": [0, 0, 0.0],
-    # "IKO_KPI_SCHEDULEDWORKORDERS": [0, 0, 0.0],
-    # "IKO_KPI_WONOTCREATEDBYPLANNER": [0, 0, 0.0],
-    # "IKO_KPI_JOBPLANCREATED": [0, 0, 0.0],
-    # "IKO_KPI_LABORHOURCHARGEDTOLLCA": [0, 1, 0.0],
-}
+order = [
+    "IKO_KPI_HVHCRITICALASSETPMCOMPLETEDONTIME",
+    "IKO_KPI_MAXIMOVSKRONOSHOURS",
+    "IKO_KPI_ISSUEDITEMLISTEDINSPAREPARTLIST",
+    "IKO_KPIWOW1STWHY",
+    "IKO_KPI_MROLINEFROMMAXIMO",
+    "IKO_API_ASSETSPAREPARTCOUNTWITHCRITICALITY",
+    "IKO_KPI_CYCLECOUNT",
+    "IKO_KPI_SCHEDULEDWORKORDERS",
+    "IKO_KPI_WONOTCREATEDBYPLANNER",
+    "IKO_KPI_JOBPLANCREATED",
+]
+
+averages = {}
 
 overall = {"up": 0, "side": 0, "down": 0}
 
 ENDPOINT_URL = list(ENDPOINTS)
-
-PMONTIME = "IKO_KPI_PMCOMPLETEDONTIME"
 
 SITES = {
     # granule
@@ -83,7 +93,6 @@ SITES = {
     # Other
     "GR": "Bramcal",
     "GX": "MaxiMix",
-
 }
 
 MONTHS = [
@@ -101,11 +110,7 @@ MONTHS = [
     "Dec",
 ]
 
-URL = [
-    "https://prod.manage.prod.iko.max-it-eam.com/maximo/api/script/",
-    "?site=",
-    "",
-]
+URL = "https://prod.manage.prod.iko.max-it-eam.com/maximo/api/script/"
 
 results = [
     ["Site"],
@@ -157,6 +162,17 @@ def zero(table):
         while len(table[j]) < columns:
             table[j].append(0)
     return table
+
+
+def kpi_value(kpi_type: int, values):
+    if kpi_type == 0:
+        return values["percentage"]
+    else:
+        temp = 0
+        for key, value in values.items():
+            if key not in ['year', 'month', 'siteid', 'siteDesc', 'target', 'priority']:
+                temp += value
+        return temp
 
 
 def compare_values(target, results, ws, ws_write_col):
@@ -217,6 +233,22 @@ def generic_result_reader(url, results, ws, ws_write_col):
     compare_values(result["target"], results, ws, ws_write_col)
 
 
+# load data from APIs
+for points in ENDPOINT_URL:
+    print(points)
+    result = request_wrapper(f"{URL}{points}")
+    averages[points] = {}
+    for item in result["info"]:
+        if item["siteid"] not in averages[points]:
+            averages[points][item["siteid"]] = [0.0, 0.0, 0.0]
+        averages[points][item["siteid"]][0] += 1
+        averages[points][item["siteid"]][1] += kpi_value(ENDPOINTS[points][1], item)
+
+        if item["year"] == year and item["month"] == month:
+            averages[points][item["siteid"]][2] = kpi_value(ENDPOINTS[points][1], item)
+    for sites in averages[points]:
+        averages[points][sites][1] = averages[points][sites][1] / averages[points][sites][0]
+
 wb = Workbook()
 ws = wb.active
 site_i = 0
@@ -246,17 +278,16 @@ ws.append(
         "",
         "KPI Summary",
         "",
-        "VH & H Critical Asset PM Completed On Time",
-        "Maximo Lbr Hrs vs Timesheet Hrs",
-        "Issued Items Listed in Spare Part List",
-        "Work Orders with 5 Why's Completed",
-        "MRO PR Lines from Maximo",
-        "Asset Spare Parts Count with Criticality",
-        "Cycle Count",
-        "Scheduled Work Orders",
-        "WO Not Created by Planner",
-        "Job Plans Created/Updated",
-        # 'Labor Hrs Charged to Lowest Child Assets',
+        ENDPOINTS[ENDPOINT_URL[0]][0],
+        ENDPOINTS[ENDPOINT_URL[1]][0],
+        ENDPOINTS[ENDPOINT_URL[2]][0],
+        ENDPOINTS[ENDPOINT_URL[3]][0],
+        ENDPOINTS[ENDPOINT_URL[4]][0],
+        ENDPOINTS[ENDPOINT_URL[5]][0],
+        ENDPOINTS[ENDPOINT_URL[6]][0],
+        ENDPOINTS[ENDPOINT_URL[7]][0],
+        ENDPOINTS[ENDPOINT_URL[8]][0],
+        ENDPOINTS[ENDPOINT_URL[9]][0],
     ]
 )
 
@@ -282,6 +313,7 @@ ws.append(
     ]
 )
 
+# color code for responsibilities
 ws.cell(row=2, column=8).fill = PatternFill(
     start_color="FF6565", end_color="FF6565", fill_type="solid"
 )
@@ -338,6 +370,7 @@ for cell in range(12):
     ws.cell(row=2, column=6 + cell).border = Border(top=double)
     ws.cell(row=3, column=6 + cell).alignment = center
 
+# site grouping
 ws.cell(row=4, column=2, value="GRANULES")
 ws.cell(row=4, column=2).alignment = ninety_center
 ws.cell(row=4, column=2).border = Border(
@@ -388,6 +421,7 @@ ws.column_dimensions["F"].width = 13
 rule = IconSetRule(
     "3Arrows", "num", [-1, 0, 1], showValue=False, percent=None, reverse=None
 )
+
 
 for site in SITES:
     ws_write_col = 8
