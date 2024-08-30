@@ -15,7 +15,7 @@ APIKEY = os.getenv("MASPROD")
 
 # --------------------------------
 # variables to change
-month = 5
+month = 7
 year = 2024
 # variables to change
 # --------------------------------
@@ -129,8 +129,6 @@ def request_wrapper(url):
         return result
     else:
         r = r.json()
-        if not "info" in r:
-            r["info"] = []
         return r
 
 
@@ -166,11 +164,11 @@ data_wb = Workbook()
 def dumpData(dataWb, data, kpiName):
     headers = []
     row = []
-    ws = dataWb.create_sheet(kpiName, 0)
-    for column in data['info'][0]:
+    ws = dataWb.create_sheet(kpiName[7:35], 0)
+    for column in data[0]:
         headers.append(column)
     ws.append(headers)
-    for item in data['info']:
+    for item in data:
         row = []
         for header in headers:
             row.append(item[header])
@@ -183,7 +181,7 @@ for points in ENDPOINT_URL:
     dumpData(data_wb, result, points)
     averages[points] = {}
     overall[points] = [0,0]
-    for item in result["info"]:
+    for item in result:
         if item["siteid"] in ['GJ']:
             continue
         if item["siteid"] not in averages[points]:
@@ -409,6 +407,8 @@ for site in SITES:
             ws.cell(row=3 * site_i + 3, column=ws_write_col, value=1)
         else:
             ws.cell(row=3 * site_i + 3, column=ws_write_col, value=-1)
+        if (averages[kpi][site][3] == 0):
+            ws.cell(row=3 * site_i + 3, column=ws_write_col, value=ws.cell(row=3 * site_i + 3, column=ws_write_col).value * -1)
         ws.cell(row=3 * site_i + 1, column=ws_write_col).alignment = center
         ws.cell(row=3 * site_i + 2, column=ws_write_col).alignment = center
         ws.cell(row=3 * site_i + 3, column=ws_write_col).alignment = center
@@ -423,9 +423,9 @@ for kpi in order:
     i += 1
 
 wb.save(
-    filename=f"C:\\Users\\majona\\Documents\\Code\\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.xlsx"
+    filename=f"C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPI.xlsx"
 )
 
 data_wb.save(
-    filename=f"C:\\Users\\majona\\Documents\\Code\\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPIDATA.xlsx"
+    filename=f"C:\\Users\\majona\\Documents\\Code\\iko-tools\\Python\\KPI\\{date.today().isoformat()}_KPIDATA.xlsx"
 )

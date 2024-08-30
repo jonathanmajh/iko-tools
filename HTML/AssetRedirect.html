@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <!-- Remember to refer to SOP before working on file -->
@@ -23,6 +22,19 @@
         type="text/javascript"></script>
 
     <title>IKO DNA Asset Redirect</title>
+
+<!--[if gte mso 9]><SharePoint:CTFieldRefs runat=server Prefix="mso:" FieldList="FileLeafRef,Comments,PublishingStartDate,PublishingExpirationDate,PublishingContactEmail,PublishingContactName,PublishingContactPicture,PublishingPageLayout,PublishingVariationGroupID,PublishingVariationRelationshipLinkFieldID,PublishingRollupImage,Audience,PublishingIsFurlPage,SeoBrowserTitle,SeoMetaDescription,SeoKeywords,RobotsNoIndex,Document_x0020_Type"><xml>
+<mso:CustomDocumentProperties>
+<mso:PublishingIsFurlPage msdt:dt="string">0</mso:PublishingIsFurlPage>
+<mso:PublishingContactPicture msdt:dt="string"></mso:PublishingContactPicture>
+<mso:PublishingRollupImage msdt:dt="string"></mso:PublishingRollupImage>
+<mso:Audience msdt:dt="string"></mso:Audience>
+<mso:PublishingContactName msdt:dt="string"></mso:PublishingContactName>
+<mso:Comments msdt:dt="string"></mso:Comments>
+<mso:PublishingContactEmail msdt:dt="string"></mso:PublishingContactEmail>
+<mso:Document_x0020_Type msdt:dt="string">Webpage</mso:Document_x0020_Type>
+</mso:CustomDocumentProperties>
+</xml></SharePoint:CTFieldRefs><![endif]-->
 </head>
 
 <body>
@@ -48,11 +60,11 @@
                 </li>
                 <li class="nav-item nav-iko active">
                     <a class="nav-link"
-                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx/?mobile=0">DNA
+                        href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx?mobile=0">DNA
                         Finder</a>
                 </li>
                 <li class="nav-item nav-iko active">
-                    <a class="nav-link" href="#">Lockout and Tagout</a>
+                    <a class="nav-link" href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Recommendations.aspx?=&mobile=0">Recommendations</a>
                 </li>
                 <li class="nav-item nav-iko active">
                     <a class="nav-link"
@@ -95,23 +107,30 @@
                                             </div>
                                             <div class="row">
                                                 <select id="siteName" onchange="ChangeSite()">
+						    <option value="ANT">ANT: Antwerp</option>
                                                     <option value="RAM">RAM: Alconbury</option>
                                                     <option value="CAM">CAM: Appley Bridge</option>
                                                     <option value="GE">GE: Ashcroft</option>
                                                     <option value="GR">GR: BramCal</option>
                                                     <option value="BA">BA: Calgary</option>
+						    <option value="CM">CM: Chester Mat</option>
                                                     <option value="COM">COM: Combronde</option>
+						    <option value="GP">GP: CRC Brampton</option>
                                                     <option value="GJ">GJ: CRC Toronto</option>
                                                     <option value="BL">BL: Hagerstown </option>
                                                     <option selected value="GH">GH: Hawkesbury</option>
                                                     <option value="GV">GV: Hillsboro (Southwest)</option>
                                                     <option value="GK">GK: IG Brampton</option>
+						    <option value="GM">GM: IG High River</option>
+                                                    <option value="AA">AA: IKO Brampton</option>
                                                     <option value="CA">CA: Kankakee</option>
                                                     <option value="GI">GI: Madoc </option>
+						    <option value="GX">GX: Maxi-Mix </option>
                                                     <option value="PBM">PBM: Senica/Sloviakia</option>
                                                     <option value="GC">GC: Sumas</option>
                                                     <option value="GS">GS: Sylacauga</option>
                                                     <option value="GA">GA: Wilmington</option>
+                                                    <option value="KLU">KLU: Klundert</option>
                                                 </select>
                                             </div>
                                             <div class="row" style="padding-top: 15px;">
@@ -196,12 +215,12 @@
                                                 Developement)</h4>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td><a class="btn btn-primary btn-light-gray" hidden href="#"></a></td>
+                                    <!--tr>
+                                        <td><a class="btn btn-primary btn-light-gray"  href="#"> Test</a></td>
                                         <td>
-                                            <h4><i class="fa fa-chain"></i> Lockout and Tagout (In Developement)</h4>
+                                            <h4><i class="fa fa-thumbs-up"></i> Recommendations from Corporate FMECA Analysis</h4>
                                         </td>
-                                    </tr>
+                                    </tr-->
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
                                                 href="http://operations.connect.na.local/support/Reliability/SitePages/Home.aspx">Home</a>
@@ -220,7 +239,7 @@
                                     </tr>
                                     <tr>
                                         <td><a class="btn btn-primary btn-light-gray"
-                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx/?mobile=0">Finder</a>
+                                                href="http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/AssetFinder2.aspx?mobile=0">Finder</a>
                                         </td>
                                         <td>
                                             <h4><i class="fa fa-search"></i> DNA Asset Finder</h4>
@@ -251,11 +270,14 @@
     var failureClassNameSheet;
     var failureCode = "N/A";
     var reliabilityAlerts;
+    var recommendations
     var site_names = {
-        "GE": "GJ:%20Ashcroft",
+	"ANT": "ANT:%20Antwerp",
+        "GE": "GE:%20Ashcroft",
         "GR": "GR:%20BramCal",
-        "AA": "AA:IKO%20Brampton",
+        "AA": "AA:%20IKO%20Brampton",
         "BA": "BA:%20Calgary",
+	"CM": "CM:%20Chester%20Mat",
         "GJ": "GJ:%20Canroof/CRC%20Toronto",
         "GP": "GP:%20CRC%20Insulation",
         "GG": "GG:%20Hamilton",
@@ -271,6 +293,9 @@
         "GV": "GV:%20Southwest%20(Hillsboro)",
         "GC": "GC:%20Sumas",
         "GA": "GA:%20Wilmington",
+        "KLU": "KLU:%20Klundert",
+        "COM": "COM:%20Combronde",
+        "BL": "BL:%20Hagerstown",
     };
 
 
@@ -281,12 +306,13 @@
         var patt = new RegExp("[A-Z][0-9]{4}"); //check if input is right format
         var data = $('.select2-asset-id').select2('data')[0];
         var userInput = data.id.toUpperCase();
-        console.log(userInput);
+ 
         if (userInput == "TEST VERSION") {
             var paraURL = window.location.href;
             window.open(paraURL.replace(".aspx/", "Testing.html"));
         }
         var result = patt.test(userInput);
+    
         if (result == true) {
             assetNum.value = userInput;
             genLinks(data);
@@ -299,7 +325,8 @@
         console.log("Running ChangeSite");
         var siteID = document.getElementById("siteName").value;
         if (!(currentAssetListSite == siteID)) {
-            var url = dataURL.concat(siteID, ".csv");
+            var url = dataURL.concat(siteID, ".csv");// use
+            //var url = "GV.csv"; //REPLACE
             readCSV(url, PopulateAssetIds);
         }
         else {
@@ -335,6 +362,7 @@
             dropdownAutoWidth: true, //make the dropdown wider than the input field
         });
         currentAssetListSite = document.getElementById("siteName").value;
+       
         if (currentAssetListSite == url_query.siteID) {
             // check if selected site is the same as the one specified in the url
             // this would mean we should use the initial asset id as well
@@ -377,35 +405,39 @@
         var urls = [
             [
                 sharepointReliabilityUrl.concat("ReliabilityShared/Pages/SymptomDatabase.html?cheese=", siteID, "=&cheeseNum=", assetN, "=&asset=1=&site=1"),
-                maximoReportUrl.concat("Asset%20Spare%20Parts&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                maximoReportUrl.concat("Asset%20Spare%20Parts%20With%20Image&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 maximoReportUrl.concat("Failure%20Modes%20Problem%20Asset&paramSiteID=", siteID, "&paramAssetNum=", assetN),
                 maximoReportUrl.concat("PMProgram&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/Recommendations.aspx?cheese=" + siteID + "=&cheeseNum=" + assetN +"=&mobile=0",
                 maximoReportUrl.concat("WorkOrders&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 maximoReportUrl.concat("Downtime%20MTBF&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 sharepointReliabilityUrl.concat("ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=", assetN, "&FilterField2=Site_x0020_Descriptions2&FilterValue2=", site_names[siteID]),
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
-                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + siteID + "&paramFailureClass=" + failureCode,
                 "", //"http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
+                "",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=0",
-                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem%20Asset&paramSiteID=" + "&paramAssetNum=" + assetN,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
+                "",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=" + assetN,
             ],
             [
                 "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=0",
-                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts&paramSiteID=&paramAssetNum=&paramFailureClass=" + failureCode,
+                "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + "&paramFailureClass=" + failureCode,
+                "",
                 "",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
@@ -419,13 +451,14 @@
             ["fa fa-file-text-o", " Spare Parts List"],
             ["fa fa-chain-broken", " Failure Modes & Causes"],
             ["fa fa-check-square-o", " PMs For The Asset"],
+            ["fa fa-thumbs-up", " FMECA Recommendations (Disabled if there are no recommendations)"],
             ["fa fa-bullhorn", " Work Orders"],
             ["fa fa-hourglass-2", " Downtime Report"],
             ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
         ];
         var parent = document.getElementById("dynamic-table-body");
         parent.textContent = ''; //remove placeholder or old data
-        for (i = 0; i < 7; i++) {
+        for (i = 0; i < 8; i++) {
             var row = document.createElement("tr");
             row.setAttribute("id", "dynamic-row-".concat(i));
             for (j = 0; j < 5; j++) {
@@ -465,9 +498,26 @@
                 }
             }
             if (!found) {
-                var div = document.getElementById("cellR6C".concat(i)).firstElementChild;
+                var div = document.getElementById("cellR7C".concat(i)).firstElementChild;
                 div.classList.add("disabled");
             }
+        }
+
+        var checkForRecommendations = siteID.concat("_",assetN);
+        for (i=0; i<recommendations.length; i++){
+            var recFound = false;
+            if (recommendations[i][0] == checkForRecommendations){
+                recFound = true;
+                var div = document.getElementById("rec-button").firstElementChild;
+                break;
+            }
+        }  
+    
+        if (!recFound) {
+            //var div = document.getElementById("rec-button").firstElementChild;
+            var div = document.getElementById("cellR4C0").firstElementChild;
+            div.classList.add("disabled");
+                
         }
     }
 
@@ -502,8 +552,13 @@
         delayStart();
     }
 
+    function getRecommendations(data){
+        recommendations = data;
+        delayStart();
+    }
+
     function delayStart() {
-        if (failureClassDataSheet && failureClassNameSheet && reliabilityAlerts) {
+        if (failureClassDataSheet && failureClassNameSheet && reliabilityAlerts && recommendations) {
             console.log("FC and RA loaded");
             ChangeSite();
         } else {
@@ -516,14 +571,21 @@
         console.log("Running Script after loading");
         var paraURL = window.location.search;
 
-        var url = dataURL.concat("FailureClassesDescriptions.csv");
+        var url = dataURL.concat("FailureClassesDescriptions.csv"); // use
+        //var url = "FailureClassesDescriptions.csv" //replace
         readCSV(url, getFailureCodeNames);
 
-        url = dataURL.concat("FailureClasses.csv");//reads in failure classes as soon as program starts
+        url = dataURL.concat("FailureClasses.csv");//reads in failure classes as soon as program starts // use
+        //url = "FailureClasses.csv"; //replace
         readCSV(url, startGenLinks);
 
-        url = dataURL.concat("ReliabilityAlerts.csv");
+        url = dataURL.concat("ReliabilityAlerts.csv"); // use
+        //url = "ReliabilityAlerts.csv" //replace
         readCSV(url, getReliabilityAlerts);
+
+        url = dataURL.concat("TaskAssets.csv"); // use
+        //url = "TaskAssets.csv"    // replace
+        readCSV(url, getRecommendations);
 
         if (paraURL.indexOf("cheese") != -1) {
             var cheese = paraURL.split('=')[1]; //get siteID

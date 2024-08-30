@@ -1,8 +1,8 @@
 import requests
 
 uploadFiles = [
-    # ['IKO_ITEMMASTER','IKO_ITEMMASTER.csv',],
-    # ['IKO_INVENTORY','IKO_INVENTORY.csv',],
+    ['IKO_ITEMMASTER','IKO_ITEMMASTER.csv',],
+    ['IKO_INVENTORY','IKO_INVENTORY.csv',],
     ['IKO_LOCATION','IKO_LOCATION.csv',],
     ['IKO_ASSET','IKO_ASSET.csv',],
     ['IKO_JOBPLAN','IKO_JOBPLAN.csv',],
@@ -11,18 +11,18 @@ uploadFiles = [
 ]
 
 uploadFiles2 = [
-    # ['IKO_PERSON','IKO_PERSON2.csv',],
-    # ['IKO_PERUSER','IKO_PERUSER.csv',],
-    # ['IKO_GROUPUSER','IKO_GROUPUSER.csv',],
+    ['IKO_PERSON','IKO_PERSON2.csv',],
+    ['IKO_PERUSER','IKO_PERUSER.csv',],
+    ['IKO_GROUPUSER','IKO_GROUPUSER.csv',],
     ['IKO_LABOR','IKO_LABOR.csv',],
 ]
 
-baseUrl = 'https://development.manage.development.iko.max-it-eam.com/maximo/api/os/xxx?action=importfile&lean=1'
-apiKey = '5ariav2ehn16ktc01mt52ranq3ejrdb3n0qccmc9'
+baseUrl = 'https://test2.manage.test2.iko.max-it-eam.com/maximo/api/os/xxx?action=importfile&lean=1'
+apiKey = '2u3tm9lj0sma4r7ftosh7tsb50kn2d5ld1hnbh7n'
 
 def upload(uploadFiles):
     for file in uploadFiles:
-        f = open(f'Python/MAS-Testing/{file[1]}', "r")
+        f = open(f'Python/MAS-Testing/{file[1]}', "r", encoding='utf-8-sig')
         body = f.read()
         url = baseUrl.replace('xxx', file[0])
         print('uploading ' + file[1])
