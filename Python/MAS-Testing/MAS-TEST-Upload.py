@@ -18,7 +18,7 @@ uploadFiles2 = [
 ]
 
 baseUrl = 'https://test2.manage.test2.iko.max-it-eam.com/maximo/api/os/xxx?action=importfile&lean=1'
-apiKey = '2u3tm9lj0sma4r7ftosh7tsb50kn2d5ld1hnbh7n'
+apiKey = 'k0do32u3h69bv0rd2sfoq1hqgflouetrpit3q4av'
 
 def upload(uploadFiles):
     for file in uploadFiles:
@@ -37,7 +37,7 @@ def upload(uploadFiles):
         print(req.text)
 
 # upload(uploadFiles)
-# print('Waiting for Manual Item/Asset/Inventory/PM/User Creation...')
+# print('Waiting for Manual Item/Asset/Inventory/PM/User Creation/person groups...')
 # input('Press Enter to Continue...')
 # input('Are you sure?...')
 upload(uploadFiles2)

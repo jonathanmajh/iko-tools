@@ -19,18 +19,22 @@ cursor = conn.cursor()
 
 cursor.execute(
     """
-SELECT eauditusername
-    , eaudittimestamp
-    , eaudittype
-    , siteid
-    , frequency
-    , frequnit
-    , pmnum
-    , pmuid
-FROM aws.maxprd.dbo.A_PM
+SELECT apm.eauditusername
+    , apm.eaudittimestamp
+    , apm.eaudittype
+    , apm.siteid
+    , apm.frequency
+    , apm.frequnit
+    , apm.pmnum
+    , apm.pmuid
+    , jp.JPDURATION
+    , pm.status
+FROM aws.maxprd.dbo.A_PM apm
+left join aws.maxprd.dbo.pm on pm.pmuid = apm.pmuid
+left join aws.maxprd.dbo.jobplan jp on pm.jpnum = jp.jpnum
 WHERE eaudittype != 'D'
-    AND pmuid IN (
-        SELECT pmuid
+    AND apm.pmuid IN (
+        SELECT apm.pmuid
         FROM aws.maxprd.dbo.a_pm
         WHERE eaudittype = 'u'
             AND datepart(year, eaudittimestamp) = 2024
@@ -52,6 +56,8 @@ sheet.append(
         "frequnit", #5
         "pmnum",
         "pmuid", #7
+        "jpduration",
+        "status"
     ]
 )
 
@@ -59,31 +65,11 @@ CLEANR = re.compile("<.*?>")
 
 pms = {}
 updatedPms = {}
+datePms = {}
 
 for row in cursor:
-    try:
-        row = list(row)
-        # if (isinstance(row[17], str)):
-        #     row[17] = re.sub(CLEANR, '', row[17])
-        sheet.append(row)
-    except IllegalCharacterError:
-        row[17] = row[17].replace("\x19", "'")
-        row[17] = row[17].replace("\x13", "'")
-        row[17] = row[17].replace("\x1d", "'")
-        row[17] = row[17].replace("\x1c", "'")
-        try:
-            sheet.append(row)
-        except Exception:
-            print(row)
-    if row[7] in pms.keys():
-        if pms[row[7]] != [row[5], row[4]]:
-            updatedPms[row[7]] = [row[3],row[6], row[1]]
-    else: # add pm to dictionary
-        pms[row[7]] = [row[5], row[4]]
-        
-sheet = wb.create_sheet("pmUpdated")
-for pm in updatedPms.values():
-    sheet.append(pm)
+    row = list(row)
+    sheet.append(row)
 
 
 updatedJobplans = {}
@@ -119,20 +105,8 @@ sheet.append(
 CLEANR = re.compile("<.*?>")
 
 for row in cursor:
-    try:
-        row = list(row)
-        # if (isinstance(row[17], str)):
-        #     row[17] = re.sub(CLEANR, '', row[17])
-        sheet.append(row)
-    except IllegalCharacterError:
-        row[17] = row[17].replace("\x19", "'")
-        row[17] = row[17].replace("\x13", "'")
-        row[17] = row[17].replace("\x1d", "'")
-        row[17] = row[17].replace("\x1c", "'")
-        try:
-            sheet.append(row)
-        except Exception:
-            print(row)
+    row = list(row)
+    sheet.append(row)
     updatedJobplans[row[4]] = [row[3], row[5]]
 
 # get jobtask audit data
@@ -167,20 +141,8 @@ sheet.append(
 CLEANR = re.compile("<.*?>")
 
 for row in cursor:
-    try:
-        row = list(row)
-        # if (isinstance(row[17], str)):
-        #     row[17] = re.sub(CLEANR, '', row[17])
-        sheet.append(row)
-    except IllegalCharacterError:
-        row[17] = row[17].replace("\x19", "'")
-        row[17] = row[17].replace("\x13", "'")
-        row[17] = row[17].replace("\x1d", "'")
-        row[17] = row[17].replace("\x1c", "'")
-        try:
-            sheet.append(row)
-        except Exception:
-            print(row)
+    row = list(row)
+    sheet.append(row)
     updatedJobplans[row[4]] = [row[3], row[5]]
 
 sheet = wb.create_sheet("jobplanUpdated")

@@ -15,7 +15,7 @@ APIKEY = os.getenv("MASPROD")
 
 # --------------------------------
 # variables to change
-month = 7
+month = 9
 year = 2024
 # variables to change
 # --------------------------------
@@ -121,7 +121,7 @@ URL = "https://prod.manage.prod.iko.max-it-eam.com/maximo/api/script/"
 
 def request_wrapper(url):
     header = {"apikey": APIKEY}
-    r = requests.get(url, headers=header)
+    r = requests.get(url, headers=header, timeout=None)
     if r.status_code != 200:
         print(f"Error: {r.status_code}")
         print(f"Error: {url}")

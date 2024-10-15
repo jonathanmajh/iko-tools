@@ -392,7 +392,6 @@
 
         var urls = [
             [
-                sharepointReliabilityUrl.concat("ReliabilityShared/Pages/SymptomDatabase.html?cheese=", siteID, "=&cheeseNum=", assetN, "=&asset=1=&site=1"),
                 maximoReportUrl.concat("Asset%20Spare%20Parts%20With%20Image&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 maximoReportUrl.concat("Failure%20Modes%20Problem%20Asset&paramSiteID=", siteID, "&paramAssetNum=", assetN),
                 maximoReportUrl.concat("PMProgram&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
@@ -400,9 +399,9 @@
                 maximoReportUrl.concat("WorkOrders&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 maximoReportUrl.concat("Downtime%20MTBF&paramSiteID=", siteID, "&paramAssetNum=", assetN, "&paramFailureClass="),
                 sharepointReliabilityUrl.concat("ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=", assetN, "&FilterField2=Site_x0020_Descriptions2&FilterValue2=", site_names[siteID]),
+                sharepointReliabilityUrl.concat("ReliabilityShared/Pages/SymptomDatabase.html?cheese=", siteID, "=&cheeseNum=", assetN, "=&asset=1=&site=1"),
             ],
             [
-                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=" + siteID + "&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + siteID + "&paramFailureClass=" + failureCode,
                 "", //"http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
@@ -410,9 +409,9 @@
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + siteID + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode + "&FilterField2=Site_x0020_Descriptions2&FilterValue2=" + site_names[siteID],
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=1",
             ],
             [
-                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=0",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem%20Asset&paramSiteID=" + "&paramAssetNum=" + assetN,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/PMProgram&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
@@ -420,9 +419,9 @@
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + assetN + "&paramFailureClass=",
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=RelatedAssetNumber_x0028_s_x0029_2&FilterValue1=" + assetN,
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=1=&site=0",
             ],
             [
-                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=0",
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Asset%20Spare%20Parts%20With%20Image&paramSiteID=&paramAssetNum=&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Failure%20Modes%20Problem&paramSiteID=" + "&paramFailureClass=" + failureCode,
                 "",
@@ -430,12 +429,12 @@
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/WorkOrders&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://nscandacssrs1/ReportServer/Pages/ReportViewer.aspx?/Maximo/Downtime%20MTBF&paramSiteID=" + "&paramAssetNum=" + "&paramFailureClass=" + failureCode,
                 "http://operations.connect.na.local/support/Reliability/ReliabilityPublished/ReliabilityCriticality-RCA-FMECA/ReliabilityAlerts/Forms/AllItems.aspx?FilterField1=Originated_x0020_Failure_x0020_Class&FilterValue1=" + failureCode,
+                "http://operations.connect.na.local/support/Reliability/ReliabilityShared/Pages/SymptomDatabase.html?cheese=" + siteID + "=&cheeseNum=" + assetN + "=&asset=0=&site=0",
             ],
         ];
         var cellFormat = ["btn-light-gray", "btn-light-yellow", "btn-baby-blue", "btn-light-green"];
         var cellText = [assetN + "(" + siteID + ")", failureCode + "(" + siteID + ")", assetN + "(All Sites)", failureCode + "(All Sites)"];
         var descriptions = [
-            ["fa fa-th-list", " Symptom Database"],
             ["fa fa-file-text-o", " Spare Parts List"],
             ["fa fa-chain-broken", " Failure Modes & Causes"],
             ["fa fa-check-square-o", " PMs For The Asset"],
@@ -443,6 +442,7 @@
             ["fa fa-bullhorn", " Work Orders"],
             ["fa fa-hourglass-2", " Downtime Report"],
             ["fa fa-bell-o", " Reliability Alerts (Disabled if there are no alerts)"],
+            ["fa fa-th-list", " Symptom Database (Under Development)"],
         ];
         var parent = document.getElementById("dynamic-table-body");
         parent.textContent = ''; //remove placeholder or old data
@@ -486,7 +486,7 @@
                 }
             }
             if (!found) {
-                var div = document.getElementById("cellR7C".concat(i)).firstElementChild;
+                var div = document.getElementById("cellR6C".concat(i)).firstElementChild;
                 div.classList.add("disabled");
             }
         }
@@ -503,7 +503,7 @@
     
         if (!recFound) {
             //var div = document.getElementById("rec-button").firstElementChild;
-            var div = document.getElementById("cellR4C0").firstElementChild;
+            var div = document.getElementById("cellR3C0").firstElementChild;
             div.classList.add("disabled");
                 
         }

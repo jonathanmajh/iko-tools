@@ -49,7 +49,13 @@ def openAndDownload(link, name):
             select = WebDriverWait(driver, timeout=5).until(EC.presence_of_element_located((By.ID, "drpPeriod")))
             select2 = WebDriverWait(select, timeout=5).until(EC.presence_of_element_located((By.TAG_NAME, "input")))
             select2.clear()
-            select2.send_keys('Current Year')
+            select2.send_keys('Previous Month')
+            time.sleep(1)
+            # select summary
+            select = WebDriverWait(driver, timeout=5).until(EC.presence_of_element_located((By.ID, "ddRV1")))
+            select2 = WebDriverWait(select, timeout=5).until(EC.presence_of_element_located((By.TAG_NAME, "input")))
+            select2.clear()
+            select2.send_keys('Detailed')
             time.sleep(1)
             # select grouping
             select = WebDriverWait(driver, timeout=5).until(EC.presence_of_element_located((By.ID, "ddRV2")))
